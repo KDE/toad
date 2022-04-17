@@ -25,19 +25,6 @@ Kirigami.ApplicationWindow {
         source: Qt.resolvedUrl("qrc:/GlobalMenu.qml")
     }
 
-    globalDrawer: Kirigami.GlobalDrawer {
-        isMenu: true
-
-        actions: [
-            Kirigami.Action {
-                text: i18n("About Tasks")
-                icon.name: "help-about"
-                onTriggered: pageStack.layers.push("About.qml")
-                enabled: pageStack.layers.depth <= 1
-            }
-        ]
-    }
-
     pageStack.initialPage: Kirigami.Page {
         id: page
 
@@ -45,6 +32,14 @@ Kirigami.ApplicationWindow {
         titleDelegate: RowLayout {
             Layout.fillWidth: true
             spacing: 0
+
+            QQC2.ToolButton {
+                text: i18n("About Tasks")
+                icon.name: "help-about"
+                display: QQC2.AbstractButton.IconOnly
+                onClicked: pageStack.layers.push("About.qml")
+                enabled: pageStack.layers.depth <= 1
+            }
 
             Item {
                 Layout.fillWidth: true
