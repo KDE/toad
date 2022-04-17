@@ -1,0 +1,13 @@
+# SPDX-FileCopyrightText: 2021 Carl Schwan <carl@carlschwan.eu>
+# SPDX-FileCopyrightText: 2021 Claudio Cambra <claudio.cambra@gmail.com>
+# SPDX-License-Identifier: CC0-1.0
+
+.cache
+build*/
+*.kate-swp
+*.kdev4
+CMakeLists.txt.user
+.clang-format
+CMakeCache.txt
+CMakeFiles
+Testing/
