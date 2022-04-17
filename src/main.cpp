@@ -1,7 +1,5 @@
-/*
-    SPDX-License-Identifier: GPL-2.0-or-later
-    SPDX-FileCopyrightText: 2022 Felipe Kinoshita <kinofhek@gmail.com>
-*/
+// SPDX-FileCopyrightText: 2022 Felipe Kinoshita <kinofhek@gmail.com>
+// SPDX-License-Identifier: LGPL-2.1-or-later
 
 #include <QApplication>
 #include <QQmlApplicationEngine>

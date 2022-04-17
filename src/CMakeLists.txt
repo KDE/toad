@@ -1,5 +1,5 @@
-# SPDX-License-Identifier: BSD-3-Clause
 # SPDX-FileCopyrightText: 2022 Felipe Kinoshita <kinofhek@gmail.com>
+# SPDX-License-Identifier: BSD-2-Clause
 
 add_executable(tasks
     main.cpp
