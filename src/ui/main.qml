@@ -25,16 +25,12 @@ Kirigami.ApplicationWindow {
 
         padding: 0
 
-        ListModel {
-            id: tasksModel
-        }
-
         QQC2.ScrollView {
             anchors.fill: parent
 
             ListView {
                 id: list
-                model: TasksModel
+                 model: TasksModel { id: tasksModel }
                 delegate: Kirigami.CheckableListItem {
                     id: taskItem
 
@@ -52,8 +48,7 @@ Kirigami.ApplicationWindow {
                         icon.name: "entry-delete"
                         visible: taskItem.hovered
                         onClicked: {
-                            //tasksModel.remove(index, 1)
-                            TasksModel.remove(index)
+                            tasksModel.remove(index)
                         }
                     }
 
@@ -89,8 +84,7 @@ Kirigami.ApplicationWindow {
 
             function addTask() {
                 if (text.length > 0 && text.trim()) {
-                    //tasksModel.append({"title": text, "checked": false})
-                    TasksModel.add(title)
+                    tasksModel.add(text)
                 }
                 text = ""
             }

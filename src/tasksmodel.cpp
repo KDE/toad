@@ -1,8 +1,19 @@
 #include "tasksmodel.h"
 
+#include <QStandardPaths>
+#include <QFile>
+#include <QDir>
+
+#include <QJsonArray>
+#include <QJsonDocument>
+#include <QJsonObject>
+
+#include <ranges>
+
 TasksModel::TasksModel(QObject *parent)
     : QAbstractListModel(parent)
 {
+    loadTasks();
 }
 
 QHash<int, QByteArray> TasksModel::roleNames() const
@@ -37,16 +48,6 @@ int TasksModel::rowCount(const QModelIndex &parent) const
     return m_tasks.size();
 }
 
-void TasksModel::setChecked(int index, bool checked)
-{
-    beginInsertRows({}, index, index);
-
-    auto task = m_tasks.at(index);
-    task.setChecked(checked);
-
-    endInsertRows();
-}
-
 void TasksModel::add(const QString &title)
 {
     Task t(title, false);
@@ -56,6 +57,8 @@ void TasksModel::add(const QString &title)
     m_tasks.append(t);
 
     endInsertRows();
+
+    saveTasks();
 }
 
 void TasksModel::remove(const int &index)
@@ -69,4 +72,65 @@ void TasksModel::remove(const int &index)
     m_tasks.removeAt(index);
 
     endRemoveRows();
+
+    saveTasks();
+}
+
+bool TasksModel::saveTasks() const
+{
+    const QString outputDir = QStandardPaths::writableLocation(QStandardPaths::ConfigLocation) + QStringLiteral("/tasks/");
+
+    QFile outputFile(outputDir + QStringLiteral("tasks.json"));
+    if (!QDir(outputDir).mkpath(QStringLiteral("."))) {
+        qDebug() << "Destdir doesn't exist and I can't create it: " << outputDir;
+        return false;
+    }
+    if (!outputFile.open(QIODevice::WriteOnly)) {
+        qDebug() << "Failed to write tabs to disk";
+    }
+
+    QJsonArray tasksArray;
+    std::ranges::transform(m_tasks, std::back_inserter(tasksArray), [](const Task &task) {
+        return task.toJson();
+    });
+
+    qDebug() << "Wrote to file" << outputFile.fileName() << "(" << tasksArray.count() << "tasks" << ")";
+
+    const QJsonDocument document({
+        {QLatin1String("tasks"), tasksArray},
+        {QLatin1String("nice"), true}
+    });
+
+    outputFile.write(document.toJson());
+    return true;
+}
+
+bool TasksModel::loadTasks()
+{
+    beginResetModel();
+    const QString input = QStandardPaths::writableLocation(QStandardPaths::ConfigLocation) + QStringLiteral("/tasks/tasks.json");
+
+    QFile inputFile(input);
+    if (!inputFile.exists()) {
+        return false;
+    }
+
+    if (!inputFile.open(QIODevice::ReadOnly)) {
+        qDebug() << "Failed to load tabs from disk";
+    }
+
+    const auto tasksStorage = QJsonDocument::fromJson(inputFile.readAll()).object();
+    m_tasks.clear();
+
+    const auto tasks = tasksStorage.value(QLatin1String("tasks")).toArray();
+
+    std::ranges::transform(tasks, std::back_inserter(m_tasks), [](const QJsonValue &task) {
+        return Task::fromJson(task.toObject());
+    });
+
+    qDebug() << "loaded from file:" << m_tasks.count() << input;
+
+    endResetModel();
+
+    return true;
 }
