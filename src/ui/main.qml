@@ -37,13 +37,33 @@ Kirigami.ApplicationWindow {
         id: page
 
         padding: 0
+        titleDelegate: RowLayout {
+            Layout.fillWidth: true
+            spacing: 0
+
+            Item {
+                Layout.fillWidth: true
+            }
+
+            QQC2.Label {
+                Layout.alignment: Qt.AlignRight
+                Layout.rightMargin: Kirigami.Units.largeSpacing
+                text: {
+                    if (list.count == 0) {
+                        return ""
+                    } else {
+                        return i18np("1 task", "%1 tasks", list.count)
+                    }
+                }
+            }
+        }
 
         QQC2.ScrollView {
             anchors.fill: parent
 
             ListView {
                 id: list
-                 model: TasksModel { id: tasksModel }
+                model: TasksModel { id: tasksModel }
                 delegate: Kirigami.CheckableListItem {
                     id: taskItem
 
