@@ -33,12 +33,13 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
                          // The program version string.
                          QStringLiteral(TASKS_VERSION_STRING),
                          // Short description of what the app does.
-                         i18n("Application Description"),
+                         i18n("Simple task list"),
                          // The license this code is released under.
                          KAboutLicense::GPL,
                          // Copyright Statement.
-                         i18n("(c) 2022"));
-    aboutData.addAuthor(i18nc("@info:credit", "AUTHOR"), i18nc("@info:credit", "Author Role"), QStringLiteral("kinofhek@gmail.com"), QStringLiteral("https://yourwebsite.com"));
+                         i18n("© 2022"));
+    aboutData.addAuthor(i18nc("@info:credit", "Felipe Kinoshita"), i18nc("@info:credit", "Author"), QStringLiteral("kinofhek@gmail.com"), QStringLiteral("https://fhek.gitlab.io"));
+    aboutData.setBugAddress("https://invent.kde.org/fhek/tasks/-/issues/new");
     KAboutData::setApplicationData(aboutData);
 
     QQmlApplicationEngine engine;

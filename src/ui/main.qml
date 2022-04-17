@@ -20,6 +20,19 @@ Kirigami.ApplicationWindow {
     minimumWidth: Kirigami.Units.gridUnit * 20
     minimumHeight: Kirigami.Units.gridUnit * 20
 
+    globalDrawer: Kirigami.GlobalDrawer {
+        isMenu: true
+
+        actions: [
+            Kirigami.Action {
+                text: i18n("About Tasks")
+                icon.name: "help-about"
+                onTriggered: pageStack.layers.push("About.qml")
+                enabled: pageStack.layers.depth <= 1
+            }
+        ]
+    }
+
     pageStack.initialPage: Kirigami.Page {
         id: page
 

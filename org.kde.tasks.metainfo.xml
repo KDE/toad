@@ -1,22 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-  SPDX-License-Identifier: FSFAP
-  SPDX-FileCopyrightText: 2022 Felipe Kinoshita <kinofhek@gmail.com>
- -->
 <component type="desktop-application">
+  <!--
+  SPDX-FileCopyrightText: 2022 Felipe Kinoshita <kinofhek@gmail.com>
+  SPDX-License-Identifier: CC0-1.0
+  -->
   <id>org.kde.tasks</id>
-  <name>tasks Kirigami Application</name>
-  <summary>A short summary describing what this software is about</summary>
-  <metadata_license>A permissive license for this metadata, e.g. "FSFAP" + Update the SPDX tags above!</metadata_license>
-  <project_license>The license of this software as SPDX string, e.g. "GPL-2.0-or-later"</project_license>
-  <developer_name>The software vendor name, e.g. "ACME Corporation"</developer_name>
+  <name>Tasks</name>
+  <summary>Simple task list</summary>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+  <developer_name>KDE Community, Felipe Kinoshita</developer_name>
   <description>
-    <p>Multiple paragraphs of long description, describing this software component.</p>
-    <p>You can also use ordered and unordered lists:</p>
-    <ul>
-      <li>Feature 1</li>
-      <li>Feature 2</li>
-    </ul>
-    <p>Keep in mind to XML-escape characters, and that this is not HTML markup.</p>
+    <p>Tasks is a simple task list application that automatically saves all your tasks so you don't need to worry about losing anything.</p>
   </description>
+  <requires>
+    <display_length compare="ge">360</display_length>
+  </requires>
+  <recommends>
+    <control>keyboard</control>
+    <control>pointing</control>
+    <control>touch</control>
+  </recommends>
+  <provides>
+    <binary>tasks</binary>
+  </provides>
+  <url type="homepage">https://invent.kde.org/fhek/tasks</url>
+  <url type="bugtracker">https://invent.kde.org/fhek/tasks/-/issues</url>
 </component>
