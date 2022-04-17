@@ -64,24 +64,26 @@ Kirigami.ApplicationWindow {
             ListView {
                 id: list
                 model: TasksModel { id: tasksModel }
-                delegate: Kirigami.CheckableListItem {
+                delegate: Kirigami.BasicListItem {
                     id: taskItem
 
-                    label: model.title
+                    checkable: false
+                    activeBackgroundColor: "transparent"
+                    activeTextColor: Kirigami.Theme.textColor
+                    iconSelected: false
                     separatorVisible: false
                     reserveSpaceForIcon: false
-                    checkable: false
 
+                    label: model.title
                     labelItem.font.strikeout: model.checked
                     labelItem.opacity: model.checked ? 0.5 : 1
 
-                    checked: model.checked
-                    action: Kirigami.Action {
-                        onTriggered: {
+                    leading: QQC2.CheckBox {
+                        checked: model.checked
+                        onToggled: {
                             model.checked = !model.checked
                         }
                     }
-
                     trailing: QQC2.ToolButton {
                         icon.name: "entry-delete"
                         visible: taskItem.hovered
