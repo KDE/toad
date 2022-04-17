@@ -19,7 +19,7 @@ public:
         return m_title;
     }
 
-    bool isChecked()
+    bool checked()
     {
         return m_checked;
     }
@@ -47,7 +47,7 @@ public:
     {
         return {
             {QStringLiteral("title"), m_title},
-            {QStringLiteral("checked"), m_checked},
+            {QStringLiteral("checked"), m_checked}
         };
     }
 
@@ -71,6 +71,7 @@ public:
     QHash<int, QByteArray> roleNames() const override;
     QVariant data(const QModelIndex &index, int role) const override;
     int rowCount(const QModelIndex &parent) const final;
+    bool setData(const QModelIndex &index, const QVariant &value, int role) override;
 
     Q_INVOKABLE void add(const QString &title);
     Q_INVOKABLE void remove(const int &index);

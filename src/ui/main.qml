@@ -36,12 +36,17 @@ Kirigami.ApplicationWindow {
 
                     label: model.title
                     separatorVisible: false
+                    reserveSpaceForIcon: false
+                    checkable: false
+
+                    labelItem.font.strikeout: model.checked
+                    labelItem.opacity: model.checked ? 0.5 : 1
 
                     checked: model.checked
-                    onCheckedChanged: {
-                        model.checked = !model.checked
-                        labelItem.font.strikeout = model.checked
-                        labelItem.opacity = model.checked ? 0.5 : 1
+                    action: Kirigami.Action {
+                        onTriggered: {
+                            model.checked = !model.checked
+                        }
                     }
 
                     trailing: QQC2.ToolButton {

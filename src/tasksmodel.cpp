@@ -36,7 +36,7 @@ QVariant TasksModel::data(const QModelIndex &index, int role) const
     case Roles::TitleRole:
         return task.title();
     case Roles::CheckedRole:
-        return task.isChecked();
+        return task.checked();
     }
 
     return {};
@@ -46,6 +46,21 @@ int TasksModel::rowCount(const QModelIndex &parent) const
 {
     Q_UNUSED(parent)
     return m_tasks.size();
+}
+
+bool TasksModel::setData(const QModelIndex &index, const QVariant &value, int role)
+{
+    if (index.row() < 0 || index.row() >= m_tasks.count()) {
+        return false;
+    }
+
+    auto& task = m_tasks[index.row()];
+    task.setChecked(value.toBool());
+
+    emit dataChanged(index, index, { role });
+    saveTasks();
+
+    return true;
 }
 
 void TasksModel::add(const QString &title)
@@ -102,12 +117,14 @@ bool TasksModel::saveTasks() const
     });
 
     outputFile.write(document.toJson());
+
     return true;
 }
 
 bool TasksModel::loadTasks()
 {
     beginResetModel();
+
     const QString input = QStandardPaths::writableLocation(QStandardPaths::ConfigLocation) + QStringLiteral("/tasks/tasks.json");
 
     QFile inputFile(input);
