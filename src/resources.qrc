@@ -6,5 +6,6 @@
     <qresource prefix="/">
         <file alias="main.qml">ui/main.qml</file>
         <file alias="About.qml">ui/About.qml</file>
+        <file alias="GlobalMenu.qml">ui/GlobalMenu.qml</file>
     </qresource>
 </RCC>
