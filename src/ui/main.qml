@@ -78,47 +78,67 @@ Kirigami.ApplicationWindow {
                     activeTextColor: Kirigami.Theme.textColor
                     separatorVisible: false
 
-                    implicitHeight: titleText.implicitHeight
+                    implicitHeight: titleField.implicitHeight
 
                     RowLayout {
                         QQC2.CheckBox {
+                            enabled: !titleField.visible
                             checked: model.checked
                             onToggled: {
                                 model.checked = !model.checked
                             }
                         }
 
-                        QQC2.TextField {
-                            id: titleText
+                        QQC2.Label {
+                            id: titleLabel
                             Layout.fillWidth: true
+                            Layout.preferredHeight: titleField.implicitHeight
+                            Layout.alignment: Qt.AlignLeft | Qt.AlignVCenter
 
-                            property string fullText: model.title
-
-                            background: Item {}
-
-                            horizontalAlignment: Text.AlignLeft
-                            text: metrics.elidedText
-                            readOnly: model.checked
-
+                            text: model.title
+                            elide: Text.ElideRight
                             font.strikeout: model.checked
                             opacity: model.checked ? 0.5 : 1
+                        }
+
+                        QQC2.TextField {
+                            id: titleField
+                            visible: false
+                            Layout.fillWidth: true
+                            Layout.alignment: Qt.AlignLeft | Qt.AlignVCenter
+
+                            text: model.title
+
+                            horizontalAlignment: Text.AlignLeft
+                            readOnly: model.checked
 
                             onEditingFinished: {
                                 model.title = text
-                            }
-
-                            TextMetrics {
-                                id: metrics
-                                font: titleText.font
-                                text: titleText.fullText
-                                elide: Qt.ElideRight
-                                elideWidth: titleText.width - Kirigami.Units.gridUnit
+                                titleField.visible = false
+                                titleLabel.visible = true
                             }
                         }
 
                         QQC2.ToolButton {
-                            id: removeButton
+                            id: editButton
+                            visible: !model.checked && !titleField.visible
+
                             Layout.preferredHeight: Math.round(Kirigami.Units.gridUnit * 1.5)
+
+                            icon.name: "entry-edit"
+                            opacity: taskItem.hovered ? 1 : 0
+
+                            onClicked: {
+                                titleField.visible = true
+                                titleLabel.visible = false
+                            }
+                        }
+                        QQC2.ToolButton {
+                            id: removeButton
+                            visible: !titleField.visible
+
+                            Layout.preferredHeight: Math.round(Kirigami.Units.gridUnit * 1.5)
+
                             icon.name: "entry-delete"
                             opacity: taskItem.hovered ? 1 : 0
                             onClicked: {
@@ -127,7 +147,7 @@ Kirigami.ApplicationWindow {
                         }
                     }
 
-                    QQC2.ToolTip.visible: titleText.fullText != metrics.elidedText && taskItem.hovered
+                    QQC2.ToolTip.visible: !titleField.visible && titleLabel.truncated && taskItem.hovered
                     QQC2.ToolTip.text: model.title
                     QQC2.ToolTip.delay: Kirigami.Units.toolTipDelay
                 }
