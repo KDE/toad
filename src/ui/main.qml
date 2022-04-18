@@ -33,21 +33,9 @@ Kirigami.ApplicationWindow {
             Layout.fillWidth: true
             spacing: 0
 
-            QQC2.ToolButton {
-                text: i18n("About Tasks")
-                icon.name: "help-about"
-                display: QQC2.AbstractButton.IconOnly
-                onClicked: pageStack.layers.push("About.qml")
-                enabled: pageStack.layers.depth <= 1
-            }
-
-            Item {
-                Layout.fillWidth: true
-            }
-
             QQC2.Label {
-                Layout.alignment: Qt.AlignRight
-                Layout.rightMargin: Kirigami.Units.largeSpacing
+                Layout.alignment: Qt.AlignLeft
+                Layout.leftMargin: Kirigami.Units.largeSpacing
                 text: {
                     if (list.count == 0) {
                         return ""
@@ -55,6 +43,18 @@ Kirigami.ApplicationWindow {
                         return i18np("1 task", "%1 tasks", list.count)
                     }
                 }
+            }
+
+            Item {
+                Layout.fillWidth: true
+            }
+
+            QQC2.ToolButton {
+                text: i18n("About Tasks")
+                icon.name: "help-about"
+                display: QQC2.AbstractButton.IconOnly
+                onClicked: pageStack.layers.push("About.qml")
+                enabled: pageStack.layers.depth <= 1
             }
         }
 
