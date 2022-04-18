@@ -11,7 +11,7 @@
   <project_license>GPL-3.0-or-later</project_license>
   <developer_name>KDE Community, Felipe Kinoshita</developer_name>
   <description>
-    <p>Tasks is a simple task list application that automatically saves all your tasks so you don't need to worry about losing anything.</p>
+    <p>Tasks is a simple task list application, you can edit tasks on the fly and it saves all your work automatically.</p>
   </description>
   <requires>
     <display_length compare="ge">360</display_length>
