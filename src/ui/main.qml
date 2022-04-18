@@ -143,7 +143,7 @@ Kirigami.ApplicationWindow {
 
         footer: Kirigami.ActionTextField {
             id: textField
-            placeholderText: i18n("Create Task…")
+            placeholderText: i18n("Type the new task's title here…")
             background: Rectangle {
                 Kirigami.Theme.inherit: false
                 Kirigami.Theme.colorSet: Kirigami.Theme.Window
@@ -166,7 +166,7 @@ Kirigami.ApplicationWindow {
 
             rightActions: Kirigami.Action {
                 icon.name: "list-add"
-                tooltip: i18n("Create Task")
+                tooltip: i18n("Add Task")
                 onTriggered: textField.addTask()
             }
             onAccepted: textField.addTask()
