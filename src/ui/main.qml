@@ -127,35 +127,6 @@ Kirigami.ApplicationWindow {
             }
         }
 
-        footer: Kirigami.ActionTextField {
-            id: textField
-            placeholderText: i18n("Type the new task's title here…")
-            background: Rectangle {
-                Kirigami.Theme.inherit: false
-                Kirigami.Theme.colorSet: Kirigami.Theme.Window
-                color: Kirigami.Theme.backgroundColor
-                Kirigami.Separator {
-                    anchors {
-                        top: parent.top
-                        left: parent.left
-                        right: parent.right
-                    }
-                }
-            }
-
-            function addTask() {
-                if (text.length > 0 && text.trim()) {
-                    tasksModel.add(text)
-                }
-                text = ""
-            }
-
-            rightActions: Kirigami.Action {
-                icon.name: "list-add"
-                tooltip: i18n("Add Task")
-                onTriggered: textField.addTask()
-            }
-            onAccepted: textField.addTask()
-        }
+        footer: Footer {}
     }
 }
