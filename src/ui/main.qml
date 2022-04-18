@@ -71,35 +71,63 @@ Kirigami.ApplicationWindow {
             ListView {
                 id: list
                 model: TasksModel { id: tasksModel }
-                delegate: Kirigami.BasicListItem {
+                delegate: Kirigami.AbstractListItem {
                     id: taskItem
 
-                    checkable: false
                     activeBackgroundColor: "transparent"
                     activeTextColor: Kirigami.Theme.textColor
-                    iconSelected: false
                     separatorVisible: false
-                    reserveSpaceForIcon: false
 
-                    label: model.title
-                    labelItem.font.strikeout: model.checked
-                    labelItem.opacity: model.checked ? 0.5 : 1
+                    implicitHeight: titleText.implicitHeight
 
-                    leading: QQC2.CheckBox {
-                        checked: model.checked
-                        onToggled: {
-                            model.checked = !model.checked
+                    RowLayout {
+                        QQC2.CheckBox {
+                            checked: model.checked
+                            onToggled: {
+                                model.checked = !model.checked
+                            }
+                        }
+
+                        QQC2.TextField {
+                            id: titleText
+                            Layout.fillWidth: true
+
+                            property string fullText: model.title
+
+                            background: Item {}
+
+                            horizontalAlignment: Text.AlignLeft
+                            text: metrics.elidedText
+                            readOnly: model.checked
+
+                            font.strikeout: model.checked
+                            opacity: model.checked ? 0.5 : 1
+
+                            onEditingFinished: {
+                                model.title = text
+                            }
+
+                            TextMetrics {
+                                id: metrics
+                                font: titleText.font
+                                text: titleText.fullText
+                                elide: Qt.ElideRight
+                                elideWidth: titleText.width - Kirigami.Units.gridUnit
+                            }
+                        }
+
+                        QQC2.ToolButton {
+                            id: removeButton
+                            Layout.preferredHeight: Math.round(Kirigami.Units.gridUnit * 1.5)
+                            icon.name: "entry-delete"
+                            opacity: taskItem.hovered ? 1 : 0
+                            onClicked: {
+                                tasksModel.remove(index)
+                            }
                         }
                     }
-                    trailing: QQC2.ToolButton {
-                        icon.name: "entry-delete"
-                        visible: taskItem.hovered
-                        onClicked: {
-                            tasksModel.remove(index)
-                        }
-                    }
 
-                    QQC2.ToolTip.visible: labelItem.truncated && taskItem.hovered
+                    QQC2.ToolTip.visible: titleText.fullText != metrics.elidedText && taskItem.hovered
                     QQC2.ToolTip.text: model.title
                     QQC2.ToolTip.delay: Kirigami.Units.toolTipDelay
                 }

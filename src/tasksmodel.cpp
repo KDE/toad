@@ -58,7 +58,15 @@ bool TasksModel::setData(const QModelIndex &index, const QVariant &value, int ro
     }
 
     auto& task = m_tasks[index.row()];
-    task.setChecked(value.toBool());
+
+    switch (role) {
+        case Roles::CheckedRole:
+            task.setChecked(value.toBool());
+            break;
+        case Roles::TitleRole:
+            task.setTitle(value.toString());
+            break;
+    }
 
     emit dataChanged(index, index, { role });
     saveTasks();
