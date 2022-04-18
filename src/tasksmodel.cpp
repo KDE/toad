@@ -94,6 +94,16 @@ void TasksModel::remove(const int &index)
     saveTasks();
 }
 
+void TasksModel::clear()
+{
+    beginResetModel();
+
+    m_tasks.clear();
+    saveTasks();
+
+    endResetModel();
+}
+
 bool TasksModel::saveTasks() const
 {
     const QString outputDir = QStandardPaths::writableLocation(QStandardPaths::ConfigLocation) + QStringLiteral("/tasks/");

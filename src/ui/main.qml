@@ -50,6 +50,13 @@ Kirigami.ApplicationWindow {
             }
 
             QQC2.ToolButton {
+                text: i18n("Clear Tasks")
+                icon.name: "edit-clear-all"
+                onClicked: tasksModel.clear()
+                enabled: list.count > 0
+            }
+
+            QQC2.ToolButton {
                 text: i18n("About Tasks")
                 icon.name: "help-about"
                 display: QQC2.AbstractButton.IconOnly
