@@ -39,5 +39,9 @@ RowLayout {
         display: QQC2.AbstractButton.IconOnly
         onClicked: pageStack.layers.push("About.qml")
         enabled: pageStack.layers.depth <= 1
+
+        QQC2.ToolTip.visible: hovered
+        QQC2.ToolTip.text: text
+        QQC2.ToolTip.delay: Kirigami.Units.toolTipDelay
     }
 }
