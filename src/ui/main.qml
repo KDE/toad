@@ -70,6 +70,14 @@ Kirigami.ApplicationWindow {
 
                             text: model.title
                             elide: Text.ElideRight
+
+                            Behavior on opacity {
+                                OpacityAnimator {
+                                    duration: Kirigami.Units.longDuration
+                                    easing.type: Easing.OutQuad
+                                }
+                            }
+
                             font.strikeout: model.checked
                             opacity: model.checked ? 0.5 : 1
                         }
@@ -123,6 +131,23 @@ Kirigami.ApplicationWindow {
                     QQC2.ToolTip.visible: !titleField.visible && titleLabel.truncated && taskItem.hovered
                     QQC2.ToolTip.text: model.title
                     QQC2.ToolTip.delay: Kirigami.Units.toolTipDelay
+                }
+
+                add: Transition {
+                    OpacityAnimator {
+                        from: 0
+                        to: 1
+                        duration: Kirigami.Units.longDuration
+                        easing.type: Easing.OutQuad
+                    }
+                }
+                remove: Transition {
+                    OpacityAnimator {
+                        from: 1
+                        to: 0
+                        duration: Kirigami.Units.longDuration
+                        easing.type: Easing.OutQuad
+                    }
                 }
 
                 Kirigami.PlaceholderMessage {
