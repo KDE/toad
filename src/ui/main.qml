@@ -43,6 +43,7 @@ Kirigami.ApplicationWindow {
 
             ListView {
                 id: list
+                interactive: contentHeight > height
                 model: TasksModel { id: tasksModel }
                 delegate: Kirigami.AbstractListItem {
                     id: taskItem
