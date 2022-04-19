@@ -19,6 +19,17 @@ Labs.MenuBar {
     }
 
     Labs.Menu {
+        title: i18nc("@menu", "Edit")
+
+        Labs.MenuItem {
+            text: i18nc("@menu-action", "Clear Tasks")
+            icon.name: "edit-clear-all"
+            onTriggered: tasksModel.clear()
+            enabled: list.count > 0
+        }
+    }
+
+    Labs.Menu {
         title: i18nc("@menu", "Help")
 
         Labs.MenuItem {
