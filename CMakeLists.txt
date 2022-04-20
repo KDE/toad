@@ -37,5 +37,6 @@ add_subdirectory(src)
 
 install(PROGRAMS org.kde.tasks.desktop DESTINATION ${KDE_INSTALL_APPDIR})
 install(FILES org.kde.tasks.metainfo.xml DESTINATION ${KDE_INSTALL_METAINFODIR})
+install(FILES org.kde.tasks.svg DESTINATION ${KDE_INSTALL_FULL_ICONDIR}/hicolor/scalable/apps)
 
 feature_summary(WHAT ALL INCLUDE_QUIET_PACKAGES FATAL_ON_MISSING_REQUIRED_PACKAGES)

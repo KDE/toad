@@ -5,7 +5,7 @@
 Name=Tasks
 Comment=Simple task list
 Exec=tasks
-Icon=applications-development
+Icon=org.kde.tasks
 Type=Application
 Terminal=false
 Categories=Qt;KDE;Utility;
