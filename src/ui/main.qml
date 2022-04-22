@@ -23,15 +23,6 @@ Kirigami.ApplicationWindow {
         source: Qt.resolvedUrl("qrc:/GlobalMenu.qml")
     }
 
-    Shortcut {
-        sequence: StandardKey.HelpContents
-        onActivated: {
-            if (pageStack.layers.depth <= 1) {
-                pageStack.layers.push("About.qml")
-            }
-        }
-    }
-
     pageStack.initialPage: Kirigami.Page {
         id: page
 
