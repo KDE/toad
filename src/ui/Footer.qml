@@ -27,7 +27,7 @@ Kirigami.ActionTextField {
 
     background: Rectangle {
         Kirigami.Theme.inherit: false
-        Kirigami.Theme.colorSet: Kirigami.Theme.Window
+        Kirigami.Theme.colorSet: Kirigami.Theme.View
         color: Kirigami.Theme.backgroundColor
         Kirigami.Separator {
             anchors {
