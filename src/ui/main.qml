@@ -104,6 +104,8 @@ Kirigami.ApplicationWindow {
                             onClicked: {
                                 titleField.visible = true
                                 titleLabel.visible = false
+                                titleField.forceActiveFocus()
+                                titleField.selectAll()
                             }
                         }
                         QQC2.ToolButton {
