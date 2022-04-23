@@ -20,6 +20,7 @@ Kirigami.ActionTextField {
 
     rightActions: Kirigami.Action {
         icon.name: "list-add"
+        visible: control.text.length > 0
         tooltip: i18n("Add Task")
         onTriggered: control.addTask()
     }
