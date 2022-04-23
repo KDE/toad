@@ -27,7 +27,7 @@ RowLayout {
     }
 
     QQC2.ToolButton {
-        text: i18n("Clear Tasks")
+        text: i18n("Clear All")
         icon.name: "edit-clear-all"
         onClicked: tasksModel.clear()
         enabled: list.count > 0
