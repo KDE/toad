@@ -148,6 +148,7 @@ Kirigami.ApplicationWindow {
                     visible: list.count <= 0
                     anchors.centerIn: parent
                     text: i18n("Empty List")
+                    icon.name: "document-new"
                     explanation: i18n("Type the new task below.")
                 }
             }
