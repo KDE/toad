@@ -114,9 +114,9 @@ void TasksModel::clear()
 
 bool TasksModel::saveTasks() const
 {
-    const QString outputDir = QStandardPaths::writableLocation(QStandardPaths::ConfigLocation) + QStringLiteral("/tasks/");
+    const QString outputDir = QStandardPaths::writableLocation(QStandardPaths::DataLocation);
 
-    QFile outputFile(outputDir + QStringLiteral("tasks.json"));
+    QFile outputFile(outputDir + QStringLiteral("/tasks.json"));
     if (!QDir(outputDir).mkpath(QStringLiteral("."))) {
         qDebug() << "Destdir doesn't exist and I can't create it: " << outputDir;
         return false;
@@ -146,7 +146,7 @@ bool TasksModel::loadTasks()
 {
     beginResetModel();
 
-    const QString input = QStandardPaths::writableLocation(QStandardPaths::ConfigLocation) + QStringLiteral("/tasks/tasks.json");
+    const QString input = QStandardPaths::writableLocation(QStandardPaths::DataLocation) + QStringLiteral("/tasks.json");
 
     QFile inputFile(input);
     if (!inputFile.exists()) {
