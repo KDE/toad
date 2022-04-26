@@ -82,6 +82,7 @@ bool TasksModel::setData(const QModelIndex &index, const QVariant &value, int ro
     }
 
     emit dataChanged(index, index, { role });
+
     saveTasks();
 
     return true;
@@ -92,9 +93,7 @@ void TasksModel::add(const QString &title)
     Task t(title, false);
 
     beginInsertRows(QModelIndex(), m_tasks.count(), m_tasks.count());
-
     m_tasks.append(t);
-
     endInsertRows();
 
     saveTasks();
@@ -114,9 +113,7 @@ void TasksModel::remove(const int &index)
     }
 
     beginRemoveRows(QModelIndex(), index, index);
-
     m_tasks.removeAt(index);
-
     endRemoveRows();
 
     saveTasks();
@@ -125,11 +122,10 @@ void TasksModel::remove(const int &index)
 void TasksModel::clear()
 {
     beginResetModel();
-
     m_tasks.clear();
-    saveTasks();
-
     endResetModel();
+
+    saveTasks();
 }
 
 bool TasksModel::saveTasks() const
