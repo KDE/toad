@@ -4,6 +4,7 @@
 add_executable(tasks
     main.cpp
     about.cpp
+    task.cpp
     tasksmodel.cpp
     resources.qrc)
 

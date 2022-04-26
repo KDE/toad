@@ -6,58 +6,7 @@
 #include <QAbstractListModel>
 #include <QJsonObject>
 
-class Task
-{
-public:
-    Task(QString title, bool checked)
-    {
-        m_title = title;
-        m_checked = checked;
-    }
-
-    Task() = default;
-
-    QString title()
-    {
-        return m_title;
-    }
-
-    bool checked()
-    {
-        return m_checked;
-    }
-
-    void setTitle(const QString &title)
-    {
-        m_title = title;
-    }
-
-    void setChecked(const bool &checked)
-    {
-        m_checked = checked;
-    }
-
-    static Task fromJson(const QJsonObject &obj)
-    {
-        Task task;
-        task.setTitle(obj.value(QStringLiteral("title")).toString());
-        task.setChecked(obj.value(QStringLiteral("checked")).toBool());
-        
-        return task;
-    }
-
-    QJsonObject toJson() const
-    {
-        return {
-            {QStringLiteral("title"), m_title},
-            {QStringLiteral("checked"), m_checked}
-        };
-    }
-
-private:
-    QString m_title;
-    bool m_checked;
-};
+#include "task.h"
 
 class TasksModel : public QAbstractListModel
 {
