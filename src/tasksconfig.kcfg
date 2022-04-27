@@ -8,9 +8,9 @@ SPDX-FileCopyrightText: 2022 Felipe Kinoshita <kinofhek@gmail.com>
 SPDX-License-Identifier: LGPL-2.0-or-later
 -->
     <group name="General">
-        <entry name="someSetting" type="Bool">
-            <label>Some setting description</label>
-            <default>true</default>
+        <entry name="DeleteWhenChecked" type="Bool">
+            <label>Automatically delete task when marking it as checked.</label>
+            <default>false</default>
         </entry>
     </group>
 </kcfg>

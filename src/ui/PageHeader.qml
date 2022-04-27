@@ -48,6 +48,18 @@ RowLayout {
     }
 
     QQC2.ToolButton {
+        text: i18n("Configure Tasks")
+        icon.name: "settings-configure"
+        display: QQC2.AbstractButton.IconOnly
+        onClicked: pageStack.layers.push("Settings.qml")
+        enabled: pageStack.layers.depth <= 1
+
+        QQC2.ToolTip.visible: hovered
+        QQC2.ToolTip.text: text
+        QQC2.ToolTip.delay: Kirigami.Units.toolTipDelay
+    }
+
+    QQC2.ToolButton {
         text: i18n("About Tasks")
         icon.name: "help-about"
         display: QQC2.AbstractButton.IconOnly
