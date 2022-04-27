@@ -7,7 +7,6 @@ class Task
 {
 public:
     Task(QString title, bool checked);
-    Task();
 
     QString title();
     bool checked();

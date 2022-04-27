@@ -6,11 +6,6 @@ Task::Task(QString title, bool checked)
     m_checked = checked;
 }
 
-Task::Task()
-{
-
-}
-
 QString Task::title()
 {
     return m_title;
@@ -34,8 +29,6 @@ void Task::setChecked(const bool &checked)
 Task Task::fromJson(const QJsonObject &obj)
 {
     Task task(obj.value(QStringLiteral("title")).toString(), obj.value(QStringLiteral("checked")).toBool());
-    task.setTitle(obj.value(QStringLiteral("title")).toString());
-    task.setChecked(obj.value(QStringLiteral("checked")).toBool());
 
     return task;
 }
