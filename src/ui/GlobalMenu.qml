@@ -34,6 +34,18 @@ Labs.MenuBar {
     }
 
     Labs.Menu {
+        title: i18nc("@menu", "Settings")
+
+        Labs.MenuItem {
+            text: i18nc("@menu-action", "Configure Tasks")
+            icon.name: "settings-configure"
+            shortcut: StandardKey.Preferences
+            onTriggered: pageStack.layers.push("Settings.qml")
+            enabled: pageStack.layers.depth <= 1
+        }
+    }
+
+    Labs.Menu {
         title: i18nc("@menu", "Help")
 
         Labs.MenuItem {
