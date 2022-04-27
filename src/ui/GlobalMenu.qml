@@ -39,7 +39,6 @@ Labs.MenuBar {
         Labs.MenuItem {
             text: i18nc("@menu-action", "Configure Tasks")
             icon.name: "settings-configure"
-            shortcut: StandardKey.Preferences
             onTriggered: pageStack.layers.push("Settings.qml")
             enabled: pageStack.layers.depth <= 1
         }
@@ -57,7 +56,6 @@ Labs.MenuBar {
         Labs.MenuItem {
             text: i18nc("@menu-action", "About Tasks")
             icon.name: "help-about"
-            shortcut: StandardKey.HelpContents
             onTriggered: pageStack.layers.push("About.qml")
             enabled: pageStack.layers.depth <= 1
         }
