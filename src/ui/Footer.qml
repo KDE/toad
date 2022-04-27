@@ -6,14 +6,18 @@ import QtQuick.Controls 2.15 as QQC2
 import QtQuick.Layouts 1.15
 import org.kde.kirigami 2.19 as Kirigami
 
+import org.kde.tasks 1.0
+
 Kirigami.ActionTextField {
     id: control
+
+    required property TasksModel tasksModel
 
     placeholderText: i18n("Type the new task's title here…")
 
     function addTask() {
         if (text.length > 0 && text.trim()) {
-            tasksModel.add(text)
+            control.tasksModel.add(text)
         }
         text = ""
     }

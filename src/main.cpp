@@ -50,10 +50,16 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
 
     AboutType about;
     qmlRegisterSingletonInstance("org.kde.tasks", 1, 0, "AboutType", &about);
+    qmlRegisterUncreatableType<TasksModel>("org.kde.tasks", 1,0 , "TasksModel", QStringLiteral("Must be created from C++"));
 
-    qmlRegisterType<TasksModel>("org.kde.tasks", 1, 0, "TasksModel");
+    auto tasksModel = new TasksModel(qApp);
 
     engine.rootContext()->setContextObject(new KLocalizedContext(&engine));
+    engine.setInitialProperties(
+        /* QMap<QString, QVariant> or QVariantMap */ {
+            { "tasksModel", QVariant::fromValue(tasksModel) }
+        }
+    );
     engine.load(QUrl(QStringLiteral("qrc:///main.qml")));
 
     if (engine.rootObjects().isEmpty()) {

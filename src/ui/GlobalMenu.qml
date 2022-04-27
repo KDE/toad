@@ -8,6 +8,10 @@ import org.kde.kirigami 2.19 as Kirigami
 import org.kde.tasks 1.0
 
 Labs.MenuBar {
+    id: menuBar
+
+    required property TasksModel tasksModel
+
     Labs.Menu {
         title: i18nc("@menu", "File")
 
@@ -24,7 +28,7 @@ Labs.MenuBar {
         Labs.MenuItem {
             text: i18nc("@menu-action", "Clear Tasks")
             icon.name: "edit-clear-all"
-            onTriggered: tasksModel.clear()
+            onTriggered: menuBar.tasksModel.clear()
             enabled: list.count > 0
         }
     }

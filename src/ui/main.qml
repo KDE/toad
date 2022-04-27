@@ -13,6 +13,8 @@ Kirigami.ApplicationWindow {
 
     title: i18n("Tasks")
 
+    required property TasksModel tasksModel
+
     width: Kirigami.Units.gridUnit * 26
     height: Kirigami.Units.gridUnit * 36
     minimumWidth: Kirigami.Units.gridUnit * 20
@@ -20,14 +22,18 @@ Kirigami.ApplicationWindow {
 
     Loader {
         active: !Kirigami.Settings.isMobile
-        source: Qt.resolvedUrl("qrc:/GlobalMenu.qml")
+        sourceComponent: GlobalMenu {
+            tasksModel: root.tasksModel
+        }
     }
 
     pageStack.initialPage: Kirigami.Page {
         id: page
 
         padding: 0
-        titleDelegate: PageHeader {}
+        titleDelegate: PageHeader {
+            tasksModel: root.tasksModel
+        }
 
         QQC2.ScrollView {
             anchors.fill: parent
@@ -35,7 +41,7 @@ Kirigami.ApplicationWindow {
             ListView {
                 id: list
                 interactive: contentHeight > height
-                model: TasksModel { id: tasksModel }
+                model: root.tasksModel
                 delegate: Kirigami.AbstractListItem {
                     id: taskItem
 
@@ -117,7 +123,7 @@ Kirigami.ApplicationWindow {
                             icon.name: "entry-delete"
                             opacity: taskItem.hovered ? 1 : 0
                             onClicked: {
-                                tasksModel.remove(index)
+                                root.tasksModel.remove(index)
                             }
                         }
                     }
@@ -154,6 +160,8 @@ Kirigami.ApplicationWindow {
             }
         }
 
-        footer: Footer {}
+        footer: Footer {
+            tasksModel: root.tasksModel
+        }
     }
 }
