@@ -50,7 +50,7 @@ RowLayout {
     QQC2.ToolButton {
         display: QQC2.AbstractButton.IconOnly
         action: Kirigami.Action {
-            text: i18n("Configure Tasks")
+            text: i18n("Configure Tasks…")
             icon.name: "settings-configure"
             shortcut: StandardKey.Preferences
             onTriggered: pageStack.layers.push("Settings.qml")
