@@ -18,7 +18,8 @@ target_link_libraries(tasks
     KF5::I18n
     KF5::CoreAddons
     KF5::ConfigCore
-    KF5::ConfigGui)
+    KF5::ConfigGui
+    KF5::DBusAddons)
 
 kconfig_add_kcfg_files(tasks GENERATE_MOC tasksconfig.kcfgc)
 install(TARGETS tasks ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})
