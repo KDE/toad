@@ -55,15 +55,7 @@ Kirigami.ApplicationWindow {
                         QQC2.CheckBox {
                             enabled: !titleField.visible
                             checked: model.checked
-                            onToggled: {
-
-                                if (Config.deleteWhenChecked) {
-                                    root.tasksModel.remove(index)
-                                    return
-                                }
-
-                                model.checked = !model.checked
-                            }
+                            onToggled: model.checked = !model.checked
                         }
 
                         QQC2.Label {
@@ -122,7 +114,7 @@ Kirigami.ApplicationWindow {
                         }
                         QQC2.ToolButton {
                             id: removeButton
-                            visible: !titleField.visible && !Config.deleteWhenChecked
+                            visible: !titleField.visible
 
                             Layout.preferredHeight: Math.round(Kirigami.Units.gridUnit * 1.5)
 
