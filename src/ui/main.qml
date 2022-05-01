@@ -151,9 +151,10 @@ Kirigami.ApplicationWindow {
                 Kirigami.PlaceholderMessage {
                     visible: list.count <= 0
                     anchors.centerIn: parent
-                    text: i18n("Empty List")
-                    icon.name: "document-new"
-                    explanation: i18n("Type the new task below.")
+                    width: parent.width - (Kirigami.Units.gridUnit * 8)
+                    text: i18n("All tasks completed!")
+                    icon.name: "checkmark"
+                    explanation: i18n("Add some more by typing in the text field at the bottom of the window")
                 }
             }
         }
