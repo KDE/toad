@@ -150,7 +150,7 @@ bool TasksModel::saveTasks() const
 
     const QJsonDocument document({
         {QLatin1String("tasks"), tasksArray},
-        {QLatin1String("nice"), true}
+        {QLatin1String("completedTasks"), m_completedTasks}
     });
 
     outputFile.write(document.toJson());
@@ -175,6 +175,8 @@ bool TasksModel::loadTasks()
 
     const auto tasksStorage = QJsonDocument::fromJson(inputFile.readAll()).object();
     m_tasks.clear();
+
+    m_completedTasks = tasksStorage.value(QLatin1String("completedTasks")).toInt();
 
     const auto tasks = tasksStorage.value(QLatin1String("tasks")).toArray();
 
