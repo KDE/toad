@@ -160,6 +160,7 @@ Kirigami.ApplicationWindow {
         }
 
         footer: Footer {
+            focus: !Kirigami.InputMethod.willShowOnActive
             tasksModel: root.tasksModel
         }
     }
