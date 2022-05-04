@@ -24,6 +24,6 @@
   <provides>
     <binary>tasks</binary>
   </provides>
-  <url type="homepage">https://invent.kde.org/fhek/tasks</url>
-  <url type="bugtracker">https://invent.kde.org/fhek/tasks/-/issues</url>
+  <url type="homepage">https://invent.kde.org/utilities/toad</url>
+  <url type="bugtracker">https://invent.kde.org/utilities/toad/-/issues</url>
 </component>
