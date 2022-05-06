@@ -1,8 +1,8 @@
 # SPDX-FileCopyrightText: 2022 Felipe Kinoshita <kinofhek@gmail.com>
 # SPDX-License-Identifier: LGPL-2.0-or-later
 
-File=tasksconfig.kcfg
-ClassName=tasksConfig
+File=config.kcfg
+ClassName=Config
 Mutators=true
 DefaultValueGetters=true
 GenerateProperties=true

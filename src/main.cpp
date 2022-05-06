@@ -14,7 +14,7 @@
 #include <KLocalizedString>
 #include <KDBusService>
 
-#include "tasksconfig.h"
+#include "config.h"
 
 #include "tasksmodel.h"
 
@@ -45,7 +45,7 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
 
     QQmlApplicationEngine engine;
 
-    auto config = tasksConfig::self();
+    auto config = Config::self();
 
     qmlRegisterSingletonInstance("org.kde.tasks", 1, 0, "Config", config);
 
