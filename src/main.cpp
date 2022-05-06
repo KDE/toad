@@ -53,8 +53,8 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
 
     AboutType about;
     qmlRegisterSingletonInstance(APPLICATION_ID, 1, 0, "AboutType", &about);
-    qmlRegisterUncreatableType<TasksModel>(APPLICATION_ID, 1,0 , "TasksModel", QStringLiteral("Must be created from C++"));
 
+    qmlRegisterUncreatableType<TasksModel>(APPLICATION_ID, 1,0 , "TasksModel", QStringLiteral("Must be created from C++"));
     auto tasksModel = new TasksModel(qApp);
 
     engine.rootContext()->setContextObject(new KLocalizedContext(&engine));
