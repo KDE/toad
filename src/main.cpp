@@ -14,6 +14,8 @@
 #include <KLocalizedString>
 #include <KDBusService>
 
+constexpr auto APPLICATION_ID = "org.kde.tasks";
+
 #include "config.h"
 
 #include "tasksmodel.h"
@@ -47,11 +49,11 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
 
     auto config = Config::self();
 
-    qmlRegisterSingletonInstance("org.kde.tasks", 1, 0, "Config", config);
+    qmlRegisterSingletonInstance(APPLICATION_ID, 1, 0, "Config", config);
 
     AboutType about;
-    qmlRegisterSingletonInstance("org.kde.tasks", 1, 0, "AboutType", &about);
-    qmlRegisterUncreatableType<TasksModel>("org.kde.tasks", 1,0 , "TasksModel", QStringLiteral("Must be created from C++"));
+    qmlRegisterSingletonInstance(APPLICATION_ID, 1, 0, "AboutType", &about);
+    qmlRegisterUncreatableType<TasksModel>(APPLICATION_ID, 1,0 , "TasksModel", QStringLiteral("Must be created from C++"));
 
     auto tasksModel = new TasksModel(qApp);
 
