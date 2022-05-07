@@ -3,7 +3,21 @@
 
 [Desktop Entry]
 Name=Tasks
+Name[ca]=Tasques
+Name[ca@valencia]=Tasques
+Name[es]=Tareas
+Name[nl]=Taken
+Name[pt]=Tarefas
+Name[uk]=Завдання
+Name[x-test]=xxTasksxx
 Comment=Simple task list
+Comment[ca]=Llista de tasques senzilla
+Comment[ca@valencia]=Llista de tasques senzilla
+Comment[es]=Lista de tareas sencilla
+Comment[nl]=Eenvoudige takenlijst
+Comment[pt]=Lista de tarefas simples
+Comment[uk]=Простий список завдань
+Comment[x-test]=xxSimple task listxx
 Exec=tasks
 Icon=org.kde.tasks
 Type=Application
