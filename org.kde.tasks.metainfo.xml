@@ -9,16 +9,22 @@
   <name xml:lang="ca">Tasques</name>
   <name xml:lang="ca-valencia">Tasques</name>
   <name xml:lang="es">Tareas</name>
+  <name xml:lang="it">Tasks</name>
   <name xml:lang="nl">Taken</name>
   <name xml:lang="pt">Tarefas</name>
+  <name xml:lang="sk">Úlohy</name>
+  <name xml:lang="sl">Tasks</name>
   <name xml:lang="uk">Завдання</name>
   <name xml:lang="x-test">xxTasksxx</name>
   <summary>Simple task list</summary>
   <summary xml:lang="ca">Llista de tasques senzilla</summary>
   <summary xml:lang="ca-valencia">Llista de tasques senzilla</summary>
   <summary xml:lang="es">Lista de tareas sencilla</summary>
+  <summary xml:lang="it">Semplice elenco di attività</summary>
   <summary xml:lang="nl">Eenvoudige takenlijst</summary>
   <summary xml:lang="pt">Lista de tarefas simples</summary>
+  <summary xml:lang="sk">Jednoduchý zoznam úloh</summary>
+  <summary xml:lang="sl">Enostaven seznam nalog</summary>
   <summary xml:lang="uk">Простий список завдань</summary>
   <summary xml:lang="x-test">xxSimple task listxx</summary>
   <metadata_license>CC0-1.0</metadata_license>
@@ -27,8 +33,11 @@
   <developer_name xml:lang="ca">La comunitat KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="ca-valencia">La comunitat KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="es">Comunidad KDE, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="it">Comunità KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="nl">KDE gemeenschap, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="pt">Comunidade do KDE, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="sk">KDE komunita, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="sl">Skupnost KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="uk">Спільнота KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="x-test">xxKDE Community, Felipe Kinoshitaxx</developer_name>
   <description>
@@ -36,8 +45,11 @@
     <p xml:lang="ca">Tasques és una aplicació de llista de tasques senzilla, podeu editar tasques al vol i desarà automàticament tot el vostre treball.</p>
     <p xml:lang="ca-valencia">Tasques és una aplicació de llista de tasques senzilla, podeu editar tasques al vol i guardarà automàticament tot el vostre treball.</p>
     <p xml:lang="es">Tareas es una sencilla aplicación de lista de tareas. Permite editar tareas sobre la marcha y guardar todo el trabajo automáticamente.</p>
+    <p xml:lang="it">Tasks è una semplice applicazione per l'elenco delle attività, puoi modificare le attività al volo e salva tutto il tuo lavoro automaticamente.</p>
     <p xml:lang="nl">Taken is een eenvoudige toepassing voor een takenlijst, u kunt taken on-the-fly bewerken en het slaat al uw werk automatisch op.</p>
     <p xml:lang="pt">As Tarefas são uma aplicação simples de lista de tarefas; poderá editar as tarefas na hora e grava todo o seu trabalho de forma automática.</p>
+    <p xml:lang="sk">Tasks je jednoduchá aplikácia na zoznam úloh, môžete editovať úlohy za behu a uložia sa do vašej práce automaticky.</p>
+    <p xml:lang="sl">Tasks je preprosta aplikacija s seznamom opravil, mimogrede lahko urejate naloge in vse vaše delo se samodejno shrani.</p>
     <p xml:lang="uk">«Завдання» є простою програмою — списком завдань. Ви можете інтерактивно редагувати записи завдань і зберігати вашу роботу автоматично.</p>
     <p xml:lang="x-test">xxTasks is a simple task list application, you can edit tasks on the fly and it saves all your work automatically.xx</p>
   </description>
