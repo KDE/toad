@@ -6,6 +6,7 @@
 #include <QQmlApplicationEngine>
 #include <QUrl>
 #include <QtQml>
+#include <QQuickWindow>
 
 #include "about.h"
 #include "version-tasks.h"
@@ -70,6 +71,19 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     }
 
     KDBusService service(KDBusService::Unique);
+
+    // Raise window when new instance is requested e.g middle click on taskmanager
+    QObject::connect(&service, &KDBusService::activateRequested, &engine, [&engine](const QStringList & /*arguments*/, const QString & /*workingDirectory*/) {
+        const auto rootObjects = engine.rootObjects();
+        for (auto obj : rootObjects) {
+            auto view = qobject_cast<QQuickWindow *>(obj);
+            if (view) {
+                view->show();
+                view->raise();
+                return;
+            }
+        }
+    });
 
     return app.exec();
 }
