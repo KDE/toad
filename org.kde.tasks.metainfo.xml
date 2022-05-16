@@ -11,6 +11,7 @@
   <name xml:lang="es">Tareas</name>
   <name xml:lang="fr">Tâches</name>
   <name xml:lang="it">Tasks</name>
+  <name xml:lang="ka">Tasks</name>
   <name xml:lang="ko">할 일</name>
   <name xml:lang="nl">Taken</name>
   <name xml:lang="pt">Tarefas</name>
@@ -25,6 +26,7 @@
   <summary xml:lang="es">Lista de tareas sencilla</summary>
   <summary xml:lang="fr">Liste simple de tâches</summary>
   <summary xml:lang="it">Semplice elenco di attività</summary>
+  <summary xml:lang="ka">მატივი ამოცანების სია</summary>
   <summary xml:lang="ko">간단한 할 일 목록</summary>
   <summary xml:lang="nl">Eenvoudige takenlijst</summary>
   <summary xml:lang="pt">Lista de tarefas simples</summary>
@@ -41,6 +43,7 @@
   <developer_name xml:lang="es">Comunidad KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="fr">Communauté KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="it">Comunità KDE, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="ka">KDE-ის საზოგადოება, ფელიპე კინოშიტა</developer_name>
   <developer_name xml:lang="ko">KDE 커뮤니티, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="nl">KDE gemeenschap, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="pt">Comunidade do KDE, Felipe Kinoshita</developer_name>
@@ -56,6 +59,7 @@
     <p xml:lang="es">Tareas es una sencilla aplicación de lista de tareas. Permite editar tareas sobre la marcha y guardar todo el trabajo automáticamente.</p>
     <p xml:lang="fr">L'application « Tasks » permet la gestion simple d'une liste de tâches. Vous pouvez modifier des tâches à la volée et l'application enregistre automatiquement tout votre travail.</p>
     <p xml:lang="it">Tasks è una semplice applicazione per l'elenco delle attività, puoi modificare le attività al volo e salva tutto il tuo lavoro automaticamente.</p>
+    <p xml:lang="ka">Tasks ამოცანების ჩამონათვალის მარტივ აპლიკაციას წარმოადგენს, სადაც ამოცანების ჩასწორება ძალიან მარტივად შეგიძლიათ.</p>
     <p xml:lang="ko">간단한 할 일 목록 프로그램입니다. 즉석에서 할 일을 편집하고 모든 작업을 자동으로 저장할 수 있습니다.</p>
     <p xml:lang="nl">Taken is een eenvoudige toepassing voor een takenlijst, u kunt taken on-the-fly bewerken en het slaat al uw werk automatisch op.</p>
     <p xml:lang="pt">As Tarefas são uma aplicação simples de lista de tarefas; poderá editar as tarefas na hora e grava todo o seu trabalho de forma automática.</p>
