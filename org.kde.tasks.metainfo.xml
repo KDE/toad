@@ -17,6 +17,7 @@
   <name xml:lang="pt">Tarefas</name>
   <name xml:lang="sk">Úlohy</name>
   <name xml:lang="sl">Tasks</name>
+  <name xml:lang="sv">Uppgifter</name>
   <name xml:lang="tr">Görevler</name>
   <name xml:lang="uk">Завдання</name>
   <name xml:lang="x-test">xxTasksxx</name>
@@ -32,6 +33,7 @@
   <summary xml:lang="pt">Lista de tarefas simples</summary>
   <summary xml:lang="sk">Jednoduchý zoznam úloh</summary>
   <summary xml:lang="sl">Enostaven seznam nalog</summary>
+  <summary xml:lang="sv">Enkel uppgiftslista</summary>
   <summary xml:lang="tr">Yalın görevler listesi</summary>
   <summary xml:lang="uk">Простий список завдань</summary>
   <summary xml:lang="x-test">xxSimple task listxx</summary>
@@ -49,6 +51,7 @@
   <developer_name xml:lang="pt">Comunidade do KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="sk">KDE komunita, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="sl">Skupnost KDE, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="sv">KDE-gemenskapen, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="tr">KDE Topluluğu, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="uk">Спільнота KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="x-test">xxKDE Community, Felipe Kinoshitaxx</developer_name>
@@ -65,6 +68,7 @@
     <p xml:lang="pt">As Tarefas são uma aplicação simples de lista de tarefas; poderá editar as tarefas na hora e grava todo o seu trabalho de forma automática.</p>
     <p xml:lang="sk">Tasks je jednoduchá aplikácia na zoznam úloh, môžete editovať úlohy za behu a uložia sa do vašej práce automaticky.</p>
     <p xml:lang="sl">Tasks je preprosta aplikacija s seznamom opravil, mimogrede lahko urejate naloge in vse vaše delo se samodejno shrani.</p>
+    <p xml:lang="sv">Uppgifter är ett enkelt program med en uppgiftslista. Du kan redigera uppgifter i farten, och det sparar ditt arbete automatiskt.</p>
     <p xml:lang="tr">Görevler, yalın bir görev listesi uygulamasıdır; görevleri anında düzenleyebilirsiniz, o işinizi kendiliğinden kaydeder.</p>
     <p xml:lang="uk">«Завдання» є простою програмою — списком завдань. Ви можете інтерактивно редагувати записи завдань і зберігати вашу роботу автоматично.</p>
     <p xml:lang="x-test">xxTasks is a simple task list application, you can edit tasks on the fly and it saves all your work automatically.xx</p>
