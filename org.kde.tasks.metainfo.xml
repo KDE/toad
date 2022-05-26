@@ -21,7 +21,7 @@
   <name xml:lang="tr">Görevler</name>
   <name xml:lang="uk">Завдання</name>
   <name xml:lang="x-test">xxTasksxx</name>
-  <summary>Simple task list</summary>
+  <summary>Organize your tasks</summary>
   <summary xml:lang="ca">Llista de tasques senzilla</summary>
   <summary xml:lang="ca-valencia">Llista de tasques senzilla</summary>
   <summary xml:lang="es">Lista de tareas sencilla</summary>
@@ -56,7 +56,7 @@
   <developer_name xml:lang="uk">Спільнота KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="x-test">xxKDE Community, Felipe Kinoshitaxx</developer_name>
   <description>
-    <p>Tasks is a simple task list application, you can edit tasks on the fly and it saves all your work automatically.</p>
+    <p>Tasks is a to-do application, you can edit tasks on the fly and it saves all your work automatically.</p>
     <p xml:lang="ca">Tasques és una aplicació de llista de tasques senzilla, podeu editar tasques al vol i desarà automàticament tot el vostre treball.</p>
     <p xml:lang="ca-valencia">Tasques és una aplicació de llista de tasques senzilla, podeu editar tasques al vol i guardarà automàticament tot el vostre treball.</p>
     <p xml:lang="es">Tareas es una sencilla aplicación de lista de tareas. Permite editar tareas sobre la marcha y guardar todo el trabajo automáticamente.</p>
