@@ -18,7 +18,7 @@
 constexpr auto APPLICATION_ID = "org.kde.tasks";
 
 #include "config.h"
-
+#include "controller.h"
 #include "tasksmodel.h"
 
 Q_DECL_EXPORT int main(int argc, char *argv[])
@@ -55,6 +55,9 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     AboutType about;
     qmlRegisterSingletonInstance(APPLICATION_ID, 1, 0, "AboutType", &about);
 
+    Controller controller;
+    qmlRegisterSingletonInstance(APPLICATION_ID, 1, 0, "Controller", &controller);
+
     qmlRegisterUncreatableType<TasksModel>(APPLICATION_ID, 1,0 , "TasksModel", QStringLiteral("Must be created from C++"));
     auto tasksModel = new TasksModel(qApp);
 
@@ -84,6 +87,18 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
             }
         }
     });
+
+    // Restore window size and position
+    const auto rootObjects = engine.rootObjects();
+    for (auto obj : rootObjects) {
+        auto view = qobject_cast<QQuickWindow *>(obj);
+        if (view) {
+            if (view->isVisible()) {
+                controller.restoreWindowGeometry(view);
+            }
+            break;
+        }
+    }
 
     return app.exec();
 }

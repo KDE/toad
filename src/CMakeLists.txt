@@ -4,6 +4,7 @@
 add_executable(${CMAKE_PROJECT_NAME}
     main.cpp
     about.cpp
+    controller.cpp
     task.cpp
     tasksmodel.cpp
     resources.qrc)
