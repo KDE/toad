@@ -1,5 +1,5 @@
 # Tasks
 
-A simple task list
+Organize your tasks
 
-![tasks window](.gitlab/tasks.png)
+![tasks window](https://cdn.kde.org/screenshots/tasks/tasks.png)
