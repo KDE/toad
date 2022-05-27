@@ -73,7 +73,7 @@
     <p xml:lang="uk">«Завдання» є простою програмою — списком завдань. Ви можете інтерактивно редагувати записи завдань і зберігати вашу роботу автоматично.</p>
     <p xml:lang="x-test">xxTasks is a simple task list application, you can edit tasks on the fly and it saves all your work automatically.xx</p>
   </description>
-  <screenshot>
+  <screenshots>
     <screenshot type="default">
       <image>https://invent.kde.org/utilities/toad/-/raw/master/.gitlab/tasks.png</image>
       <caption>Tasks list</caption>
