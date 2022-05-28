@@ -5,6 +5,7 @@ import QtQuick 2.15
 import QtQuick.Controls 2.15 as QQC2
 import QtQuick.Layouts 1.15
 import org.kde.kirigami 2.19 as Kirigami
+import org.kde.kitemmodels 1.0
 
 import org.kde.tasks 1.0
 
@@ -30,6 +31,9 @@ Kirigami.ApplicationWindow {
     pageStack.initialPage: Kirigami.Page {
         id: page
 
+        property bool searching
+        property string currentSearchText
+
         padding: 0
         titleDelegate: PageHeader {
             tasksModel: root.tasksModel
@@ -41,7 +45,15 @@ Kirigami.ApplicationWindow {
             ListView {
                 id: list
                 interactive: contentHeight > height
-                model: root.tasksModel
+                model: KSortFilterProxyModel {
+                    id: filteredModel
+                    sourceModel: root.tasksModel
+                    filterRole: "title"
+                    filterRegularExpression: {
+                        if (page.currentSearchText === "") return new RegExp()
+                        return new RegExp("%1".arg(page.currentSearchText.slice(1)), "i")
+                    }
+                }
                 delegate: Kirigami.AbstractListItem {
                     id: taskItem
 
@@ -152,9 +164,9 @@ Kirigami.ApplicationWindow {
                     visible: list.count <= 0
                     anchors.centerIn: parent
                     width: parent.width - (Kirigami.Units.gridUnit * 8)
-                    text: i18n("All tasks completed!")
-                    icon.name: "checkmark"
-                    explanation: i18n("Add some more by typing in the text field at the bottom of the window")
+                    text: page.searching ? i18n("Nothing Found") : i18n("All tasks completed!")
+                    icon.name: page.searching ? "edit-none" : "checkmark"
+                    explanation: page.searching ? i18n("Your search did not match any results") : i18n("Add some more by typing in the text field at the bottom of the window")
                 }
             }
         }

@@ -16,6 +16,9 @@ Kirigami.ActionTextField {
     placeholderText: i18n("Type the new task's title here…")
 
     function addTask() {
+        if (page.searching) {
+            return
+        }
         if (text.length > 0 && text.trim()) {
             control.tasksModel.add(text)
         }
@@ -23,12 +26,23 @@ Kirigami.ActionTextField {
     }
 
     rightActions: Kirigami.Action {
+        id: rightAction
         icon.name: "list-add"
         visible: control.text.length > 0
         tooltip: i18n("Add Task")
         onTriggered: control.addTask()
     }
     onAccepted: control.addTask()
+    onTextChanged: {
+        if (text.startsWith("/")) {
+            page.searching = true
+            rightAction.visible = false
+            page.currentSearchText = text
+        } else {
+            page.searching = false
+            rightAction.visible = true
+        }
+    }
 
     background: Rectangle {
         Kirigami.Theme.inherit: false
