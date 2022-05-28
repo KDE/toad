@@ -23,7 +23,7 @@ RowLayout {
             if (list.count == 0) {
                 return ""
             } else {
-                return i18np("1 task", "%1 tasks", list.count)
+                return page.searching ? i18np("1 result", "%1 results", list.count) : i18np("1 task", "%1 tasks", list.count)
             }
         }
 
