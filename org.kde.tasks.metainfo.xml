@@ -22,21 +22,6 @@
   <name xml:lang="uk">Завдання</name>
   <name xml:lang="x-test">xxTasksxx</name>
   <summary>Organize your tasks</summary>
-  <summary xml:lang="ca">Llista de tasques senzilla</summary>
-  <summary xml:lang="ca-valencia">Llista de tasques senzilla</summary>
-  <summary xml:lang="es">Lista de tareas sencilla</summary>
-  <summary xml:lang="fr">Liste simple de tâches</summary>
-  <summary xml:lang="it">Semplice elenco di attività</summary>
-  <summary xml:lang="ka">მატივი ამოცანების სია</summary>
-  <summary xml:lang="ko">간단한 할 일 목록</summary>
-  <summary xml:lang="nl">Eenvoudige takenlijst</summary>
-  <summary xml:lang="pt">Lista de tarefas simples</summary>
-  <summary xml:lang="sk">Jednoduchý zoznam úloh</summary>
-  <summary xml:lang="sl">Enostaven seznam nalog</summary>
-  <summary xml:lang="sv">Enkel uppgiftslista</summary>
-  <summary xml:lang="tr">Yalın görevler listesi</summary>
-  <summary xml:lang="uk">Простий список завдань</summary>
-  <summary xml:lang="x-test">xxSimple task listxx</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0-or-later</project_license>
   <developer_name>KDE Community, Felipe Kinoshita</developer_name>
@@ -57,21 +42,6 @@
   <developer_name xml:lang="x-test">xxKDE Community, Felipe Kinoshitaxx</developer_name>
   <description>
     <p>Tasks is a to-do application, you can edit tasks on the fly and it saves all your work automatically.</p>
-    <p xml:lang="ca">Tasques és una aplicació de llista de tasques senzilla, podeu editar tasques al vol i desarà automàticament tot el vostre treball.</p>
-    <p xml:lang="ca-valencia">Tasques és una aplicació de llista de tasques senzilla, podeu editar tasques al vol i guardarà automàticament tot el vostre treball.</p>
-    <p xml:lang="es">Tareas es una sencilla aplicación de lista de tareas. Permite editar tareas sobre la marcha y guardar todo el trabajo automáticamente.</p>
-    <p xml:lang="fr">L'application « Tasks » permet la gestion simple d'une liste de tâches. Vous pouvez modifier des tâches à la volée et l'application enregistre automatiquement tout votre travail.</p>
-    <p xml:lang="it">Tasks è una semplice applicazione per l'elenco delle attività, puoi modificare le attività al volo e salva tutto il tuo lavoro automaticamente.</p>
-    <p xml:lang="ka">Tasks ამოცანების ჩამონათვალის მარტივ აპლიკაციას წარმოადგენს, სადაც ამოცანების ჩასწორება ძალიან მარტივად შეგიძლიათ.</p>
-    <p xml:lang="ko">간단한 할 일 목록 프로그램입니다. 즉석에서 할 일을 편집하고 모든 작업을 자동으로 저장할 수 있습니다.</p>
-    <p xml:lang="nl">Taken is een eenvoudige toepassing voor een takenlijst, u kunt taken on-the-fly bewerken en het slaat al uw werk automatisch op.</p>
-    <p xml:lang="pt">As Tarefas são uma aplicação simples de lista de tarefas; poderá editar as tarefas na hora e grava todo o seu trabalho de forma automática.</p>
-    <p xml:lang="sk">Tasks je jednoduchá aplikácia na zoznam úloh, môžete editovať úlohy za behu a uložia sa do vašej práce automaticky.</p>
-    <p xml:lang="sl">Tasks je preprosta aplikacija s seznamom opravil, mimogrede lahko urejate naloge in vse vaše delo se samodejno shrani.</p>
-    <p xml:lang="sv">Uppgifter är ett enkelt program med en uppgiftslista. Du kan redigera uppgifter i farten, och det sparar ditt arbete automatiskt.</p>
-    <p xml:lang="tr">Görevler, yalın bir görev listesi uygulamasıdır; görevleri anında düzenleyebilirsiniz, o işinizi kendiliğinden kaydeder.</p>
-    <p xml:lang="uk">«Завдання» є простою програмою — списком завдань. Ви можете інтерактивно редагувати записи завдань і зберігати вашу роботу автоматично.</p>
-    <p xml:lang="x-test">xxTasks is a simple task list application, you can edit tasks on the fly and it saves all your work automatically.xx</p>
   </description>
   <screenshots>
     <screenshot type="default">
