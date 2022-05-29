@@ -3,7 +3,7 @@
 
 [Desktop Entry]
 Name=Tasks
-Name[ca]=Tasques
+Name[ca]=Tasks
 Name[ca@valencia]=Tasques
 Name[es]=Tareas
 Name[fr]=Tâches
@@ -23,6 +23,7 @@ GenericName[ca]=Aplicació de tasques pendents
 GenericName[ca@valencia]=Aplicació de tasques pendents
 GenericName[es]=Aplicación de tareas pendientes
 GenericName[nl]=Toepassing voor tedoen
+GenericName[sl]=Aplikacija za seznam opravil
 GenericName[uk]=Програма для керування завданнями
 GenericName[x-test]=xxTo Do Applicationxx
 Comment=Organize your tasks
@@ -30,6 +31,7 @@ Comment[ca]=Organitzeu les vostres les tasques
 Comment[ca@valencia]=Organitzeu les vostres tasques
 Comment[es]=Organice sus tareas
 Comment[nl]=Uw taken organiseren
+Comment[sl]=Organizirajte vaša opravila
 Comment[uk]=Упорядкуйте ваші завдання
 Comment[x-test]=xxOrganize your tasksxx
 Exec=tasks
@@ -42,6 +44,7 @@ Keywords[ca]=Productivitat;Tasca pendent;Tasca;
 Keywords[ca@valencia]=Productivitat;Tasca pendent;Tasca;
 Keywords[es]=Productividad;Tareas pendientes;Tareas;
 Keywords[nl]=Productiviteit;Tedoen;Taak;
+Keywords[sl]=Produktivnost;Opravilo;Naloga
 Keywords[uk]=Productivity;Todo;Task;задача;продуктивність;зробити;робота;завдання;
 Keywords[x-test]=xxProductivityxx;xxTodoxx;xxTaskxx;
 SingleMainWindow=true
