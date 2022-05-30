@@ -26,6 +26,8 @@
   <summary xml:lang="ca">Organitzeu les vostres les tasques</summary>
   <summary xml:lang="es">Organice sus tareas</summary>
   <summary xml:lang="nl">Uw taken organiseren</summary>
+  <summary xml:lang="sl">Organizira vaša opravila</summary>
+  <summary xml:lang="sv">Organisera dina uppgifter</summary>
   <summary xml:lang="uk">Упорядкуйте ваші завдання</summary>
   <summary xml:lang="x-test">xxOrganize your tasksxx</summary>
   <metadata_license>CC0-1.0</metadata_license>
@@ -53,6 +55,7 @@
     <p xml:lang="es">Tasks es una aplicación de tareas pendientes. Permite editar tareas sobre la marcha y guardar todo el trabajo automáticamente.</p>
     <p xml:lang="nl">Taken is een toepassing voor een tedoen, u kunt taken on-the-fly bewerken en het slaat al uw werk automatisch op.</p>
     <p xml:lang="sl">Tasks je preprosta aplikacija za upravljanje opravil, mimogrede lahko urejate opravila in vse vaše delo se samodejno shrani.</p>
+    <p xml:lang="sv">Uppgifter är ett enkelt uppgiftsprogram. Du kan redigera uppgifter i farten, och det sparar ditt arbete automatiskt.</p>
     <p xml:lang="uk">«Завдання» є програмою для керування завданнями. Ви можете інтерактивно редагувати записи завдань і зберігати вашу роботу автоматично.</p>
     <p xml:lang="x-test">xxTasks is a to-do application, you can edit tasks on the fly and it saves all your work automatically.xx</p>
   </description>
@@ -64,6 +67,7 @@
       <caption xml:lang="es">Lista de tareas</caption>
       <caption xml:lang="nl">Takenlijst</caption>
       <caption xml:lang="sl">Seznam opravil</caption>
+      <caption xml:lang="sv">Uppgiftslista</caption>
       <caption xml:lang="uk">Список завдань</caption>
       <caption xml:lang="x-test">xxTasks listxx</caption>
     </screenshot>
@@ -74,6 +78,7 @@
       <caption xml:lang="es">Lista vacía</caption>
       <caption xml:lang="nl">Lege lijst</caption>
       <caption xml:lang="sl">Prazen seznam</caption>
+      <caption xml:lang="sv">Tom lista</caption>
       <caption xml:lang="uk">Порожній список</caption>
       <caption xml:lang="x-test">xxEmpty listxx</caption>
     </screenshot>
