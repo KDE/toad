@@ -26,6 +26,7 @@
   <summary xml:lang="ca">Organitzeu les vostres les tasques</summary>
   <summary xml:lang="ca-valencia">Organiseu les vostres tasques</summary>
   <summary xml:lang="es">Organice sus tareas</summary>
+  <summary xml:lang="it">Organizza le tue attività</summary>
   <summary xml:lang="nl">Uw taken organiseren</summary>
   <summary xml:lang="sl">Organizira vaša opravila</summary>
   <summary xml:lang="sv">Organisera dina uppgifter</summary>
@@ -55,6 +56,7 @@
     <p xml:lang="ca">«Tasks» és una aplicació de tasques pendents, podeu editar tasques al vol i desarà automàticament tot el vostre treball.</p>
     <p xml:lang="ca-valencia">«Tasks» és una aplicació de tasques pendents, podeu editar-les al vol i guardarà automàticament tot el vostre treball.</p>
     <p xml:lang="es">Tasks es una aplicación de tareas pendientes. Permite editar tareas sobre la marcha y guardar todo el trabajo automáticamente.</p>
+    <p xml:lang="it">Tasks è un'applicazione per le cose da fare, puoi modificare le attività al volo e salva il tuo lavoro automaticamente.</p>
     <p xml:lang="nl">Taken is een toepassing voor een tedoen, u kunt taken on-the-fly bewerken en het slaat al uw werk automatisch op.</p>
     <p xml:lang="sl">Tasks je preprosta aplikacija za upravljanje opravil, mimogrede lahko urejate opravila in vse vaše delo se samodejno shrani.</p>
     <p xml:lang="sv">Uppgifter är ett enkelt uppgiftsprogram. Du kan redigera uppgifter i farten, och det sparar ditt arbete automatiskt.</p>
@@ -68,6 +70,7 @@
       <caption xml:lang="ca">Llista de tasques</caption>
       <caption xml:lang="ca-valencia">Llista de tasques</caption>
       <caption xml:lang="es">Lista de tareas</caption>
+      <caption xml:lang="it">Elenco di attività</caption>
       <caption xml:lang="nl">Takenlijst</caption>
       <caption xml:lang="sl">Seznam opravil</caption>
       <caption xml:lang="sv">Uppgiftslista</caption>
@@ -80,6 +83,7 @@
       <caption xml:lang="ca">Llista buida</caption>
       <caption xml:lang="ca-valencia">Llista buida</caption>
       <caption xml:lang="es">Lista vacía</caption>
+      <caption xml:lang="it">Elenco vuoto</caption>
       <caption xml:lang="nl">Lege lijst</caption>
       <caption xml:lang="sl">Prazen seznam</caption>
       <caption xml:lang="sv">Tom lista</caption>
