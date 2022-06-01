@@ -14,6 +14,7 @@
 #include <KLocalizedContext>
 #include <KLocalizedString>
 #include <KDBusService>
+#include <KWindowSystem>
 
 constexpr auto APPLICATION_ID = "org.kde.tasks";
 
@@ -81,8 +82,8 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
         for (auto obj : rootObjects) {
             auto view = qobject_cast<QQuickWindow *>(obj);
             if (view) {
-                view->show();
-                view->raise();
+                KWindowSystem::updateStartupId(view);
+                KWindowSystem::activateWindow(view);
                 return;
             }
         }
