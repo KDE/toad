@@ -11,8 +11,6 @@
 #include <QJsonDocument>
 #include <QJsonObject>
 
-#include <ranges>
-
 TasksModel::TasksModel(QObject *parent)
     : QAbstractListModel(parent)
 {
@@ -142,7 +140,7 @@ bool TasksModel::saveTasks() const
     }
 
     QJsonArray tasksArray;
-    std::ranges::transform(m_tasks, std::back_inserter(tasksArray), [](const Task &task) {
+    std::transform(m_tasks.cbegin(), m_tasks.cend(), std::back_inserter(tasksArray), [](const Task &task) {
         return task.toJson();
     });
 
@@ -180,7 +178,7 @@ bool TasksModel::loadTasks()
 
     const auto tasks = tasksStorage.value(QLatin1String("tasks")).toArray();
 
-    std::ranges::transform(tasks, std::back_inserter(m_tasks), [](const QJsonValue &task) {
+    std::transform(tasks.cbegin(), tasks.cend(), std::back_inserter(m_tasks), [](const QJsonValue &task) {
         return Task::fromJson(task.toObject());
     });
 
