@@ -1,7 +1,6 @@
 // SPDX-FileCopyrightText: 2022 Felipe Kinoshita <kinofhek@gmail.com>
 // SPDX-License-Identifier: LGPL-2.1-or-later
 
-#include <QApplication>
 #include <QIcon>
 #include <QQmlApplicationEngine>
 #include <QUrl>
@@ -13,8 +12,15 @@
 #include <KAboutData>
 #include <KLocalizedContext>
 #include <KLocalizedString>
+
+#ifndef Q_OS_ANDROID
+#include <QApplication>
+
 #include <KDBusService>
 #include <KWindowSystem>
+#else
+#include <QGuiApplication>
+#endif
 
 constexpr auto APPLICATION_ID = "org.kde.tasks";
 
@@ -25,7 +31,11 @@ constexpr auto APPLICATION_ID = "org.kde.tasks";
 Q_DECL_EXPORT int main(int argc, char *argv[])
 {
     QGuiApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
+#ifndef Q_OS_ANDROID
     QApplication app(argc, argv);
+#else
+    QGuiApplication app(argc, argv);
+#endif
     QCoreApplication::setOrganizationName(QStringLiteral("KDE"));
     QCoreApplication::setApplicationName(QStringLiteral("tasks"));
 
@@ -74,6 +84,7 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
         return -1;
     }
 
+#ifndef Q_OS_ANDROID
     KDBusService service(KDBusService::Unique);
 
     // Raise window when new instance is requested e.g middle click on taskmanager
@@ -88,6 +99,7 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
             }
         }
     });
+#endif
 
     // Restore window size and position
     const auto rootObjects = engine.rootObjects();

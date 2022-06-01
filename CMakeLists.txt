@@ -32,7 +32,11 @@ ecm_setup_version(${PROJECT_VERSION}
 )
 
 find_package(Qt5 ${QT5_MIN_VERSION} REQUIRED COMPONENTS Core Gui Qml QuickControls2 Svg)
-find_package(KF5 ${KF5_MIN_VERSION} REQUIRED COMPONENTS Kirigami2 CoreAddons Config I18n DBusAddons WindowSystem)
+find_package(KF5 ${KF5_MIN_VERSION} REQUIRED COMPONENTS Kirigami2 CoreAddons Config I18n)
+
+if (NOT ANDROID)
+    find_package(KF5 ${KF5_MIN_VERSION} REQUIRED COMPONENTS DBusAddons WindowSystem)
+endif()
 
 add_subdirectory(src)
 
