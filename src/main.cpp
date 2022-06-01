@@ -40,7 +40,7 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
                          // The license this code is released under.
                          KAboutLicense::GPL,
                          // Copyright Statement.
-                         i18n("© 2022"));
+                         i18n("© 2022 Felipe Kinoshita"));
     aboutData.addAuthor(i18nc("@info:credit", "Felipe Kinoshita"), i18nc("@info:credit", "Author"), QStringLiteral("kinofhek@gmail.com"), QStringLiteral("https://fhek.gitlab.io"));
     aboutData.setBugAddress("https://invent.kde.org/utilities/toad/-/issues/new");
     KAboutData::setApplicationData(aboutData);
