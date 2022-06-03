@@ -24,6 +24,19 @@ target_link_libraries(${CMAKE_PROJECT_NAME}
 
 if (NOT ANDROID)
     target_link_libraries(${CMAKE_PROJECT_NAME} KF5::DBusAddons KF5::WindowSystem)
+else()
+    kirigami_package_breeze_icons(ICONS
+        entry-edit
+        entry-delete
+        edit-none
+        edit-clear-all
+        search
+        help-about
+        checkmark
+        application-exit
+        tools-report-bug
+        help-about
+    )
 endif()
 
 kconfig_add_kcfg_files(${CMAKE_PROJECT_NAME} GENERATE_MOC config.kcfgc)
