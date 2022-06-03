@@ -5,6 +5,7 @@
 #include <QQmlApplicationEngine>
 #include <QUrl>
 #include <QtQml>
+#include <QQuickStyle>
 #include <QQuickWindow>
 
 #include "about.h"
@@ -33,8 +34,10 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     QGuiApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
 #ifndef Q_OS_ANDROID
     QApplication app(argc, argv);
+    QQuickStyle::setStyle(QStringLiteral("org.kde.desktop"));
 #else
     QGuiApplication app(argc, argv);
+    QQuickStyle::setStyle(QStringLiteral("org.kde.breeze"));
 #endif
     QCoreApplication::setOrganizationName(QStringLiteral("KDE"));
     QCoreApplication::setApplicationName(QStringLiteral("tasks"));
