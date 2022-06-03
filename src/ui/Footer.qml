@@ -12,6 +12,20 @@ Kirigami.ActionTextField {
     id: control
 
     required property TasksModel tasksModel
+    property bool searching: page.searching
+
+    onSearchingChanged: {
+        if (page.searching) {
+            forceActiveFocus()
+
+            if (text == "/") {
+                return
+            }
+            text = text.length <= 0 ? "/" : `/${text}`
+        } else {
+            text = text.slice(1)
+        }
+    }
 
     placeholderText: i18n("Type the new task's title here…")
 
@@ -27,20 +41,20 @@ Kirigami.ActionTextField {
 
     rightActions: Kirigami.Action {
         id: rightAction
-        icon.name: page.searching ? "search" : "list-add"
+        icon.name: "list-add"
         visible: control.text.length > 0
-        tooltip: page.searching ? i18n("Searching") : i18n("Add Task")
+        tooltip: i18n("Add Task")
         onTriggered: control.addTask()
     }
     onAccepted: control.addTask()
     onTextChanged: {
         if (text.startsWith("/")) {
             page.searching = true
-            rightAction.enabled = false
+            rightAction.visible = false
             page.currentSearchText = text
         } else {
             page.searching = false
-            rightAction.enabled = true
+            rightAction.visible = true
         }
     }
 
