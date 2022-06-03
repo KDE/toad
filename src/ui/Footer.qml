@@ -27,7 +27,7 @@ Kirigami.ActionTextField {
 
     rightActions: Kirigami.Action {
         id: rightAction
-        icon.name: "list-add"
+        icon.name: page.searching ? "search" : "list-add"
         visible: control.text.length > 0
         tooltip: i18n("Add Task")
         onTriggered: control.addTask()
@@ -36,11 +36,11 @@ Kirigami.ActionTextField {
     onTextChanged: {
         if (text.startsWith("/")) {
             page.searching = true
-            rightAction.visible = false
+            rightAction.enabled = false
             page.currentSearchText = text
         } else {
             page.searching = false
-            rightAction.visible = true
+            rightAction.enabled = true
         }
     }
 
