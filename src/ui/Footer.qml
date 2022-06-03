@@ -29,7 +29,7 @@ Kirigami.ActionTextField {
         id: rightAction
         icon.name: page.searching ? "search" : "list-add"
         visible: control.text.length > 0
-        tooltip: i18n("Add Task")
+        tooltip: page.searching ? i18n("Searching") : i18n("Add Task")
         onTriggered: control.addTask()
     }
     onAccepted: control.addTask()
