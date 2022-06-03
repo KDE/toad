@@ -9,6 +9,7 @@ Dependencies:
     'frameworks/kconfig': '@stable'
     'frameworks/ki18n': '@stable'
     'frameworks/kirigami': '@stable'
+    'frameworks/kitemmodels': '@stable'
 
 - 'on': ['Linux', 'FreeBSD', 'macOS', 'Windows']
   'require':

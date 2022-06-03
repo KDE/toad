@@ -19,7 +19,8 @@ target_link_libraries(${CMAKE_PROJECT_NAME}
     KF5::I18n
     KF5::CoreAddons
     KF5::ConfigCore
-    KF5::ConfigGui)
+    KF5::ConfigGui
+    KF5::ItemModels)
 
 if (NOT ANDROID)
     target_link_libraries(${CMAKE_PROJECT_NAME} KF5::DBusAddons KF5::WindowSystem)
