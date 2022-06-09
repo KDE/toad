@@ -8,6 +8,7 @@
   <name>Tasks</name>
   <name xml:lang="ca">Tasks</name>
   <name xml:lang="ca-valencia">Tasks</name>
+  <name xml:lang="de">Aufgaben</name>
   <name xml:lang="es">Tasks</name>
   <name xml:lang="fr">Tâches</name>
   <name xml:lang="it">Tasks</name>
@@ -25,6 +26,7 @@
   <summary>Organize your tasks</summary>
   <summary xml:lang="ca">Organitzeu les vostres les tasques</summary>
   <summary xml:lang="ca-valencia">Organiseu les vostres tasques</summary>
+  <summary xml:lang="de">Verwalten Sie Ihre Aufgaben</summary>
   <summary xml:lang="es">Organice sus tareas</summary>
   <summary xml:lang="fr">Organiser vos tâches</summary>
   <summary xml:lang="it">Organizza le tue attività</summary>
@@ -39,6 +41,7 @@
   <developer_name>KDE Community, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="ca">La comunitat KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="ca-valencia">La comunitat KDE, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="de">KDE-Gemeinschaft, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="es">Comunidad KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="fr">Communauté KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="it">Comunità KDE, Felipe Kinoshita</developer_name>
@@ -73,6 +76,7 @@
       <caption>Tasks list</caption>
       <caption xml:lang="ca">Llista de tasques</caption>
       <caption xml:lang="ca-valencia">Llista de tasques</caption>
+      <caption xml:lang="de">Aufgabenliste</caption>
       <caption xml:lang="es">Lista de tareas</caption>
       <caption xml:lang="fr">Liste de tâches</caption>
       <caption xml:lang="it">Elenco di attività</caption>
@@ -88,6 +92,7 @@
       <caption>Empty list</caption>
       <caption xml:lang="ca">Llista buida</caption>
       <caption xml:lang="ca-valencia">Llista buida</caption>
+      <caption xml:lang="de">Leere Liste</caption>
       <caption xml:lang="es">Lista vacía</caption>
       <caption xml:lang="fr">Liste vide</caption>
       <caption xml:lang="it">Elenco vuoto</caption>
