@@ -11,7 +11,6 @@
 class TasksModel : public QAbstractListModel
 {
     Q_OBJECT
-    Q_PROPERTY(int completedTasks READ completedTasks NOTIFY completedTasksChanged)
 
 public:
     enum Roles {
@@ -30,17 +29,10 @@ public:
     Q_INVOKABLE void remove(const int &index);
     Q_INVOKABLE void clear();
 
-    [[nodiscard]] int completedTasks() const
-    {
-        return m_completedTasks;
-    }
-    Q_SIGNAL void completedTasksChanged();
-
 protected:
     bool saveTasks() const;
     bool loadTasks();
 
 private:
     QList<Task> m_tasks;
-    int m_completedTasks = 0;
 };

@@ -30,10 +30,6 @@ RowLayout {
         HoverHandler {
             id: hoverHandler
         }
-
-        QQC2.ToolTip.visible: hoverHandler.hovered && pageHeader.tasksModel.completedTasks > 0
-        QQC2.ToolTip.text: i18np("1 task completed", "%1 tasks completed", pageHeader.tasksModel.completedTasks)
-        QQC2.ToolTip.delay: Kirigami.Units.toolTipDelay
     }
 
     Item {

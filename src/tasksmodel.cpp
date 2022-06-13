@@ -60,19 +60,6 @@ bool TasksModel::setData(const QModelIndex &index, const QVariant &value, int ro
     switch (role) {
         case Roles::CheckedRole:
             task.setChecked(value.toBool());
-
-            if (task.checked()) {
-                m_completedTasks++;
-                Q_EMIT completedTasksChanged();
-            }
-
-            if (!task.checked()) {
-                if (m_completedTasks > 0) {
-                    m_completedTasks--;
-                    Q_EMIT completedTasksChanged();
-                }
-            }
-
             break;
         case Roles::TitleRole:
             task.setTitle(value.toString());
@@ -101,13 +88,6 @@ void TasksModel::remove(const int &index)
 {
     if (index < 0 || index > m_tasks.count()) {
         return;
-    }
-
-    if (m_tasks[index].checked()) {
-        if (m_completedTasks > 0) {
-            m_completedTasks--;
-            Q_EMIT completedTasksChanged();
-        }
     }
 
     beginRemoveRows(QModelIndex(), index, index);
@@ -146,10 +126,7 @@ bool TasksModel::saveTasks() const
 
     qDebug() << "Wrote to file" << outputFile.fileName() << "(" << tasksArray.count() << "tasks" << ")";
 
-    const QJsonDocument document({
-        {QLatin1String("tasks"), tasksArray},
-        {QLatin1String("completedTasks"), m_completedTasks}
-    });
+    const QJsonDocument document({QLatin1String("tasks"), tasksArray});
 
     outputFile.write(document.toJson());
 
@@ -173,8 +150,6 @@ bool TasksModel::loadTasks()
 
     const auto tasksStorage = QJsonDocument::fromJson(inputFile.readAll()).object();
     m_tasks.clear();
-
-    m_completedTasks = tasksStorage.value(QLatin1String("completedTasks")).toInt();
 
     const auto tasks = tasksStorage.value(QLatin1String("tasks")).toArray();
 
