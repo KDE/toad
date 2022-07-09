@@ -5,6 +5,7 @@
 Name=Tasks
 Name[ca]=Tasks
 Name[ca@valencia]=Tasks
+Name[cs]=Úlohy
 Name[de]=Aufgaben
 Name[es]=Tareas
 Name[fr]=Tâches
@@ -35,6 +36,7 @@ GenericName[x-test]=xxTo Do Applicationxx
 Comment=Organize your tasks
 Comment[ca]=Organitzeu les vostres tasques
 Comment[ca@valencia]=Organitzeu les vostres tasques
+Comment[cs]=Organizujte svoje úkoly
 Comment[de]=Verwalten Sie Ihre Aufgaben
 Comment[es]=Organice sus tareas
 Comment[fr]=Organiser vos tâches
