@@ -34,6 +34,7 @@
   <summary xml:lang="fi">Järjestä tehtäväsi</summary>
   <summary xml:lang="fr">Organiser vos tâches</summary>
   <summary xml:lang="it">Organizza le tue attività</summary>
+  <summary xml:lang="ko">내 할 일 관리</summary>
   <summary xml:lang="nl">Uw taken organiseren</summary>
   <summary xml:lang="pt">Organizar as suas tarefas</summary>
   <summary xml:lang="sl">Organizira vaša opravila</summary>
@@ -70,6 +71,7 @@
     <p xml:lang="fi">Tasks on tehtäväsovellus: voit muokata tehtäviä lennossa, ja kaikki tallentuu automaattisesti.</p>
     <p xml:lang="fr">L'application « Tasks » permet la gestion de tâches à réaliser. Vous pouvez modifier des tâches à la volée et l'application enregistre automatiquement tout votre travail.</p>
     <p xml:lang="it">Tasks è un'applicazione per le cose da fare, puoi modificare le attività al volo e salva il tuo lavoro automaticamente.</p>
+    <p xml:lang="ko">할 일 목록 프로그램입니다. 즉석에서 할 일을 편집하고 모든 작업을 자동으로 저장할 수 있습니다.</p>
     <p xml:lang="nl">Taken is een toepassing voor een tedoen, u kunt taken on-the-fly bewerken en het slaat al uw werk automatisch op.</p>
     <p xml:lang="pt">As Tarefas são uma aplicação simples de lista de tarefas; poderá editar as tarefas na hora e grava todo o seu trabalho de forma automática.</p>
     <p xml:lang="sl">Tasks je preprosta aplikacija za upravljanje opravil, mimogrede lahko urejate opravila in vse vaše delo se samodejno shrani.</p>
@@ -90,6 +92,7 @@
       <caption xml:lang="fi">Tehtäväluettelo</caption>
       <caption xml:lang="fr">Liste de tâches</caption>
       <caption xml:lang="it">Elenco di attività</caption>
+      <caption xml:lang="ko">할 일 목록</caption>
       <caption xml:lang="nl">Takenlijst</caption>
       <caption xml:lang="pt">Lista de tarefas</caption>
       <caption xml:lang="sl">Seznam opravil</caption>
@@ -109,6 +112,7 @@
       <caption xml:lang="fi">Tyhjä luettelo</caption>
       <caption xml:lang="fr">Liste vide</caption>
       <caption xml:lang="it">Elenco vuoto</caption>
+      <caption xml:lang="ko">빈 목록</caption>
       <caption xml:lang="nl">Lege lijst</caption>
       <caption xml:lang="pt">Lista vazia</caption>
       <caption xml:lang="sl">Prazen seznam</caption>
