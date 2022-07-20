@@ -39,6 +39,7 @@
   <summary xml:lang="pt">Organizar as suas tarefas</summary>
   <summary xml:lang="sl">Organizira vaša opravila</summary>
   <summary xml:lang="sv">Organisera dina uppgifter</summary>
+  <summary xml:lang="tr">Görevlerinizi düzenleyin</summary>
   <summary xml:lang="uk">Упорядкуйте ваші завдання</summary>
   <summary xml:lang="x-test">xxOrganize your tasksxx</summary>
   <summary xml:lang="zh-CN">组织您的任务</summary>
@@ -76,6 +77,7 @@
     <p xml:lang="pt">As Tarefas são uma aplicação simples de lista de tarefas; poderá editar as tarefas na hora e grava todo o seu trabalho de forma automática.</p>
     <p xml:lang="sl">Tasks je preprosta aplikacija za upravljanje opravil, mimogrede lahko urejate opravila in vse vaše delo se samodejno shrani.</p>
     <p xml:lang="sv">Uppgifter är ett enkelt uppgiftsprogram. Du kan redigera uppgifter i farten, och det sparar ditt arbete automatiskt.</p>
+    <p xml:lang="tr">Görevler, yalın bir görev listesi uygulamasıdır; görevleri anında düzenleyebilirsiniz, o işinizi kendiliğinden kaydeder.</p>
     <p xml:lang="uk">«Завдання» є програмою для керування завданнями. Ви можете інтерактивно редагувати записи завдань і зберігати вашу роботу автоматично.</p>
     <p xml:lang="x-test">xxTasks is a to-do application, you can edit tasks on the fly and it saves all your work automatically.xx</p>
     <p xml:lang="zh-CN">Tasks 是一款简易待办事项应用程序，您可以使用它随时编辑任务，并自动保存您的所有工作。</p>
@@ -97,6 +99,7 @@
       <caption xml:lang="pt">Lista de tarefas</caption>
       <caption xml:lang="sl">Seznam opravil</caption>
       <caption xml:lang="sv">Uppgiftslista</caption>
+      <caption xml:lang="tr">Görevler listesi</caption>
       <caption xml:lang="uk">Список завдань</caption>
       <caption xml:lang="x-test">xxTasks listxx</caption>
       <caption xml:lang="zh-CN">任务列表</caption>
@@ -117,6 +120,7 @@
       <caption xml:lang="pt">Lista vazia</caption>
       <caption xml:lang="sl">Prazen seznam</caption>
       <caption xml:lang="sv">Tom lista</caption>
+      <caption xml:lang="tr">Boş liste</caption>
       <caption xml:lang="uk">Порожній список</caption>
       <caption xml:lang="x-test">xxEmpty listxx</caption>
       <caption xml:lang="zh-CN">空列表</caption>
