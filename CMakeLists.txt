@@ -8,7 +8,7 @@ string(TOUPPER ${CMAKE_PROJECT_NAME} CMAKE_PROJECT_NAME_UPPERCASE)
 
 include(FeatureSummary)
 
-set(QT5_MIN_VERSION 5.15)
+set(QT_MIN_VERSION 5.15)
 set(KF5_MIN_VERSION 5.83)
 
 set(CMAKE_CXX_STANDARD 20)
@@ -31,7 +31,7 @@ ecm_setup_version(${PROJECT_VERSION}
     VERSION_HEADER "${CMAKE_CURRENT_BINARY_DIR}/src/version-${CMAKE_PROJECT_NAME}.h"
 )
 
-find_package(Qt5 ${QT5_MIN_VERSION} REQUIRED COMPONENTS Core Gui Qml QuickControls2 Svg)
+find_package(Qt${QT_MAJOR_VERSION} ${QT_MIN_VERSION} REQUIRED COMPONENTS Core Gui Qml QuickControls2 Svg)
 find_package(KF5 ${KF5_MIN_VERSION} REQUIRED COMPONENTS Kirigami2 CoreAddons Config I18n ItemModels)
 
 if (NOT ANDROID)
