@@ -108,7 +108,7 @@ void TasksModel::clear()
 
 bool TasksModel::saveTasks() const
 {
-    const QString outputDir = QStandardPaths::writableLocation(QStandardPaths::DataLocation);
+    const QString outputDir = QStandardPaths::writableLocation(QStandardPaths::AppDataLocation);
 
     QFile outputFile(outputDir + QStringLiteral("/tasks.json"));
     if (!QDir(outputDir).mkpath(QStringLiteral("."))) {
@@ -137,7 +137,7 @@ bool TasksModel::loadTasks()
 {
     beginResetModel();
 
-    const QString input = QStandardPaths::writableLocation(QStandardPaths::DataLocation) + QStringLiteral("/tasks.json");
+    const QString input = QStandardPaths::writableLocation(QStandardPaths::AppDataLocation) + QStringLiteral("/tasks.json");
 
     QFile inputFile(input);
     if (!inputFile.exists()) {
