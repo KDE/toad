@@ -1,0 +1,165 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the toad package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: toad\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-06-14 00:53+0000\n"
+"PO-Revision-Date: 2022-09-12 20:17+0200\n"
+"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
+"Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
+"Language: ka\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.1.1\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Temuri Doghonadze"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "Temuri.doghonadze@gmail.com"
+
+#: src/main.cpp:49
+#, kde-format
+msgctxt "@title"
+msgid "Tasks"
+msgstr "Tasks"
+
+#: src/main.cpp:53
+#, kde-format
+msgid "Organize your tasks"
+msgstr "დაალაგეთ თქვენი ამოცანები"
+
+#: src/main.cpp:57
+#, kde-format
+msgid "© 2022 Felipe Kinoshita"
+msgstr "© 2022 Felipe Kinoshita, ყველა უფლება დაცულია"
+
+#: src/main.cpp:58
+#, kde-format
+msgctxt "@info:credit"
+msgid "Felipe Kinoshita"
+msgstr "Felipe Kinoshita"
+
+#: src/main.cpp:58
+#, kde-format
+msgctxt "@info:credit"
+msgid "Author"
+msgstr "ავტორი"
+
+#: src/ui/Footer.qml:30
+#, kde-format
+msgid "Type the new task's title here…"
+msgstr "აქ აკრიფეთ ახალი ამოცანის სათაური…"
+
+#: src/ui/Footer.qml:46
+#, kde-format
+msgid "Add Task"
+msgstr "ამოცანის დამატება"
+
+#: src/ui/GlobalMenu.qml:16
+#, kde-format
+msgctxt "@menu"
+msgid "File"
+msgstr "ფაილი"
+
+#: src/ui/GlobalMenu.qml:19
+#, kde-format
+msgctxt "@menu-action"
+msgid "Quit"
+msgstr "გასვლა"
+
+#: src/ui/GlobalMenu.qml:26
+#, kde-format
+msgctxt "@menu"
+msgid "Edit"
+msgstr "ჩასწორება"
+
+#: src/ui/GlobalMenu.qml:29
+#, kde-format
+msgctxt "@menu-action"
+msgid "Clear Tasks"
+msgstr "დავალებების ჩასწორება"
+
+#: src/ui/GlobalMenu.qml:37
+#, kde-format
+msgctxt "@menu"
+msgid "Help"
+msgstr "დახმარება"
+
+#: src/ui/GlobalMenu.qml:40
+#, kde-format
+msgctxt "@menu-action"
+msgid "Report Bug…"
+msgstr "შეცდომის ანგარიში…"
+
+#: src/ui/GlobalMenu.qml:46
+#, kde-format
+msgctxt "@menu-action"
+msgid "About Tasks"
+msgstr "დავალებების შესახებ"
+
+#: src/ui/main.qml:15
+#, kde-format
+msgid "Tasks"
+msgstr "Tasks"
+
+#: src/ui/main.qml:185
+#, kde-format
+msgid "Nothing Found"
+msgstr "ვერაფერი მოიძებნა"
+
+#: src/ui/main.qml:185
+#, kde-format
+msgid "All tasks completed!"
+msgstr "ყველა დავალება დასრულდა!"
+
+#: src/ui/main.qml:187
+#, kde-format
+msgid "Your search did not match any results"
+msgstr "თქვენმა ძებნა უშედეგოა"
+
+#: src/ui/main.qml:187
+#, kde-format
+msgid "Add some more by typing in the text field at the bottom of the window"
+msgstr ""
+"დაამატეთ კიდევ რამდენიმე ფანჯრის ქვედა ნაწილის ტექსტურ სახელში მისი სახელის "
+"აკრეფით"
+
+#: src/ui/PageHeader.qml:26
+#, kde-format
+msgid "1 result"
+msgid_plural "%1 results"
+msgstr[0] "1 შედეგი"
+msgstr[1] "%1 შედეგი"
+
+#: src/ui/PageHeader.qml:26
+#, kde-format
+msgid "1 task"
+msgid_plural "%1 tasks"
+msgstr[0] "1 ამოცანა"
+msgstr[1] "%1 ამოცანა"
+
+#: src/ui/PageHeader.qml:40
+#, kde-format
+msgid "Clear All"
+msgstr "ყველას გასუფთავება"
+
+#: src/ui/PageHeader.qml:49
+#, kde-format
+msgid "Search"
+msgstr "ძებნა"
+
+#: src/ui/PageHeader.qml:64
+#, kde-format
+msgid "About Tasks"
+msgstr "Tasks-ის შესახებ"

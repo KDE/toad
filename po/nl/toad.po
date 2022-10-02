@@ -1,0 +1,172 @@
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the toad package.
+#
+# Freek de Kruijf <freekdekruijf@kde.nl>, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: toad\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-06-14 00:53+0000\n"
+"PO-Revision-Date: 2022-06-14 10:46+0200\n"
+"Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
+"Language-Team: \n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 22.04.2\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Freek de Kruijf - 2022"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "freekdekruijf@kde.nl"
+
+#: src/main.cpp:49
+#, kde-format
+msgctxt "@title"
+msgid "Tasks"
+msgstr "Taken"
+
+#: src/main.cpp:53
+#, kde-format
+msgid "Organize your tasks"
+msgstr "Uw taken organiseren"
+
+#: src/main.cpp:57
+#, kde-format
+msgid "© 2022 Felipe Kinoshita"
+msgstr "© 2022 Felipe Kinoshita"
+
+#: src/main.cpp:58
+#, kde-format
+msgctxt "@info:credit"
+msgid "Felipe Kinoshita"
+msgstr "Felipe Kinoshita"
+
+#: src/main.cpp:58
+#, kde-format
+msgctxt "@info:credit"
+msgid "Author"
+msgstr "Auteur"
+
+#: src/ui/Footer.qml:30
+#, kde-format
+msgid "Type the new task's title here…"
+msgstr "Typ de titel van de nieuwe taak hier…"
+
+#: src/ui/Footer.qml:46
+#, kde-format
+msgid "Add Task"
+msgstr "Taak toevoegen"
+
+#: src/ui/GlobalMenu.qml:16
+#, kde-format
+msgctxt "@menu"
+msgid "File"
+msgstr "Bestand"
+
+#: src/ui/GlobalMenu.qml:19
+#, kde-format
+msgctxt "@menu-action"
+msgid "Quit"
+msgstr "Afsluiten"
+
+#: src/ui/GlobalMenu.qml:26
+#, kde-format
+msgctxt "@menu"
+msgid "Edit"
+msgstr "Bewerken"
+
+#: src/ui/GlobalMenu.qml:29
+#, kde-format
+msgctxt "@menu-action"
+msgid "Clear Tasks"
+msgstr "Taken wissen"
+
+#: src/ui/GlobalMenu.qml:37
+#, kde-format
+msgctxt "@menu"
+msgid "Help"
+msgstr "Help"
+
+#: src/ui/GlobalMenu.qml:40
+#, kde-format
+msgctxt "@menu-action"
+msgid "Report Bug…"
+msgstr "Bug rapporteren…"
+
+#: src/ui/GlobalMenu.qml:46
+#, kde-format
+msgctxt "@menu-action"
+msgid "About Tasks"
+msgstr "Info over taken"
+
+#: src/ui/main.qml:15
+#, kde-format
+msgid "Tasks"
+msgstr "Taken"
+
+#: src/ui/main.qml:185
+#, kde-format
+msgid "Nothing Found"
+msgstr "Niets gevonden"
+
+#: src/ui/main.qml:185
+#, kde-format
+msgid "All tasks completed!"
+msgstr "Alle taken voltooid!"
+
+#: src/ui/main.qml:187
+#, kde-format
+msgid "Your search did not match any results"
+msgstr "Uw zoekopdracht leverde geen overeenkomst met resultaten op"
+
+#: src/ui/main.qml:187
+#, kde-format
+msgid "Add some more by typing in the text field at the bottom of the window"
+msgstr ""
+"Voeg nog wat meer toe door in het tekstveld aan de onderkant van het venster "
+"te typen"
+
+#: src/ui/PageHeader.qml:26
+#, kde-format
+msgid "1 result"
+msgid_plural "%1 results"
+msgstr[0] "1 resultaat"
+msgstr[1] "%1 resultaten"
+
+#: src/ui/PageHeader.qml:26
+#, kde-format
+msgid "1 task"
+msgid_plural "%1 tasks"
+msgstr[0] "1 taak"
+msgstr[1] "%1 taken"
+
+#: src/ui/PageHeader.qml:40
+#, kde-format
+msgid "Clear All"
+msgstr "Alles wissen"
+
+#: src/ui/PageHeader.qml:49
+#, kde-format
+msgid "Search"
+msgstr "Zoeken"
+
+#: src/ui/PageHeader.qml:64
+#, kde-format
+msgid "About Tasks"
+msgstr "Info over taken"
+
+#~ msgid "Simple task list"
+#~ msgstr "Eenvoudige takenlijst"
+
+#~ msgid "1 task completed"
+#~ msgid_plural "%1 tasks completed"
+#~ msgstr[0] "Taak is voltooid"
+#~ msgstr[1] "%1 taken voltooid"

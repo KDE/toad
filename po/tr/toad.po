@@ -1,0 +1,162 @@
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the toad package.
+#
+# Emir SARI <emir_sari@icloud.com>, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: toad\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-06-14 00:53+0000\n"
+"PO-Revision-Date: 2022-07-19 15:34+0300\n"
+"Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
+"Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 22.04.2\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Emir SARI"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "emir_sari@icloud.com"
+
+#: src/main.cpp:49
+#, kde-format
+msgctxt "@title"
+msgid "Tasks"
+msgstr "Görevler"
+
+#: src/main.cpp:53
+#, kde-format
+msgid "Organize your tasks"
+msgstr "Görevlerinizi düzenleyin"
+
+#: src/main.cpp:57
+#, kde-format
+msgid "© 2022 Felipe Kinoshita"
+msgstr "© 2022 Felipe Kinoshita"
+
+#: src/main.cpp:58
+#, kde-format
+msgctxt "@info:credit"
+msgid "Felipe Kinoshita"
+msgstr "Felipe Kinoshita"
+
+#: src/main.cpp:58
+#, kde-format
+msgctxt "@info:credit"
+msgid "Author"
+msgstr "Yazar"
+
+#: src/ui/Footer.qml:30
+#, kde-format
+msgid "Type the new task's title here…"
+msgstr "Yeni görev başlığını buraya yazın…"
+
+#: src/ui/Footer.qml:46
+#, kde-format
+msgid "Add Task"
+msgstr "Görev Ekle"
+
+#: src/ui/GlobalMenu.qml:16
+#, kde-format
+msgctxt "@menu"
+msgid "File"
+msgstr "Dosya"
+
+#: src/ui/GlobalMenu.qml:19
+#, kde-format
+msgctxt "@menu-action"
+msgid "Quit"
+msgstr "Çık"
+
+#: src/ui/GlobalMenu.qml:26
+#, kde-format
+msgctxt "@menu"
+msgid "Edit"
+msgstr "Düzen"
+
+#: src/ui/GlobalMenu.qml:29
+#, kde-format
+msgctxt "@menu-action"
+msgid "Clear Tasks"
+msgstr "Görevleri Temizle"
+
+#: src/ui/GlobalMenu.qml:37
+#, kde-format
+msgctxt "@menu"
+msgid "Help"
+msgstr "Yardım"
+
+#: src/ui/GlobalMenu.qml:40
+#, kde-format
+msgctxt "@menu-action"
+msgid "Report Bug…"
+msgstr "Hata Bildir…"
+
+#: src/ui/GlobalMenu.qml:46
+#, kde-format
+msgctxt "@menu-action"
+msgid "About Tasks"
+msgstr "Görevler Hakkında"
+
+#: src/ui/main.qml:15
+#, kde-format
+msgid "Tasks"
+msgstr "Görevler"
+
+#: src/ui/main.qml:185
+#, kde-format
+msgid "Nothing Found"
+msgstr "Bir Şey Bulunamadı"
+
+#: src/ui/main.qml:185
+#, kde-format
+msgid "All tasks completed!"
+msgstr "Tüm görevler tamamlandı!"
+
+#: src/ui/main.qml:187
+#, kde-format
+msgid "Your search did not match any results"
+msgstr "Aramanız bir sonuçla eşleşmedi"
+
+#: src/ui/main.qml:187
+#, kde-format
+msgid "Add some more by typing in the text field at the bottom of the window"
+msgstr "Pencerenin altındaki metin alanına biraz daha metin girin"
+
+#: src/ui/PageHeader.qml:26
+#, kde-format
+msgid "1 result"
+msgid_plural "%1 results"
+msgstr[0] "1 sonuç"
+msgstr[1] "%1 sonuç"
+
+#: src/ui/PageHeader.qml:26
+#, kde-format
+msgid "1 task"
+msgid_plural "%1 tasks"
+msgstr[0] "1 görev"
+msgstr[1] "%1 görev"
+
+#: src/ui/PageHeader.qml:40
+#, kde-format
+msgid "Clear All"
+msgstr "Tümünü Temizle"
+
+#: src/ui/PageHeader.qml:49
+#, kde-format
+msgid "Search"
+msgstr "Ara"
+
+#: src/ui/PageHeader.qml:64
+#, kde-format
+msgid "About Tasks"
+msgstr "Görevler Hakkında"

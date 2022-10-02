@@ -1,0 +1,177 @@
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the toad package.
+#
+# Yuri Chornoivan <yurchor@ukr.net>, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: toad\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-06-14 00:53+0000\n"
+"PO-Revision-Date: 2022-06-14 08:31+0300\n"
+"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
+"Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Lokalize 20.12.0\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Юрій Чорноіван"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "yurchor@ukr.net"
+
+#: src/main.cpp:49
+#, kde-format
+msgctxt "@title"
+msgid "Tasks"
+msgstr "Завдання"
+
+#: src/main.cpp:53
+#, kde-format
+msgid "Organize your tasks"
+msgstr "Упорядкуйте ваші завдання"
+
+#: src/main.cpp:57
+#, kde-format
+msgid "© 2022 Felipe Kinoshita"
+msgstr "© Felipe Kinoshita, 2022"
+
+#: src/main.cpp:58
+#, kde-format
+msgctxt "@info:credit"
+msgid "Felipe Kinoshita"
+msgstr "Felipe Kinoshita"
+
+#: src/main.cpp:58
+#, kde-format
+msgctxt "@info:credit"
+msgid "Author"
+msgstr "Автор"
+
+#: src/ui/Footer.qml:30
+#, kde-format
+msgid "Type the new task's title here…"
+msgstr "Тут ви можете ввести назву нового завдання…"
+
+#: src/ui/Footer.qml:46
+#, kde-format
+msgid "Add Task"
+msgstr "Додати завдання"
+
+#: src/ui/GlobalMenu.qml:16
+#, kde-format
+msgctxt "@menu"
+msgid "File"
+msgstr "Файл"
+
+#: src/ui/GlobalMenu.qml:19
+#, kde-format
+msgctxt "@menu-action"
+msgid "Quit"
+msgstr "Вийти"
+
+#: src/ui/GlobalMenu.qml:26
+#, kde-format
+msgctxt "@menu"
+msgid "Edit"
+msgstr "Змінити"
+
+#: src/ui/GlobalMenu.qml:29
+#, kde-format
+msgctxt "@menu-action"
+msgid "Clear Tasks"
+msgstr "Очистити завдання"
+
+#: src/ui/GlobalMenu.qml:37
+#, kde-format
+msgctxt "@menu"
+msgid "Help"
+msgstr "Довідка"
+
+#: src/ui/GlobalMenu.qml:40
+#, kde-format
+msgctxt "@menu-action"
+msgid "Report Bug…"
+msgstr "Надіслати звіт про помилку…"
+
+#: src/ui/GlobalMenu.qml:46
+#, kde-format
+msgctxt "@menu-action"
+msgid "About Tasks"
+msgstr "Про «Завдання»"
+
+#: src/ui/main.qml:15
+#, kde-format
+msgid "Tasks"
+msgstr "Завдання"
+
+#: src/ui/main.qml:185
+#, kde-format
+msgid "Nothing Found"
+msgstr "Нічого не знайдено"
+
+#: src/ui/main.qml:185
+#, kde-format
+msgid "All tasks completed!"
+msgstr "Усі завдання завершено!"
+
+#: src/ui/main.qml:187
+#, kde-format
+msgid "Your search did not match any results"
+msgstr "У результаті пошуку нічого не знайдено"
+
+#: src/ui/main.qml:187
+#, kde-format
+msgid "Add some more by typing in the text field at the bottom of the window"
+msgstr "Додайте введенням чогось у текстове поле у нижній частині вікна"
+
+#: src/ui/PageHeader.qml:26
+#, kde-format
+msgid "1 result"
+msgid_plural "%1 results"
+msgstr[0] "%1 результат"
+msgstr[1] "%1 результати"
+msgstr[2] "%1 результатів"
+msgstr[3] "%1 результат"
+
+#: src/ui/PageHeader.qml:26
+#, kde-format
+msgid "1 task"
+msgid_plural "%1 tasks"
+msgstr[0] "%1 завдання"
+msgstr[1] "%1 завдання"
+msgstr[2] "%1 завдань"
+msgstr[3] "%1 завдання"
+
+#: src/ui/PageHeader.qml:40
+#, kde-format
+msgid "Clear All"
+msgstr "Очистити все"
+
+#: src/ui/PageHeader.qml:49
+#, kde-format
+msgid "Search"
+msgstr "Шукати"
+
+#: src/ui/PageHeader.qml:64
+#, kde-format
+msgid "About Tasks"
+msgstr "Про «Завдання»"
+
+#~ msgid "Simple task list"
+#~ msgstr "Простий список завдань"
+
+#~ msgid "1 task completed"
+#~ msgid_plural "%1 tasks completed"
+#~ msgstr[0] "%1 завдання завершено"
+#~ msgstr[1] "%1 завдання завершено"
+#~ msgstr[2] "%1 завдань завершено"
+#~ msgstr[3] "%1 завдання завершено"

@@ -1,0 +1,164 @@
+# German translations for toad package.
+# Copyright (C) 2022 This file is copyright:
+# This file is distributed under the same license as the toad package.
+# Frederik Schwarzer <schwarzer@kde.org>, 2022.
+#
+# Automatically generated, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: toad\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-06-14 00:53+0000\n"
+"PO-Revision-Date: 2022-07-14 00:27+0200\n"
+"Last-Translator: Frederik Schwarzer <schwarzer@kde.org>\n"
+"Language-Team: German <kde-i18n-de@kde.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 22.07.70\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Deutsches KDE-Übersetzerteam"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-i18n-de@kde.org"
+
+#: src/main.cpp:49
+#, kde-format
+msgctxt "@title"
+msgid "Tasks"
+msgstr "Aufgaben"
+
+#: src/main.cpp:53
+#, kde-format
+msgid "Organize your tasks"
+msgstr "Verwalten Sie Ihre Aufgaben"
+
+#: src/main.cpp:57
+#, kde-format
+msgid "© 2022 Felipe Kinoshita"
+msgstr "Copyright © 2022 Felipe Kinoshita"
+
+#: src/main.cpp:58
+#, kde-format
+msgctxt "@info:credit"
+msgid "Felipe Kinoshita"
+msgstr "Felipe Kinoshita"
+
+#: src/main.cpp:58
+#, kde-format
+msgctxt "@info:credit"
+msgid "Author"
+msgstr "Autor"
+
+#: src/ui/Footer.qml:30
+#, kde-format
+msgid "Type the new task's title here…"
+msgstr ""
+
+#: src/ui/Footer.qml:46
+#, kde-format
+msgid "Add Task"
+msgstr "Aufgabe hinzufügen"
+
+#: src/ui/GlobalMenu.qml:16
+#, kde-format
+msgctxt "@menu"
+msgid "File"
+msgstr "Datei"
+
+#: src/ui/GlobalMenu.qml:19
+#, kde-format
+msgctxt "@menu-action"
+msgid "Quit"
+msgstr "Beenden"
+
+#: src/ui/GlobalMenu.qml:26
+#, kde-format
+msgctxt "@menu"
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: src/ui/GlobalMenu.qml:29
+#, kde-format
+msgctxt "@menu-action"
+msgid "Clear Tasks"
+msgstr "Aufgaben löschen"
+
+#: src/ui/GlobalMenu.qml:37
+#, kde-format
+msgctxt "@menu"
+msgid "Help"
+msgstr "Hilfe"
+
+#: src/ui/GlobalMenu.qml:40
+#, kde-format
+msgctxt "@menu-action"
+msgid "Report Bug…"
+msgstr "Probleme oder Wünsche berichten ..."
+
+#: src/ui/GlobalMenu.qml:46
+#, kde-format
+msgctxt "@menu-action"
+msgid "About Tasks"
+msgstr "Über Aufgaben"
+
+#: src/ui/main.qml:15
+#, kde-format
+msgid "Tasks"
+msgstr "Aufgaben"
+
+#: src/ui/main.qml:185
+#, kde-format
+msgid "Nothing Found"
+msgstr "Nichts gefunden"
+
+#: src/ui/main.qml:185
+#, kde-format
+msgid "All tasks completed!"
+msgstr "Keine Aufgaben abgeschlossen."
+
+#: src/ui/main.qml:187
+#, kde-format
+msgid "Your search did not match any results"
+msgstr "Ihre Suche ergab keine Treffer"
+
+#: src/ui/main.qml:187
+#, kde-format
+msgid "Add some more by typing in the text field at the bottom of the window"
+msgstr ""
+
+#: src/ui/PageHeader.qml:26
+#, kde-format
+msgid "1 result"
+msgid_plural "%1 results"
+msgstr[0] "1 Ergebnis"
+msgstr[1] "%1 Ergebnisse"
+
+#: src/ui/PageHeader.qml:26
+#, kde-format
+msgid "1 task"
+msgid_plural "%1 tasks"
+msgstr[0] "1 Aufgabe"
+msgstr[1] "%1 Aufgaben"
+
+#: src/ui/PageHeader.qml:40
+#, kde-format
+msgid "Clear All"
+msgstr "Alles löschen"
+
+#: src/ui/PageHeader.qml:49
+#, kde-format
+msgid "Search"
+msgstr "Suchen"
+
+#: src/ui/PageHeader.qml:64
+#, kde-format
+msgid "About Tasks"
+msgstr "Über Aufgaben"
