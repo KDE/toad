@@ -18,6 +18,7 @@
   <name xml:lang="ka">ამოცანები</name>
   <name xml:lang="ko">할 일</name>
   <name xml:lang="nl">Taken</name>
+  <name xml:lang="pl">Zadania</name>
   <name xml:lang="pt">Tarefas</name>
   <name xml:lang="sk">Úlohy</name>
   <name xml:lang="sl">Tasks</name>
@@ -39,6 +40,7 @@
   <summary xml:lang="ka">დაალაგეთ თქვენი ამოცანები</summary>
   <summary xml:lang="ko">내 할 일 관리</summary>
   <summary xml:lang="nl">Uw taken organiseren</summary>
+  <summary xml:lang="pl">Uporządkuj swoje zadania</summary>
   <summary xml:lang="pt">Organizar as suas tarefas</summary>
   <summary xml:lang="sl">Organizira vaša opravila</summary>
   <summary xml:lang="sv">Organisera dina uppgifter</summary>
@@ -60,6 +62,7 @@
   <developer_name xml:lang="ka">KDE-ის საზოგადოება, ფელიპე კინოშიტა</developer_name>
   <developer_name xml:lang="ko">KDE 커뮤니티, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="nl">KDE gemeenschap, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="pl">Społeczność KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="pt">Comunidade do KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="sk">KDE komunita, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="sl">Skupnost KDE, Felipe Kinoshita</developer_name>
@@ -80,6 +83,7 @@
     <p xml:lang="ka">Tasks ამოცანების ჩამონათვალის მარტივ აპლიკაციას წარმოადგენს, სადაც ამოცანების ჩასწორება ძალიან მარტივად შეგიძლიათ.</p>
     <p xml:lang="ko">할 일 목록 프로그램입니다. 즉석에서 할 일을 편집하고 모든 작업을 자동으로 저장할 수 있습니다.</p>
     <p xml:lang="nl">Taken is een toepassing voor een tedoen, u kunt taken on-the-fly bewerken en het slaat al uw werk automatisch op.</p>
+    <p xml:lang="pl">Zadania to aplikacja typu do zrobienia, możesz edytować zadania w locie i automatycznie zapisywać całą swoją pracę.</p>
     <p xml:lang="pt">As Tarefas são uma aplicação simples de lista de tarefas; poderá editar as tarefas na hora e grava todo o seu trabalho de forma automática.</p>
     <p xml:lang="sl">Tasks je preprosta aplikacija za upravljanje opravil, mimogrede lahko urejate opravila in vse vaše delo se samodejno shrani.</p>
     <p xml:lang="sv">Uppgifter är ett enkelt uppgiftsprogram. Du kan redigera uppgifter i farten, och det sparar ditt arbete automatiskt.</p>
@@ -104,6 +108,7 @@
       <caption xml:lang="ka">ამოცანების სია</caption>
       <caption xml:lang="ko">할 일 목록</caption>
       <caption xml:lang="nl">Takenlijst</caption>
+      <caption xml:lang="pl">Lista zadań</caption>
       <caption xml:lang="pt">Lista de tarefas</caption>
       <caption xml:lang="sl">Seznam opravil</caption>
       <caption xml:lang="sv">Uppgiftslista</caption>
@@ -127,6 +132,7 @@
       <caption xml:lang="ka">მატივი ამოცანების სია</caption>
       <caption xml:lang="ko">빈 목록</caption>
       <caption xml:lang="nl">Lege lijst</caption>
+      <caption xml:lang="pl">Pusta lista</caption>
       <caption xml:lang="pt">Lista vazia</caption>
       <caption xml:lang="sl">Prazen seznam</caption>
       <caption xml:lang="sv">Tom lista</caption>
