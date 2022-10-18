@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: toad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-06-14 00:53+0000\n"
+"POT-Creation-Date: 2022-10-18 00:48+0000\n"
 "PO-Revision-Date: 2022-07-14 00:27+0200\n"
 "Last-Translator: Frederik Schwarzer <schwarzer@kde.org>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
@@ -148,17 +148,25 @@ msgid_plural "%1 tasks"
 msgstr[0] "1 Aufgabe"
 msgstr[1] "%1 Aufgaben"
 
-#: src/ui/PageHeader.qml:40
+#: src/ui/PageHeader.qml:35
+#, fuzzy, kde-format
+#| msgid "All tasks completed!"
+msgid "1 task completed"
+msgid_plural "%1 tasks completed"
+msgstr[0] "Keine Aufgaben abgeschlossen."
+msgstr[1] "Keine Aufgaben abgeschlossen."
+
+#: src/ui/PageHeader.qml:44
 #, kde-format
 msgid "Clear All"
 msgstr "Alles löschen"
 
-#: src/ui/PageHeader.qml:49
+#: src/ui/PageHeader.qml:53
 #, kde-format
 msgid "Search"
 msgstr "Suchen"
 
-#: src/ui/PageHeader.qml:64
+#: src/ui/PageHeader.qml:68
 #, kde-format
 msgid "About Tasks"
 msgstr "Über Aufgaben"

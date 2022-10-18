@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-06-14 00:53+0000\n"
+"POT-Creation-Date: 2022-10-18 00:48+0000\n"
 "PO-Revision-Date: 2022-10-02 15:50\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -144,17 +144,23 @@ msgid "1 task"
 msgid_plural "%1 tasks"
 msgstr[0] ""
 
-#: src/ui/PageHeader.qml:40
+#: src/ui/PageHeader.qml:35
+#, kde-format
+msgid "1 task completed"
+msgid_plural "%1 tasks completed"
+msgstr[0] ""
+
+#: src/ui/PageHeader.qml:44
 #, kde-format
 msgid "Clear All"
 msgstr ""
 
-#: src/ui/PageHeader.qml:49
+#: src/ui/PageHeader.qml:53
 #, kde-format
 msgid "Search"
 msgstr ""
 
-#: src/ui/PageHeader.qml:64
+#: src/ui/PageHeader.qml:68
 #, kde-format
 msgid "About Tasks"
 msgstr ""

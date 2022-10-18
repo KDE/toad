@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-06-14 00:53+0000\n"
+"POT-Creation-Date: 2022-10-18 00:48+0000\n"
 "PO-Revision-Date: 2022-06-15 13:42+0200\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@neuf.fr>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
@@ -147,25 +147,27 @@ msgid_plural "%1 tasks"
 msgstr[0] "1 tâche"
 msgstr[1] "%1 tâches"
 
-#: src/ui/PageHeader.qml:40
+#: src/ui/PageHeader.qml:35
+#, kde-format
+msgid "1 task completed"
+msgid_plural "%1 tasks completed"
+msgstr[0] "1 tache terminée"
+msgstr[1] "%1 tâches terminées"
+
+#: src/ui/PageHeader.qml:44
 #, kde-format
 msgid "Clear All"
 msgstr "Tout effacer"
 
-#: src/ui/PageHeader.qml:49
+#: src/ui/PageHeader.qml:53
 #, kde-format
 msgid "Search"
 msgstr "Rechercher"
 
-#: src/ui/PageHeader.qml:64
+#: src/ui/PageHeader.qml:68
 #, kde-format
 msgid "About Tasks"
 msgstr "À propos des tâches"
 
 #~ msgid "Simple task list"
 #~ msgstr "Liste simple de tâches"
-
-#~ msgid "1 task completed"
-#~ msgid_plural "%1 tasks completed"
-#~ msgstr[0] "1 tache terminée"
-#~ msgstr[1] "%1 tâches terminées"

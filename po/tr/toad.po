@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: toad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-06-14 00:53+0000\n"
+"POT-Creation-Date: 2022-10-18 00:48+0000\n"
 "PO-Revision-Date: 2022-07-19 15:34+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
@@ -146,17 +146,25 @@ msgid_plural "%1 tasks"
 msgstr[0] "1 görev"
 msgstr[1] "%1 görev"
 
-#: src/ui/PageHeader.qml:40
+#: src/ui/PageHeader.qml:35
+#, fuzzy, kde-format
+#| msgid "All tasks completed!"
+msgid "1 task completed"
+msgid_plural "%1 tasks completed"
+msgstr[0] "Tüm görevler tamamlandı!"
+msgstr[1] "Tüm görevler tamamlandı!"
+
+#: src/ui/PageHeader.qml:44
 #, kde-format
 msgid "Clear All"
 msgstr "Tümünü Temizle"
 
-#: src/ui/PageHeader.qml:49
+#: src/ui/PageHeader.qml:53
 #, kde-format
 msgid "Search"
 msgstr "Ara"
 
-#: src/ui/PageHeader.qml:64
+#: src/ui/PageHeader.qml:68
 #, kde-format
 msgid "About Tasks"
 msgstr "Görevler Hakkında"

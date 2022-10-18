@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: toad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-06-14 00:53+0000\n"
+"POT-Creation-Date: 2022-10-18 00:48+0000\n"
 "PO-Revision-Date: 2022-06-14 08:31+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
@@ -151,27 +151,29 @@ msgstr[1] "%1 завдання"
 msgstr[2] "%1 завдань"
 msgstr[3] "%1 завдання"
 
-#: src/ui/PageHeader.qml:40
+#: src/ui/PageHeader.qml:35
+#, kde-format
+msgid "1 task completed"
+msgid_plural "%1 tasks completed"
+msgstr[0] "%1 завдання завершено"
+msgstr[1] "%1 завдання завершено"
+msgstr[2] "%1 завдань завершено"
+msgstr[3] "%1 завдання завершено"
+
+#: src/ui/PageHeader.qml:44
 #, kde-format
 msgid "Clear All"
 msgstr "Очистити все"
 
-#: src/ui/PageHeader.qml:49
+#: src/ui/PageHeader.qml:53
 #, kde-format
 msgid "Search"
 msgstr "Шукати"
 
-#: src/ui/PageHeader.qml:64
+#: src/ui/PageHeader.qml:68
 #, kde-format
 msgid "About Tasks"
 msgstr "Про «Завдання»"
 
 #~ msgid "Simple task list"
 #~ msgstr "Простий список завдань"
-
-#~ msgid "1 task completed"
-#~ msgid_plural "%1 tasks completed"
-#~ msgstr[0] "%1 завдання завершено"
-#~ msgstr[1] "%1 завдання завершено"
-#~ msgstr[2] "%1 завдань завершено"
-#~ msgstr[3] "%1 завдання завершено"

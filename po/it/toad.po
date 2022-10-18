@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: toad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-06-14 00:53+0000\n"
+"POT-Creation-Date: 2022-10-18 00:48+0000\n"
 "PO-Revision-Date: 2022-06-15 14:45+0200\n"
 "Last-Translator: Vincenzo Reale <smart2128vr@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
@@ -148,25 +148,27 @@ msgid_plural "%1 tasks"
 msgstr[0] "Un'attività"
 msgstr[1] "%1 attività"
 
-#: src/ui/PageHeader.qml:40
+#: src/ui/PageHeader.qml:35
+#, kde-format
+msgid "1 task completed"
+msgid_plural "%1 tasks completed"
+msgstr[0] "Un'attività completata"
+msgstr[1] "%1 attività completate"
+
+#: src/ui/PageHeader.qml:44
 #, kde-format
 msgid "Clear All"
 msgstr "Cancella tutto"
 
-#: src/ui/PageHeader.qml:49
+#: src/ui/PageHeader.qml:53
 #, kde-format
 msgid "Search"
 msgstr "Cerca"
 
-#: src/ui/PageHeader.qml:64
+#: src/ui/PageHeader.qml:68
 #, kde-format
 msgid "About Tasks"
 msgstr "Informazioni su Attività"
 
 #~ msgid "Simple task list"
 #~ msgstr "Semplice elenco di attività"
-
-#~ msgid "1 task completed"
-#~ msgid_plural "%1 tasks completed"
-#~ msgstr[0] "Un'attività completata"
-#~ msgstr[1] "%1 attività completate"
