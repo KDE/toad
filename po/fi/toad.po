@@ -147,12 +147,11 @@ msgstr[0] "1 tehtävä"
 msgstr[1] "%1 tehtävää"
 
 #: src/ui/PageHeader.qml:35
-#, fuzzy, kde-format
-#| msgid "All tasks completed!"
+#, kde-format
 msgid "1 task completed"
 msgid_plural "%1 tasks completed"
-msgstr[0] "Kaikki tehtävät ovat valmistuneet!"
-msgstr[1] "Kaikki tehtävät ovat valmistuneet!"
+msgstr[0] "1 tehtävä valmis"
+msgstr[1] "%1 tehtävää valmiina"
 
 #: src/ui/PageHeader.qml:44
 #, kde-format
