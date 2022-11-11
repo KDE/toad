@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: toad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-10-18 00:48+0000\n"
+"POT-Creation-Date: 2022-11-11 00:50+0000\n"
 "PO-Revision-Date: 2022-07-13 16:00+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
@@ -27,29 +27,29 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "kde@peremen.name"
 
-#: src/main.cpp:49
+#: src/main.cpp:52
 #, kde-format
 msgctxt "@title"
 msgid "Tasks"
 msgstr "할 일"
 
-#: src/main.cpp:53
+#: src/main.cpp:56
 #, kde-format
 msgid "Organize your tasks"
 msgstr "내 할 일 관리"
 
-#: src/main.cpp:57
+#: src/main.cpp:60
 #, kde-format
 msgid "© 2022 Felipe Kinoshita"
 msgstr "© 2022 Felipe Kinoshita"
 
-#: src/main.cpp:58
+#: src/main.cpp:61
 #, kde-format
 msgctxt "@info:credit"
 msgid "Felipe Kinoshita"
 msgstr "Felipe Kinoshita"
 
-#: src/main.cpp:58
+#: src/main.cpp:61
 #, kde-format
 msgctxt "@info:credit"
 msgid "Author"
