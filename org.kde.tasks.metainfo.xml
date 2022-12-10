@@ -156,4 +156,5 @@
   <url type="homepage">https://invent.kde.org/utilities/toad</url>
   <url type="bugtracker">https://invent.kde.org/utilities/toad/-/issues</url>
   <content_rating type="oars-1.1"/>
+  <launchable type="desktop-id">org.kde.tasks.desktop</launchable>
 </component>
