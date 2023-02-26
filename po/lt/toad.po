@@ -1,61 +1,60 @@
-# German translations for toad package.
-# Copyright (C) 2022 This file is copyright:
+# Lithuanian translations for toad package.
+# Copyright (C) 2023 This file is copyright:
 # This file is distributed under the same license as the toad package.
-# Frederik Schwarzer <schwarzer@kde.org>, 2022.
+# Automatically generated, 2023.
 #
-# Automatically generated, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: toad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-11-11 00:50+0000\n"
-"PO-Revision-Date: 2022-07-14 00:27+0200\n"
-"Last-Translator: Frederik Schwarzer <schwarzer@kde.org>\n"
-"Language-Team: German <kde-i18n-de@kde.org>\n"
-"Language: de\n"
+"PO-Revision-Date: 2022-11-11 00:50+0000\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 22.07.70\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n"
+"%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Deutsches KDE-Übersetzerteam"
+msgstr ""
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "kde-i18n-de@kde.org"
+msgstr ""
 
 #: src/main.cpp:52
 #, kde-format
 msgctxt "@title"
 msgid "Tasks"
-msgstr "Aufgaben"
+msgstr ""
 
 #: src/main.cpp:56
 #, kde-format
 msgid "Organize your tasks"
-msgstr "Verwalten Sie Ihre Aufgaben"
+msgstr ""
 
 #: src/main.cpp:60
 #, kde-format
 msgid "© 2022 Felipe Kinoshita"
-msgstr "Copyright © 2022 Felipe Kinoshita"
+msgstr ""
 
 #: src/main.cpp:61
 #, kde-format
 msgctxt "@info:credit"
 msgid "Felipe Kinoshita"
-msgstr "Felipe Kinoshita"
+msgstr ""
 
 #: src/main.cpp:61
 #, kde-format
 msgctxt "@info:credit"
 msgid "Author"
-msgstr "Autor"
+msgstr ""
 
 #: src/ui/Footer.qml:30
 #, kde-format
@@ -65,69 +64,69 @@ msgstr ""
 #: src/ui/Footer.qml:46
 #, kde-format
 msgid "Add Task"
-msgstr "Aufgabe hinzufügen"
+msgstr ""
 
 #: src/ui/GlobalMenu.qml:16
 #, kde-format
 msgctxt "@menu"
 msgid "File"
-msgstr "Datei"
+msgstr ""
 
 #: src/ui/GlobalMenu.qml:19
 #, kde-format
 msgctxt "@menu-action"
 msgid "Quit"
-msgstr "Beenden"
+msgstr ""
 
 #: src/ui/GlobalMenu.qml:26
 #, kde-format
 msgctxt "@menu"
 msgid "Edit"
-msgstr "Bearbeiten"
+msgstr ""
 
 #: src/ui/GlobalMenu.qml:29
 #, kde-format
 msgctxt "@menu-action"
 msgid "Clear Tasks"
-msgstr "Aufgaben löschen"
+msgstr ""
 
 #: src/ui/GlobalMenu.qml:37
 #, kde-format
 msgctxt "@menu"
 msgid "Help"
-msgstr "Hilfe"
+msgstr ""
 
 #: src/ui/GlobalMenu.qml:40
 #, kde-format
 msgctxt "@menu-action"
 msgid "Report Bug…"
-msgstr "Probleme oder Wünsche berichten ..."
+msgstr ""
 
 #: src/ui/GlobalMenu.qml:46
 #, kde-format
 msgctxt "@menu-action"
 msgid "About Tasks"
-msgstr "Über Aufgaben"
+msgstr ""
 
 #: src/ui/main.qml:15
 #, kde-format
 msgid "Tasks"
-msgstr "Aufgaben"
+msgstr ""
 
 #: src/ui/main.qml:185
 #, kde-format
 msgid "Nothing Found"
-msgstr "Nichts gefunden"
+msgstr ""
 
 #: src/ui/main.qml:185
 #, kde-format
 msgid "All tasks completed!"
-msgstr "Keine Aufgaben abgeschlossen."
+msgstr ""
 
 #: src/ui/main.qml:187
 #, kde-format
 msgid "Your search did not match any results"
-msgstr "Ihre Suche ergab keine Treffer"
+msgstr ""
 
 #: src/ui/main.qml:187
 #, kde-format
@@ -138,35 +137,37 @@ msgstr ""
 #, kde-format
 msgid "1 result"
 msgid_plural "%1 results"
-msgstr[0] "1 Ergebnis"
-msgstr[1] "%1 Ergebnisse"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
 
 #: src/ui/PageHeader.qml:26
 #, kde-format
 msgid "1 task"
 msgid_plural "%1 tasks"
-msgstr[0] "1 Aufgabe"
-msgstr[1] "%1 Aufgaben"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
 
 #: src/ui/PageHeader.qml:35
-#, fuzzy, kde-format
-#| msgid "All tasks completed!"
+#, kde-format
 msgid "1 task completed"
 msgid_plural "%1 tasks completed"
-msgstr[0] "Keine Aufgaben abgeschlossen."
-msgstr[1] "Keine Aufgaben abgeschlossen."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
 
 #: src/ui/PageHeader.qml:44
 #, kde-format
 msgid "Clear All"
-msgstr "Alles löschen"
+msgstr ""
 
 #: src/ui/PageHeader.qml:53
 #, kde-format
 msgid "Search"
-msgstr "Suchen"
+msgstr ""
 
 #: src/ui/PageHeader.qml:68
 #, kde-format
 msgid "About Tasks"
-msgstr "Über Aufgaben"
+msgstr ""
