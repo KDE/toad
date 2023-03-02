@@ -1,13 +1,13 @@
 # Copyright (C) YEAR This file is copyright:
 # This file is distributed under the same license as the toad package.
-# Shinjo Park <kde@peremen.name>, 2022.
+# Shinjo Park <kde@peremen.name>, 2022, 2023.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: toad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-11-11 00:50+0000\n"
-"PO-Revision-Date: 2022-07-13 16:00+0200\n"
+"PO-Revision-Date: 2023-03-01 01:32+0100\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
 "Language: ko\n"
@@ -145,11 +145,10 @@ msgid_plural "%1 tasks"
 msgstr[0] "할 일 %1개"
 
 #: src/ui/PageHeader.qml:35
-#, fuzzy, kde-format
-#| msgid "All tasks completed!"
+#, kde-format
 msgid "1 task completed"
 msgid_plural "%1 tasks completed"
-msgstr[0] "모든 할 일을 완료했습니다!"
+msgstr[0] "할 일 %1개 완료함"
 
 #: src/ui/PageHeader.qml:44
 #, kde-format
