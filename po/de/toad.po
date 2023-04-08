@@ -1,7 +1,7 @@
 # German translations for toad package.
 # Copyright (C) 2022 This file is copyright:
 # This file is distributed under the same license as the toad package.
-# Frederik Schwarzer <schwarzer@kde.org>, 2022.
+# Frederik Schwarzer <schwarzer@kde.org>, 2022, 2023.
 #
 # Automatically generated, 2022.
 msgid ""
@@ -9,15 +9,15 @@ msgstr ""
 "Project-Id-Version: toad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-11-11 00:50+0000\n"
-"PO-Revision-Date: 2022-07-14 00:27+0200\n"
+"PO-Revision-Date: 2023-04-03 17:09+0200\n"
 "Last-Translator: Frederik Schwarzer <schwarzer@kde.org>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 22.07.70\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 22.12.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -149,12 +149,11 @@ msgstr[0] "1 Aufgabe"
 msgstr[1] "%1 Aufgaben"
 
 #: src/ui/PageHeader.qml:35
-#, fuzzy, kde-format
-#| msgid "All tasks completed!"
+#, kde-format
 msgid "1 task completed"
 msgid_plural "%1 tasks completed"
-msgstr[0] "Keine Aufgaben abgeschlossen."
-msgstr[1] "Keine Aufgaben abgeschlossen."
+msgstr[0] "Eine Aufgabe abgeschlossen"
+msgstr[1] "%1 Aufgaben abgeschlossen"
 
 #: src/ui/PageHeader.qml:44
 #, kde-format
