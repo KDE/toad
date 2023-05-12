@@ -1,173 +1,182 @@
-# Header entry was created by Lokalize.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the toad package.
 #
-# Xavier Besnard <xavier.besnard@neuf.fr>, 2022.
+# Zayed Al-Saidi <zayed.alsaidi@gmail.com>, 2023.
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
+"Project-Id-Version: toad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-11-11 00:50+0000\n"
-"PO-Revision-Date: 2022-06-15 13:42+0200\n"
-"Last-Translator: Xavier Besnard <xavier.besnard@neuf.fr>\n"
-"Language-Team: French <kde-francophone@kde.org>\n"
-"Language: fr\n"
+"PO-Revision-Date: 2023-05-11 10:54+0400\n"
+"Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
+"Language-Team: ar\n"
+"Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 22.04.2\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Generator: Lokalize 21.12.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Steve"
+msgstr "زايد السعيدي"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "stax@ik.me"
+msgstr "zayed.alsaidi@gmail.com"
 
 #: src/main.cpp:52
 #, kde-format
 msgctxt "@title"
 msgid "Tasks"
-msgstr "Tâches"
+msgstr "المهامّ"
 
 #: src/main.cpp:56
 #, kde-format
 msgid "Organize your tasks"
-msgstr "Organiser vos tâches"
+msgstr "نظم مهامك"
 
 #: src/main.cpp:60
 #, kde-format
 msgid "© 2022 Felipe Kinoshita"
-msgstr "© 2022 Felipe Kinoshita"
+msgstr "© 2022 فيليبي كينوشيتا"
 
 #: src/main.cpp:61
 #, kde-format
 msgctxt "@info:credit"
 msgid "Felipe Kinoshita"
-msgstr "Felipe Kinoshita"
+msgstr "فيليبي كينوشيتا"
 
 #: src/main.cpp:61
 #, kde-format
 msgctxt "@info:credit"
 msgid "Author"
-msgstr "Auteur"
+msgstr "المؤلف"
 
 #: src/ui/Footer.qml:30
 #, kde-format
 msgid "Type the new task's title here…"
-msgstr "Veuillez saisir ici le titre de la nouvelle tâche…"
+msgstr "اكتب عنوان مهمتك هنا…"
 
 #: src/ui/Footer.qml:46
 #, kde-format
 msgid "Add Task"
-msgstr "Ajouter une tâche"
+msgstr "أضف مهمة"
 
 #: src/ui/GlobalMenu.qml:16
 #, kde-format
 msgctxt "@menu"
 msgid "File"
-msgstr "Fichier"
+msgstr "ملف"
 
 #: src/ui/GlobalMenu.qml:19
 #, kde-format
 msgctxt "@menu-action"
 msgid "Quit"
-msgstr "Quitter"
+msgstr "أنهِ"
 
 #: src/ui/GlobalMenu.qml:26
 #, kde-format
 msgctxt "@menu"
 msgid "Edit"
-msgstr "Éditer"
+msgstr "حرّر"
 
 #: src/ui/GlobalMenu.qml:29
 #, kde-format
 msgctxt "@menu-action"
 msgid "Clear Tasks"
-msgstr "Effacer des tâches"
+msgstr "امسح المهامّ"
 
 #: src/ui/GlobalMenu.qml:37
 #, kde-format
 msgctxt "@menu"
 msgid "Help"
-msgstr "Aide"
+msgstr "مساعدة"
 
 #: src/ui/GlobalMenu.qml:40
 #, kde-format
 msgctxt "@menu-action"
 msgid "Report Bug…"
-msgstr "Signaler un bogue…"
+msgstr "أبلغ عن علّة…"
 
 #: src/ui/GlobalMenu.qml:46
 #, kde-format
 msgctxt "@menu-action"
 msgid "About Tasks"
-msgstr "À propos des tâches"
+msgstr "عن المهام"
 
 #: src/ui/main.qml:15
 #, kde-format
 msgid "Tasks"
-msgstr "Tâches"
+msgstr "المهامّ"
 
 #: src/ui/main.qml:185
 #, kde-format
 msgid "Nothing Found"
-msgstr "Aucun résultat"
+msgstr "لم يعثر على شيء"
 
 #: src/ui/main.qml:185
 #, kde-format
 msgid "All tasks completed!"
-msgstr "Toutes les tâches sont terminées !"
+msgstr "كل المهام مكتملة!"
 
 #: src/ui/main.qml:187
 #, kde-format
 msgid "Your search did not match any results"
-msgstr "Votre recherche ne correspond à aucun résultat"
+msgstr "لم يطابق بحثك أي نتيجة"
 
 #: src/ui/main.qml:187
 #, kde-format
 msgid "Add some more by typing in the text field at the bottom of the window"
-msgstr ""
-"En ajouter davantage en saisissant du texte dans le champ du bas de la "
-"fenêtre"
+msgstr "أضف المزيد عن طريق الكتابة في حقل النص أسفل النافذة"
 
 #: src/ui/PageHeader.qml:26
 #, kde-format
 msgid "1 result"
 msgid_plural "%1 results"
-msgstr[0] "1 résultat"
-msgstr[1] "%1 résultats"
+msgstr[0] "صفر نتيجة"
+msgstr[1] "نتيجة واحدة"
+msgstr[2] "نتيجتان"
+msgstr[3] "%1 نتائج"
+msgstr[4] "%1 نتيجة"
+msgstr[5] "%1 نتيجة"
 
 #: src/ui/PageHeader.qml:26
 #, kde-format
 msgid "1 task"
 msgid_plural "%1 tasks"
-msgstr[0] "1 tâche"
-msgstr[1] "%1 tâches"
+msgstr[0] "صفر مهمّة"
+msgstr[1] "مهمة واحدة"
+msgstr[2] "مهمتان"
+msgstr[3] "%1 مهام"
+msgstr[4] "%1 مهمة"
+msgstr[5] "%1 مهمة"
 
 #: src/ui/PageHeader.qml:35
 #, kde-format
 msgid "1 task completed"
 msgid_plural "%1 tasks completed"
-msgstr[0] "1 tache terminée"
-msgstr[1] "%1 tâches terminées"
+msgstr[0] "اكتملت مهمة"
+msgstr[1] "اكتملت مهمة"
+msgstr[2] "اكتملت مهمتان"
+msgstr[3] "اكتملت %1 مهام"
+msgstr[4] "اكتملت %1 مهمة"
+msgstr[5] "اكتملت %1 مهمة"
 
 #: src/ui/PageHeader.qml:44
 #, kde-format
 msgid "Clear All"
-msgstr "Tout effacer"
+msgstr "امسح الكلّ"
 
 #: src/ui/PageHeader.qml:53
 #, kde-format
 msgid "Search"
-msgstr "Rechercher"
+msgstr "ابحث"
 
 #: src/ui/PageHeader.qml:68
 #, kde-format
 msgid "About Tasks"
-msgstr "À propos des tâches"
-
-#~ msgid "Simple task list"
-#~ msgstr "Liste simple de tâches"
+msgstr "عن المهام"
