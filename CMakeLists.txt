@@ -10,7 +10,7 @@ include(FeatureSummary)
 
 set(QT_MIN_VERSION 5.15)
 if (ANDROID)
-    set(QT_MIN_VERSION 5.15.8)
+    set(QT_MIN_VERSION 5.15.10)
 endif()
 set(KF_MIN_VERSION 5.83)
 
