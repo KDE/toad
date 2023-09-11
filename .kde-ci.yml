@@ -10,6 +10,7 @@ Dependencies:
     'frameworks/ki18n': '@stable'
     'frameworks/kirigami': '@stable'
     'frameworks/kitemmodels': '@stable'
+    'libraries/kirigami-addons': '@latest'
 
 - 'on': ['Linux/Qt6', 'FreeBSD/Qt6', 'macOS/Qt6', 'Windows/Qt6', 'Android/Qt6']
   'require':
@@ -19,6 +20,7 @@ Dependencies:
     'frameworks/ki18n': '@latest-kf6'
     'frameworks/kirigami': '@latest-kf6'
     'frameworks/kitemmodels': '@latest-kf6'
+    'libraries/kirigami-addons': '@latest-kf6'
 
 - 'on': ['Linux/Qt5', 'FreeBSD/Qt5', 'macOS/Qt5', 'Windows/Qt5']
   'require':
