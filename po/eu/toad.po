@@ -1,0 +1,172 @@
+# Translation for toad.po to Euskara/Basque (eu).
+# Copyright (C) 2023 This file is copyright:
+# This file is distributed under the same license as the toad package.
+# KDE euskaratzeko proiektuko arduraduna <xalba@ni.eus>.
+#
+# Translators:
+# SPDX-FileCopyrightText: 2023 Iñigo Salvador Azurmendi <xalba@ni.eus>
+msgid ""
+msgstr ""
+"Project-Id-Version: toad\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-11-11 00:50+0000\n"
+"PO-Revision-Date: 2023-09-12 21:17+0200\n"
+"Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
+"Language-Team: Basque <kde-i18n-eu@kde.org>\n"
+"Language: eu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 23.08.0\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Iñigo Salvador Azurmendi"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "xalba@ni.eus"
+
+#: src/main.cpp:52
+#, kde-format
+msgctxt "@title"
+msgid "Tasks"
+msgstr "Zereginak"
+
+#: src/main.cpp:56
+#, kde-format
+msgid "Organize your tasks"
+msgstr "Antolatu zure atazak"
+
+#: src/main.cpp:60
+#, kde-format
+msgid "© 2022 Felipe Kinoshita"
+msgstr "© 2022 Felipe Kinoshita"
+
+#: src/main.cpp:61
+#, kde-format
+msgctxt "@info:credit"
+msgid "Felipe Kinoshita"
+msgstr "Felipe Kinoshita"
+
+#: src/main.cpp:61
+#, kde-format
+msgctxt "@info:credit"
+msgid "Author"
+msgstr "Egilea"
+
+#: src/ui/Footer.qml:30
+#, kde-format
+msgid "Type the new task's title here…"
+msgstr "Tekleatu hemen ataza berriaren izenburua..."
+
+#: src/ui/Footer.qml:46
+#, kde-format
+msgid "Add Task"
+msgstr "Gehitu ataza"
+
+#: src/ui/GlobalMenu.qml:16
+#, kde-format
+msgctxt "@menu"
+msgid "File"
+msgstr "Fitxategia"
+
+#: src/ui/GlobalMenu.qml:19
+#, kde-format
+msgctxt "@menu-action"
+msgid "Quit"
+msgstr "Irten"
+
+#: src/ui/GlobalMenu.qml:26
+#, kde-format
+msgctxt "@menu"
+msgid "Edit"
+msgstr "Editatu"
+
+#: src/ui/GlobalMenu.qml:29
+#, kde-format
+msgctxt "@menu-action"
+msgid "Clear Tasks"
+msgstr "Garbitu atazak"
+
+#: src/ui/GlobalMenu.qml:37
+#, kde-format
+msgctxt "@menu"
+msgid "Help"
+msgstr "Laguntza"
+
+#: src/ui/GlobalMenu.qml:40
+#, kde-format
+msgctxt "@menu-action"
+msgid "Report Bug…"
+msgstr "Akatsa jakinarazi..."
+
+#: src/ui/GlobalMenu.qml:46
+#, kde-format
+msgctxt "@menu-action"
+msgid "About Tasks"
+msgstr "«Tasks»eri buruz"
+
+#: src/ui/main.qml:15
+#, kde-format
+msgid "Tasks"
+msgstr "Atazak"
+
+#: src/ui/main.qml:185
+#, kde-format
+msgid "Nothing Found"
+msgstr "Ez da ezer aurkitu"
+
+#: src/ui/main.qml:185
+#, kde-format
+msgid "All tasks completed!"
+msgstr "Ataza guztiak osatuta!"
+
+#: src/ui/main.qml:187
+#, kde-format
+msgid "Your search did not match any results"
+msgstr "Zure bilaketak ez du emaitzarik eman"
+
+#: src/ui/main.qml:187
+#, kde-format
+msgid "Add some more by typing in the text field at the bottom of the window"
+msgstr "Gehitu pixka bat gehiago leihoaren beheko testu-eremuan tekleatuz"
+
+#: src/ui/PageHeader.qml:26
+#, kde-format
+msgid "1 result"
+msgid_plural "%1 results"
+msgstr[0] "Emaitza 1"
+msgstr[1] "%1 emaitza"
+
+#: src/ui/PageHeader.qml:26
+#, kde-format
+msgid "1 task"
+msgid_plural "%1 tasks"
+msgstr[0] "Ataza 1"
+msgstr[1] "%1 ataza"
+
+#: src/ui/PageHeader.qml:35
+#, kde-format
+msgid "1 task completed"
+msgid_plural "%1 tasks completed"
+msgstr[0] "Ataza 1 osatuta"
+msgstr[1] "%1 ataza osatuta"
+
+#: src/ui/PageHeader.qml:44
+#, kde-format
+msgid "Clear All"
+msgstr "Garbitu dena"
+
+#: src/ui/PageHeader.qml:53
+#, kde-format
+msgid "Search"
+msgstr "Bilatu"
+
+#: src/ui/PageHeader.qml:68
+#, kde-format
+msgid "About Tasks"
+msgstr "«Tasks»eri buruz"
