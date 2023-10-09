@@ -97,21 +97,22 @@ void TasksModel::add(const QString &title)
     saveTasks();
 }
 
-void TasksModel::remove(const int &index)
+void TasksModel::remove(const QModelIndex &index)
 {
-    if (index < 0 || index > m_tasks.count()) {
+    const int row = index.row();
+    if (row < 0 || row > m_tasks.count()) {
         return;
     }
 
-    if (m_tasks[index].checked()) {
+    if (m_tasks[row].checked()) {
         if (m_completedTasks > 0) {
             m_completedTasks--;
             Q_EMIT completedTasksChanged();
         }
     }
 
-    beginRemoveRows(QModelIndex(), index, index);
-    m_tasks.removeAt(index);
+    beginRemoveRows(QModelIndex(), row, row);
+    m_tasks.removeAt(row);
     endRemoveRows();
 
     saveTasks();

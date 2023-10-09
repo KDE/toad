@@ -151,7 +151,8 @@ Kirigami.ApplicationWindow {
                             icon.name: "entry-delete"
                             opacity: taskItem.hovered ? 1 : 0
                             onClicked: {
-                                root.tasksModel.remove(index)
+                                const originalIndex = filteredModel.index(index, 0)
+                                root.tasksModel.remove(filteredModel.mapToSource(originalIndex))
                             }
                         }
                     }

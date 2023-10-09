@@ -27,7 +27,7 @@ public:
     bool setData(const QModelIndex &index, const QVariant &value, int role) override;
 
     Q_INVOKABLE void add(const QString &title);
-    Q_INVOKABLE void remove(const int &index);
+    Q_INVOKABLE void remove(const QModelIndex &index);
     Q_INVOKABLE void clear();
 
     [[nodiscard]] int completedTasks() const
