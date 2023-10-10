@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: toad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-11-11 00:50+0000\n"
+"POT-Creation-Date: 2023-10-10 00:44+0000\n"
 "PO-Revision-Date: 2022-07-27 19:21+0300\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
@@ -112,22 +112,22 @@ msgstr "Tietoa tehtävistä"
 msgid "Tasks"
 msgstr "Tehtävät"
 
-#: src/ui/main.qml:185
+#: src/ui/main.qml:186
 #, kde-format
 msgid "Nothing Found"
 msgstr "Mitään ei löytynyt"
 
-#: src/ui/main.qml:185
+#: src/ui/main.qml:186
 #, kde-format
 msgid "All tasks completed!"
 msgstr "Kaikki tehtävät ovat valmistuneet!"
 
-#: src/ui/main.qml:187
+#: src/ui/main.qml:188
 #, kde-format
 msgid "Your search did not match any results"
 msgstr "Hakusi ei löytänyt tuloksia"
 
-#: src/ui/main.qml:187
+#: src/ui/main.qml:188
 #, kde-format
 msgid "Add some more by typing in the text field at the bottom of the window"
 msgstr "Luo lisää kirjoittamalla ikkunan alalaidan tekstikenttään"

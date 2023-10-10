@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: toad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-11-11 00:50+0000\n"
+"POT-Creation-Date: 2023-10-10 00:44+0000\n"
 "PO-Revision-Date: 2022-10-18 04:39+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
@@ -112,22 +112,22 @@ msgstr "Görevler Hakkında"
 msgid "Tasks"
 msgstr "Görevler"
 
-#: src/ui/main.qml:185
+#: src/ui/main.qml:186
 #, kde-format
 msgid "Nothing Found"
 msgstr "Bir Şey Bulunamadı"
 
-#: src/ui/main.qml:185
+#: src/ui/main.qml:186
 #, kde-format
 msgid "All tasks completed!"
 msgstr "Tüm görevler tamamlandı!"
 
-#: src/ui/main.qml:187
+#: src/ui/main.qml:188
 #, kde-format
 msgid "Your search did not match any results"
 msgstr "Aramanız bir sonuçla eşleşmedi"
 
-#: src/ui/main.qml:187
+#: src/ui/main.qml:188
 #, kde-format
 msgid "Add some more by typing in the text field at the bottom of the window"
 msgstr "Pencerenin altındaki metin alanına biraz daha metin girin"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: toad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-11-11 00:50+0000\n"
+"POT-Creation-Date: 2023-10-10 00:44+0000\n"
 "PO-Revision-Date: 2022-10-19 05:03+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
@@ -113,22 +113,22 @@ msgstr "დავალებების შესახებ"
 msgid "Tasks"
 msgstr "Tasks"
 
-#: src/ui/main.qml:185
+#: src/ui/main.qml:186
 #, kde-format
 msgid "Nothing Found"
 msgstr "ვერაფერი მოიძებნა"
 
-#: src/ui/main.qml:185
+#: src/ui/main.qml:186
 #, kde-format
 msgid "All tasks completed!"
 msgstr "ყველა დავალება დასრულდა!"
 
-#: src/ui/main.qml:187
+#: src/ui/main.qml:188
 #, kde-format
 msgid "Your search did not match any results"
 msgstr "თქვენმა ძებნა უშედეგოა"
 
-#: src/ui/main.qml:187
+#: src/ui/main.qml:188
 #, kde-format
 msgid "Add some more by typing in the text field at the bottom of the window"
 msgstr ""

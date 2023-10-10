@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: toad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-11-11 00:50+0000\n"
+"POT-Creation-Date: 2023-10-10 00:44+0000\n"
 "PO-Revision-Date: 2022-10-18 09:02+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
@@ -113,22 +113,22 @@ msgstr "Acerca das Tarefas"
 msgid "Tasks"
 msgstr "Tarefas"
 
-#: src/ui/main.qml:185
+#: src/ui/main.qml:186
 #, kde-format
 msgid "Nothing Found"
 msgstr "Nada Encontrado"
 
-#: src/ui/main.qml:185
+#: src/ui/main.qml:186
 #, kde-format
 msgid "All tasks completed!"
 msgstr "Terminaram todas as tarefas!"
 
-#: src/ui/main.qml:187
+#: src/ui/main.qml:188
 #, kde-format
 msgid "Your search did not match any results"
 msgstr "A sua pesquisa não devolveu nenhuns resultados"
 
-#: src/ui/main.qml:187
+#: src/ui/main.qml:188
 #, kde-format
 msgid "Add some more by typing in the text field at the bottom of the window"
 msgstr "Adicione mais alguns, escrevendo no campo de texto no fundo da janela"
