@@ -66,7 +66,7 @@ Kirigami.ApplicationWindow {
                 model: KSortFilterProxyModel {
                     id: filteredModel
                     sourceModel: root.tasksModel
-                    filterRole: "title"
+                    filterRoleName: "title"
                     filterRegularExpression: {
                         if (page.currentSearchText === "") return new RegExp()
                         return new RegExp("%1".arg(page.currentSearchText.slice(1)), "i")

@@ -81,7 +81,7 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     engine.rootContext()->setContextObject(new KLocalizedContext(&engine));
     engine.setInitialProperties(
         /* QMap<QString, QVariant> or QVariantMap */ {
-            { "tasksModel", QVariant::fromValue(tasksModel) }
+            { QStringLiteral("tasksModel"), QVariant::fromValue(tasksModel) }
         }
     );
     engine.load(QUrl(QStringLiteral("qrc:///main.qml")));

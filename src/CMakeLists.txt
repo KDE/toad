@@ -16,14 +16,14 @@ target_link_libraries(${CMAKE_PROJECT_NAME}
     Qt::Quick
     Qt::QuickControls2
     Qt::Svg
-    KF${QT_MAJOR_VERSION}::I18n
-    KF${QT_MAJOR_VERSION}::CoreAddons
-    KF${QT_MAJOR_VERSION}::ConfigCore
-    KF${QT_MAJOR_VERSION}::ConfigGui
-    KF${QT_MAJOR_VERSION}::ItemModels)
+    KF6::I18n
+    KF6::CoreAddons
+    KF6::ConfigCore
+    KF6::ConfigGui
+    KF6::ItemModels)
 
 if (NOT ANDROID)
-    target_link_libraries(${CMAKE_PROJECT_NAME} Qt::Widgets KF${QT_MAJOR_VERSION}::DBusAddons KF${QT_MAJOR_VERSION}::WindowSystem)
+    target_link_libraries(${CMAKE_PROJECT_NAME} Qt::Widgets KF6::DBusAddons KF6::WindowSystem)
 else()
     kirigami_package_breeze_icons(ICONS
         entry-edit

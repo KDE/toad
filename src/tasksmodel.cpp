@@ -79,7 +79,7 @@ bool TasksModel::setData(const QModelIndex &index, const QVariant &value, int ro
             break;
     }
 
-    emit dataChanged(index, index, { role });
+    Q_EMIT dataChanged(index, index, { role });
 
     saveTasks();
 
