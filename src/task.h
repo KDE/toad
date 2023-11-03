@@ -9,16 +9,16 @@
 class Task
 {
 public:
-    Task(QString title, bool checked);
+    explicit Task(const QString &title, bool checked);
 
-    QString title();
-    bool checked();
+    [[nodiscard]] QString title() const;
+    [[nodiscard]] bool checked() const;
 
     void setTitle(const QString &title);
     void setChecked(const bool &checked);
 
     static Task fromJson(const QJsonObject &obj);
-    QJsonObject toJson() const;
+    [[nodiscard]] QJsonObject toJson() const;
 
 private:
     QString m_title;

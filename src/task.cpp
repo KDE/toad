@@ -3,18 +3,18 @@
 
 #include "task.h"
 
-Task::Task(QString title, bool checked)
+Task::Task(const QString &title, bool checked)
 {
     m_title = title;
     m_checked = checked;
 }
 
-QString Task::title()
+QString Task::title() const
 {
     return m_title;
 }
 
-bool Task::checked()
+bool Task::checked() const
 {
     return m_checked;
 }
