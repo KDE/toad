@@ -4,9 +4,13 @@
 add_executable(${CMAKE_PROJECT_NAME}
     main.cpp
     about.cpp
+    about.h
     controller.cpp
+    controller.h
     task.cpp
+    task.h
     tasksmodel.cpp
+    tasksmodel.h
     resources.qrc)
 
 target_link_libraries(${CMAKE_PROJECT_NAME}
