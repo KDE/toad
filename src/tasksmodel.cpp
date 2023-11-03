@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: LGPL-2.1-or-later
 
 #include "tasksmodel.h"
+#include "tasks_debug.h"
 
 #include <QStandardPaths>
 #include <QFile>
@@ -133,11 +134,11 @@ bool TasksModel::saveTasks() const
 
     QFile outputFile(outputDir + QStringLiteral("/tasks.json"));
     if (!QDir(outputDir).mkpath(QStringLiteral("."))) {
-        qDebug() << "Destdir doesn't exist and I can't create it: " << outputDir;
+        qCWarning(TASKS_LOG) << "Destdir doesn't exist and I can't create it: " << outputDir;
         return false;
     }
     if (!outputFile.open(QIODevice::WriteOnly)) {
-        qDebug() << "Failed to write tabs to disk";
+        qCWarning(TASKS_LOG) << "Failed to write tabs to disk";
     }
 
     QJsonArray tasksArray;
@@ -145,7 +146,7 @@ bool TasksModel::saveTasks() const
         return task.toJson();
     });
 
-    qDebug() << "Wrote to file" << outputFile.fileName() << "(" << tasksArray.count() << "tasks" << ")";
+    qCDebug(TASKS_LOG) << "Wrote to file" << outputFile.fileName() << "(" << tasksArray.count() << "tasks" << ")";
 
     const QJsonDocument document({
         {QLatin1String("tasks"), tasksArray},
@@ -169,7 +170,7 @@ bool TasksModel::loadTasks()
     }
 
     if (!inputFile.open(QIODevice::ReadOnly)) {
-        qDebug() << "Failed to load tabs from disk";
+        qCWarning(TASKS_LOG) << "Failed to load tabs from disk";
     }
 
     const auto tasksStorage = QJsonDocument::fromJson(inputFile.readAll()).object();
@@ -183,7 +184,7 @@ bool TasksModel::loadTasks()
         return Task::fromJson(task.toObject());
     });
 
-    qDebug() << "loaded from file:" << m_tasks.count() << input;
+    qCDebug(TASKS_LOG) << "loaded from file:" << m_tasks.count() << input;
 
     endResetModel();
 

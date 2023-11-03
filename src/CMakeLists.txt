@@ -1,6 +1,8 @@
 # SPDX-FileCopyrightText: 2022 Felipe Kinoshita <kinofhek@gmail.com>
 # SPDX-License-Identifier: BSD-2-Clause
 
+
+
 add_executable(${CMAKE_PROJECT_NAME}
     main.cpp
     about.cpp
@@ -12,6 +14,12 @@ add_executable(${CMAKE_PROJECT_NAME}
     tasksmodel.cpp
     tasksmodel.h
     resources.qrc)
+
+ecm_qt_declare_logging_category(${CMAKE_PROJECT_NAME} HEADER ${CMAKE_PROJECT_NAME}_debug.h IDENTIFIER ${CMAKE_PROJECT_NAME_UPPERCASE}_LOG CATEGORY_NAME org.kde.${CMAKE_PROJECT_NAME}
+        DESCRIPTION "tasl (knotes)"
+        EXPORT ${CMAKE_PROJECT_NAME}_EXPORT
+    )
+
 
 target_link_libraries(${CMAKE_PROJECT_NAME}
     Qt::Core
