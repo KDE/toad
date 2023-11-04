@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: toad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-03 01:41+0000\n"
+"POT-Creation-Date: 2023-11-04 01:39+0000\n"
 "PO-Revision-Date: 2022-06-15 21:49+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
@@ -27,29 +27,29 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "stefan.asserhall@bredband.net"
 
-#: src/main.cpp:52
+#: src/main.cpp:51
 #, kde-format
 msgctxt "@title"
 msgid "Tasks"
 msgstr "Uppgifter"
 
-#: src/main.cpp:56
+#: src/main.cpp:55
 #, kde-format
 msgid "Organize your tasks"
 msgstr "Organisera dina uppgifter"
 
-#: src/main.cpp:60
+#: src/main.cpp:59
 #, kde-format
 msgid "© 2022 Felipe Kinoshita"
 msgstr "© 2022 Felipe Kinoshita"
 
-#: src/main.cpp:61
+#: src/main.cpp:60
 #, kde-format
 msgctxt "@info:credit"
 msgid "Felipe Kinoshita"
 msgstr "Felipe Kinoshita"
 
-#: src/main.cpp:61
+#: src/main.cpp:60
 #, kde-format
 msgctxt "@info:credit"
 msgid "Author"
@@ -107,27 +107,27 @@ msgctxt "@menu-action"
 msgid "About Tasks"
 msgstr "Om Uppgifter"
 
-#: src/ui/main.qml:15
+#: src/ui/main.qml:16
 #, kde-format
 msgid "Tasks"
 msgstr "Uppgifter"
 
-#: src/ui/main.qml:186
+#: src/ui/main.qml:178
 #, kde-format
 msgid "Nothing Found"
 msgstr "Ingenting hittades"
 
-#: src/ui/main.qml:186
+#: src/ui/main.qml:178
 #, kde-format
 msgid "All tasks completed!"
 msgstr "Alla uppgifter färdiga."
 
-#: src/ui/main.qml:188
+#: src/ui/main.qml:180
 #, kde-format
 msgid "Your search did not match any results"
 msgstr "Sökningen matchade inte några resultat"
 
-#: src/ui/main.qml:188
+#: src/ui/main.qml:180
 #, kde-format
 msgid "Add some more by typing in the text field at the bottom of the window"
 msgstr "Lägg till mer genom att skriva i textfältet längst ner i fönstret"

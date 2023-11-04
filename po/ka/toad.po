@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: toad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-03 01:41+0000\n"
+"POT-Creation-Date: 2023-11-04 01:39+0000\n"
 "PO-Revision-Date: 2022-10-19 05:03+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
@@ -28,29 +28,29 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "Temuri.doghonadze@gmail.com"
 
-#: src/main.cpp:52
+#: src/main.cpp:51
 #, kde-format
 msgctxt "@title"
 msgid "Tasks"
 msgstr "Tasks"
 
-#: src/main.cpp:56
+#: src/main.cpp:55
 #, kde-format
 msgid "Organize your tasks"
 msgstr "დაალაგეთ თქვენი ამოცანები"
 
-#: src/main.cpp:60
+#: src/main.cpp:59
 #, kde-format
 msgid "© 2022 Felipe Kinoshita"
 msgstr "© 2022 Felipe Kinoshita, ყველა უფლება დაცულია"
 
-#: src/main.cpp:61
+#: src/main.cpp:60
 #, kde-format
 msgctxt "@info:credit"
 msgid "Felipe Kinoshita"
 msgstr "Felipe Kinoshita"
 
-#: src/main.cpp:61
+#: src/main.cpp:60
 #, kde-format
 msgctxt "@info:credit"
 msgid "Author"
@@ -108,27 +108,27 @@ msgctxt "@menu-action"
 msgid "About Tasks"
 msgstr "დავალებების შესახებ"
 
-#: src/ui/main.qml:15
+#: src/ui/main.qml:16
 #, kde-format
 msgid "Tasks"
 msgstr "Tasks"
 
-#: src/ui/main.qml:186
+#: src/ui/main.qml:178
 #, kde-format
 msgid "Nothing Found"
 msgstr "ვერაფერი მოიძებნა"
 
-#: src/ui/main.qml:186
+#: src/ui/main.qml:178
 #, kde-format
 msgid "All tasks completed!"
 msgstr "ყველა დავალება დასრულდა!"
 
-#: src/ui/main.qml:188
+#: src/ui/main.qml:180
 #, kde-format
 msgid "Your search did not match any results"
 msgstr "თქვენმა ძებნა უშედეგოა"
 
-#: src/ui/main.qml:188
+#: src/ui/main.qml:180
 #, kde-format
 msgid "Add some more by typing in the text field at the bottom of the window"
 msgstr ""
