@@ -6,6 +6,7 @@
   -->
   <id>org.kde.tasks</id>
   <name>Tasks</name>
+  <name xml:lang="ast">Xeres</name>
   <name xml:lang="ca">Tasks</name>
   <name xml:lang="ca-valencia">Tasks</name>
   <name xml:lang="cs">Úlohy</name>
