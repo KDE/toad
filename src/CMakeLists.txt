@@ -1,4 +1,4 @@
-# SPDX-FileCopyrightText: 2022 Felipe Kinoshita <kinofhek@gmail.com>
+    # SPDX-FileCopyrightText: 2022 Felipe Kinoshita <kinofhek@gmail.com>
 # SPDX-License-Identifier: BSD-2-Clause
 
 
@@ -49,6 +49,7 @@ else()
         tools-report-bug
         help-about
     )
+    ecm_add_android_apk(${CMAKE_PROJECT_NAME} ANDROID_DIR ${CMAKE_SOURCE_DIR/android})
 endif()
 
 kconfig_add_kcfg_files(${CMAKE_PROJECT_NAME} GENERATE_MOC config.kcfgc)

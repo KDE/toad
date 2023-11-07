@@ -27,6 +27,7 @@ include(ECMGenerateHeaders)
 include(ECMPoQmTools)
 include(ECMQtDeclareLoggingCategory)
 include(ECMDeprecationSettings)
+include(ECMAddAndroidApk)
 
 ecm_setup_version(${PROJECT_VERSION}
     VARIABLE_PREFIX ${CMAKE_PROJECT_NAME_UPPERCASE}
