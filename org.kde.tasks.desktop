@@ -107,4 +107,5 @@ Keywords[sv]=Produktivitet;Att göra;Uppgift;
 Keywords[tr]=Üretkenlik;Yapılacak;Görev;
 Keywords[uk]=Productivity;Todo;Task;задача;продуктивність;зробити;робота;завдання;
 Keywords[x-test]=xxProductivityxx;xxTodoxx;xxTaskxx;
+Keywords[zh_CN]=Productivity;Todo;Task;生产力;待办事项;任务;shengchanli;daibanshixiang;renwu;
 SingleMainWindow=true
