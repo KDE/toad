@@ -24,6 +24,7 @@
   <name xml:lang="ko">할 일</name>
   <name xml:lang="nl">Taken</name>
   <name xml:lang="nn">Oppgåver</name>
+  <name xml:lang="pa">ਟਾਸਕ</name>
   <name xml:lang="pl">Zadania</name>
   <name xml:lang="pt">Tarefas</name>
   <name xml:lang="sk">Úlohy</name>
@@ -52,6 +53,7 @@
   <summary xml:lang="ko">내 할 일 관리</summary>
   <summary xml:lang="nl">Uw taken organiseren</summary>
   <summary xml:lang="nn">Organiser gjeremål</summary>
+  <summary xml:lang="pa">ਆਪਣੇ ਕੰਮਾਂ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰੋ</summary>
   <summary xml:lang="pl">Uporządkuj swoje zadania</summary>
   <summary xml:lang="pt">Organizar as suas tarefas</summary>
   <summary xml:lang="sl">Organizira vaša opravila</summary>
@@ -80,6 +82,7 @@
   <developer_name xml:lang="ko">KDE 커뮤니티, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="nl">KDE gemeenschap, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="nn">KDE-fellesskapet, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="pa">ਕੇਡੀਈ ਕਮਿਊਨਟੀ, ਫਿਲੀਪੇ ਕਿਨੋਸ਼ੀਟਾ</developer_name>
   <developer_name xml:lang="pl">Społeczność KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="pt">Comunidade do KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="sk">KDE komunita, Felipe Kinoshita</developer_name>
@@ -137,6 +140,7 @@
       <caption xml:lang="ko">할 일 목록</caption>
       <caption xml:lang="nl">Takenlijst</caption>
       <caption xml:lang="nn">Oppgåveliste</caption>
+      <caption xml:lang="pa">ਟਾਸਕ ਸੂਚੀ</caption>
       <caption xml:lang="pl">Lista zadań</caption>
       <caption xml:lang="pt">Lista de tarefas</caption>
       <caption xml:lang="ru">Список задач</caption>
@@ -168,6 +172,7 @@
       <caption xml:lang="ko">빈 목록</caption>
       <caption xml:lang="nl">Lege lijst</caption>
       <caption xml:lang="nn">Tom liste</caption>
+      <caption xml:lang="pa">ਖਾਲੀ ਸੂਚੀ</caption>
       <caption xml:lang="pl">Pusta lista</caption>
       <caption xml:lang="pt">Lista vazia</caption>
       <caption xml:lang="sl">Prazen seznam</caption>
