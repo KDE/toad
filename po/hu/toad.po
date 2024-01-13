@@ -1,46 +1,47 @@
-# Header entry was created by Lokalize.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the toad package.
 #
-# Xavier Besnard <xavier.besnard@kde.org>, 2022.
+# Kristof Kiszel <ulysses@fsf.hu>, 2024.
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
+"Project-Id-Version: toad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-11-04 01:39+0000\n"
-"PO-Revision-Date: 2022-06-15 13:42+0200\n"
-"Last-Translator: Xavier Besnard <xavier.besnard@neuf.fr>\n"
-"Language-Team: French <kde-francophone@kde.org>\n"
-"Language: fr\n"
+"PO-Revision-Date: 2024-01-12 12:40+0100\n"
+"Last-Translator: Kristof Kiszel <ulysses@fsf.hu>\n"
+"Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
+"Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 22.04.2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 24.01.85\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Steve"
+msgstr "Kiszel Kristóf"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "stax@ik.me"
+msgstr "ulysses@fsf.hu"
 
 #: src/main.cpp:51
 #, kde-format
 msgctxt "@title"
 msgid "Tasks"
-msgstr "Tâches"
+msgstr "Tasks"
 
 #: src/main.cpp:55
 #, kde-format
 msgid "Organize your tasks"
-msgstr "Organiser vos tâches"
+msgstr "Rendszerezze feladatait"
 
 #: src/main.cpp:59
 #, kde-format
 msgid "© 2022 Felipe Kinoshita"
-msgstr "© 2022 Felipe Kinoshita"
+msgstr "© Felipe Kinoshita, 2022."
 
 #: src/main.cpp:60
 #, kde-format
@@ -52,122 +53,117 @@ msgstr "Felipe Kinoshita"
 #, kde-format
 msgctxt "@info:credit"
 msgid "Author"
-msgstr "Auteur"
+msgstr "Szerző"
 
 #: src/ui/Footer.qml:30
 #, kde-format
 msgid "Type the new task's title here…"
-msgstr "Veuillez saisir ici le titre de la nouvelle tâche…"
+msgstr "Írja be ide az új feladat címét…"
 
 #: src/ui/Footer.qml:46
 #, kde-format
 msgid "Add Task"
-msgstr "Ajouter une tâche"
+msgstr "Feladat hozzáadása"
 
 #: src/ui/GlobalMenu.qml:16
 #, kde-format
 msgctxt "@menu"
 msgid "File"
-msgstr "Fichier"
+msgstr "Fájl"
 
 #: src/ui/GlobalMenu.qml:19
 #, kde-format
 msgctxt "@menu-action"
 msgid "Quit"
-msgstr "Quitter"
+msgstr "Kilépés"
 
 #: src/ui/GlobalMenu.qml:26
 #, kde-format
 msgctxt "@menu"
 msgid "Edit"
-msgstr "Éditer"
+msgstr "Szerkesztés"
 
 #: src/ui/GlobalMenu.qml:29
 #, kde-format
 msgctxt "@menu-action"
 msgid "Clear Tasks"
-msgstr "Effacer des tâches"
+msgstr "Feladatok törlése"
 
 #: src/ui/GlobalMenu.qml:37
 #, kde-format
 msgctxt "@menu"
 msgid "Help"
-msgstr "Aide"
+msgstr "Súgó"
 
 #: src/ui/GlobalMenu.qml:40
 #, kde-format
 msgctxt "@menu-action"
 msgid "Report Bug…"
-msgstr "Signaler un bogue…"
+msgstr "Hibabejelentés…"
 
 #: src/ui/GlobalMenu.qml:46
 #, kde-format
 msgctxt "@menu-action"
 msgid "About Tasks"
-msgstr "À propos des tâches"
+msgstr "Tasks névjegye"
 
 #: src/ui/main.qml:16
 #, kde-format
 msgid "Tasks"
-msgstr "Tâches"
+msgstr "Tasks"
 
 #: src/ui/main.qml:178
 #, kde-format
 msgid "Nothing Found"
-msgstr "Aucun résultat"
+msgstr "Nincs találat"
 
 #: src/ui/main.qml:178
 #, kde-format
 msgid "All tasks completed!"
-msgstr "Toutes les tâches sont terminées !"
+msgstr "Minden feladat befejezve."
 
 #: src/ui/main.qml:180
 #, kde-format
 msgid "Your search did not match any results"
-msgstr "Votre recherche ne correspond à aucun résultat"
+msgstr "A keresésre nincs egyetlen találat sem"
 
 #: src/ui/main.qml:180
 #, kde-format
 msgid "Add some more by typing in the text field at the bottom of the window"
-msgstr ""
-"En ajouter davantage en saisissant du texte dans le champ du bas de la "
-"fenêtre"
+msgstr "Adjon hozzá még néhányat az ablak alján található szövegmezőbe beírva"
 
 #: src/ui/PageHeader.qml:26
 #, kde-format
 msgid "1 result"
 msgid_plural "%1 results"
-msgstr[0] "1 résultat"
-msgstr[1] "%1 résultats"
+msgstr[0] "1 találat"
+msgstr[1] "%1 találat"
 
 #: src/ui/PageHeader.qml:26
 #, kde-format
 msgid "1 task"
 msgid_plural "%1 tasks"
-msgstr[0] "1 tâche"
-msgstr[1] "%1 tâches"
+msgstr[0] "1 feladat"
+msgstr[1] "%1 feladat"
 
 #: src/ui/PageHeader.qml:35
 #, kde-format
 msgid "1 task completed"
 msgid_plural "%1 tasks completed"
-msgstr[0] "1 tache terminée"
-msgstr[1] "%1 tâches terminées"
+msgstr[0] "1 feladat befejezve"
+msgstr[1] "%1 feladat befejezve"
 
 #: src/ui/PageHeader.qml:44
 #, kde-format
 msgid "Clear All"
-msgstr "Tout effacer"
+msgstr "Összes törlése"
 
 #: src/ui/PageHeader.qml:53
 #, kde-format
 msgid "Search"
-msgstr "Rechercher"
+msgstr "Keresés"
 
 #: src/ui/PageHeader.qml:68
 #, kde-format
 msgid "About Tasks"
-msgstr "À propos des tâches"
-
-#~ msgid "Simple task list"
-#~ msgstr "Liste simple de tâches"
+msgstr "Tasks névjegye"
