@@ -1,13 +1,13 @@
 # Copyright (C) 2023 This file is copyright:
 # This file is distributed under the same license as the toad package.
 #
-# SPDX-FileCopyrightText: 2023 Alexander Yavorsky <kekcuha@gmail.com>
+# SPDX-FileCopyrightText: 2023, 2024 Alexander Yavorsky <kekcuha@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: toad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-11-04 01:39+0000\n"
-"PO-Revision-Date: 2023-12-05 16:17+0300\n"
+"PO-Revision-Date: 2024-02-09 23:02+0300\n"
 "Last-Translator: Alexander Yavorsky <kekcuha@gmail.com>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "Language: ru\n"
@@ -16,55 +16,55 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Lokalize 23.08.3\n"
+"X-Generator: Lokalize 24.01.95\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr ""
+msgstr "Александр Яворский"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr ""
+msgstr "kekcuha@gmail.com"
 
 #: src/main.cpp:51
 #, kde-format
 msgctxt "@title"
 msgid "Tasks"
-msgstr ""
+msgstr "Задачи"
 
 #: src/main.cpp:55
 #, kde-format
 msgid "Organize your tasks"
-msgstr ""
+msgstr "Управление задачами"
 
 #: src/main.cpp:59
 #, kde-format
 msgid "© 2022 Felipe Kinoshita"
-msgstr ""
+msgstr "© Felipe Kinoshita, 2022"
 
 #: src/main.cpp:60
 #, kde-format
 msgctxt "@info:credit"
 msgid "Felipe Kinoshita"
-msgstr ""
+msgstr "Felipe Kinoshita"
 
 #: src/main.cpp:60
 #, kde-format
 msgctxt "@info:credit"
 msgid "Author"
-msgstr ""
+msgstr "Автор"
 
 #: src/ui/Footer.qml:30
 #, kde-format
 msgid "Type the new task's title here…"
-msgstr ""
+msgstr "Введите здесь название задачи…"
 
 #: src/ui/Footer.qml:46
 #, kde-format
 msgid "Add Task"
-msgstr ""
+msgstr "Добавить задачу"
 
 #: src/ui/GlobalMenu.qml:16
 #, kde-format
@@ -76,52 +76,52 @@ msgstr "Файл"
 #, kde-format
 msgctxt "@menu-action"
 msgid "Quit"
-msgstr ""
+msgstr "Выход"
 
 #: src/ui/GlobalMenu.qml:26
 #, kde-format
 msgctxt "@menu"
 msgid "Edit"
-msgstr ""
+msgstr "Правка"
 
 #: src/ui/GlobalMenu.qml:29
 #, kde-format
 msgctxt "@menu-action"
 msgid "Clear Tasks"
-msgstr ""
+msgstr "Очистить список задач"
 
 #: src/ui/GlobalMenu.qml:37
 #, kde-format
 msgctxt "@menu"
 msgid "Help"
-msgstr ""
+msgstr "Справка"
 
 #: src/ui/GlobalMenu.qml:40
 #, kde-format
 msgctxt "@menu-action"
 msgid "Report Bug…"
-msgstr ""
+msgstr "Сообщить об ошибке…"
 
 #: src/ui/GlobalMenu.qml:46
 #, kde-format
 msgctxt "@menu-action"
 msgid "About Tasks"
-msgstr ""
+msgstr "О программе"
 
 #: src/ui/main.qml:16
 #, kde-format
 msgid "Tasks"
-msgstr ""
+msgstr "Задачи"
 
 #: src/ui/main.qml:178
 #, kde-format
 msgid "Nothing Found"
-msgstr ""
+msgstr "Ничего не найдено"
 
 #: src/ui/main.qml:178
 #, kde-format
 msgid "All tasks completed!"
-msgstr ""
+msgstr "Все задачи завершены."
 
 #: src/ui/main.qml:180
 #, kde-format
@@ -140,6 +140,7 @@ msgid_plural "%1 results"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
+msgstr[3] ""
 
 #: src/ui/PageHeader.qml:26
 #, kde-format
@@ -148,6 +149,7 @@ msgid_plural "%1 tasks"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
+msgstr[3] ""
 
 #: src/ui/PageHeader.qml:35
 #, kde-format
@@ -156,6 +158,7 @@ msgid_plural "%1 tasks completed"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
+msgstr[3] ""
 
 #: src/ui/PageHeader.qml:44
 #, kde-format
@@ -165,7 +168,7 @@ msgstr ""
 #: src/ui/PageHeader.qml:53
 #, kde-format
 msgid "Search"
-msgstr ""
+msgstr "Поиск"
 
 #: src/ui/PageHeader.qml:68
 #, kde-format
