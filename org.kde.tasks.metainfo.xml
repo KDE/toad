@@ -23,6 +23,7 @@
   <name xml:lang="it">Tasks</name>
   <name xml:lang="ka">ამოცანები</name>
   <name xml:lang="ko">할 일</name>
+  <name xml:lang="lv">Tasks</name>
   <name xml:lang="nl">Taken</name>
   <name xml:lang="nn">Oppgåver</name>
   <name xml:lang="pa">ਟਾਸਕ</name>
@@ -53,6 +54,7 @@
   <summary xml:lang="it">Organizza le tue attività</summary>
   <summary xml:lang="ka">დაალაგეთ თქვენი ამოცანები</summary>
   <summary xml:lang="ko">내 할 일 관리</summary>
+  <summary xml:lang="lv">Organizējiet savus uzdevumus</summary>
   <summary xml:lang="nl">Uw taken organiseren</summary>
   <summary xml:lang="nn">Organiser gjeremål</summary>
   <summary xml:lang="pa">ਆਪਣੇ ਕੰਮਾਂ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰੋ</summary>
@@ -83,6 +85,7 @@
   <developer_name xml:lang="it">Comunità KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="ka">KDE-ის საზოგადოება, ფელიპე კინოშიტა</developer_name>
   <developer_name xml:lang="ko">KDE 커뮤니티, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="lv">KDE kopiena, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="nl">KDE gemeenschap, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="nn">KDE-fellesskapet, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="pa">ਕੇਡੀਈ ਕਮਿਊਨਟੀ, ਫਿਲੀਪੇ ਕਿਨੋਸ਼ੀਟਾ</developer_name>
@@ -112,6 +115,7 @@
     <p xml:lang="it">Tasks è un'applicazione per le cose da fare, puoi modificare le attività al volo e salva il tuo lavoro automaticamente.</p>
     <p xml:lang="ka">Tasks ამოცანების ჩამონათვალის მარტივ აპლიკაციას წარმოადგენს, სადაც ამოცანების ჩასწორება ძალიან მარტივად შეგიძლიათ.</p>
     <p xml:lang="ko">할 일 목록 앱입니다. 즉석에서 할 일을 편집하고 모든 작업을 자동으로 저장할 수 있습니다.</p>
+    <p xml:lang="lv">„Tasks“ ir uzdevumu plānošanas programma, kurā varat rediģēt darāmos uzdevumus un kas automātiski saglabā jūsu darbu.</p>
     <p xml:lang="nl">Taken is een toepassing voor een tedoen, u kunt taken on-the-fly bewerken en het slaat al uw werk automatisch op.</p>
     <p xml:lang="pl">Zadania to aplikacja typu do zrobienia, możesz edytować zadania w locie i automatycznie zapisywać całą swoją pracę.</p>
     <p xml:lang="pt">As Tarefas são uma aplicação simples de lista de tarefas; poderá editar as tarefas na hora e grava todo o seu trabalho de forma automática.</p>
@@ -143,6 +147,7 @@
       <caption xml:lang="it">Elenco di attività</caption>
       <caption xml:lang="ka">ამოცანების სია</caption>
       <caption xml:lang="ko">할 일 목록</caption>
+      <caption xml:lang="lv">Uzdevumu saraksts</caption>
       <caption xml:lang="nl">Takenlijst</caption>
       <caption xml:lang="nn">Oppgåveliste</caption>
       <caption xml:lang="pa">ਟਾਸਕ ਸੂਚੀ</caption>
@@ -176,6 +181,7 @@
       <caption xml:lang="it">Elenco vuoto</caption>
       <caption xml:lang="ka">მატივი ამოცანების სია</caption>
       <caption xml:lang="ko">빈 목록</caption>
+      <caption xml:lang="lv">Tukšs saraksts</caption>
       <caption xml:lang="nl">Lege lijst</caption>
       <caption xml:lang="nn">Tom liste</caption>
       <caption xml:lang="pa">ਖਾਲੀ ਸੂਚੀ</caption>
