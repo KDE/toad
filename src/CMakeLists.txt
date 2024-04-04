@@ -5,8 +5,6 @@
 
 add_executable(${CMAKE_PROJECT_NAME}
     main.cpp
-    about.cpp
-    about.h
     controller.cpp
     controller.h
     task.cpp
