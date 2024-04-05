@@ -16,6 +16,8 @@ RowLayout {
     Layout.fillWidth: true
     spacing: 0
 
+    Tray { id: tray }
+
     QQC2.Label {
         Layout.alignment: Qt.AlignLeft
         Layout.leftMargin: Kirigami.Units.largeSpacing
@@ -64,16 +66,42 @@ RowLayout {
 
     QQC2.ToolButton {
         display: QQC2.AbstractButton.IconOnly
-        action: Kirigami.Action {
-            text: i18n("About Tasks")
-            icon.name: "help-about"
-            shortcut: StandardKey.HelpContents
-            onTriggered: pageStack.layers.push("About.qml")
-            enabled: pageStack.layers.depth <= 1
-        }
-
         QQC2.ToolTip.visible: hovered
         QQC2.ToolTip.text: text
         QQC2.ToolTip.delay: Kirigami.Units.toolTipDelay
+
+        action: Kirigami.Action {
+            text: i18n("Menu")
+            icon.name: "open-menu-symbolic"
+            onTriggered: menu.open()
+        }
+
+        QQC2.Menu {
+            id: "menu"
+            QQC2.MenuItem {
+                action: Kirigami.Action {
+                    text: i18n("About Tasks")
+                    icon.name: "help-about"
+                    shortcut: StandardKey.HelpContents
+                    onTriggered: pageStack.layers.push("About.qml")
+                    enabled: pageStack.layers.depth <= 1
+                }
+            }
+            QQC2.MenuItem {
+                checkable: true
+                action: Kirigami.Action {
+                    icon.name: "org.kde.tasks"
+                    text: "Enable tray icon"}
+                    onTriggered: tray.visible ? tray.hide() : tray.show()
+            }
+            QQC2.MenuItem {
+                action: Kirigami.Action {
+                    icon.name: "application-exit"
+                    text: "Quit"
+                    shortcut: StandardKey.Quit
+                    onTriggered: Qt.quit()
+                }
+            }
+        }
     }
 }

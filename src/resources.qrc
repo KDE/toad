@@ -10,5 +10,6 @@ SPDX-License-Identifier: CC0-1.0
         <file alias="Footer.qml">ui/Footer.qml</file>
         <file alias="About.qml">ui/About.qml</file>
         <file alias="GlobalMenu.qml">ui/GlobalMenu.qml</file>
+        <file alias="Tray.qml">ui/Tray.qml</file>
     </qresource>
 </RCC>
