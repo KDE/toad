@@ -18,6 +18,7 @@
   <name xml:lang="fi">Tasks</name>
   <name xml:lang="fr">Tâches</name>
   <name xml:lang="gl">Tarefas</name>
+  <name xml:lang="he">משימות</name>
   <name xml:lang="hu">Tasks</name>
   <name xml:lang="ia">Tasks (Cargas)</name>
   <name xml:lang="it">Tasks</name>
@@ -49,6 +50,7 @@
   <summary xml:lang="fi">Järjestä tehtäväsi</summary>
   <summary xml:lang="fr">Organiser vos tâches</summary>
   <summary xml:lang="gl">Organice as súas tarefas.</summary>
+  <summary xml:lang="he">סידור המשימות שלך</summary>
   <summary xml:lang="hu">Rendszerezze feladatait</summary>
   <summary xml:lang="ia">Organisa tu cargas</summary>
   <summary xml:lang="it">Organizza le tue attività</summary>
@@ -80,6 +82,7 @@
   <developer_name xml:lang="fi">KDE-yhteisö, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="fr">Communauté KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="gl">Comunidade KDE, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="he">קהילת KDE, פליפה קינושיטה</developer_name>
   <developer_name xml:lang="hu">KDE Közösség, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="ia">Communitate de KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="it">Comunità KDE, Felipe Kinoshita</developer_name>
@@ -110,6 +113,7 @@
     <p xml:lang="fi">Tasks on tehtäväsovellus: voit muokata tehtäviä lennossa, ja kaikki tallentuu automaattisesti.</p>
     <p xml:lang="fr">L'application « Tasks » permet la gestion de tâches à réaliser. Vous pouvez modifier des tâches à la volée et l'application enregistre automatiquement tout votre travail.</p>
     <p xml:lang="gl">Tarefas é unha aplicación de tarefas que permite editar tarefas sobre a marcha e garda o traballo automaticamente.</p>
+    <p xml:lang="he">משימות הוא יישום מטלות, אפשר לערוך משימות על הדרך וכל העבודה שלך תישמר אוטומטית.</p>
     <p xml:lang="hu">A Tasks egy tennivaló alkalmazás, szerkesztheti feladait menet közben, és minden munkáját automatikusan elmenti.</p>
     <p xml:lang="ia">Cargas es un application a facer, tu pote modificar cargas rapidemente e illo salveguarda tu labor automaticamente.</p>
     <p xml:lang="it">Tasks è un'applicazione per le cose da fare, puoi modificare le attività al volo e salva il tuo lavoro automaticamente.</p>
@@ -142,6 +146,7 @@
       <caption xml:lang="fi">Tehtäväluettelo</caption>
       <caption xml:lang="fr">Liste de tâches</caption>
       <caption xml:lang="gl">Lista de tarefas.</caption>
+      <caption xml:lang="he">רשימת משימות</caption>
       <caption xml:lang="hu">Feladatlista</caption>
       <caption xml:lang="ia">Lista de Cargas</caption>
       <caption xml:lang="it">Elenco di attività</caption>
@@ -176,6 +181,7 @@
       <caption xml:lang="fi">Tyhjä luettelo</caption>
       <caption xml:lang="fr">Liste vide</caption>
       <caption xml:lang="gl">Lista baleira.</caption>
+      <caption xml:lang="he">רשימה ריקה</caption>
       <caption xml:lang="hu">Üres lista</caption>
       <caption xml:lang="ia">Vacua lista</caption>
       <caption xml:lang="it">Elenco vuoto</caption>
