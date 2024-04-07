@@ -37,9 +37,8 @@
             "builddir": true,
             "sources": [
                 {
-                    "type": "git",
-                    "branch": "master",
-                    "url": "https://invent.kde.org/utilities/toad.git"
+                    "type": "dir",
+                    "path": "."
                 }
             ]
         }
