@@ -11,7 +11,8 @@
         "--share=network",
         "--socket=fallback-x11",
         "--socket=wayland",
-        "--device=dri"
+        "--device=dri",
+        "--talk-name=org.kde.StatusNotifierWatcher"
     ],
     "separate-locales": false,
 
