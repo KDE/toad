@@ -79,7 +79,7 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
             { QStringLiteral("tasksModel"), QVariant::fromValue(tasksModel) }
         }
     );
-    engine.load(QUrl(QStringLiteral("qrc:///main.qml")));
+    engine.loadFromModule(APPLICATION_ID, "Main");
 
     if (engine.rootObjects().isEmpty()) {
         return -1;
