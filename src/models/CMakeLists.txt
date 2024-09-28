@@ -1,0 +1,23 @@
+add_library(models)
+
+ecm_add_qml_module(models
+    URI
+    org.kde.tasks.models
+    GENERATE_PLUGIN_SOURCE
+)
+
+target_sources(models
+    PUBLIC
+    task.h task.cpp
+    tasksmodel.h tasksmodel.cpp
+)
+
+target_link_libraries(models
+    PUBLIC
+    Qt6::Core
+    logging
+)
+
+ecm_finalize_qml_module(models)
+
+install(TARGETS models ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})
