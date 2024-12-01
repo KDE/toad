@@ -12,7 +12,7 @@
 
     <supports-screens android:largeScreens="true" android:normalScreens="true" android:anyDensity="true" android:smallScreens="true"/>
 
-    <application android:name="org.qtproject.qt.android.bindings.QtApplication" android:label="Tasks">
+    <application android:name="org.qtproject.qt.android.bindings.QtApplication" android:label="Tasks" android:icon="@drawable/tasks">
         <activity android:configChanges="orientation|uiMode|screenLayout|screenSize|smallestScreenSize|layoutDirection|locale|fontScale|keyboard|keyboardHidden|navigation"
                   android:name="org.qtproject.qt.android.bindings.QtActivity"
                   android:label="Tasks"
