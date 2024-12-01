@@ -58,6 +58,7 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
                          i18n("© 2022 Felipe Kinoshita"));
     aboutData.addAuthor(i18nc("@info:credit", "Felipe Kinoshita"), i18nc("@info:credit", "Author"), QStringLiteral("kinofhek@gmail.com"), QStringLiteral("https://fhek.gitlab.io"));
     aboutData.setBugAddress("https://invent.kde.org/utilities/toad/-/issues/new");
+    aboutData.setProgramLogo(QIcon(QStringLiteral(":/tasks.png")));
     KAboutData::setApplicationData(aboutData);
     QGuiApplication::setWindowIcon(QIcon::fromTheme(QStringLiteral("org.kde.tasks")));
 
