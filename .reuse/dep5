@@ -10,3 +10,6 @@ Files: org.kde.tasks.json
 Copyright: 2022 Felipe Kinoshita <kinofhek@gmail.com>
 License: CC0-1.0
 
+Files: .flatpak-manifest.json
+Copyright: 2024 Thiago Sueto <herzenschein@gmail.com>
+License: BSD-2-Clause
