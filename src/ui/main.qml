@@ -125,8 +125,6 @@ Kirigami.ApplicationWindow {
                         Layout.preferredHeight: Math.round(Kirigami.Units.gridUnit * 1.5)
 
                         icon.name: "entry-edit"
-                        opacity: taskItem.hovered ? 1 : 0
-
                         onClicked: {
                             titleField.visible = true
                             titleLabel.visible = false
@@ -141,7 +139,6 @@ Kirigami.ApplicationWindow {
                         Layout.preferredHeight: Math.round(Kirigami.Units.gridUnit * 1.5)
 
                         icon.name: "entry-delete"
-                        opacity: taskItem.hovered ? 1 : 0
                         onClicked: {
                             const originalIndex = filteredModel.index(index, 0)
                             root.tasksModel.remove(filteredModel.mapToSource(originalIndex))
