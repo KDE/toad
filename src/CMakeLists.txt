@@ -48,6 +48,7 @@ else()
         help-about
         license
         arrow-right
+        list-add
     )
     ecm_add_android_apk(${CMAKE_PROJECT_NAME} ANDROID_DIR ${CMAKE_SOURCE_DIR}/android)
 endif()
