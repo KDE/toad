@@ -6,6 +6,7 @@
   -->
   <id>org.kde.tasks</id>
   <name>Tasks</name>
+  <name xml:lang="ar">المهام</name>
   <name xml:lang="ast">Xeres</name>
   <name xml:lang="ca">Tasks</name>
   <name xml:lang="ca-valencia">Tasks</name>
@@ -39,6 +40,7 @@
   <name xml:lang="zh-CN">Tasks 任务列表</name>
   <name xml:lang="zh-TW">Tasks</name>
   <summary>Organize your tasks</summary>
+  <summary xml:lang="ar">نظّم مهامك</summary>
   <summary xml:lang="ca">Organitzeu les vostres tasques</summary>
   <summary xml:lang="ca-valencia">Organitzeu les vostres tasques</summary>
   <summary xml:lang="cs">Organizujte svoje úkoly</summary>
@@ -72,6 +74,7 @@
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0-or-later</project_license>
   <developer_name>KDE Community, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="ar">فيليبي كينوشيتا، مجتمع كيدي</developer_name>
   <developer_name xml:lang="ca">La comunitat KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="ca-valencia">La comunitat KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="de">KDE-Gemeinschaft, Felipe Kinoshita</developer_name>
@@ -104,6 +107,7 @@
   <developer_name xml:lang="zh-TW">KDE 社群、Felipe Kinoshita</developer_name>
   <description>
     <p>Tasks is a to-do application, you can edit tasks on the fly and it saves all your work automatically.</p>
+    <p xml:lang="ar">المهام هو تطبيق مهام، يمكنك تحرير المهام أثناء التنقل ويحفظ كل عملك تلقائيًا.</p>
     <p xml:lang="ca">«Tasks» és una aplicació de tasques pendents, podeu editar tasques al vol i desarà automàticament tot el vostre treball.</p>
     <p xml:lang="ca-valencia">«Tasks» és una aplicació de tasques pendents, podeu editar-les al vol i guardarà automàticament tot el vostre treball.</p>
     <p xml:lang="en-GB">Tasks is a to-do application, you can edit tasks on the fly and it saves all your work automatically.</p>
@@ -136,6 +140,7 @@
     <screenshot type="default">
       <image>https://cdn.kde.org/screenshots/tasks/tasks.png</image>
       <caption>Tasks list</caption>
+      <caption xml:lang="ar">قائمة المهام</caption>
       <caption xml:lang="ca">Llista de tasques</caption>
       <caption xml:lang="ca-valencia">Llista de tasques</caption>
       <caption xml:lang="cs">Seznam úkolů</caption>
@@ -171,6 +176,7 @@
     <screenshot type="default">
       <image>https://cdn.kde.org/screenshots/tasks/empty-state.png</image>
       <caption>Empty list</caption>
+      <caption xml:lang="ar">قائمة فارغة</caption>
       <caption xml:lang="ca">Llista buida</caption>
       <caption xml:lang="ca-valencia">Llista buida</caption>
       <caption xml:lang="cs">Prázdný seznam</caption>
