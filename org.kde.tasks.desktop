@@ -3,6 +3,7 @@
 
 [Desktop Entry]
 Name=Tasks
+Name[ar]=المهام
 Name[ast]=Xeres
 Name[ca]=Tasks
 Name[ca@valencia]=Tasks
@@ -37,6 +38,7 @@ Name[uk]=Завдання
 Name[x-test]=xxTasksxx
 Name[zh_TW]=工作項目
 GenericName=To Do Application
+GenericName[ar]=تطبيق مهامّ
 GenericName[ca]=Aplicació de tasques pendents
 GenericName[ca@valencia]=Aplicació de tasques pendents
 GenericName[de]=Anwendung für Aufgabenlisten
@@ -67,6 +69,7 @@ GenericName[uk]=Програма для керування завданнями
 GenericName[x-test]=xxTo Do Applicationxx
 GenericName[zh_TW]=待辦事項應用程式
 Comment=Organize your tasks
+Comment[ar]=نظّم مهامك
 Comment[ca]=Organitzeu les vostres tasques
 Comment[ca@valencia]=Organitzeu les vostres tasques
 Comment[cs]=Organizujte svoje úkoly
@@ -103,6 +106,7 @@ Type=Application
 Terminal=false
 Categories=Qt;KDE;Utility;
 Keywords=Productivity;Todo;Task;
+Keywords[ar]=Productivity;Todo;Task;الإنتاجية;المهام;الواجبات;
 Keywords[ca]=Productivitat;Tasca pendent;Tasca;
 Keywords[ca@valencia]=Productivitat;Tasca pendent;Tasca;
 Keywords[de]=produktivität;aufgaben;
