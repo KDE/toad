@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: toad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-04-05 00:40+0000\n"
+"POT-Creation-Date: 2024-12-08 00:43+0000\n"
 "PO-Revision-Date: 2022-06-15 06:20+0200\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
@@ -113,22 +113,22 @@ msgstr "O programu tasks"
 msgid "Tasks"
 msgstr "Naloge"
 
-#: src/ui/main.qml:178
+#: src/ui/main.qml:175
 #, kde-format
 msgid "Nothing Found"
 msgstr "Nič najdenega"
 
-#: src/ui/main.qml:178
+#: src/ui/main.qml:175
 #, kde-format
 msgid "All tasks completed!"
 msgstr "Vse naloge zaključene!"
 
-#: src/ui/main.qml:180
+#: src/ui/main.qml:177
 #, kde-format
 msgid "Your search did not match any results"
 msgstr "Vaše iskanje ni dalo nobenega zadetka"
 
-#: src/ui/main.qml:180
+#: src/ui/main.qml:177
 #, kde-format
 msgid "Add some more by typing in the text field at the bottom of the window"
 msgstr "Dodajte nekaj več z vnosom v besedilno polje na dnu okna"

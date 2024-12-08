@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: toad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-04-05 00:40+0000\n"
+"POT-Creation-Date: 2024-12-08 00:43+0000\n"
 "PO-Revision-Date: 2024-01-12 12:40+0100\n"
 "Last-Translator: Kristof Kiszel <ulysses@fsf.hu>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
@@ -112,22 +112,22 @@ msgstr "Tasks névjegye"
 msgid "Tasks"
 msgstr "Tasks"
 
-#: src/ui/main.qml:178
+#: src/ui/main.qml:175
 #, kde-format
 msgid "Nothing Found"
 msgstr "Nincs találat"
 
-#: src/ui/main.qml:178
+#: src/ui/main.qml:175
 #, kde-format
 msgid "All tasks completed!"
 msgstr "Minden feladat befejezve."
 
-#: src/ui/main.qml:180
+#: src/ui/main.qml:177
 #, kde-format
 msgid "Your search did not match any results"
 msgstr "A keresésre nincs egyetlen találat sem"
 
-#: src/ui/main.qml:180
+#: src/ui/main.qml:177
 #, kde-format
 msgid "Add some more by typing in the text field at the bottom of the window"
 msgstr "Adjon hozzá még néhányat az ablak alján található szövegmezőbe beírva"
