@@ -6,12 +6,10 @@ import QtQuick.Controls 2.15 as QQC2
 import QtQuick.Layouts 1.15
 import org.kde.kirigami 2.19 as Kirigami
 
-import org.kde.tasks 1.0
+import org.kde.tasks
 
 RowLayout {
     id: pageHeader
-
-    required property TasksModel tasksModel
 
     Layout.fillWidth: true
     spacing: 0
@@ -33,8 +31,8 @@ RowLayout {
             id: hoverHandler
         }
 
-        QQC2.ToolTip.visible: hoverHandler.hovered && pageHeader.tasksModel.completedTasks > 0
-        QQC2.ToolTip.text: i18np("1 task completed", "%1 tasks completed", pageHeader.tasksModel.completedTasks)
+        QQC2.ToolTip.visible: hoverHandler.hovered && TasksModel.completedTasks > 0
+        QQC2.ToolTip.text: i18np("1 task completed", "%1 tasks completed", TasksModel.completedTasks)
         QQC2.ToolTip.delay: Kirigami.Units.toolTipDelay
     }
 
@@ -45,7 +43,7 @@ RowLayout {
     QQC2.ToolButton {
         text: i18n("Clear All")
         icon.name: "edit-clear-all"
-        onClicked: pageHeader.tasksModel.clear()
+        onClicked: TasksModel.clear()
         enabled: list.count > 0
     }
 

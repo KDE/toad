@@ -16,8 +16,6 @@ Kirigami.ApplicationWindow {
 
     title: i18n("Tasks")
 
-    required property TasksModel tasksModel
-
     width: Kirigami.Units.gridUnit * 26
     height: Kirigami.Units.gridUnit * 36
     minimumWidth: Kirigami.Units.gridUnit * 20
@@ -43,9 +41,7 @@ Kirigami.ApplicationWindow {
 
     Loader {
         active: !Kirigami.Settings.isMobile
-        sourceComponent: GlobalMenu {
-            tasksModel: root.tasksModel
-        }
+        sourceComponent: GlobalMenu {}
     }
 
     pageStack.initialPage: Kirigami.ScrollablePage {
@@ -54,16 +50,14 @@ Kirigami.ApplicationWindow {
         property bool searching
         property string currentSearchText
 
-        titleDelegate: PageHeader {
-            tasksModel: root.tasksModel
-        }
+        titleDelegate: PageHeader {}
 
         ListView {
             id: list
 
             model: KSortFilterProxyModel {
                 id: filteredModel
-                sourceModel: root.tasksModel
+                sourceModel: TasksModel
                 filterRoleName: "title"
                 filterRegularExpression: {
                     if (page.currentSearchText === "") return new RegExp()
@@ -142,7 +136,7 @@ Kirigami.ApplicationWindow {
                         icon.name: "entry-delete"
                         onClicked: {
                             const originalIndex = filteredModel.index(index, 0)
-                            root.tasksModel.remove(filteredModel.mapToSource(originalIndex))
+                            TasksModel.remove(filteredModel.mapToSource(originalIndex))
                         }
                     }
                 }
@@ -181,7 +175,6 @@ Kirigami.ApplicationWindow {
 
         footer: Footer {
             focus: !Kirigami.InputMethod.willShowOnActive
-            tasksModel: root.tasksModel
         }
     }
 

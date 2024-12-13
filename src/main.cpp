@@ -2,8 +2,6 @@
 // SPDX-License-Identifier: LGPL-2.1-or-later
 
 #include <QIcon>
-#include <QQmlApplicationEngine>
-#include <QUrl>
 #include <QtQml>
 #include <QQuickStyle>
 #include <QQuickWindow>
@@ -23,10 +21,6 @@
 #endif
 
 constexpr auto APPLICATION_ID = "org.kde.tasks";
-
-#include "config.h"
-#include "controller.h"
-#include "tasksmodel.h"
 
 Q_DECL_EXPORT int main(int argc, char *argv[])
 {
@@ -64,22 +58,7 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
 
     QQmlApplicationEngine engine;
 
-    auto config = Config::self();
-
-    qmlRegisterSingletonInstance(APPLICATION_ID, 1, 0, "Config", config);
-
-    Controller controller;
-    qmlRegisterSingletonInstance(APPLICATION_ID, 1, 0, "Controller", &controller);
-
-    qmlRegisterUncreatableType<TasksModel>(APPLICATION_ID, 1,0 , "TasksModel", QStringLiteral("Must be created from C++"));
-    auto tasksModel = new TasksModel(qApp);
-
     engine.rootContext()->setContextObject(new KLocalizedContext(&engine));
-    engine.setInitialProperties(
-        /* QMap<QString, QVariant> or QVariantMap */ {
-            { QStringLiteral("tasksModel"), QVariant::fromValue(tasksModel) }
-        }
-    );
     engine.loadFromModule(APPLICATION_ID, "Main");
 
     if (engine.rootObjects().isEmpty()) {
@@ -109,7 +88,7 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
         auto view = qobject_cast<QQuickWindow *>(obj);
         if (view) {
             if (view->isVisible()) {
-                controller.restoreWindowGeometry(view);
+                //controller.restoreWindowGeometry(view);
             }
             break;
         }

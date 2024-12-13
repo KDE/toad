@@ -5,12 +5,10 @@ import QtQuick 2.15
 import Qt.labs.platform 1.1 as Labs
 import org.kde.kirigami 2.19 as Kirigami
 
-import org.kde.tasks 1.0
+import org.kde.tasks
 
 Labs.MenuBar {
     id: menuBar
-
-    required property TasksModel tasksModel
 
     Labs.Menu {
         title: i18nc("@menu", "File")
@@ -28,7 +26,7 @@ Labs.MenuBar {
         Labs.MenuItem {
             text: i18nc("@menu-action", "Clear Tasks")
             icon.name: "edit-clear-all"
-            onTriggered: menuBar.tasksModel.clear()
+            onTriggered: TasksModel.clear()
             enabled: list.count > 0
         }
     }

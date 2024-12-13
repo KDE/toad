@@ -4,13 +4,15 @@
 #pragma once
 
 #include <QAbstractListModel>
-#include <QJsonObject>
+#include <QQmlEngine>
 
 #include "task.h"
 
 class TasksModel : public QAbstractListModel
 {
     Q_OBJECT
+    QML_ELEMENT
+    QML_SINGLETON
     Q_PROPERTY(int completedTasks READ completedTasks NOTIFY completedTasksChanged)
 
 public:

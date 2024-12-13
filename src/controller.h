@@ -4,12 +4,14 @@
 #pragma once
 
 #include <QObject>
-
-class QQuickWindow;
+#include <QQmlEngine>
+#include <QQuickWindow>
 
 class Controller : public QObject
 {
     Q_OBJECT
+    QML_ELEMENT
+    QML_SINGLETON
 
 public:
     explicit Controller(QObject* parent = nullptr);
