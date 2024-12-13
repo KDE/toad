@@ -80,7 +80,7 @@ RowLayout {
             id: "menu"
             QQC2.MenuItem {
                 action: Kirigami.Action {
-                    text: i18n("About Tasks")
+                    text: i18nc("@action:inmenu", "About Tasks")
                     icon.name: "help-about"
                     shortcut: StandardKey.HelpContents
                     onTriggered: pageStack.layers.push("About.qml")
@@ -91,13 +91,13 @@ RowLayout {
                 checkable: true
                 action: Kirigami.Action {
                     icon.name: "org.kde.tasks"
-                    text: "Enable tray icon"}
+                    text: i18nc("@action:inmenu", "Enable tray icon")
                     onTriggered: tray.visible ? tray.hide() : tray.show()
             }
             QQC2.MenuItem {
                 action: Kirigami.Action {
                     icon.name: "application-exit"
-                    text: "Quit"
+                    text: i18nc("@action:inmenu", "Quit")
                     shortcut: StandardKey.Quit
                     onTriggered: Qt.quit()
                 }
