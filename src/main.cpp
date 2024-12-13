@@ -8,7 +8,7 @@
 
 #include "version-tasks.h"
 #include <KAboutData>
-#include <KLocalizedContext>
+#include <KLocalizedQmlContext>
 #include <KLocalizedString>
 
 #ifndef Q_OS_ANDROID
@@ -58,7 +58,7 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
 
     QQmlApplicationEngine engine;
 
-    engine.rootContext()->setContextObject(new KLocalizedContext(&engine));
+    KLocalization::setupLocalizedContext(&engine);
     engine.loadFromModule(APPLICATION_ID, "Main");
 
     if (engine.rootObjects().isEmpty()) {
