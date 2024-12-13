@@ -82,17 +82,5 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     });
 #endif
 
-    // Restore window size and position
-    const auto rootObjects = engine.rootObjects();
-    for (auto obj : rootObjects) {
-        auto view = qobject_cast<QQuickWindow *>(obj);
-        if (view) {
-            if (view->isVisible()) {
-                //controller.restoreWindowGeometry(view);
-            }
-            break;
-        }
-    }
-
     return app.exec();
 }

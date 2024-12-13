@@ -5,8 +5,6 @@
 
 add_executable(${CMAKE_PROJECT_NAME}
     main.cpp
-    controller.cpp
-    controller.h
 )
 
 ecm_add_qml_module(${CMAKE_PROJECT_NAME}

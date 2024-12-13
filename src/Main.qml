@@ -7,6 +7,7 @@ import QtQuick.Layouts
 import org.kde.kirigami as Kirigami
 import org.kde.kirigamiaddons.delegates as Delegates
 import org.kde.kitemmodels
+import org.kde.config as KConfig
 
 import org.kde.tasks.models
 import org.kde.tasks.ui
@@ -21,22 +22,8 @@ Kirigami.ApplicationWindow {
     minimumWidth: Kirigami.Units.gridUnit * 20
     minimumHeight: Kirigami.Units.gridUnit * 20
 
-    Timer {
-        id: saveWindowGeometryTimer
-        interval: 1000
-        onTriggered: Controller.saveWindowGeometry(root)
-    }
-
-    Connections {
-        id: saveWindowGeometryConnections
-        enabled: false // Disable on startup to avoid writing wrong values if the window is hidden
-        target: root
-
-        function onClosing() { Controller.saveWindowGeometry(root); }
-        function onWidthChanged() { saveWindowGeometryTimer.restart(); }
-        function onHeightChanged() { saveWindowGeometryTimer.restart(); }
-        function onXChanged() { saveWindowGeometryTimer.restart(); }
-        function onYChanged() { saveWindowGeometryTimer.restart(); }
+    KConfig.WindowStateSaver {
+        configGroupName: "MainWindow"
     }
 
     Loader {
@@ -175,12 +162,6 @@ Kirigami.ApplicationWindow {
 
         footer: Footer {
             focus: !Kirigami.InputMethod.willShowOnActive
-        }
-    }
-
-    Component.onCompleted: {
-        if (!Kirigami.Settings.isMobile) {
-            saveWindowGeometryConnections.enabled = true
         }
     }
 }
