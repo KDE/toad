@@ -15,6 +15,7 @@ ecm_target_qml_sources(ui
     Footer.qml
     GlobalMenu.qml
     PageHeader.qml
+    Tray.qml
 )
 
 ecm_finalize_qml_module(ui)

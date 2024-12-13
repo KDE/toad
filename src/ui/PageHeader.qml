@@ -93,6 +93,7 @@ RowLayout {
                     icon.name: "org.kde.tasks"
                     text: i18nc("@action:inmenu", "Enable tray icon")
                     onTriggered: tray.visible ? tray.hide() : tray.show()
+                }
             }
             QQC2.MenuItem {
                 action: Kirigami.Action {

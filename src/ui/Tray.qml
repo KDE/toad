@@ -1,3 +1,6 @@
+// SPDX-FileCopyrightText: 2024 Thiago Sueto <herzenschein@gmail.com>
+// SPDX-License-Identifier: GPL-3.0-or-later
+
 import QtQuick
 import Qt.labs.platform
 
