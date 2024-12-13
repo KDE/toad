@@ -28,6 +28,7 @@ include(ECMPoQmTools)
 include(ECMQtDeclareLoggingCategory)
 include(ECMDeprecationSettings)
 include(ECMAddAndroidApk)
+include(ECMQmlModule)
 
 ecm_setup_version(${PROJECT_VERSION}
     VARIABLE_PREFIX ${CMAKE_PROJECT_NAME_UPPERCASE}
@@ -35,7 +36,7 @@ ecm_setup_version(${PROJECT_VERSION}
 )
 
 find_package(Qt6 ${QT_MIN_VERSION} REQUIRED COMPONENTS Core Gui Qml QuickControls2 Svg)
-find_package(KF6 ${KF_MIN_VERSION} REQUIRED COMPONENTS Kirigami2 CoreAddons Config I18n ItemModels)
+find_package(KF6 ${KF_MIN_VERSION} REQUIRED COMPONENTS Kirigami CoreAddons Config I18n ItemModels)
 find_package(KF6KirigamiAddons 1.0 REQUIRED)
 
 if (NOT ANDROID)
@@ -53,12 +54,5 @@ add_subdirectory(src)
 install(PROGRAMS org.kde.${CMAKE_PROJECT_NAME}.desktop DESTINATION ${KDE_INSTALL_APPDIR})
 install(FILES org.kde.${CMAKE_PROJECT_NAME}.metainfo.xml DESTINATION ${KDE_INSTALL_METAINFODIR})
 install(FILES org.kde.${CMAKE_PROJECT_NAME}.svg DESTINATION ${KDE_INSTALL_FULL_ICONDIR}/hicolor/scalable/apps)
-
-ecm_qt_install_logging_categories(
-        EXPORT ${CMAKE_PROJECT_NAME}_EXPORT
-        FILE ${CMAKE_PROJECT_NAME}.categories
-        DESTINATION ${KDE_INSTALL_LOGGINGCATEGORIESDIR}
-        )
-
 
 feature_summary(WHAT ALL INCLUDE_QUIET_PACKAGES FATAL_ON_MISSING_REQUIRED_PACKAGES)

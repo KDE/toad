@@ -8,7 +8,8 @@ import org.kde.kirigami as Kirigami
 import org.kde.kirigamiaddons.delegates as Delegates
 import org.kde.kitemmodels
 
-import org.kde.tasks 1.0
+import org.kde.tasks.models
+import org.kde.tasks.ui
 
 Kirigami.ApplicationWindow {
     id: root

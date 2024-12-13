@@ -7,19 +7,20 @@ add_executable(${CMAKE_PROJECT_NAME}
     main.cpp
     controller.cpp
     controller.h
-    task.cpp
-    task.h
-    tasksmodel.cpp
-    tasksmodel.h
-    resources.qrc)
+)
 
-ecm_qt_declare_logging_category(${CMAKE_PROJECT_NAME} HEADER ${CMAKE_PROJECT_NAME}_debug.h IDENTIFIER ${CMAKE_PROJECT_NAME_UPPERCASE}_LOG CATEGORY_NAME org.kde.${CMAKE_PROJECT_NAME}
-        DESCRIPTION "tasl (knotes)"
-        EXPORT ${CMAKE_PROJECT_NAME}_EXPORT
-    )
+ecm_add_qml_module(${CMAKE_PROJECT_NAME}
+    URI
+    org.kde.tasks
+)
 
+ecm_target_qml_sources(${CMAKE_PROJECT_NAME}
+    SOURCES
+    Main.qml
+)
 
 target_link_libraries(${CMAKE_PROJECT_NAME}
+    PRIVATE
     Qt::Core
     Qt::Gui
     Qt::Qml
@@ -30,10 +31,40 @@ target_link_libraries(${CMAKE_PROJECT_NAME}
     KF6::CoreAddons
     KF6::ConfigCore
     KF6::ConfigGui
-    KF6::ItemModels)
+    KF6::ItemModels
+    logging
+    models
+    ui
+)
+
+add_library(logging STATIC)
+
+ecm_qt_declare_logging_category(logging
+    HEADER ${CMAKE_PROJECT_NAME}_debug.h
+    IDENTIFIER ${CMAKE_PROJECT_NAME_UPPERCASE}_LOG
+    CATEGORY_NAME org.kde.${CMAKE_PROJECT_NAME}
+    DESCRIPTION "tasl (knotes)"
+    EXPORT ${CMAKE_PROJECT_NAME}_EXPORT
+)
+
+target_link_libraries(logging
+    PRIVATE
+    Qt6::Core
+)
+
+ecm_qt_install_logging_categories(
+        EXPORT ${CMAKE_PROJECT_NAME}_EXPORT
+        FILE ${CMAKE_PROJECT_NAME}.categories
+        DESTINATION ${KDE_INSTALL_LOGGINGCATEGORIESDIR}
+)
 
 if (NOT ANDROID)
-    target_link_libraries(${CMAKE_PROJECT_NAME} Qt::Widgets KF6::DBusAddons KF6::WindowSystem)
+    target_link_libraries(${CMAKE_PROJECT_NAME}
+        PRIVATE
+        Qt::Widgets
+        KF6::DBusAddons
+        KF6::WindowSystem
+    )
 else()
     kirigami_package_breeze_icons(ICONS
         entry-edit
@@ -55,3 +86,6 @@ endif()
 
 kconfig_add_kcfg_files(${CMAKE_PROJECT_NAME} GENERATE_MOC config.kcfgc)
 install(TARGETS ${CMAKE_PROJECT_NAME} ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})
+
+add_subdirectory(models)
+add_subdirectory(ui)
