@@ -4,6 +4,7 @@
 import QtQuick 2.15
 import Qt.labs.platform 1.1 as Labs
 import org.kde.kirigami 2.19 as Kirigami
+import org.kde.coreaddons as KCoreAddons
 
 import org.kde.tasks
 
@@ -37,7 +38,7 @@ Labs.MenuBar {
         Labs.MenuItem {
             text: i18nc("@menu-action", "Report Bug…")
             icon.name: "tools-report-bug"
-            onTriggered: Qt.openUrlExternally(AboutType.aboutData.bugAddress);
+            onTriggered: Qt.openUrlExternally(KCoreAddons.AboutData.bugAddress);
         }
 
         Labs.MenuItem {
