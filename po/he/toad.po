@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: toad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-12-08 00:43+0000\n"
+"POT-Creation-Date: 2024-12-14 01:00+0000\n"
 "PO-Revision-Date: 2024-04-05 23:36+0300\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
@@ -28,110 +28,110 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "kde-l10n-he@kde.org"
 
-#: src/main.cpp:50
+#: src/main.cpp:44
 #, kde-format
 msgctxt "@title"
 msgid "Tasks"
 msgstr "משימות"
 
-#: src/main.cpp:54
+#: src/main.cpp:48
 #, kde-format
 msgid "Organize your tasks"
 msgstr "סידור המשימות שלך"
 
-#: src/main.cpp:58
+#: src/main.cpp:52
 #, kde-format
 msgid "© 2022 Felipe Kinoshita"
 msgstr "© 2022 פליפה קינושיטה"
 
-#: src/main.cpp:59
+#: src/main.cpp:53
 #, kde-format
 msgctxt "@info:credit"
 msgid "Felipe Kinoshita"
 msgstr "פליפה קינושיטה"
 
-#: src/main.cpp:59
+#: src/main.cpp:53
 #, kde-format
 msgctxt "@info:credit"
 msgid "Author"
 msgstr "יוצר"
 
-#: src/ui/Footer.qml:30
+#: src/Main.qml:18
+#, kde-format
+msgid "Tasks"
+msgstr "משימות"
+
+#: src/Main.qml:157
+#, kde-format
+msgid "Nothing Found"
+msgstr "לא נמצא כלום"
+
+#: src/Main.qml:157
+#, kde-format
+msgid "All tasks completed!"
+msgstr "כל המשימות הושלמו!"
+
+#: src/Main.qml:159
+#, kde-format
+msgid "Your search did not match any results"
+msgstr "החיפוש שלך לא החזיר אף תוצאות"
+
+#: src/Main.qml:159
+#, kde-format
+msgid "Add some more by typing in the text field at the bottom of the window"
+msgstr "אפשר להוסיף כאלה על ידי הקלדתן בשדה הטקסט בתחתית החלון"
+
+#: src/ui/Footer.qml:29
 #, kde-format
 msgid "Type the new task's title here…"
 msgstr "נא להקליד כאן את כותרת המשימה החדשה…"
 
-#: src/ui/Footer.qml:46
+#: src/ui/Footer.qml:45
 #, kde-format
 msgid "Add Task"
 msgstr "הוספת משימה"
 
-#: src/ui/GlobalMenu.qml:16
+#: src/ui/GlobalMenu.qml:14
 #, kde-format
 msgctxt "@menu"
 msgid "File"
 msgstr "קובץ"
 
-#: src/ui/GlobalMenu.qml:19
+#: src/ui/GlobalMenu.qml:17
 #, kde-format
 msgctxt "@menu-action"
 msgid "Quit"
 msgstr "יציאה"
 
-#: src/ui/GlobalMenu.qml:26
+#: src/ui/GlobalMenu.qml:24
 #, kde-format
 msgctxt "@menu"
 msgid "Edit"
 msgstr "עריכה"
 
-#: src/ui/GlobalMenu.qml:29
+#: src/ui/GlobalMenu.qml:27
 #, kde-format
 msgctxt "@menu-action"
 msgid "Clear Tasks"
 msgstr "פינוי משימות"
 
-#: src/ui/GlobalMenu.qml:37
+#: src/ui/GlobalMenu.qml:35
 #, kde-format
 msgctxt "@menu"
 msgid "Help"
 msgstr "עזרה"
 
-#: src/ui/GlobalMenu.qml:40
+#: src/ui/GlobalMenu.qml:38
 #, kde-format
 msgctxt "@menu-action"
 msgid "Report Bug…"
 msgstr "דיווח על תקלה…"
 
-#: src/ui/GlobalMenu.qml:46
+#: src/ui/GlobalMenu.qml:44
 #, kde-format
 msgctxt "@menu-action"
 msgid "About Tasks"
 msgstr "על משימות"
-
-#: src/ui/main.qml:16
-#, kde-format
-msgid "Tasks"
-msgstr "משימות"
-
-#: src/ui/main.qml:175
-#, kde-format
-msgid "Nothing Found"
-msgstr "לא נמצא כלום"
-
-#: src/ui/main.qml:175
-#, kde-format
-msgid "All tasks completed!"
-msgstr "כל המשימות הושלמו!"
-
-#: src/ui/main.qml:177
-#, kde-format
-msgid "Your search did not match any results"
-msgstr "החיפוש שלך לא החזיר אף תוצאות"
-
-#: src/ui/main.qml:177
-#, kde-format
-msgid "Add some more by typing in the text field at the bottom of the window"
-msgstr "אפשר להוסיף כאלה על ידי הקלדתן בשדה הטקסט בתחתית החלון"
 
 #: src/ui/PageHeader.qml:26
 #, kde-format
@@ -170,7 +170,28 @@ msgstr "לפנות הכול"
 msgid "Search"
 msgstr "חיפוש"
 
-#: src/ui/PageHeader.qml:68
+#: src/ui/PageHeader.qml:72
 #, kde-format
+msgid "Menu"
+msgstr ""
+
+#: src/ui/PageHeader.qml:81
+#, fuzzy, kde-format
+#| msgid "About Tasks"
+msgctxt "@action:inmenu"
 msgid "About Tasks"
 msgstr "על משימות"
+
+#: src/ui/PageHeader.qml:92
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Enable tray icon"
+msgstr ""
+
+#: src/ui/PageHeader.qml:99
+#, fuzzy, kde-format
+#| msgctxt "@menu-action"
+#| msgid "Quit"
+msgctxt "@action:inmenu"
+msgid "Quit"
+msgstr "יציאה"

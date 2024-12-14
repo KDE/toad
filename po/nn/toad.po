@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: toad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-12-08 00:43+0000\n"
+"POT-Creation-Date: 2024-12-14 01:00+0000\n"
 "PO-Revision-Date: 2024-07-28 00:33+0200\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@lister.huftis.org>\n"
@@ -28,110 +28,110 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "karl@huftis.org"
 
-#: src/main.cpp:50
+#: src/main.cpp:44
 #, kde-format
 msgctxt "@title"
 msgid "Tasks"
 msgstr "Gjeremål"
 
-#: src/main.cpp:54
+#: src/main.cpp:48
 #, kde-format
 msgid "Organize your tasks"
 msgstr "Organiser gjeremål"
 
-#: src/main.cpp:58
+#: src/main.cpp:52
 #, kde-format
 msgid "© 2022 Felipe Kinoshita"
 msgstr "© 2022 Felipe Kinoshita"
 
-#: src/main.cpp:59
+#: src/main.cpp:53
 #, kde-format
 msgctxt "@info:credit"
 msgid "Felipe Kinoshita"
 msgstr "Felipe Kinoshita"
 
-#: src/main.cpp:59
+#: src/main.cpp:53
 #, kde-format
 msgctxt "@info:credit"
 msgid "Author"
 msgstr "Opphavsperson"
 
-#: src/ui/Footer.qml:30
+#: src/Main.qml:18
+#, kde-format
+msgid "Tasks"
+msgstr "Gjeremål"
+
+#: src/Main.qml:157
+#, kde-format
+msgid "Nothing Found"
+msgstr "Fann ingenting"
+
+#: src/Main.qml:157
+#, kde-format
+msgid "All tasks completed!"
+msgstr "Du er ferdig med alle gjeremåla!"
+
+#: src/Main.qml:159
+#, kde-format
+msgid "Your search did not match any results"
+msgstr "Søket fann ingen gjeremål"
+
+#: src/Main.qml:159
+#, kde-format
+msgid "Add some more by typing in the text field at the bottom of the window"
+msgstr "Legg til fleire ved å skriva i feltet nedst i vindauget"
+
+#: src/ui/Footer.qml:29
 #, kde-format
 msgid "Type the new task's title here…"
 msgstr "Skriv inn namn på gjeremålet her …"
 
-#: src/ui/Footer.qml:46
+#: src/ui/Footer.qml:45
 #, kde-format
 msgid "Add Task"
 msgstr "Nytt gjeremål"
 
-#: src/ui/GlobalMenu.qml:16
+#: src/ui/GlobalMenu.qml:14
 #, kde-format
 msgctxt "@menu"
 msgid "File"
 msgstr "Fil"
 
-#: src/ui/GlobalMenu.qml:19
+#: src/ui/GlobalMenu.qml:17
 #, kde-format
 msgctxt "@menu-action"
 msgid "Quit"
 msgstr "Avslutt"
 
-#: src/ui/GlobalMenu.qml:26
+#: src/ui/GlobalMenu.qml:24
 #, kde-format
 msgctxt "@menu"
 msgid "Edit"
 msgstr "Rediger"
 
-#: src/ui/GlobalMenu.qml:29
+#: src/ui/GlobalMenu.qml:27
 #, kde-format
 msgctxt "@menu-action"
 msgid "Clear Tasks"
 msgstr "Tøm gjeremål"
 
-#: src/ui/GlobalMenu.qml:37
+#: src/ui/GlobalMenu.qml:35
 #, kde-format
 msgctxt "@menu"
 msgid "Help"
 msgstr "Hjelp"
 
-#: src/ui/GlobalMenu.qml:40
+#: src/ui/GlobalMenu.qml:38
 #, kde-format
 msgctxt "@menu-action"
 msgid "Report Bug…"
 msgstr "Meld frå om feil …"
 
-#: src/ui/GlobalMenu.qml:46
+#: src/ui/GlobalMenu.qml:44
 #, kde-format
 msgctxt "@menu-action"
 msgid "About Tasks"
 msgstr "Om Tasks"
-
-#: src/ui/main.qml:16
-#, kde-format
-msgid "Tasks"
-msgstr "Gjeremål"
-
-#: src/ui/main.qml:175
-#, kde-format
-msgid "Nothing Found"
-msgstr "Fann ingenting"
-
-#: src/ui/main.qml:175
-#, kde-format
-msgid "All tasks completed!"
-msgstr "Du er ferdig med alle gjeremåla!"
-
-#: src/ui/main.qml:177
-#, kde-format
-msgid "Your search did not match any results"
-msgstr "Søket fann ingen gjeremål"
-
-#: src/ui/main.qml:177
-#, kde-format
-msgid "Add some more by typing in the text field at the bottom of the window"
-msgstr "Legg til fleire ved å skriva i feltet nedst i vindauget"
 
 #: src/ui/PageHeader.qml:26
 #, kde-format
@@ -164,7 +164,28 @@ msgstr "Fjern alle"
 msgid "Search"
 msgstr "Søk"
 
-#: src/ui/PageHeader.qml:68
+#: src/ui/PageHeader.qml:72
 #, kde-format
+msgid "Menu"
+msgstr ""
+
+#: src/ui/PageHeader.qml:81
+#, fuzzy, kde-format
+#| msgid "About Tasks"
+msgctxt "@action:inmenu"
 msgid "About Tasks"
 msgstr "Om Tasks"
+
+#: src/ui/PageHeader.qml:92
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Enable tray icon"
+msgstr ""
+
+#: src/ui/PageHeader.qml:99
+#, fuzzy, kde-format
+#| msgctxt "@menu-action"
+#| msgid "Quit"
+msgctxt "@action:inmenu"
+msgid "Quit"
+msgstr "Avslutt"

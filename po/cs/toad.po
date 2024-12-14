@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: toad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-12-08 00:43+0000\n"
+"POT-Creation-Date: 2024-12-14 01:00+0000\n"
 "PO-Revision-Date: 2022-10-26 11:19+0200\n"
 "Last-Translator: Vit Pelcak <vit@pelcak.org>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
@@ -27,109 +27,109 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "vit@pelcak.org"
 
-#: src/main.cpp:50
+#: src/main.cpp:44
 #, kde-format
 msgctxt "@title"
 msgid "Tasks"
 msgstr "Úlohy"
 
-#: src/main.cpp:54
+#: src/main.cpp:48
 #, kde-format
 msgid "Organize your tasks"
 msgstr "Organizujte svoje úkoly"
 
-#: src/main.cpp:58
+#: src/main.cpp:52
 #, kde-format
 msgid "© 2022 Felipe Kinoshita"
 msgstr "© 2022 Felipe Kinoshita"
 
-#: src/main.cpp:59
+#: src/main.cpp:53
 #, kde-format
 msgctxt "@info:credit"
 msgid "Felipe Kinoshita"
 msgstr "Felipe Kinoshita"
 
-#: src/main.cpp:59
+#: src/main.cpp:53
 #, kde-format
 msgctxt "@info:credit"
 msgid "Author"
 msgstr "Autor"
 
-#: src/ui/Footer.qml:30
+#: src/Main.qml:18
+#, kde-format
+msgid "Tasks"
+msgstr "Úlohy"
+
+#: src/Main.qml:157
+#, kde-format
+msgid "Nothing Found"
+msgstr "Nic nenalezeno"
+
+#: src/Main.qml:157
+#, kde-format
+msgid "All tasks completed!"
+msgstr ""
+
+#: src/Main.qml:159
+#, kde-format
+msgid "Your search did not match any results"
+msgstr ""
+
+#: src/Main.qml:159
+#, kde-format
+msgid "Add some more by typing in the text field at the bottom of the window"
+msgstr ""
+
+#: src/ui/Footer.qml:29
 #, kde-format
 msgid "Type the new task's title here…"
 msgstr ""
 
-#: src/ui/Footer.qml:46
+#: src/ui/Footer.qml:45
 #, kde-format
 msgid "Add Task"
 msgstr "Přidat úlohu"
 
-#: src/ui/GlobalMenu.qml:16
+#: src/ui/GlobalMenu.qml:14
 #, kde-format
 msgctxt "@menu"
 msgid "File"
 msgstr "Soubor"
 
-#: src/ui/GlobalMenu.qml:19
+#: src/ui/GlobalMenu.qml:17
 #, kde-format
 msgctxt "@menu-action"
 msgid "Quit"
 msgstr "Ukončit"
 
-#: src/ui/GlobalMenu.qml:26
+#: src/ui/GlobalMenu.qml:24
 #, kde-format
 msgctxt "@menu"
 msgid "Edit"
 msgstr "Upravit"
 
-#: src/ui/GlobalMenu.qml:29
+#: src/ui/GlobalMenu.qml:27
 #, kde-format
 msgctxt "@menu-action"
 msgid "Clear Tasks"
 msgstr ""
 
-#: src/ui/GlobalMenu.qml:37
+#: src/ui/GlobalMenu.qml:35
 #, kde-format
 msgctxt "@menu"
 msgid "Help"
 msgstr "Nápověda"
 
-#: src/ui/GlobalMenu.qml:40
+#: src/ui/GlobalMenu.qml:38
 #, kde-format
 msgctxt "@menu-action"
 msgid "Report Bug…"
 msgstr "Nahlásit chybu…"
 
-#: src/ui/GlobalMenu.qml:46
+#: src/ui/GlobalMenu.qml:44
 #, kde-format
 msgctxt "@menu-action"
 msgid "About Tasks"
-msgstr ""
-
-#: src/ui/main.qml:16
-#, kde-format
-msgid "Tasks"
-msgstr "Úlohy"
-
-#: src/ui/main.qml:175
-#, kde-format
-msgid "Nothing Found"
-msgstr "Nic nenalezeno"
-
-#: src/ui/main.qml:175
-#, kde-format
-msgid "All tasks completed!"
-msgstr ""
-
-#: src/ui/main.qml:177
-#, kde-format
-msgid "Your search did not match any results"
-msgstr ""
-
-#: src/ui/main.qml:177
-#, kde-format
-msgid "Add some more by typing in the text field at the bottom of the window"
 msgstr ""
 
 #: src/ui/PageHeader.qml:26
@@ -166,7 +166,28 @@ msgstr "Vyprázdnit vše"
 msgid "Search"
 msgstr "Hledat"
 
-#: src/ui/PageHeader.qml:68
+#: src/ui/PageHeader.qml:72
 #, kde-format
-msgid "About Tasks"
+msgid "Menu"
 msgstr ""
+
+#: src/ui/PageHeader.qml:81
+#, fuzzy, kde-format
+#| msgid "Add Task"
+msgctxt "@action:inmenu"
+msgid "About Tasks"
+msgstr "Přidat úlohu"
+
+#: src/ui/PageHeader.qml:92
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Enable tray icon"
+msgstr ""
+
+#: src/ui/PageHeader.qml:99
+#, fuzzy, kde-format
+#| msgctxt "@menu-action"
+#| msgid "Quit"
+msgctxt "@action:inmenu"
+msgid "Quit"
+msgstr "Ukončit"

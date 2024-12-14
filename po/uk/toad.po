@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: toad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-12-08 00:43+0000\n"
+"POT-Creation-Date: 2024-12-14 01:00+0000\n"
 "PO-Revision-Date: 2022-06-14 08:31+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
@@ -28,110 +28,110 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "yurchor@ukr.net"
 
-#: src/main.cpp:50
+#: src/main.cpp:44
 #, kde-format
 msgctxt "@title"
 msgid "Tasks"
 msgstr "Завдання"
 
-#: src/main.cpp:54
+#: src/main.cpp:48
 #, kde-format
 msgid "Organize your tasks"
 msgstr "Упорядкуйте ваші завдання"
 
-#: src/main.cpp:58
+#: src/main.cpp:52
 #, kde-format
 msgid "© 2022 Felipe Kinoshita"
 msgstr "© Felipe Kinoshita, 2022"
 
-#: src/main.cpp:59
+#: src/main.cpp:53
 #, kde-format
 msgctxt "@info:credit"
 msgid "Felipe Kinoshita"
 msgstr "Felipe Kinoshita"
 
-#: src/main.cpp:59
+#: src/main.cpp:53
 #, kde-format
 msgctxt "@info:credit"
 msgid "Author"
 msgstr "Автор"
 
-#: src/ui/Footer.qml:30
+#: src/Main.qml:18
+#, kde-format
+msgid "Tasks"
+msgstr "Завдання"
+
+#: src/Main.qml:157
+#, kde-format
+msgid "Nothing Found"
+msgstr "Нічого не знайдено"
+
+#: src/Main.qml:157
+#, kde-format
+msgid "All tasks completed!"
+msgstr "Усі завдання завершено!"
+
+#: src/Main.qml:159
+#, kde-format
+msgid "Your search did not match any results"
+msgstr "У результаті пошуку нічого не знайдено"
+
+#: src/Main.qml:159
+#, kde-format
+msgid "Add some more by typing in the text field at the bottom of the window"
+msgstr "Додайте введенням чогось у текстове поле у нижній частині вікна"
+
+#: src/ui/Footer.qml:29
 #, kde-format
 msgid "Type the new task's title here…"
 msgstr "Тут ви можете ввести назву нового завдання…"
 
-#: src/ui/Footer.qml:46
+#: src/ui/Footer.qml:45
 #, kde-format
 msgid "Add Task"
 msgstr "Додати завдання"
 
-#: src/ui/GlobalMenu.qml:16
+#: src/ui/GlobalMenu.qml:14
 #, kde-format
 msgctxt "@menu"
 msgid "File"
 msgstr "Файл"
 
-#: src/ui/GlobalMenu.qml:19
+#: src/ui/GlobalMenu.qml:17
 #, kde-format
 msgctxt "@menu-action"
 msgid "Quit"
 msgstr "Вийти"
 
-#: src/ui/GlobalMenu.qml:26
+#: src/ui/GlobalMenu.qml:24
 #, kde-format
 msgctxt "@menu"
 msgid "Edit"
 msgstr "Змінити"
 
-#: src/ui/GlobalMenu.qml:29
+#: src/ui/GlobalMenu.qml:27
 #, kde-format
 msgctxt "@menu-action"
 msgid "Clear Tasks"
 msgstr "Очистити завдання"
 
-#: src/ui/GlobalMenu.qml:37
+#: src/ui/GlobalMenu.qml:35
 #, kde-format
 msgctxt "@menu"
 msgid "Help"
 msgstr "Довідка"
 
-#: src/ui/GlobalMenu.qml:40
+#: src/ui/GlobalMenu.qml:38
 #, kde-format
 msgctxt "@menu-action"
 msgid "Report Bug…"
 msgstr "Надіслати звіт про помилку…"
 
-#: src/ui/GlobalMenu.qml:46
+#: src/ui/GlobalMenu.qml:44
 #, kde-format
 msgctxt "@menu-action"
 msgid "About Tasks"
 msgstr "Про «Завдання»"
-
-#: src/ui/main.qml:16
-#, kde-format
-msgid "Tasks"
-msgstr "Завдання"
-
-#: src/ui/main.qml:175
-#, kde-format
-msgid "Nothing Found"
-msgstr "Нічого не знайдено"
-
-#: src/ui/main.qml:175
-#, kde-format
-msgid "All tasks completed!"
-msgstr "Усі завдання завершено!"
-
-#: src/ui/main.qml:177
-#, kde-format
-msgid "Your search did not match any results"
-msgstr "У результаті пошуку нічого не знайдено"
-
-#: src/ui/main.qml:177
-#, kde-format
-msgid "Add some more by typing in the text field at the bottom of the window"
-msgstr "Додайте введенням чогось у текстове поле у нижній частині вікна"
 
 #: src/ui/PageHeader.qml:26
 #, kde-format
@@ -170,10 +170,31 @@ msgstr "Очистити все"
 msgid "Search"
 msgstr "Шукати"
 
-#: src/ui/PageHeader.qml:68
+#: src/ui/PageHeader.qml:72
 #, kde-format
+msgid "Menu"
+msgstr ""
+
+#: src/ui/PageHeader.qml:81
+#, fuzzy, kde-format
+#| msgid "About Tasks"
+msgctxt "@action:inmenu"
 msgid "About Tasks"
 msgstr "Про «Завдання»"
+
+#: src/ui/PageHeader.qml:92
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Enable tray icon"
+msgstr ""
+
+#: src/ui/PageHeader.qml:99
+#, fuzzy, kde-format
+#| msgctxt "@menu-action"
+#| msgid "Quit"
+msgctxt "@action:inmenu"
+msgid "Quit"
+msgstr "Вийти"
 
 #~ msgid "Simple task list"
 #~ msgstr "Простий список завдань"

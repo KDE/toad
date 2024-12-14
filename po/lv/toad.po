@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: toad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-12-08 00:43+0000\n"
+"POT-Creation-Date: 2024-12-14 01:00+0000\n"
 "PO-Revision-Date: 2024-02-14 08:59+0200\n"
 "Last-Translator: Toms Trasūns <toms.trasuns@posteo.net>\n"
 "Language-Team: Latvian <kde-i18n-doc@kde.org>\n"
@@ -28,110 +28,110 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "toms.trasuns@posteo.net"
 
-#: src/main.cpp:50
+#: src/main.cpp:44
 #, kde-format
 msgctxt "@title"
 msgid "Tasks"
 msgstr "Tasks"
 
-#: src/main.cpp:54
+#: src/main.cpp:48
 #, kde-format
 msgid "Organize your tasks"
 msgstr "Organizējiet savus uzdevumus"
 
-#: src/main.cpp:58
+#: src/main.cpp:52
 #, kde-format
 msgid "© 2022 Felipe Kinoshita"
 msgstr "© 2022 Felipe Kinoshita"
 
-#: src/main.cpp:59
+#: src/main.cpp:53
 #, kde-format
 msgctxt "@info:credit"
 msgid "Felipe Kinoshita"
 msgstr "Felipe Kinoshita"
 
-#: src/main.cpp:59
+#: src/main.cpp:53
 #, kde-format
 msgctxt "@info:credit"
 msgid "Author"
 msgstr "Autors"
 
-#: src/ui/Footer.qml:30
+#: src/Main.qml:18
+#, kde-format
+msgid "Tasks"
+msgstr "Uzdevumi"
+
+#: src/Main.qml:157
+#, kde-format
+msgid "Nothing Found"
+msgstr "Nekas nav atrasts"
+
+#: src/Main.qml:157
+#, kde-format
+msgid "All tasks completed!"
+msgstr "Visi uzdevumi ir izdarīti"
+
+#: src/Main.qml:159
+#, kde-format
+msgid "Your search did not match any results"
+msgstr "Meklēšana nenesa rezultātus"
+
+#: src/Main.qml:159
+#, kde-format
+msgid "Add some more by typing in the text field at the bottom of the window"
+msgstr "Pievienojiet vairāk, rakstot loga apakšā esošajā teksta laukā"
+
+#: src/ui/Footer.qml:29
 #, kde-format
 msgid "Type the new task's title here…"
 msgstr "Ievadiet jauna uzdevuma nosaukumu..."
 
-#: src/ui/Footer.qml:46
+#: src/ui/Footer.qml:45
 #, kde-format
 msgid "Add Task"
 msgstr "Pievienot uzdevumu"
 
-#: src/ui/GlobalMenu.qml:16
+#: src/ui/GlobalMenu.qml:14
 #, kde-format
 msgctxt "@menu"
 msgid "File"
 msgstr "Datne"
 
-#: src/ui/GlobalMenu.qml:19
+#: src/ui/GlobalMenu.qml:17
 #, kde-format
 msgctxt "@menu-action"
 msgid "Quit"
 msgstr "Iziet"
 
-#: src/ui/GlobalMenu.qml:26
+#: src/ui/GlobalMenu.qml:24
 #, kde-format
 msgctxt "@menu"
 msgid "Edit"
 msgstr "Rediģēt"
 
-#: src/ui/GlobalMenu.qml:29
+#: src/ui/GlobalMenu.qml:27
 #, kde-format
 msgctxt "@menu-action"
 msgid "Clear Tasks"
 msgstr "Notīrīt uzdevumus"
 
-#: src/ui/GlobalMenu.qml:37
+#: src/ui/GlobalMenu.qml:35
 #, kde-format
 msgctxt "@menu"
 msgid "Help"
 msgstr "Palīdzība"
 
-#: src/ui/GlobalMenu.qml:40
+#: src/ui/GlobalMenu.qml:38
 #, kde-format
 msgctxt "@menu-action"
 msgid "Report Bug…"
 msgstr "Ziņot par kļūdu..."
 
-#: src/ui/GlobalMenu.qml:46
+#: src/ui/GlobalMenu.qml:44
 #, kde-format
 msgctxt "@menu-action"
 msgid "About Tasks"
 msgstr "Par „Tasks“"
-
-#: src/ui/main.qml:16
-#, kde-format
-msgid "Tasks"
-msgstr "Uzdevumi"
-
-#: src/ui/main.qml:175
-#, kde-format
-msgid "Nothing Found"
-msgstr "Nekas nav atrasts"
-
-#: src/ui/main.qml:175
-#, kde-format
-msgid "All tasks completed!"
-msgstr "Visi uzdevumi ir izdarīti"
-
-#: src/ui/main.qml:177
-#, kde-format
-msgid "Your search did not match any results"
-msgstr "Meklēšana nenesa rezultātus"
-
-#: src/ui/main.qml:177
-#, kde-format
-msgid "Add some more by typing in the text field at the bottom of the window"
-msgstr "Pievienojiet vairāk, rakstot loga apakšā esošajā teksta laukā"
 
 #: src/ui/PageHeader.qml:26
 #, kde-format
@@ -167,7 +167,28 @@ msgstr "Notīrīt visu"
 msgid "Search"
 msgstr "Meklēt"
 
-#: src/ui/PageHeader.qml:68
+#: src/ui/PageHeader.qml:72
 #, kde-format
+msgid "Menu"
+msgstr ""
+
+#: src/ui/PageHeader.qml:81
+#, fuzzy, kde-format
+#| msgid "About Tasks"
+msgctxt "@action:inmenu"
 msgid "About Tasks"
 msgstr "Par „Tasks“"
+
+#: src/ui/PageHeader.qml:92
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Enable tray icon"
+msgstr ""
+
+#: src/ui/PageHeader.qml:99
+#, fuzzy, kde-format
+#| msgctxt "@menu-action"
+#| msgid "Quit"
+msgctxt "@action:inmenu"
+msgid "Quit"
+msgstr "Iziet"

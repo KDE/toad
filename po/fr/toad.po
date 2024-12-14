@@ -5,11 +5,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-12-08 00:43+0000\n"
+"POT-Creation-Date: 2024-12-14 01:00+0000\n"
 "PO-Revision-Date: 2022-06-15 13:42+0200\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@neuf.fr>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
-"Language: fr_FR\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -26,112 +26,112 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "stax@ik.me"
 
-#: src/main.cpp:50
+#: src/main.cpp:44
 #, kde-format
 msgctxt "@title"
 msgid "Tasks"
 msgstr "Tâches"
 
-#: src/main.cpp:54
+#: src/main.cpp:48
 #, kde-format
 msgid "Organize your tasks"
 msgstr "Organiser vos tâches"
 
-#: src/main.cpp:58
+#: src/main.cpp:52
 #, kde-format
 msgid "© 2022 Felipe Kinoshita"
 msgstr "© 2022 Felipe Kinoshita"
 
-#: src/main.cpp:59
+#: src/main.cpp:53
 #, kde-format
 msgctxt "@info:credit"
 msgid "Felipe Kinoshita"
 msgstr "Felipe Kinoshita"
 
-#: src/main.cpp:59
+#: src/main.cpp:53
 #, kde-format
 msgctxt "@info:credit"
 msgid "Author"
 msgstr "Auteur"
 
-#: src/ui/Footer.qml:30
-#, kde-format
-msgid "Type the new task's title here…"
-msgstr "Veuillez saisir ici le titre de la nouvelle tâche…"
-
-#: src/ui/Footer.qml:46
-#, kde-format
-msgid "Add Task"
-msgstr "Ajouter une tâche"
-
-#: src/ui/GlobalMenu.qml:16
-#, kde-format
-msgctxt "@menu"
-msgid "File"
-msgstr "Fichier"
-
-#: src/ui/GlobalMenu.qml:19
-#, kde-format
-msgctxt "@menu-action"
-msgid "Quit"
-msgstr "Quitter"
-
-#: src/ui/GlobalMenu.qml:26
-#, kde-format
-msgctxt "@menu"
-msgid "Edit"
-msgstr "Éditer"
-
-#: src/ui/GlobalMenu.qml:29
-#, kde-format
-msgctxt "@menu-action"
-msgid "Clear Tasks"
-msgstr "Effacer des tâches"
-
-#: src/ui/GlobalMenu.qml:37
-#, kde-format
-msgctxt "@menu"
-msgid "Help"
-msgstr "Aide"
-
-#: src/ui/GlobalMenu.qml:40
-#, kde-format
-msgctxt "@menu-action"
-msgid "Report Bug…"
-msgstr "Signaler un bogue…"
-
-#: src/ui/GlobalMenu.qml:46
-#, kde-format
-msgctxt "@menu-action"
-msgid "About Tasks"
-msgstr "À propos des tâches"
-
-#: src/ui/main.qml:16
+#: src/Main.qml:18
 #, kde-format
 msgid "Tasks"
 msgstr "Tâches"
 
-#: src/ui/main.qml:175
+#: src/Main.qml:157
 #, kde-format
 msgid "Nothing Found"
 msgstr "Aucun résultat"
 
-#: src/ui/main.qml:175
+#: src/Main.qml:157
 #, kde-format
 msgid "All tasks completed!"
 msgstr "Toutes les tâches sont terminées !"
 
-#: src/ui/main.qml:177
+#: src/Main.qml:159
 #, kde-format
 msgid "Your search did not match any results"
 msgstr "Votre recherche ne correspond à aucun résultat"
 
-#: src/ui/main.qml:177
+#: src/Main.qml:159
 #, kde-format
 msgid "Add some more by typing in the text field at the bottom of the window"
 msgstr ""
 "En ajouter davantage en saisissant du texte dans le champ du bas de la "
 "fenêtre"
+
+#: src/ui/Footer.qml:29
+#, kde-format
+msgid "Type the new task's title here…"
+msgstr "Veuillez saisir ici le titre de la nouvelle tâche…"
+
+#: src/ui/Footer.qml:45
+#, kde-format
+msgid "Add Task"
+msgstr "Ajouter une tâche"
+
+#: src/ui/GlobalMenu.qml:14
+#, kde-format
+msgctxt "@menu"
+msgid "File"
+msgstr "Fichier"
+
+#: src/ui/GlobalMenu.qml:17
+#, kde-format
+msgctxt "@menu-action"
+msgid "Quit"
+msgstr "Quitter"
+
+#: src/ui/GlobalMenu.qml:24
+#, kde-format
+msgctxt "@menu"
+msgid "Edit"
+msgstr "Éditer"
+
+#: src/ui/GlobalMenu.qml:27
+#, kde-format
+msgctxt "@menu-action"
+msgid "Clear Tasks"
+msgstr "Effacer des tâches"
+
+#: src/ui/GlobalMenu.qml:35
+#, kde-format
+msgctxt "@menu"
+msgid "Help"
+msgstr "Aide"
+
+#: src/ui/GlobalMenu.qml:38
+#, kde-format
+msgctxt "@menu-action"
+msgid "Report Bug…"
+msgstr "Signaler un bogue…"
+
+#: src/ui/GlobalMenu.qml:44
+#, kde-format
+msgctxt "@menu-action"
+msgid "About Tasks"
+msgstr "À propos des tâches"
 
 #: src/ui/PageHeader.qml:26
 #, kde-format
@@ -164,10 +164,31 @@ msgstr "Tout effacer"
 msgid "Search"
 msgstr "Rechercher"
 
-#: src/ui/PageHeader.qml:68
+#: src/ui/PageHeader.qml:72
 #, kde-format
+msgid "Menu"
+msgstr ""
+
+#: src/ui/PageHeader.qml:81
+#, fuzzy, kde-format
+#| msgid "About Tasks"
+msgctxt "@action:inmenu"
 msgid "About Tasks"
 msgstr "À propos des tâches"
+
+#: src/ui/PageHeader.qml:92
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Enable tray icon"
+msgstr ""
+
+#: src/ui/PageHeader.qml:99
+#, fuzzy, kde-format
+#| msgctxt "@menu-action"
+#| msgid "Quit"
+msgctxt "@action:inmenu"
+msgid "Quit"
+msgstr "Quitter"
 
 #~ msgid "Simple task list"
 #~ msgstr "Liste simple de tâches"

@@ -1,167 +1,167 @@
-# Copyright (C) YEAR This file is copyright:
+# Sanskrit translations for toad package.
+# Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the toad package.
-# Adrián Chaves (Gallaecio) <adrian@chaves.io>, 2023.
+# Kali <EMAIL@ADDRESS>, 2024.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: toad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-12-14 01:00+0000\n"
-"PO-Revision-Date: 2023-05-11 17:11+0200\n"
-"Last-Translator: Adrián Chaves (Gallaecio) <adrian@chaves.io>\n"
-"Language-Team: Galician <proxecto@trasno.gal>\n"
-"Language: gl\n"
+"PO-Revision-Date: 2024-12-13 19:09+0530\n"
+"Last-Translator: Kali <EMAIL@ADDRESS>\n"
+"Language-Team: Sanskrit\n"
+"Language: sa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 23.04.0\n"
+"Plural-Forms: nplurals=2; plural=(n>2);\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Adrian Chaves (Gallaecio)"
+msgstr ""
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "adrian@chaves.io"
+msgstr ""
 
 #: src/main.cpp:44
 #, kde-format
 msgctxt "@title"
 msgid "Tasks"
-msgstr "Tarefas"
+msgstr "कार्याणि"
 
 #: src/main.cpp:48
 #, kde-format
 msgid "Organize your tasks"
-msgstr "Organice as súas tarefas."
+msgstr "कार्याणि व्यवस्थितं कुर्वन्तु"
 
 #: src/main.cpp:52
 #, kde-format
 msgid "© 2022 Felipe Kinoshita"
-msgstr "© 2022 Felipe Kinoshita"
+msgstr "© 2022 फेलिप किनोशिता"
 
 #: src/main.cpp:53
 #, kde-format
 msgctxt "@info:credit"
 msgid "Felipe Kinoshita"
-msgstr "Felipe Kinoshita"
+msgstr ""
 
 #: src/main.cpp:53
 #, kde-format
 msgctxt "@info:credit"
 msgid "Author"
-msgstr "Autoría"
+msgstr ""
 
 #: src/Main.qml:18
 #, kde-format
 msgid "Tasks"
-msgstr "Tarefas"
+msgstr "कार्याणि"
 
 #: src/Main.qml:157
 #, kde-format
 msgid "Nothing Found"
-msgstr "Non se atopou nada"
+msgstr "किमपि न लब्धम्"
 
 #: src/Main.qml:157
 #, kde-format
 msgid "All tasks completed!"
-msgstr "Completáronse todas as tarefas!"
+msgstr "सर्वाणि कार्याणि सम्पन्नानि !"
 
 #: src/Main.qml:159
 #, kde-format
 msgid "Your search did not match any results"
-msgstr "A busca non deu resultados"
+msgstr "भवतः अन्वेषणं किमपि परिणामं न सङ्गतम्"
 
 #: src/Main.qml:159
 #, kde-format
 msgid "Add some more by typing in the text field at the bottom of the window"
-msgstr "Engada máis escribindo no campo de texto na parte inferior da xanela"
+msgstr "विण्डो इत्यस्य अधः पाठक्षेत्रे टङ्कयित्वा किञ्चित् अधिकं योजयन्तु"
 
 #: src/ui/Footer.qml:29
 #, kde-format
 msgid "Type the new task's title here…"
-msgstr "Escriba o nome da nova tarefa…"
+msgstr "नूतनकार्यस्य शीर्षकम् अत्र टङ्कयन्तु..."
 
 #: src/ui/Footer.qml:45
 #, kde-format
 msgid "Add Task"
-msgstr "Engadir a tarefa"
+msgstr "कार्यम् योजयतु"
 
 #: src/ui/GlobalMenu.qml:14
 #, kde-format
 msgctxt "@menu"
 msgid "File"
-msgstr "Ficheiro"
+msgstr ""
 
 #: src/ui/GlobalMenu.qml:17
 #, kde-format
 msgctxt "@menu-action"
 msgid "Quit"
-msgstr "Saír"
+msgstr ""
 
 #: src/ui/GlobalMenu.qml:24
 #, kde-format
 msgctxt "@menu"
 msgid "Edit"
-msgstr "Editar"
+msgstr ""
 
 #: src/ui/GlobalMenu.qml:27
 #, kde-format
 msgctxt "@menu-action"
 msgid "Clear Tasks"
-msgstr "Borrar as tarefas"
+msgstr ""
 
 #: src/ui/GlobalMenu.qml:35
 #, kde-format
 msgctxt "@menu"
 msgid "Help"
-msgstr "Axuda"
+msgstr ""
 
 #: src/ui/GlobalMenu.qml:38
 #, kde-format
 msgctxt "@menu-action"
 msgid "Report Bug…"
-msgstr "Informar dun fallo…"
+msgstr ""
 
 #: src/ui/GlobalMenu.qml:44
 #, kde-format
 msgctxt "@menu-action"
 msgid "About Tasks"
-msgstr "Sobre Tarefas"
+msgstr "कार्याणां विषये"
 
 #: src/ui/PageHeader.qml:26
 #, kde-format
 msgid "1 result"
 msgid_plural "%1 results"
-msgstr[0] "1 resultado"
-msgstr[1] "%1 resultados"
+msgstr[0] ""
+msgstr[1] ""
 
 #: src/ui/PageHeader.qml:26
 #, kde-format
 msgid "1 task"
 msgid_plural "%1 tasks"
-msgstr[0] "1 tarefa"
-msgstr[1] "%1 tarefas"
+msgstr[0] ""
+msgstr[1] ""
 
 #: src/ui/PageHeader.qml:35
 #, kde-format
 msgid "1 task completed"
 msgid_plural "%1 tasks completed"
-msgstr[0] "1 tarefa completada"
-msgstr[1] "%1 tarefas completadas"
+msgstr[0] ""
+msgstr[1] ""
 
 #: src/ui/PageHeader.qml:44
 #, kde-format
 msgid "Clear All"
-msgstr "Borralo todo"
+msgstr "सर्वं स्वच्छं कुर्वन्तु"
 
 #: src/ui/PageHeader.qml:53
 #, kde-format
 msgid "Search"
-msgstr "Buscar"
+msgstr "अन्वेषण"
 
 #: src/ui/PageHeader.qml:72
 #, kde-format
@@ -173,7 +173,7 @@ msgstr ""
 #| msgid "About Tasks"
 msgctxt "@action:inmenu"
 msgid "About Tasks"
-msgstr "Sobre Tarefas"
+msgstr "कार्याणां विषये"
 
 #: src/ui/PageHeader.qml:92
 #, kde-format
@@ -182,9 +182,7 @@ msgid "Enable tray icon"
 msgstr ""
 
 #: src/ui/PageHeader.qml:99
-#, fuzzy, kde-format
-#| msgctxt "@menu-action"
-#| msgid "Quit"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Quit"
-msgstr "Saír"
+msgstr ""
