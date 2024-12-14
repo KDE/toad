@@ -31,6 +31,7 @@
   <name xml:lang="pa">ਟਾਸਕ</name>
   <name xml:lang="pl">Zadania</name>
   <name xml:lang="pt">Tarefas</name>
+  <name xml:lang="sa">कार्याणि</name>
   <name xml:lang="sk">Úlohy</name>
   <name xml:lang="sl">Tasks</name>
   <name xml:lang="sv">Uppgifter</name>
@@ -64,6 +65,7 @@
   <summary xml:lang="pa">ਆਪਣੇ ਕੰਮਾਂ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰੋ</summary>
   <summary xml:lang="pl">Uporządkuj swoje zadania</summary>
   <summary xml:lang="pt">Organizar as suas tarefas</summary>
+  <summary xml:lang="sa">कार्याणि व्यवस्थितं कुर्वन्तु</summary>
   <summary xml:lang="sl">Organizira vaša opravila</summary>
   <summary xml:lang="sv">Organisera dina uppgifter</summary>
   <summary xml:lang="tr">Görevlerinizi düzenleyin</summary>
@@ -97,6 +99,7 @@
   <developer_name xml:lang="pa">ਕੇਡੀਈ ਕਮਿਊਨਟੀ, ਫਿਲੀਪੇ ਕਿਨੋਸ਼ੀਟਾ</developer_name>
   <developer_name xml:lang="pl">Społeczność KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="pt">Comunidade do KDE, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="sa">केडीई समुदाय, फेलिप किनोशिता</developer_name>
   <developer_name xml:lang="sk">KDE komunita, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="sl">Skupnost KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="sv">KDE-gemenskapen, Felipe Kinoshita</developer_name>
@@ -128,6 +131,7 @@
     <p xml:lang="nn">Tasks er eit program for å halda orden på gjeremål. Du kan redigera gjeremåla direkte, og alt vert lagra automatisk.</p>
     <p xml:lang="pl">Zadania to aplikacja typu do zrobienia, możesz edytować zadania w locie i automatycznie zapisywać całą swoją pracę.</p>
     <p xml:lang="pt">As Tarefas são uma aplicação simples de lista de tarefas; poderá editar as tarefas na hora e grava todo o seu trabalho de forma automática.</p>
+    <p xml:lang="sa">कार्याणि एकं कर्तव्यं अनुप्रयोगम् अस्ति, भवान् कार्याणि मक्षिकायां सम्पादयितुं शक्नोति तथा च एतत् भवतः सर्वं कार्यं स्वयमेव रक्षति ।</p>
     <p xml:lang="sl">Tasks je preprosta aplikacija za upravljanje opravil, mimogrede lahko urejate opravila in vse vaše delo se samodejno shrani.</p>
     <p xml:lang="sv">Uppgifter är ett enkelt uppgiftsprogram. Du kan redigera uppgifter i farten, och det sparar ditt arbete automatiskt.</p>
     <p xml:lang="tr">Görevler, yalın bir görev listesi uygulamasıdır; görevleri anında düzenleyebilirsiniz, o işinizi kendiliğinden kaydeder.</p>
@@ -165,6 +169,7 @@
       <caption xml:lang="pl">Lista zadań</caption>
       <caption xml:lang="pt">Lista de tarefas</caption>
       <caption xml:lang="ru">Список задач</caption>
+      <caption xml:lang="sa">कार्यसूची</caption>
       <caption xml:lang="sl">Seznam opravil</caption>
       <caption xml:lang="sv">Uppgiftslista</caption>
       <caption xml:lang="tr">Görevler listesi</caption>
@@ -200,6 +205,7 @@
       <caption xml:lang="pa">ਖਾਲੀ ਸੂਚੀ</caption>
       <caption xml:lang="pl">Pusta lista</caption>
       <caption xml:lang="pt">Lista vazia</caption>
+      <caption xml:lang="sa">रिक्तसूची</caption>
       <caption xml:lang="sl">Prazen seznam</caption>
       <caption xml:lang="sv">Tom lista</caption>
       <caption xml:lang="tr">Boş liste</caption>
