@@ -87,5 +87,9 @@ kconfig_target_kcfg_file(${CMAKE_PROJECT_NAME} FILE config.kcfg CLASS_NAME Confi
 
 install(TARGETS ${CMAKE_PROJECT_NAME} ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})
 
+if (ANDROID)
+    install(FILES ../org.kde.tasks.svg  DESTINATION ${KDE_INSTALL_QMLDIR}/org/kde/kirigami/breeze-internal/icons/ RENAME org.kde.tasks.svg)
+endif()
+
 add_subdirectory(models)
 add_subdirectory(ui)
