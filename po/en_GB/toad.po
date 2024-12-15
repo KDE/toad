@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: toad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-12-14 01:00+0000\n"
+"POT-Creation-Date: 2024-12-15 00:44+0000\n"
 "PO-Revision-Date: 2022-12-31 15:21+0000\n"
 "Last-Translator: Steve Allewell <steve.allewell@gmail.com>\n"
 "Language-Team: British English <kde-l10n-en_gb@kde.org>\n"
@@ -90,43 +90,43 @@ msgstr "Type the new task's title here…"
 msgid "Add Task"
 msgstr "Add Task"
 
-#: src/ui/GlobalMenu.qml:14
+#: src/ui/GlobalMenu.qml:15
 #, kde-format
 msgctxt "@menu"
 msgid "File"
 msgstr "File"
 
-#: src/ui/GlobalMenu.qml:17
+#: src/ui/GlobalMenu.qml:18
 #, kde-format
 msgctxt "@menu-action"
 msgid "Quit"
 msgstr "Quit"
 
-#: src/ui/GlobalMenu.qml:24
+#: src/ui/GlobalMenu.qml:25
 #, kde-format
 msgctxt "@menu"
 msgid "Edit"
 msgstr "Edit"
 
-#: src/ui/GlobalMenu.qml:27
+#: src/ui/GlobalMenu.qml:28
 #, kde-format
 msgctxt "@menu-action"
 msgid "Clear Tasks"
 msgstr "Clear Tasks"
 
-#: src/ui/GlobalMenu.qml:35
+#: src/ui/GlobalMenu.qml:36
 #, kde-format
 msgctxt "@menu"
 msgid "Help"
 msgstr "Help"
 
-#: src/ui/GlobalMenu.qml:38
+#: src/ui/GlobalMenu.qml:39
 #, kde-format
 msgctxt "@menu-action"
 msgid "Report Bug…"
 msgstr "Report Bug…"
 
-#: src/ui/GlobalMenu.qml:44
+#: src/ui/GlobalMenu.qml:45
 #, kde-format
 msgctxt "@menu-action"
 msgid "About Tasks"

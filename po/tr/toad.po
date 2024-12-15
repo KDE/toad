@@ -1,13 +1,13 @@
-# Copyright (C) YEAR This file is copyright:
+# Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the toad package.
 #
-# Emir SARI <emir_sari@icloud.com>, 2022.
+# SPDX-FileCopyrightText: 2022, 2024 Emir SARI <emir_sari@icloud.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: toad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-12-14 01:00+0000\n"
-"PO-Revision-Date: 2022-10-18 04:39+0300\n"
+"POT-Creation-Date: 2024-12-15 00:44+0000\n"
+"PO-Revision-Date: 2024-12-14 18:03+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 22.08.1\n"
+"X-Generator: Lokalize 25.03.70\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -90,43 +90,43 @@ msgstr "Yeni görev başlığını buraya yazın…"
 msgid "Add Task"
 msgstr "Görev Ekle"
 
-#: src/ui/GlobalMenu.qml:14
+#: src/ui/GlobalMenu.qml:15
 #, kde-format
 msgctxt "@menu"
 msgid "File"
 msgstr "Dosya"
 
-#: src/ui/GlobalMenu.qml:17
+#: src/ui/GlobalMenu.qml:18
 #, kde-format
 msgctxt "@menu-action"
 msgid "Quit"
 msgstr "Çık"
 
-#: src/ui/GlobalMenu.qml:24
+#: src/ui/GlobalMenu.qml:25
 #, kde-format
 msgctxt "@menu"
 msgid "Edit"
 msgstr "Düzen"
 
-#: src/ui/GlobalMenu.qml:27
+#: src/ui/GlobalMenu.qml:28
 #, kde-format
 msgctxt "@menu-action"
 msgid "Clear Tasks"
 msgstr "Görevleri Temizle"
 
-#: src/ui/GlobalMenu.qml:35
+#: src/ui/GlobalMenu.qml:36
 #, kde-format
 msgctxt "@menu"
 msgid "Help"
 msgstr "Yardım"
 
-#: src/ui/GlobalMenu.qml:38
+#: src/ui/GlobalMenu.qml:39
 #, kde-format
 msgctxt "@menu-action"
 msgid "Report Bug…"
 msgstr "Hata Bildir…"
 
-#: src/ui/GlobalMenu.qml:44
+#: src/ui/GlobalMenu.qml:45
 #, kde-format
 msgctxt "@menu-action"
 msgid "About Tasks"
@@ -166,11 +166,10 @@ msgstr "Ara"
 #: src/ui/PageHeader.qml:72
 #, kde-format
 msgid "Menu"
-msgstr ""
+msgstr "Menü"
 
 #: src/ui/PageHeader.qml:81
-#, fuzzy, kde-format
-#| msgid "About Tasks"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "About Tasks"
 msgstr "Görevler Hakkında"
@@ -179,12 +178,10 @@ msgstr "Görevler Hakkında"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Enable tray icon"
-msgstr ""
+msgstr "Tepsi Simgesini Etkinleştir"
 
 #: src/ui/PageHeader.qml:99
-#, fuzzy, kde-format
-#| msgctxt "@menu-action"
-#| msgid "Quit"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Quit"
 msgstr "Çık"

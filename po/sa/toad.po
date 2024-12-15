@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: toad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-12-14 01:00+0000\n"
+"POT-Creation-Date: 2024-12-15 00:44+0000\n"
 "PO-Revision-Date: 2024-12-13 19:09+0530\n"
 "Last-Translator: Kali <EMAIL@ADDRESS>\n"
 "Language-Team: Sanskrit\n"
@@ -20,12 +20,12 @@ msgstr ""
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr ""
+msgstr "भवतः नामानि"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr ""
+msgstr "भवतः ईमेलपत्राणि"
 
 #: src/main.cpp:44
 #, kde-format
@@ -47,13 +47,13 @@ msgstr "© 2022 फेलिप किनोशिता"
 #, kde-format
 msgctxt "@info:credit"
 msgid "Felipe Kinoshita"
-msgstr ""
+msgstr "फेलिप किनोशिता"
 
 #: src/main.cpp:53
 #, kde-format
 msgctxt "@info:credit"
 msgid "Author"
-msgstr ""
+msgstr "लेखकः"
 
 #: src/Main.qml:18
 #, kde-format
@@ -90,43 +90,43 @@ msgstr "नूतनकार्यस्य शीर्षकम् अत्�
 msgid "Add Task"
 msgstr "कार्यम् योजयतु"
 
-#: src/ui/GlobalMenu.qml:14
+#: src/ui/GlobalMenu.qml:15
 #, kde-format
 msgctxt "@menu"
 msgid "File"
-msgstr ""
+msgstr "संचिका"
 
-#: src/ui/GlobalMenu.qml:17
+#: src/ui/GlobalMenu.qml:18
 #, kde-format
 msgctxt "@menu-action"
 msgid "Quit"
-msgstr ""
+msgstr "परिजहातु"
 
-#: src/ui/GlobalMenu.qml:24
+#: src/ui/GlobalMenu.qml:25
 #, kde-format
 msgctxt "@menu"
 msgid "Edit"
-msgstr ""
+msgstr "सम्पादन"
 
-#: src/ui/GlobalMenu.qml:27
+#: src/ui/GlobalMenu.qml:28
 #, kde-format
 msgctxt "@menu-action"
 msgid "Clear Tasks"
-msgstr ""
+msgstr "स्पष्टं कार्यम्"
 
-#: src/ui/GlobalMenu.qml:35
+#: src/ui/GlobalMenu.qml:36
 #, kde-format
 msgctxt "@menu"
 msgid "Help"
-msgstr ""
+msgstr "साहाय्यम्‌"
 
-#: src/ui/GlobalMenu.qml:38
+#: src/ui/GlobalMenu.qml:39
 #, kde-format
 msgctxt "@menu-action"
 msgid "Report Bug…"
-msgstr ""
+msgstr "बगस्य सूचनां ददातु..."
 
-#: src/ui/GlobalMenu.qml:44
+#: src/ui/GlobalMenu.qml:45
 #, kde-format
 msgctxt "@menu-action"
 msgid "About Tasks"
@@ -136,22 +136,22 @@ msgstr "कार्याणां विषये"
 #, kde-format
 msgid "1 result"
 msgid_plural "%1 results"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "१ परिणामः"
+msgstr[1] "%1 परिणामः"
 
 #: src/ui/PageHeader.qml:26
 #, kde-format
 msgid "1 task"
 msgid_plural "%1 tasks"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "१ कार्यम्"
+msgstr[1] "%1 कार्याणि"
 
 #: src/ui/PageHeader.qml:35
 #, kde-format
 msgid "1 task completed"
 msgid_plural "%1 tasks completed"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "१ कार्य सम्पन्न"
+msgstr[1] "%1 कार्याणि सम्पन्नानि"
 
 #: src/ui/PageHeader.qml:44
 #, kde-format
@@ -182,7 +182,9 @@ msgid "Enable tray icon"
 msgstr ""
 
 #: src/ui/PageHeader.qml:99
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@menu-action"
+#| msgid "Quit"
 msgctxt "@action:inmenu"
 msgid "Quit"
-msgstr ""
+msgstr "परिजहातु"

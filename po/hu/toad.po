@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: toad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-12-14 01:00+0000\n"
+"POT-Creation-Date: 2024-12-15 00:44+0000\n"
 "PO-Revision-Date: 2024-01-12 12:40+0100\n"
 "Last-Translator: Kristof Kiszel <ulysses@fsf.hu>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
@@ -90,43 +90,43 @@ msgstr "Írja be ide az új feladat címét…"
 msgid "Add Task"
 msgstr "Feladat hozzáadása"
 
-#: src/ui/GlobalMenu.qml:14
+#: src/ui/GlobalMenu.qml:15
 #, kde-format
 msgctxt "@menu"
 msgid "File"
 msgstr "Fájl"
 
-#: src/ui/GlobalMenu.qml:17
+#: src/ui/GlobalMenu.qml:18
 #, kde-format
 msgctxt "@menu-action"
 msgid "Quit"
 msgstr "Kilépés"
 
-#: src/ui/GlobalMenu.qml:24
+#: src/ui/GlobalMenu.qml:25
 #, kde-format
 msgctxt "@menu"
 msgid "Edit"
 msgstr "Szerkesztés"
 
-#: src/ui/GlobalMenu.qml:27
+#: src/ui/GlobalMenu.qml:28
 #, kde-format
 msgctxt "@menu-action"
 msgid "Clear Tasks"
 msgstr "Feladatok törlése"
 
-#: src/ui/GlobalMenu.qml:35
+#: src/ui/GlobalMenu.qml:36
 #, kde-format
 msgctxt "@menu"
 msgid "Help"
 msgstr "Súgó"
 
-#: src/ui/GlobalMenu.qml:38
+#: src/ui/GlobalMenu.qml:39
 #, kde-format
 msgctxt "@menu-action"
 msgid "Report Bug…"
 msgstr "Hibabejelentés…"
 
-#: src/ui/GlobalMenu.qml:44
+#: src/ui/GlobalMenu.qml:45
 #, kde-format
 msgctxt "@menu-action"
 msgid "About Tasks"

@@ -1,22 +1,22 @@
 # Copyright (C) YEAR This file is copyright:
 # This file is distributed under the same license as the toad package.
 #
-# Yuri Chornoivan <yurchor@ukr.net>, 2022.
+# Yuri Chornoivan <yurchor@ukr.net>, 2022, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: toad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-12-14 01:00+0000\n"
-"PO-Revision-Date: 2022-06-14 08:31+0300\n"
+"POT-Creation-Date: 2024-12-15 00:44+0000\n"
+"PO-Revision-Date: 2024-12-14 09:19+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
-"Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
+"Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Lokalize 20.12.0\n"
+"X-Generator: Lokalize 23.04.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -91,43 +91,43 @@ msgstr "Тут ви можете ввести назву нового завда
 msgid "Add Task"
 msgstr "Додати завдання"
 
-#: src/ui/GlobalMenu.qml:14
+#: src/ui/GlobalMenu.qml:15
 #, kde-format
 msgctxt "@menu"
 msgid "File"
 msgstr "Файл"
 
-#: src/ui/GlobalMenu.qml:17
+#: src/ui/GlobalMenu.qml:18
 #, kde-format
 msgctxt "@menu-action"
 msgid "Quit"
 msgstr "Вийти"
 
-#: src/ui/GlobalMenu.qml:24
+#: src/ui/GlobalMenu.qml:25
 #, kde-format
 msgctxt "@menu"
 msgid "Edit"
 msgstr "Змінити"
 
-#: src/ui/GlobalMenu.qml:27
+#: src/ui/GlobalMenu.qml:28
 #, kde-format
 msgctxt "@menu-action"
 msgid "Clear Tasks"
 msgstr "Очистити завдання"
 
-#: src/ui/GlobalMenu.qml:35
+#: src/ui/GlobalMenu.qml:36
 #, kde-format
 msgctxt "@menu"
 msgid "Help"
 msgstr "Довідка"
 
-#: src/ui/GlobalMenu.qml:38
+#: src/ui/GlobalMenu.qml:39
 #, kde-format
 msgctxt "@menu-action"
 msgid "Report Bug…"
 msgstr "Надіслати звіт про помилку…"
 
-#: src/ui/GlobalMenu.qml:44
+#: src/ui/GlobalMenu.qml:45
 #, kde-format
 msgctxt "@menu-action"
 msgid "About Tasks"
@@ -173,11 +173,10 @@ msgstr "Шукати"
 #: src/ui/PageHeader.qml:72
 #, kde-format
 msgid "Menu"
-msgstr ""
+msgstr "Меню"
 
 #: src/ui/PageHeader.qml:81
-#, fuzzy, kde-format
-#| msgid "About Tasks"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "About Tasks"
 msgstr "Про «Завдання»"
@@ -186,12 +185,10 @@ msgstr "Про «Завдання»"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Enable tray icon"
-msgstr ""
+msgstr "Увімкнути піктограму лотка"
 
 #: src/ui/PageHeader.qml:99
-#, fuzzy, kde-format
-#| msgctxt "@menu-action"
-#| msgid "Quit"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Quit"
 msgstr "Вийти"
