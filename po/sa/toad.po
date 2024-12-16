@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: toad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-12-15 00:44+0000\n"
-"PO-Revision-Date: 2024-12-13 19:09+0530\n"
+"PO-Revision-Date: 2024-12-15 22:21+0530\n"
 "Last-Translator: Kali <EMAIL@ADDRESS>\n"
 "Language-Team: Sanskrit\n"
 "Language: sa\n"
@@ -16,6 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
+"X-Generator: Poedit 3.5\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -166,11 +167,10 @@ msgstr "अन्वेषण"
 #: src/ui/PageHeader.qml:72
 #, kde-format
 msgid "Menu"
-msgstr ""
+msgstr "मेनू"
 
 #: src/ui/PageHeader.qml:81
-#, fuzzy, kde-format
-#| msgid "About Tasks"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "About Tasks"
 msgstr "कार्याणां विषये"
@@ -179,12 +179,10 @@ msgstr "कार्याणां विषये"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Enable tray icon"
-msgstr ""
+msgstr "ट्रे चिह्नं सक्षमं कुर्वन्तु"
 
 #: src/ui/PageHeader.qml:99
-#, fuzzy, kde-format
-#| msgctxt "@menu-action"
-#| msgid "Quit"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Quit"
 msgstr "परिजहातु"

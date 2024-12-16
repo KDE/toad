@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: toad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-12-15 00:44+0000\n"
-"PO-Revision-Date: 2024-07-05 19:23+0200\n"
+"PO-Revision-Date: 2024-12-14 08:16+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
@@ -169,11 +169,10 @@ msgstr "Busca"
 #: src/ui/PageHeader.qml:72
 #, kde-format
 msgid "Menu"
-msgstr ""
+msgstr "Menú"
 
 #: src/ui/PageHeader.qml:81
-#, fuzzy, kde-format
-#| msgid "About Tasks"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "About Tasks"
 msgstr "Quant a Tasques"
@@ -182,12 +181,10 @@ msgstr "Quant a Tasques"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Enable tray icon"
-msgstr ""
+msgstr "Habilita la icona en la safata"
 
 #: src/ui/PageHeader.qml:99
-#, fuzzy, kde-format
-#| msgctxt "@menu-action"
-#| msgid "Quit"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Quit"
 msgstr "Ix"
