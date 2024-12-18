@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: toad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-12-15 00:44+0000\n"
-"PO-Revision-Date: 2024-12-15 09:16+0100\n"
+"PO-Revision-Date: 2024-12-17 18:46+0100\n"
 "Last-Translator: Adrián Chaves (Gallaecio) <adrian@chaves.io>\n"
 "Language-Team: Proxecto Trasno (proxecto@trasno.gal)\n"
 "Language: gl\n"
@@ -178,7 +178,7 @@ msgstr "Sobre Tarefas"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Enable tray icon"
-msgstr "Activar na área de notificación"
+msgstr "Activar a icona da área de notificación."
 
 #: src/ui/PageHeader.qml:99
 #, kde-format
