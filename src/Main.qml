@@ -65,11 +65,12 @@ Kirigami.ApplicationWindow {
                     QQC2.Label {
                         id: titleLabel
                         Layout.fillWidth: true
-                        Layout.preferredHeight: titleField.implicitHeight
                         Layout.alignment: Qt.AlignLeft | Qt.AlignVCenter
 
                         text: model.title
                         elide: Text.ElideRight
+                        wrapMode: Text.Wrap
+                        maximumLineCount: taskItem.ListView.isCurrentItem ? Number.MAX_SAFE_INTEGER : 1
 
                         Behavior on opacity {
                             OpacityAnimator {
@@ -82,13 +83,14 @@ Kirigami.ApplicationWindow {
                         opacity: model.checked ? 0.5 : 1
                     }
 
-                    QQC2.TextField {
+                    QQC2.TextArea {
                         id: titleField
                         visible: false
                         Layout.fillWidth: true
                         Layout.alignment: Qt.AlignLeft | Qt.AlignVCenter
 
                         text: model.title
+                        wrapMode: Text.Wrap
 
                         horizontalAlignment: Text.AlignLeft
                         readOnly: model.checked
@@ -98,6 +100,16 @@ Kirigami.ApplicationWindow {
                             titleField.visible = false
                             titleLabel.visible = true
                         }
+                        // pressing tab will finish editing instead of entering a tab character
+                        KeyNavigation.priority: KeyNavigation.BeforeItem
+                        KeyNavigation.tab: doneButton
+                    }
+                    QQC2.ToolButton {
+                        id: doneButton
+                        visible: titleField.visible
+
+                        icon.name: "checkmark"
+                        onClicked: titleField.editingFinished()
                     }
 
                     QQC2.ToolButton {
@@ -127,6 +139,8 @@ Kirigami.ApplicationWindow {
                         }
                     }
                 }
+
+                onClicked: ListView.view.currentIndex = index;
 
                 QQC2.ToolTip.visible: !titleField.visible && titleLabel.truncated && taskItem.hovered
                 QQC2.ToolTip.text: model.title
