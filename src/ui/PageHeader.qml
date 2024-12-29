@@ -63,21 +63,6 @@ RowLayout {
 
     QQC2.ToolButton {
         display: QQC2.AbstractButton.IconOnly
-        action: Kirigami.Action {
-            text: i18n("Search")
-            icon.name: "search"
-            checked: page.searching
-            onTriggered: page.searching = !page.searching
-            enabled: pageStack.layers.depth <= 1
-        }
-
-        QQC2.ToolTip.visible: hovered
-        QQC2.ToolTip.text: text
-        QQC2.ToolTip.delay: Kirigami.Units.toolTipDelay
-    }
-
-    QQC2.ToolButton {
-        display: QQC2.AbstractButton.IconOnly
         QQC2.ToolTip.visible: hovered
         QQC2.ToolTip.text: text
         QQC2.ToolTip.delay: Kirigami.Units.toolTipDelay

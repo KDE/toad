@@ -47,8 +47,11 @@ Kirigami.ApplicationWindow {
                 sourceModel: TasksModel
                 filterRoleName: "title"
                 filterRegularExpression: {
-                    if (page.currentSearchText === "") return new RegExp()
-                    return new RegExp("%1".arg(page.currentSearchText.slice(1)), "i")
+                    if (page.currentSearchText === "") {
+                        page.searching = false
+                        return new RegExp()
+                    }
+                    return new RegExp("%1".arg(page.currentSearchText), "i")
                 }
             }
 
@@ -172,12 +175,15 @@ Kirigami.ApplicationWindow {
                 width: parent.width - (Kirigami.Units.gridUnit * 8)
                 text: page.searching ? i18n("Nothing Found") : i18n("All tasks completed!")
                 icon.name: page.searching ? "edit-none" : "checkmark"
-                explanation: page.searching ? i18n("Your search did not match any results") : i18n("Add some more by typing in the text field at the bottom of the window")
+                explanation: page.searching ? i18n("Your search did not match any results") : ""
             }
         }
 
-        footer: Footer {
-            focus: !Kirigami.InputMethod.willShowOnActive
+        footer: Kirigami.SearchField {
+            onAccepted: {
+                page.searching = true;
+                page.currentSearchText = text;
+            }
         }
     }
 }
