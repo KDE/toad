@@ -41,6 +41,20 @@ RowLayout {
     }
 
     QQC2.ToolButton {
+        action: Kirigami.Action {
+            icon.name: "list-add"
+            text: i18n("Add Task")
+            shortcut: StandardKey.New
+            onTriggered: {
+                TasksModel.add("");
+                list.forceLayout();
+                list.currentIndex = list.count - 1;
+                list.currentItem.edit();
+            }
+        }
+    }
+
+    QQC2.ToolButton {
         text: i18n("Clear All")
         icon.name: "edit-clear-all"
         onClicked: TasksModel.clear()
