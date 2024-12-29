@@ -119,12 +119,7 @@ Kirigami.ApplicationWindow {
                         Layout.preferredHeight: Math.round(Kirigami.Units.gridUnit * 1.5)
 
                         icon.name: "entry-edit"
-                        onClicked: {
-                            titleField.visible = true
-                            titleLabel.visible = false
-                            titleField.forceActiveFocus()
-                            titleField.selectAll()
-                        }
+                        onClicked: edit()
                     }
                     QQC2.ToolButton {
                         id: removeButton
@@ -145,6 +140,13 @@ Kirigami.ApplicationWindow {
                 QQC2.ToolTip.visible: !titleField.visible && titleLabel.truncated && taskItem.hovered
                 QQC2.ToolTip.text: model.title
                 QQC2.ToolTip.delay: Kirigami.Units.toolTipDelay
+
+                function edit () {
+                    titleField.visible = true;
+                    titleLabel.visible = false;
+                    titleField.forceActiveFocus();
+                    titleField.selectAll();
+                }
             }
 
             add: Transition {
