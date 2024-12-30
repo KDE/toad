@@ -55,13 +55,6 @@ RowLayout {
     }
 
     QQC2.ToolButton {
-        text: i18n("Clear All")
-        icon.name: "edit-clear-all"
-        onClicked: TasksModel.clear()
-        enabled: list.count > 0
-    }
-
-    QQC2.ToolButton {
         display: QQC2.AbstractButton.IconOnly
         QQC2.ToolTip.visible: hovered
         QQC2.ToolTip.text: text
@@ -90,6 +83,14 @@ RowLayout {
                     icon.name: "org.kde.tasks"
                     text: i18nc("@action:inmenu", "Enable tray icon")
                     onTriggered: tray.visible ? tray.hide() : tray.show()
+                }
+            }
+            QQC2.MenuItem {
+                action: Kirigami.Action {
+                    text: i18n("Clear All")
+                    icon.name: "edit-clear-all"
+                    onTriggered: TasksModel.clear()
+                    enabled: list.count > 0
                 }
             }
             QQC2.MenuItem {
