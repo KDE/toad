@@ -171,7 +171,6 @@ msgstr ""
 
 #: src/ui/PageHeader.qml:81
 #, fuzzy, kde-format
-#| msgid "About Tasks"
 msgctxt "@action:inmenu"
 msgid "About Tasks"
 msgstr "Om Tasks"
@@ -184,8 +183,6 @@ msgstr ""
 
 #: src/ui/PageHeader.qml:99
 #, fuzzy, kde-format
-#| msgctxt "@menu-action"
-#| msgid "Quit"
 msgctxt "@action:inmenu"
 msgid "Quit"
 msgstr "Avslutt"
