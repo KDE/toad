@@ -169,7 +169,7 @@ msgstr "Hledat"
 #: src/ui/PageHeader.qml:72
 #, kde-format
 msgid "Menu"
-msgstr ""
+msgstr "Nabídka"
 
 #: src/ui/PageHeader.qml:81
 #, fuzzy, kde-format
@@ -185,9 +185,7 @@ msgid "Enable tray icon"
 msgstr ""
 
 #: src/ui/PageHeader.qml:99
-#, fuzzy, kde-format
-#| msgctxt "@menu-action"
-#| msgid "Quit"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Quit"
 msgstr "Ukončit"
