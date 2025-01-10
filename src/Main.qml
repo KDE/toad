@@ -107,12 +107,23 @@ Kirigami.ApplicationWindow {
                         KeyNavigation.priority: KeyNavigation.BeforeItem
                         KeyNavigation.tab: doneButton
                     }
+                    Shortcut {
+                        id: doneShortcut
+                        enabled: titleField.visible
+                        sequence: "Ctrl+Return"
+                        onActivated: doneButton.click()
+                    }
                     QQC2.ToolButton {
                         id: doneButton
                         visible: titleField.visible
+                        hoverEnabled: true
 
                         icon.name: "checkmark"
                         onClicked: titleField.editingFinished()
+
+                        QQC2.ToolTip.visible: hovered
+                        QQC2.ToolTip.delay: Kirigami.Units.toolTipDelay
+                        QQC2.ToolTip.text: doneShortcut.nativeText
                     }
 
                     QQC2.ToolButton {
