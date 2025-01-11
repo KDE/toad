@@ -37,6 +37,7 @@ target_link_libraries(${CMAKE_PROJECT_NAME}
 )
 
 add_library(logging STATIC)
+set_target_properties(logging PROPERTIES POSITION_INDEPENDENT_CODE ON)
 
 ecm_qt_declare_logging_category(logging
     HEADER ${CMAKE_PROJECT_NAME}_debug.h
