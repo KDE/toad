@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: toad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-12-15 00:44+0000\n"
+"POT-Creation-Date: 2025-01-12 00:45+0000\n"
 "PO-Revision-Date: 2024-07-28 00:33+0200\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@lister.huftis.org>\n"
@@ -61,35 +61,20 @@ msgstr "Opphavsperson"
 msgid "Tasks"
 msgstr "Gjeremål"
 
-#: src/Main.qml:157
+#: src/Main.qml:187
 #, kde-format
 msgid "Nothing Found"
 msgstr "Fann ingenting"
 
-#: src/Main.qml:157
+#: src/Main.qml:187
 #, kde-format
 msgid "All tasks completed!"
 msgstr "Du er ferdig med alle gjeremåla!"
 
-#: src/Main.qml:159
+#: src/Main.qml:189
 #, kde-format
 msgid "Your search did not match any results"
 msgstr "Søket fann ingen gjeremål"
-
-#: src/Main.qml:159
-#, kde-format
-msgid "Add some more by typing in the text field at the bottom of the window"
-msgstr "Legg til fleire ved å skriva i feltet nedst i vindauget"
-
-#: src/ui/Footer.qml:29
-#, kde-format
-msgid "Type the new task's title here…"
-msgstr "Skriv inn namn på gjeremålet her …"
-
-#: src/ui/Footer.qml:45
-#, kde-format
-msgid "Add Task"
-msgstr "Nytt gjeremål"
 
 #: src/ui/GlobalMenu.qml:15
 #, kde-format
@@ -154,35 +139,45 @@ msgid_plural "%1 tasks completed"
 msgstr[0] "1 ferdig gjeremål"
 msgstr[1] "%1 ferdige gjeremål"
 
-#: src/ui/PageHeader.qml:44
+#: src/ui/PageHeader.qml:46
 #, kde-format
-msgid "Clear All"
-msgstr "Fjern alle"
+msgid "Add Task"
+msgstr "Nytt gjeremål"
 
-#: src/ui/PageHeader.qml:53
-#, kde-format
-msgid "Search"
-msgstr "Søk"
-
-#: src/ui/PageHeader.qml:72
+#: src/ui/PageHeader.qml:64
 #, kde-format
 msgid "Menu"
 msgstr ""
 
-#: src/ui/PageHeader.qml:81
+#: src/ui/PageHeader.qml:73
 #, fuzzy, kde-format
 msgctxt "@action:inmenu"
 msgid "About Tasks"
 msgstr "Om Tasks"
 
-#: src/ui/PageHeader.qml:92
+#: src/ui/PageHeader.qml:84
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Enable tray icon"
 msgstr ""
+
+#: src/ui/PageHeader.qml:90
+#, kde-format
+msgid "Clear All"
+msgstr "Fjern alle"
 
 #: src/ui/PageHeader.qml:99
 #, fuzzy, kde-format
 msgctxt "@action:inmenu"
 msgid "Quit"
 msgstr "Avslutt"
+
+#~ msgid ""
+#~ "Add some more by typing in the text field at the bottom of the window"
+#~ msgstr "Legg til fleire ved å skriva i feltet nedst i vindauget"
+
+#~ msgid "Type the new task's title here…"
+#~ msgstr "Skriv inn namn på gjeremålet her …"
+
+#~ msgid "Search"
+#~ msgstr "Søk"

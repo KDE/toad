@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: toad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-12-15 00:44+0000\n"
+"POT-Creation-Date: 2025-01-12 00:45+0000\n"
 "PO-Revision-Date: 2024-12-19 10:46+0100\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
@@ -60,35 +60,20 @@ msgstr "Autor"
 msgid "Tasks"
 msgstr "Cargas"
 
-#: src/Main.qml:157
+#: src/Main.qml:187
 #, kde-format
 msgid "Nothing Found"
 msgstr "Il trovava nulle"
 
-#: src/Main.qml:157
+#: src/Main.qml:187
 #, kde-format
 msgid "All tasks completed!"
 msgstr "Tote Cargas completate!"
 
-#: src/Main.qml:159
+#: src/Main.qml:189
 #, kde-format
 msgid "Your search did not match any results"
 msgstr "Tu cerca non coincideva con ulle resultatos"
-
-#: src/Main.qml:159
-#, kde-format
-msgid "Add some more by typing in the text field at the bottom of the window"
-msgstr "Adde alcun altere per typar le campo de texto al basso del fenestra"
-
-#: src/ui/Footer.qml:29
-#, kde-format
-msgid "Type the new task's title here…"
-msgstr "Typa hic le titulo de nove carga..."
-
-#: src/ui/Footer.qml:45
-#, kde-format
-msgid "Add Task"
-msgstr "Adde carga "
 
 #: src/ui/GlobalMenu.qml:15
 #, kde-format
@@ -153,35 +138,45 @@ msgid_plural "%1 tasks completed"
 msgstr[0] "1 carga completate"
 msgstr[1] "%1 cargas completate"
 
-#: src/ui/PageHeader.qml:44
+#: src/ui/PageHeader.qml:46
 #, kde-format
-msgid "Clear All"
-msgstr "Netta omne"
+msgid "Add Task"
+msgstr "Adde carga "
 
-#: src/ui/PageHeader.qml:53
-#, kde-format
-msgid "Search"
-msgstr "Cerca"
-
-#: src/ui/PageHeader.qml:72
+#: src/ui/PageHeader.qml:64
 #, kde-format
 msgid "Menu"
 msgstr "Menu"
 
-#: src/ui/PageHeader.qml:81
+#: src/ui/PageHeader.qml:73
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About Tasks"
 msgstr "Re Cargas (Tasks)"
 
-#: src/ui/PageHeader.qml:92
+#: src/ui/PageHeader.qml:84
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Enable tray icon"
 msgstr "Habilita icone de tabuliero de systema"
+
+#: src/ui/PageHeader.qml:90
+#, kde-format
+msgid "Clear All"
+msgstr "Netta omne"
 
 #: src/ui/PageHeader.qml:99
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Quit"
 msgstr "Quita"
+
+#~ msgid ""
+#~ "Add some more by typing in the text field at the bottom of the window"
+#~ msgstr "Adde alcun altere per typar le campo de texto al basso del fenestra"
+
+#~ msgid "Type the new task's title here…"
+#~ msgstr "Typa hic le titulo de nove carga..."
+
+#~ msgid "Search"
+#~ msgstr "Cerca"

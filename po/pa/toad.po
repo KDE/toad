@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: toad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-12-15 00:44+0000\n"
+"POT-Creation-Date: 2025-01-12 00:45+0000\n"
 "PO-Revision-Date: 2024-01-01 07:59-0600\n"
 "Last-Translator: A S Alam <aalam@punlinux.org>\n"
 "Language-Team: Punjabi <kde-i18n-doc@kde.org>\n"
@@ -60,35 +60,20 @@ msgstr "ਲੇਖਕ"
 msgid "Tasks"
 msgstr "ਟਾਸਕ"
 
-#: src/Main.qml:157
+#: src/Main.qml:187
 #, kde-format
 msgid "Nothing Found"
 msgstr "ਕੁਝ ਨਹੀਂ ਲੱਭਿਆ"
 
-#: src/Main.qml:157
+#: src/Main.qml:187
 #, kde-format
 msgid "All tasks completed!"
 msgstr "ਸਾਰੀਆਂ ਟਾਸਕਾਂ ਪੂਰੀਆਂ ਹੋਈਆਂ!"
 
-#: src/Main.qml:159
+#: src/Main.qml:189
 #, kde-format
 msgid "Your search did not match any results"
 msgstr ""
-
-#: src/Main.qml:159
-#, kde-format
-msgid "Add some more by typing in the text field at the bottom of the window"
-msgstr ""
-
-#: src/ui/Footer.qml:29
-#, kde-format
-msgid "Type the new task's title here…"
-msgstr "ਨਵੀਂ ਟਾਸਕ ਲਈ ਨਾਂ ਇੱਥੇ ਲਿਖੋ…"
-
-#: src/ui/Footer.qml:45
-#, kde-format
-msgid "Add Task"
-msgstr "ਟਾਸਕ ਜੋੜੋ"
 
 #: src/ui/GlobalMenu.qml:15
 #, kde-format
@@ -153,33 +138,33 @@ msgid_plural "%1 tasks completed"
 msgstr[0] "1 ਟਾਸਕ ਪੂਰੀ ਹੋਈ"
 msgstr[1] "%1 ਟਾਸਕਾਂ ਪੂਰੀਆਂ ਹੋਈਆਂ"
 
-#: src/ui/PageHeader.qml:44
+#: src/ui/PageHeader.qml:46
 #, kde-format
-msgid "Clear All"
-msgstr "ਸਭ ਸਾਫ਼ ਕਰੋ"
+msgid "Add Task"
+msgstr "ਟਾਸਕ ਜੋੜੋ"
 
-#: src/ui/PageHeader.qml:53
-#, kde-format
-msgid "Search"
-msgstr "ਖੋਜੋ"
-
-#: src/ui/PageHeader.qml:72
+#: src/ui/PageHeader.qml:64
 #, kde-format
 msgid "Menu"
 msgstr ""
 
-#: src/ui/PageHeader.qml:81
+#: src/ui/PageHeader.qml:73
 #, fuzzy, kde-format
 #| msgid "About Tasks"
 msgctxt "@action:inmenu"
 msgid "About Tasks"
 msgstr "ਟਾਸਕਾਂ ਬਾਰੇ"
 
-#: src/ui/PageHeader.qml:92
+#: src/ui/PageHeader.qml:84
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Enable tray icon"
 msgstr ""
+
+#: src/ui/PageHeader.qml:90
+#, kde-format
+msgid "Clear All"
+msgstr "ਸਭ ਸਾਫ਼ ਕਰੋ"
 
 #: src/ui/PageHeader.qml:99
 #, fuzzy, kde-format
@@ -188,6 +173,12 @@ msgstr ""
 msgctxt "@action:inmenu"
 msgid "Quit"
 msgstr "ਬਾਹਰ"
+
+#~ msgid "Type the new task's title here…"
+#~ msgstr "ਨਵੀਂ ਟਾਸਕ ਲਈ ਨਾਂ ਇੱਥੇ ਲਿਖੋ…"
+
+#~ msgid "Search"
+#~ msgstr "ਖੋਜੋ"
 
 #~ msgid "Simple task list"
 #~ msgstr "ਸਰਲ ਟਾਸਕ ਸੂਚੀ"

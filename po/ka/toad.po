@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: toad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-12-15 00:44+0000\n"
+"POT-Creation-Date: 2025-01-12 00:45+0000\n"
 "PO-Revision-Date: 2024-12-15 06:10+0100\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
@@ -61,37 +61,20 @@ msgstr "ავტორი"
 msgid "Tasks"
 msgstr "ამოცანები"
 
-#: src/Main.qml:157
+#: src/Main.qml:187
 #, kde-format
 msgid "Nothing Found"
 msgstr "ვერაფერი მოიძებნა"
 
-#: src/Main.qml:157
+#: src/Main.qml:187
 #, kde-format
 msgid "All tasks completed!"
 msgstr "ყველა დავალება დასრულდა!"
 
-#: src/Main.qml:159
+#: src/Main.qml:189
 #, kde-format
 msgid "Your search did not match any results"
 msgstr "თქვენმა ძებნა უშედეგოა"
-
-#: src/Main.qml:159
-#, kde-format
-msgid "Add some more by typing in the text field at the bottom of the window"
-msgstr ""
-"დაამატეთ კიდევ რამდენიმე ფანჯრის ქვედა ნაწილის ტექსტურ სახელში მისი სახელის "
-"აკრეფით"
-
-#: src/ui/Footer.qml:29
-#, kde-format
-msgid "Type the new task's title here…"
-msgstr "აქ აკრიფეთ ახალი ამოცანის სათაური…"
-
-#: src/ui/Footer.qml:45
-#, kde-format
-msgid "Add Task"
-msgstr "ამოცანის დამატება"
 
 #: src/ui/GlobalMenu.qml:15
 #, kde-format
@@ -156,35 +139,47 @@ msgid_plural "%1 tasks completed"
 msgstr[0] "1 დავალება დასრულდა"
 msgstr[1] "%1 დავალება დასრულდა"
 
-#: src/ui/PageHeader.qml:44
+#: src/ui/PageHeader.qml:46
 #, kde-format
-msgid "Clear All"
-msgstr "ყველას გასუფთავება"
+msgid "Add Task"
+msgstr "ამოცანის დამატება"
 
-#: src/ui/PageHeader.qml:53
-#, kde-format
-msgid "Search"
-msgstr "ძებნა"
-
-#: src/ui/PageHeader.qml:72
+#: src/ui/PageHeader.qml:64
 #, kde-format
 msgid "Menu"
 msgstr "მენიუ"
 
-#: src/ui/PageHeader.qml:81
+#: src/ui/PageHeader.qml:73
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About Tasks"
 msgstr "დავალებების შესახებ"
 
-#: src/ui/PageHeader.qml:92
+#: src/ui/PageHeader.qml:84
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Enable tray icon"
 msgstr "სისტემის კუთხეში ხატულის ჩართვა"
+
+#: src/ui/PageHeader.qml:90
+#, kde-format
+msgid "Clear All"
+msgstr "ყველას გასუფთავება"
 
 #: src/ui/PageHeader.qml:99
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Quit"
 msgstr "გასვლა"
+
+#~ msgid ""
+#~ "Add some more by typing in the text field at the bottom of the window"
+#~ msgstr ""
+#~ "დაამატეთ კიდევ რამდენიმე ფანჯრის ქვედა ნაწილის ტექსტურ სახელში მისი "
+#~ "სახელის აკრეფით"
+
+#~ msgid "Type the new task's title here…"
+#~ msgstr "აქ აკრიფეთ ახალი ამოცანის სათაური…"
+
+#~ msgid "Search"
+#~ msgstr "ძებნა"

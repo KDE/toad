@@ -1,13 +1,13 @@
-# Copyright (C) YEAR This file is copyright:
+# Copyright (C) 2025 This file is copyright:
 # This file is distributed under the same license as the toad package.
 #
-# Stefan Asserhäll <stefan.asserhall@gmail.com>, 2022.
+# SPDX-FileCopyrightText: 2022, 2025 Stefan Asserhäll <stefan.asserhall@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: toad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-12-15 00:44+0000\n"
-"PO-Revision-Date: 2022-06-15 21:49+0200\n"
+"POT-Creation-Date: 2025-01-12 00:45+0000\n"
+"PO-Revision-Date: 2025-01-11 12:40+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@gmail.com>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 20.08.1\n"
+"X-Generator: Lokalize 24.12.0\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -60,35 +60,20 @@ msgstr "Upphovsman"
 msgid "Tasks"
 msgstr "Uppgifter"
 
-#: src/Main.qml:157
+#: src/Main.qml:187
 #, kde-format
 msgid "Nothing Found"
 msgstr "Ingenting hittades"
 
-#: src/Main.qml:157
+#: src/Main.qml:187
 #, kde-format
 msgid "All tasks completed!"
 msgstr "Alla uppgifter färdiga."
 
-#: src/Main.qml:159
+#: src/Main.qml:189
 #, kde-format
 msgid "Your search did not match any results"
 msgstr "Sökningen matchade inte några resultat"
-
-#: src/Main.qml:159
-#, kde-format
-msgid "Add some more by typing in the text field at the bottom of the window"
-msgstr "Lägg till mer genom att skriva i textfältet längst ner i fönstret"
-
-#: src/ui/Footer.qml:29
-#, kde-format
-msgid "Type the new task's title here…"
-msgstr "Skriv in den nya uppgiftens rubrik här..."
-
-#: src/ui/Footer.qml:45
-#, kde-format
-msgid "Add Task"
-msgstr "Lägg till uppgift"
 
 #: src/ui/GlobalMenu.qml:15
 #, kde-format
@@ -153,41 +138,48 @@ msgid_plural "%1 tasks completed"
 msgstr[0] "1 uppgift klar"
 msgstr[1] "%1 uppgifter klara"
 
-#: src/ui/PageHeader.qml:44
+#: src/ui/PageHeader.qml:46
 #, kde-format
-msgid "Clear All"
-msgstr "Rensa alla"
+msgid "Add Task"
+msgstr "Lägg till uppgift"
 
-#: src/ui/PageHeader.qml:53
-#, kde-format
-msgid "Search"
-msgstr "Sök"
-
-#: src/ui/PageHeader.qml:72
+#: src/ui/PageHeader.qml:64
 #, kde-format
 msgid "Menu"
-msgstr ""
+msgstr "Meny"
 
-#: src/ui/PageHeader.qml:81
-#, fuzzy, kde-format
-#| msgid "About Tasks"
+#: src/ui/PageHeader.qml:73
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "About Tasks"
 msgstr "Om Uppgifter"
 
-#: src/ui/PageHeader.qml:92
+#: src/ui/PageHeader.qml:84
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Enable tray icon"
-msgstr ""
+msgstr "Aktivera ikon i systembrickan"
+
+#: src/ui/PageHeader.qml:90
+#, kde-format
+msgid "Clear All"
+msgstr "Rensa alla"
 
 #: src/ui/PageHeader.qml:99
-#, fuzzy, kde-format
-#| msgctxt "@menu-action"
-#| msgid "Quit"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Quit"
 msgstr "Avsluta"
+
+#~ msgid ""
+#~ "Add some more by typing in the text field at the bottom of the window"
+#~ msgstr "Lägg till mer genom att skriva i textfältet längst ner i fönstret"
+
+#~ msgid "Type the new task's title here…"
+#~ msgstr "Skriv in den nya uppgiftens rubrik här..."
+
+#~ msgid "Search"
+#~ msgstr "Sök"
 
 #~ msgid "Simple task list"
 #~ msgstr "Enkel uppgiftslista"

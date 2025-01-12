@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: toad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-12-15 00:44+0000\n"
+"POT-Creation-Date: 2025-01-12 00:45+0000\n"
 "PO-Revision-Date: 2024-12-15 11:04+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -63,35 +63,20 @@ msgstr "Egilea"
 msgid "Tasks"
 msgstr "Atazak"
 
-#: src/Main.qml:157
+#: src/Main.qml:187
 #, kde-format
 msgid "Nothing Found"
 msgstr "Ez da ezer aurkitu"
 
-#: src/Main.qml:157
+#: src/Main.qml:187
 #, kde-format
 msgid "All tasks completed!"
 msgstr "Ataza guztiak osatuta!"
 
-#: src/Main.qml:159
+#: src/Main.qml:189
 #, kde-format
 msgid "Your search did not match any results"
 msgstr "Zure bilaketak ez du emaitzarik eman"
-
-#: src/Main.qml:159
-#, kde-format
-msgid "Add some more by typing in the text field at the bottom of the window"
-msgstr "Gehitu pixka bat gehiago leihoaren beheko testu-eremuan tekleatuz"
-
-#: src/ui/Footer.qml:29
-#, kde-format
-msgid "Type the new task's title here…"
-msgstr "Tekleatu hemen ataza berriaren izenburua..."
-
-#: src/ui/Footer.qml:45
-#, kde-format
-msgid "Add Task"
-msgstr "Gehitu ataza"
 
 #: src/ui/GlobalMenu.qml:15
 #, kde-format
@@ -156,35 +141,45 @@ msgid_plural "%1 tasks completed"
 msgstr[0] "Ataza 1 osatuta"
 msgstr[1] "%1 ataza osatuta"
 
-#: src/ui/PageHeader.qml:44
+#: src/ui/PageHeader.qml:46
 #, kde-format
-msgid "Clear All"
-msgstr "Garbitu dena"
+msgid "Add Task"
+msgstr "Gehitu ataza"
 
-#: src/ui/PageHeader.qml:53
-#, kde-format
-msgid "Search"
-msgstr "Bilatu"
-
-#: src/ui/PageHeader.qml:72
+#: src/ui/PageHeader.qml:64
 #, kde-format
 msgid "Menu"
 msgstr "Menua"
 
-#: src/ui/PageHeader.qml:81
+#: src/ui/PageHeader.qml:73
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About Tasks"
 msgstr "Atazei buruz"
 
-#: src/ui/PageHeader.qml:92
+#: src/ui/PageHeader.qml:84
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Enable tray icon"
 msgstr "Gaitu erretiluko ikonoa"
+
+#: src/ui/PageHeader.qml:90
+#, kde-format
+msgid "Clear All"
+msgstr "Garbitu dena"
 
 #: src/ui/PageHeader.qml:99
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Quit"
 msgstr "Irten"
+
+#~ msgid ""
+#~ "Add some more by typing in the text field at the bottom of the window"
+#~ msgstr "Gehitu pixka bat gehiago leihoaren beheko testu-eremuan tekleatuz"
+
+#~ msgid "Type the new task's title here…"
+#~ msgstr "Tekleatu hemen ataza berriaren izenburua..."
+
+#~ msgid "Search"
+#~ msgstr "Bilatu"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: toad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-12-15 00:44+0000\n"
+"POT-Creation-Date: 2025-01-12 00:45+0000\n"
 "PO-Revision-Date: 2024-12-14 08:16+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
@@ -62,36 +62,20 @@ msgstr "Autor"
 msgid "Tasks"
 msgstr "Tasques"
 
-#: src/Main.qml:157
+#: src/Main.qml:187
 #, kde-format
 msgid "Nothing Found"
 msgstr "No s'ha trobat res"
 
-#: src/Main.qml:157
+#: src/Main.qml:187
 #, kde-format
 msgid "All tasks completed!"
 msgstr "S'han completat totes les tasques!"
 
-#: src/Main.qml:159
+#: src/Main.qml:189
 #, kde-format
 msgid "Your search did not match any results"
 msgstr "La cerca no coincideix amb cap resultat"
-
-#: src/Main.qml:159
-#, kde-format
-msgid "Add some more by typing in the text field at the bottom of the window"
-msgstr ""
-"Afegiu-ne més teclejant en el camp de text a la part inferior de la finestra"
-
-#: src/ui/Footer.qml:29
-#, kde-format
-msgid "Type the new task's title here…"
-msgstr "Teclegeu aquí el títol de la tasca nova…"
-
-#: src/ui/Footer.qml:45
-#, kde-format
-msgid "Add Task"
-msgstr "Afegeix una tasca"
 
 #: src/ui/GlobalMenu.qml:15
 #, kde-format
@@ -156,35 +140,47 @@ msgid_plural "%1 tasks completed"
 msgstr[0] "S'ha completat 1 tasca"
 msgstr[1] "S'han completat %1 tasques"
 
-#: src/ui/PageHeader.qml:44
+#: src/ui/PageHeader.qml:46
 #, kde-format
-msgid "Clear All"
-msgstr "Neteja-ho tot"
+msgid "Add Task"
+msgstr "Afegeix una tasca"
 
-#: src/ui/PageHeader.qml:53
-#, kde-format
-msgid "Search"
-msgstr "Cerca"
-
-#: src/ui/PageHeader.qml:72
+#: src/ui/PageHeader.qml:64
 #, kde-format
 msgid "Menu"
 msgstr "Menú"
 
-#: src/ui/PageHeader.qml:81
+#: src/ui/PageHeader.qml:73
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About Tasks"
 msgstr "Quant a Tasques"
 
-#: src/ui/PageHeader.qml:92
+#: src/ui/PageHeader.qml:84
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Enable tray icon"
 msgstr "Habilita la icona a la safata"
+
+#: src/ui/PageHeader.qml:90
+#, kde-format
+msgid "Clear All"
+msgstr "Neteja-ho tot"
 
 #: src/ui/PageHeader.qml:99
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Quit"
 msgstr "Surt"
+
+#~ msgid ""
+#~ "Add some more by typing in the text field at the bottom of the window"
+#~ msgstr ""
+#~ "Afegiu-ne més teclejant en el camp de text a la part inferior de la "
+#~ "finestra"
+
+#~ msgid "Type the new task's title here…"
+#~ msgstr "Teclegeu aquí el títol de la tasca nova…"
+
+#~ msgid "Search"
+#~ msgstr "Cerca"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: toad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-12-15 00:44+0000\n"
+"POT-Creation-Date: 2025-01-12 00:45+0000\n"
 "PO-Revision-Date: 2024-12-24 19:15+0100\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
@@ -60,35 +60,20 @@ msgstr "작성자"
 msgid "Tasks"
 msgstr "할 일"
 
-#: src/Main.qml:157
+#: src/Main.qml:187
 #, kde-format
 msgid "Nothing Found"
 msgstr "찾을 수 없음"
 
-#: src/Main.qml:157
+#: src/Main.qml:187
 #, kde-format
 msgid "All tasks completed!"
 msgstr "모든 할 일을 완료했습니다!"
 
-#: src/Main.qml:159
+#: src/Main.qml:189
 #, kde-format
 msgid "Your search did not match any results"
 msgstr "검색 결과 없음"
-
-#: src/Main.qml:159
-#, kde-format
-msgid "Add some more by typing in the text field at the bottom of the window"
-msgstr "창 아래 쪽의 입력란에 입력하여 추가하십시오"
-
-#: src/ui/Footer.qml:29
-#, kde-format
-msgid "Type the new task's title here…"
-msgstr "새 할 일의 제목 입력…"
-
-#: src/ui/Footer.qml:45
-#, kde-format
-msgid "Add Task"
-msgstr "할 일 추가"
 
 #: src/ui/GlobalMenu.qml:15
 #, kde-format
@@ -150,35 +135,45 @@ msgid "1 task completed"
 msgid_plural "%1 tasks completed"
 msgstr[0] "할 일 %1개 완료함"
 
-#: src/ui/PageHeader.qml:44
+#: src/ui/PageHeader.qml:46
 #, kde-format
-msgid "Clear All"
-msgstr "모두 지우기"
+msgid "Add Task"
+msgstr "할 일 추가"
 
-#: src/ui/PageHeader.qml:53
-#, kde-format
-msgid "Search"
-msgstr "검색"
-
-#: src/ui/PageHeader.qml:72
+#: src/ui/PageHeader.qml:64
 #, kde-format
 msgid "Menu"
 msgstr "메뉴"
 
-#: src/ui/PageHeader.qml:81
+#: src/ui/PageHeader.qml:73
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About Tasks"
 msgstr "할 일 정보"
 
-#: src/ui/PageHeader.qml:92
+#: src/ui/PageHeader.qml:84
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Enable tray icon"
 msgstr "트레이 아이콘 활성화"
+
+#: src/ui/PageHeader.qml:90
+#, kde-format
+msgid "Clear All"
+msgstr "모두 지우기"
 
 #: src/ui/PageHeader.qml:99
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Quit"
 msgstr "끝내기"
+
+#~ msgid ""
+#~ "Add some more by typing in the text field at the bottom of the window"
+#~ msgstr "창 아래 쪽의 입력란에 입력하여 추가하십시오"
+
+#~ msgid "Type the new task's title here…"
+#~ msgstr "새 할 일의 제목 입력…"
+
+#~ msgid "Search"
+#~ msgstr "검색"

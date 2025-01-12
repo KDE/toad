@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tasks\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-12-15 00:44+0000\n"
+"POT-Creation-Date: 2025-01-12 00:45+0000\n"
 "PO-Revision-Date: 2024-12-14 02:53+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
@@ -62,37 +62,20 @@ msgstr "Autor"
 msgid "Tasks"
 msgstr "Tareas"
 
-#: src/Main.qml:157
+#: src/Main.qml:187
 #, kde-format
 msgid "Nothing Found"
 msgstr "No se ha encontrado nada"
 
-#: src/Main.qml:157
+#: src/Main.qml:187
 #, kde-format
 msgid "All tasks completed!"
 msgstr "Se han completado todas las tareas."
 
-#: src/Main.qml:159
+#: src/Main.qml:189
 #, kde-format
 msgid "Your search did not match any results"
 msgstr "La búsqueda no ha generado ningún resultado"
-
-#: src/Main.qml:159
-#, kde-format
-msgid "Add some more by typing in the text field at the bottom of the window"
-msgstr ""
-"Añada algo más escribiendo en el campo de texto de la parte inferior de la "
-"ventana"
-
-#: src/ui/Footer.qml:29
-#, kde-format
-msgid "Type the new task's title here…"
-msgstr "Escriba aquí el título de la nueva tarea..."
-
-#: src/ui/Footer.qml:45
-#, kde-format
-msgid "Add Task"
-msgstr "Añadir tarea"
 
 #: src/ui/GlobalMenu.qml:15
 #, kde-format
@@ -157,38 +140,50 @@ msgid_plural "%1 tasks completed"
 msgstr[0] "1 tarea completada"
 msgstr[1] "%1 tareas completadas"
 
-#: src/ui/PageHeader.qml:44
+#: src/ui/PageHeader.qml:46
 #, kde-format
-msgid "Clear All"
-msgstr "Borrar todo"
+msgid "Add Task"
+msgstr "Añadir tarea"
 
-#: src/ui/PageHeader.qml:53
-#, kde-format
-msgid "Search"
-msgstr "Buscar"
-
-#: src/ui/PageHeader.qml:72
+#: src/ui/PageHeader.qml:64
 #, kde-format
 msgid "Menu"
 msgstr "Menú"
 
-#: src/ui/PageHeader.qml:81
+#: src/ui/PageHeader.qml:73
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About Tasks"
 msgstr "Acerca de Tasks"
 
-#: src/ui/PageHeader.qml:92
+#: src/ui/PageHeader.qml:84
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Enable tray icon"
 msgstr "Activar icono en la bandeja del sistema"
+
+#: src/ui/PageHeader.qml:90
+#, kde-format
+msgid "Clear All"
+msgstr "Borrar todo"
 
 #: src/ui/PageHeader.qml:99
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Quit"
 msgstr "Salir"
+
+#~ msgid ""
+#~ "Add some more by typing in the text field at the bottom of the window"
+#~ msgstr ""
+#~ "Añada algo más escribiendo en el campo de texto de la parte inferior de "
+#~ "la ventana"
+
+#~ msgid "Type the new task's title here…"
+#~ msgstr "Escriba aquí el título de la nueva tarea..."
+
+#~ msgid "Search"
+#~ msgstr "Buscar"
 
 #~ msgid "Simple task list"
 #~ msgstr "Lista de tareas sencilla"

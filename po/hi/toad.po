@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: toad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-12-15 00:44+0000\n"
+"POT-Creation-Date: 2025-01-12 00:45+0000\n"
 "PO-Revision-Date: 2024-12-15 17:35+0530\n"
 "Last-Translator: Kali <EMAIL@ADDRESS>\n"
 "Language-Team: Hindi <fedora-trans-hi@redhat.com>\n"
@@ -60,35 +60,20 @@ msgstr "लेखक"
 msgid "Tasks"
 msgstr "कार्य"
 
-#: src/Main.qml:157
+#: src/Main.qml:187
 #, kde-format
 msgid "Nothing Found"
 msgstr "कुछ भी नहीं मिला"
 
-#: src/Main.qml:157
+#: src/Main.qml:187
 #, kde-format
 msgid "All tasks completed!"
 msgstr "सभी कार्य पूर्ण!"
 
-#: src/Main.qml:159
+#: src/Main.qml:189
 #, kde-format
 msgid "Your search did not match any results"
 msgstr "आपकी खोज किसी भी परिणाम से मेल नहीं खाती"
-
-#: src/Main.qml:159
-#, kde-format
-msgid "Add some more by typing in the text field at the bottom of the window"
-msgstr "विंडो के नीचे टेक्स्ट फ़ील्ड में टाइप करके कुछ और जोड़ें"
-
-#: src/ui/Footer.qml:29
-#, kde-format
-msgid "Type the new task's title here…"
-msgstr "नये कार्य का शीर्षक यहां लिखें…"
-
-#: src/ui/Footer.qml:45
-#, kde-format
-msgid "Add Task"
-msgstr "कार्य जोड़ें"
 
 #: src/ui/GlobalMenu.qml:15
 #, kde-format
@@ -153,35 +138,45 @@ msgid_plural "%1 tasks completed"
 msgstr[0] "%1 कार्य पूर्ण"
 msgstr[1] "%1 कार्य पूर्ण"
 
-#: src/ui/PageHeader.qml:44
+#: src/ui/PageHeader.qml:46
 #, kde-format
-msgid "Clear All"
-msgstr "सभी साफ करें"
+msgid "Add Task"
+msgstr "कार्य जोड़ें"
 
-#: src/ui/PageHeader.qml:53
-#, kde-format
-msgid "Search"
-msgstr "खोज"
-
-#: src/ui/PageHeader.qml:72
+#: src/ui/PageHeader.qml:64
 #, kde-format
 msgid "Menu"
 msgstr "मेनू"
 
-#: src/ui/PageHeader.qml:81
+#: src/ui/PageHeader.qml:73
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About Tasks"
 msgstr "कार्यों के बारे में"
 
-#: src/ui/PageHeader.qml:92
+#: src/ui/PageHeader.qml:84
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Enable tray icon"
 msgstr "ट्रे आइकन सक्षम करें"
+
+#: src/ui/PageHeader.qml:90
+#, kde-format
+msgid "Clear All"
+msgstr "सभी साफ करें"
 
 #: src/ui/PageHeader.qml:99
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Quit"
 msgstr "छोड़ना"
+
+#~ msgid ""
+#~ "Add some more by typing in the text field at the bottom of the window"
+#~ msgstr "विंडो के नीचे टेक्स्ट फ़ील्ड में टाइप करके कुछ और जोड़ें"
+
+#~ msgid "Type the new task's title here…"
+#~ msgstr "नये कार्य का शीर्षक यहां लिखें…"
+
+#~ msgid "Search"
+#~ msgstr "खोज"

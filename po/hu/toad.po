@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: toad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-12-15 00:44+0000\n"
+"POT-Creation-Date: 2025-01-12 00:45+0000\n"
 "PO-Revision-Date: 2024-01-12 12:40+0100\n"
 "Last-Translator: Kristof Kiszel <ulysses@fsf.hu>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
@@ -60,35 +60,20 @@ msgstr "Szerző"
 msgid "Tasks"
 msgstr "Tasks"
 
-#: src/Main.qml:157
+#: src/Main.qml:187
 #, kde-format
 msgid "Nothing Found"
 msgstr "Nincs találat"
 
-#: src/Main.qml:157
+#: src/Main.qml:187
 #, kde-format
 msgid "All tasks completed!"
 msgstr "Minden feladat befejezve."
 
-#: src/Main.qml:159
+#: src/Main.qml:189
 #, kde-format
 msgid "Your search did not match any results"
 msgstr "A keresésre nincs egyetlen találat sem"
-
-#: src/Main.qml:159
-#, kde-format
-msgid "Add some more by typing in the text field at the bottom of the window"
-msgstr "Adjon hozzá még néhányat az ablak alján található szövegmezőbe beírva"
-
-#: src/ui/Footer.qml:29
-#, kde-format
-msgid "Type the new task's title here…"
-msgstr "Írja be ide az új feladat címét…"
-
-#: src/ui/Footer.qml:45
-#, kde-format
-msgid "Add Task"
-msgstr "Feladat hozzáadása"
 
 #: src/ui/GlobalMenu.qml:15
 #, kde-format
@@ -153,33 +138,33 @@ msgid_plural "%1 tasks completed"
 msgstr[0] "1 feladat befejezve"
 msgstr[1] "%1 feladat befejezve"
 
-#: src/ui/PageHeader.qml:44
+#: src/ui/PageHeader.qml:46
 #, kde-format
-msgid "Clear All"
-msgstr "Összes törlése"
+msgid "Add Task"
+msgstr "Feladat hozzáadása"
 
-#: src/ui/PageHeader.qml:53
-#, kde-format
-msgid "Search"
-msgstr "Keresés"
-
-#: src/ui/PageHeader.qml:72
+#: src/ui/PageHeader.qml:64
 #, kde-format
 msgid "Menu"
 msgstr ""
 
-#: src/ui/PageHeader.qml:81
+#: src/ui/PageHeader.qml:73
 #, fuzzy, kde-format
 #| msgid "About Tasks"
 msgctxt "@action:inmenu"
 msgid "About Tasks"
 msgstr "Tasks névjegye"
 
-#: src/ui/PageHeader.qml:92
+#: src/ui/PageHeader.qml:84
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Enable tray icon"
 msgstr ""
+
+#: src/ui/PageHeader.qml:90
+#, kde-format
+msgid "Clear All"
+msgstr "Összes törlése"
 
 #: src/ui/PageHeader.qml:99
 #, fuzzy, kde-format
@@ -188,3 +173,14 @@ msgstr ""
 msgctxt "@action:inmenu"
 msgid "Quit"
 msgstr "Kilépés"
+
+#~ msgid ""
+#~ "Add some more by typing in the text field at the bottom of the window"
+#~ msgstr ""
+#~ "Adjon hozzá még néhányat az ablak alján található szövegmezőbe beírva"
+
+#~ msgid "Type the new task's title here…"
+#~ msgstr "Írja be ide az új feladat címét…"
+
+#~ msgid "Search"
+#~ msgstr "Keresés"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: toad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-12-15 00:44+0000\n"
+"POT-Creation-Date: 2025-01-12 00:45+0000\n"
 "PO-Revision-Date: 2024-12-15 20:39+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
@@ -61,35 +61,20 @@ msgstr "יוצר"
 msgid "Tasks"
 msgstr "משימות"
 
-#: src/Main.qml:157
+#: src/Main.qml:187
 #, kde-format
 msgid "Nothing Found"
 msgstr "לא נמצא כלום"
 
-#: src/Main.qml:157
+#: src/Main.qml:187
 #, kde-format
 msgid "All tasks completed!"
 msgstr "כל המשימות הושלמו!"
 
-#: src/Main.qml:159
+#: src/Main.qml:189
 #, kde-format
 msgid "Your search did not match any results"
 msgstr "החיפוש שלך לא החזיר אף תוצאות"
-
-#: src/Main.qml:159
-#, kde-format
-msgid "Add some more by typing in the text field at the bottom of the window"
-msgstr "אפשר להוסיף כאלה על ידי הקלדתן בשדה הטקסט בתחתית החלון"
-
-#: src/ui/Footer.qml:29
-#, kde-format
-msgid "Type the new task's title here…"
-msgstr "נא להקליד כאן את כותרת המשימה החדשה…"
-
-#: src/ui/Footer.qml:45
-#, kde-format
-msgid "Add Task"
-msgstr "הוספת משימה"
 
 #: src/ui/GlobalMenu.qml:15
 #, kde-format
@@ -160,35 +145,45 @@ msgstr[1] "שתי משימות הושלמו"
 msgstr[2] "%1 משימות הושלמו"
 msgstr[3] "%1 משימות הושלמו"
 
-#: src/ui/PageHeader.qml:44
+#: src/ui/PageHeader.qml:46
 #, kde-format
-msgid "Clear All"
-msgstr "לפנות הכול"
+msgid "Add Task"
+msgstr "הוספת משימה"
 
-#: src/ui/PageHeader.qml:53
-#, kde-format
-msgid "Search"
-msgstr "חיפוש"
-
-#: src/ui/PageHeader.qml:72
+#: src/ui/PageHeader.qml:64
 #, kde-format
 msgid "Menu"
 msgstr "תפריט"
 
-#: src/ui/PageHeader.qml:81
+#: src/ui/PageHeader.qml:73
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About Tasks"
 msgstr "על משימות"
 
-#: src/ui/PageHeader.qml:92
+#: src/ui/PageHeader.qml:84
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Enable tray icon"
 msgstr "הפעלת סמל בשורת המערכת"
+
+#: src/ui/PageHeader.qml:90
+#, kde-format
+msgid "Clear All"
+msgstr "לפנות הכול"
 
 #: src/ui/PageHeader.qml:99
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Quit"
 msgstr "יציאה"
+
+#~ msgid ""
+#~ "Add some more by typing in the text field at the bottom of the window"
+#~ msgstr "אפשר להוסיף כאלה על ידי הקלדתן בשדה הטקסט בתחתית החלון"
+
+#~ msgid "Type the new task's title here…"
+#~ msgstr "נא להקליד כאן את כותרת המשימה החדשה…"
+
+#~ msgid "Search"
+#~ msgstr "חיפוש"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: toad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-12-15 00:44+0000\n"
+"POT-Creation-Date: 2025-01-12 00:45+0000\n"
 "PO-Revision-Date: 2022-07-27 19:21+0300\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
@@ -59,35 +59,20 @@ msgstr "Tekijä"
 msgid "Tasks"
 msgstr "Tehtävät"
 
-#: src/Main.qml:157
+#: src/Main.qml:187
 #, kde-format
 msgid "Nothing Found"
 msgstr "Mitään ei löytynyt"
 
-#: src/Main.qml:157
+#: src/Main.qml:187
 #, kde-format
 msgid "All tasks completed!"
 msgstr "Kaikki tehtävät ovat valmistuneet!"
 
-#: src/Main.qml:159
+#: src/Main.qml:189
 #, kde-format
 msgid "Your search did not match any results"
 msgstr "Hakusi ei löytänyt tuloksia"
-
-#: src/Main.qml:159
-#, kde-format
-msgid "Add some more by typing in the text field at the bottom of the window"
-msgstr "Luo lisää kirjoittamalla ikkunan alalaidan tekstikenttään"
-
-#: src/ui/Footer.qml:29
-#, kde-format
-msgid "Type the new task's title here…"
-msgstr "Kirjoita uuden tehtävän otsikko tähän…"
-
-#: src/ui/Footer.qml:45
-#, kde-format
-msgid "Add Task"
-msgstr "Lisää tehtävä"
 
 #: src/ui/GlobalMenu.qml:15
 #, kde-format
@@ -152,33 +137,33 @@ msgid_plural "%1 tasks completed"
 msgstr[0] "1 tehtävä valmis"
 msgstr[1] "%1 tehtävää valmiina"
 
-#: src/ui/PageHeader.qml:44
+#: src/ui/PageHeader.qml:46
 #, kde-format
-msgid "Clear All"
-msgstr "Tyhjennä kaikki"
+msgid "Add Task"
+msgstr "Lisää tehtävä"
 
-#: src/ui/PageHeader.qml:53
-#, kde-format
-msgid "Search"
-msgstr "Etsi"
-
-#: src/ui/PageHeader.qml:72
+#: src/ui/PageHeader.qml:64
 #, kde-format
 msgid "Menu"
 msgstr ""
 
-#: src/ui/PageHeader.qml:81
+#: src/ui/PageHeader.qml:73
 #, fuzzy, kde-format
 #| msgid "About Tasks"
 msgctxt "@action:inmenu"
 msgid "About Tasks"
 msgstr "Tietoa Tasksista"
 
-#: src/ui/PageHeader.qml:92
+#: src/ui/PageHeader.qml:84
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Enable tray icon"
 msgstr ""
+
+#: src/ui/PageHeader.qml:90
+#, kde-format
+msgid "Clear All"
+msgstr "Tyhjennä kaikki"
 
 #: src/ui/PageHeader.qml:99
 #, fuzzy, kde-format
@@ -187,3 +172,13 @@ msgstr ""
 msgctxt "@action:inmenu"
 msgid "Quit"
 msgstr "Lopeta"
+
+#~ msgid ""
+#~ "Add some more by typing in the text field at the bottom of the window"
+#~ msgstr "Luo lisää kirjoittamalla ikkunan alalaidan tekstikenttään"
+
+#~ msgid "Type the new task's title here…"
+#~ msgstr "Kirjoita uuden tehtävän otsikko tähän…"
+
+#~ msgid "Search"
+#~ msgstr "Etsi"
