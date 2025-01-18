@@ -4,9 +4,9 @@
 #include "tasksmodel.h"
 #include "tasks_debug.h"
 
-#include <QStandardPaths>
-#include <QFile>
 #include <QDir>
+#include <QFile>
+#include <QStandardPaths>
 
 #include <QJsonArray>
 #include <QJsonDocument>
@@ -22,7 +22,7 @@ QHash<int, QByteArray> TasksModel::roleNames() const
 {
     return {
         {Roles::TitleRole, QByteArrayLiteral("title")},
-        {Roles::CheckedRole, QByteArrayLiteral("checked")}
+        {Roles::CheckedRole, QByteArrayLiteral("checked")},
     };
 }
 
@@ -56,31 +56,31 @@ bool TasksModel::setData(const QModelIndex &index, const QVariant &value, int ro
         return false;
     }
 
-    auto& task = m_tasks[index.row()];
+    auto &task = m_tasks[index.row()];
 
     switch (role) {
-        case Roles::CheckedRole:
-            task.setChecked(value.toBool());
+    case Roles::CheckedRole:
+        task.setChecked(value.toBool());
 
-            if (task.checked()) {
-                m_completedTasks++;
+        if (task.checked()) {
+            m_completedTasks++;
+            Q_EMIT completedTasksChanged();
+        }
+
+        if (!task.checked()) {
+            if (m_completedTasks > 0) {
+                m_completedTasks--;
                 Q_EMIT completedTasksChanged();
             }
+        }
 
-            if (!task.checked()) {
-                if (m_completedTasks > 0) {
-                    m_completedTasks--;
-                    Q_EMIT completedTasksChanged();
-                }
-            }
-
-            break;
-        case Roles::TitleRole:
-            task.setTitle(value.toString());
-            break;
+        break;
+    case Roles::TitleRole:
+        task.setTitle(value.toString());
+        break;
     }
 
-    Q_EMIT dataChanged(index, index, { role });
+    Q_EMIT dataChanged(index, index, {role});
 
     saveTasks();
 
@@ -150,7 +150,7 @@ bool TasksModel::saveTasks() const
 
     const QJsonDocument document({
         {QLatin1String("tasks"), tasksArray},
-        {QLatin1String("completedTasks"), m_completedTasks}
+        {QLatin1String("completedTasks"), m_completedTasks},
     });
 
     outputFile.write(document.toJson());

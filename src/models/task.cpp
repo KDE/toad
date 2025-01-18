@@ -40,6 +40,6 @@ QJsonObject Task::toJson() const
 {
     return {
         {QStringLiteral("title"), m_title},
-        {QStringLiteral("checked"), m_checked}
+        {QStringLiteral("checked"), m_checked},
     };
 }

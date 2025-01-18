@@ -2,9 +2,9 @@
 // SPDX-License-Identifier: LGPL-2.1-or-later
 
 #include <QIcon>
-#include <QtQml>
 #include <QQuickStyle>
 #include <QQuickWindow>
+#include <QtQml>
 
 #include "version-tasks.h"
 #include <KAboutData>
@@ -38,19 +38,22 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     QCoreApplication::setApplicationName(QStringLiteral("tasks"));
 
     KAboutData aboutData(
-                         // The program name used internally.
-                         QStringLiteral("tasks"),
-                         // A displayable program name string.
-                         i18nc("@title", "Tasks"),
-                         // The program version string.
-                         QStringLiteral(TASKS_VERSION_STRING),
-                         // Short description of what the app does.
-                         i18n("Organize your tasks"),
-                         // The license this code is released under.
-                         KAboutLicense::GPL,
-                         // Copyright Statement.
-                         i18n("© 2022 Felipe Kinoshita"));
-    aboutData.addAuthor(i18nc("@info:credit", "Felipe Kinoshita"), i18nc("@info:credit", "Author"), QStringLiteral("kinofhek@gmail.com"), QStringLiteral("https://fhek.gitlab.io"));
+        // The program name used internally.
+        QStringLiteral("tasks"),
+        // A displayable program name string.
+        i18nc("@title", "Tasks"),
+        // The program version string.
+        QStringLiteral(TASKS_VERSION_STRING),
+        // Short description of what the app does.
+        i18n("Organize your tasks"),
+        // The license this code is released under.
+        KAboutLicense::GPL,
+        // Copyright Statement.
+        i18n("© 2022 Felipe Kinoshita"));
+    aboutData.addAuthor(i18nc("@info:credit", "Felipe Kinoshita"),
+                        i18nc("@info:credit", "Author"),
+                        QStringLiteral("kinofhek@gmail.com"),
+                        QStringLiteral("https://fhek.gitlab.io"));
     aboutData.setBugAddress("https://invent.kde.org/utilities/toad/-/issues/new");
     aboutData.setProgramLogo(QIcon(QStringLiteral(":/tasks.png")));
     KAboutData::setApplicationData(aboutData);
