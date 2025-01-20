@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: toad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-01-12 00:45+0000\n"
+"POT-Creation-Date: 2025-01-20 00:45+0000\n"
 "PO-Revision-Date: 2024-07-28 00:33+0200\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@lister.huftis.org>\n"
@@ -50,7 +50,7 @@ msgctxt "@info:credit"
 msgid "Felipe Kinoshita"
 msgstr "Felipe Kinoshita"
 
-#: src/main.cpp:53
+#: src/main.cpp:54
 #, kde-format
 msgctxt "@info:credit"
 msgid "Author"
