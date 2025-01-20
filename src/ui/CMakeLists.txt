@@ -14,7 +14,13 @@ ecm_target_qml_sources(ui
     About.qml
     GlobalMenu.qml
     PageHeader.qml
+    TasksPage.qml
     Tray.qml
+)
+
+target_link_libraries(ui PRIVATE
+    KF6::ItemModels
+    models
 )
 
 ecm_finalize_qml_module(ui)
