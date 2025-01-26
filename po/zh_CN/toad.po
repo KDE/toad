@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-01-20 00:45+0000\n"
+"POT-Creation-Date: 2025-01-26 00:44+0000\n"
 "PO-Revision-Date: 2024-04-22 15:58\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -55,24 +55,9 @@ msgctxt "@info:credit"
 msgid "Author"
 msgstr ""
 
-#: src/Main.qml:18
+#: src/Main.qml:13
 #, kde-format
 msgid "Tasks"
-msgstr ""
-
-#: src/Main.qml:187
-#, kde-format
-msgid "Nothing Found"
-msgstr ""
-
-#: src/Main.qml:187
-#, kde-format
-msgid "All tasks completed!"
-msgstr ""
-
-#: src/Main.qml:189
-#, kde-format
-msgid "Your search did not match any results"
 msgstr ""
 
 #: src/ui/GlobalMenu.qml:15
@@ -166,4 +151,19 @@ msgstr ""
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Quit"
+msgstr ""
+
+#: src/ui/TasksPage.qml:166
+#, kde-format
+msgid "Nothing Found"
+msgstr ""
+
+#: src/ui/TasksPage.qml:166
+#, kde-format
+msgid "All tasks completed!"
+msgstr ""
+
+#: src/ui/TasksPage.qml:168
+#, kde-format
+msgid "Your search did not match any results"
 msgstr ""

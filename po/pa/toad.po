@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: toad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-01-20 00:45+0000\n"
+"POT-Creation-Date: 2025-01-26 00:44+0000\n"
 "PO-Revision-Date: 2024-01-01 07:59-0600\n"
 "Last-Translator: A S Alam <aalam@punlinux.org>\n"
 "Language-Team: Punjabi <kde-i18n-doc@kde.org>\n"
@@ -55,25 +55,10 @@ msgctxt "@info:credit"
 msgid "Author"
 msgstr "ਲੇਖਕ"
 
-#: src/Main.qml:18
+#: src/Main.qml:13
 #, kde-format
 msgid "Tasks"
 msgstr "ਟਾਸਕ"
-
-#: src/Main.qml:187
-#, kde-format
-msgid "Nothing Found"
-msgstr "ਕੁਝ ਨਹੀਂ ਲੱਭਿਆ"
-
-#: src/Main.qml:187
-#, kde-format
-msgid "All tasks completed!"
-msgstr "ਸਾਰੀਆਂ ਟਾਸਕਾਂ ਪੂਰੀਆਂ ਹੋਈਆਂ!"
-
-#: src/Main.qml:189
-#, kde-format
-msgid "Your search did not match any results"
-msgstr ""
 
 #: src/ui/GlobalMenu.qml:15
 #, kde-format
@@ -173,6 +158,21 @@ msgstr "ਸਭ ਸਾਫ਼ ਕਰੋ"
 msgctxt "@action:inmenu"
 msgid "Quit"
 msgstr "ਬਾਹਰ"
+
+#: src/ui/TasksPage.qml:166
+#, kde-format
+msgid "Nothing Found"
+msgstr "ਕੁਝ ਨਹੀਂ ਲੱਭਿਆ"
+
+#: src/ui/TasksPage.qml:166
+#, kde-format
+msgid "All tasks completed!"
+msgstr "ਸਾਰੀਆਂ ਟਾਸਕਾਂ ਪੂਰੀਆਂ ਹੋਈਆਂ!"
+
+#: src/ui/TasksPage.qml:168
+#, kde-format
+msgid "Your search did not match any results"
+msgstr ""
 
 #~ msgid "Type the new task's title here…"
 #~ msgstr "ਨਵੀਂ ਟਾਸਕ ਲਈ ਨਾਂ ਇੱਥੇ ਲਿਖੋ…"

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: toad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-01-20 00:45+0000\n"
+"POT-Creation-Date: 2025-01-26 00:44+0000\n"
 "PO-Revision-Date: 2024-12-29 01:34+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
@@ -58,25 +58,10 @@ msgctxt "@info:credit"
 msgid "Author"
 msgstr "作者"
 
-#: src/Main.qml:18
+#: src/Main.qml:13
 #, kde-format
 msgid "Tasks"
 msgstr "工作項目"
-
-#: src/Main.qml:187
-#, kde-format
-msgid "Nothing Found"
-msgstr "找不到東西"
-
-#: src/Main.qml:187
-#, kde-format
-msgid "All tasks completed!"
-msgstr "所有工作項目都完成了！"
-
-#: src/Main.qml:189
-#, kde-format
-msgid "Your search did not match any results"
-msgstr "您的搜尋沒有符合任何結果"
 
 #: src/ui/GlobalMenu.qml:15
 #, kde-format
@@ -170,6 +155,21 @@ msgstr "全部清除"
 msgctxt "@action:inmenu"
 msgid "Quit"
 msgstr "離開"
+
+#: src/ui/TasksPage.qml:166
+#, kde-format
+msgid "Nothing Found"
+msgstr "找不到東西"
+
+#: src/ui/TasksPage.qml:166
+#, kde-format
+msgid "All tasks completed!"
+msgstr "所有工作項目都完成了！"
+
+#: src/ui/TasksPage.qml:168
+#, kde-format
+msgid "Your search did not match any results"
+msgstr "您的搜尋沒有符合任何結果"
 
 #~ msgid ""
 #~ "Add some more by typing in the text field at the bottom of the window"

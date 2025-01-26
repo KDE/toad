@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: toad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-01-20 00:45+0000\n"
+"POT-Creation-Date: 2025-01-26 00:44+0000\n"
 "PO-Revision-Date: 2024-12-24 19:15+0100\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
@@ -55,25 +55,10 @@ msgctxt "@info:credit"
 msgid "Author"
 msgstr "작성자"
 
-#: src/Main.qml:18
+#: src/Main.qml:13
 #, kde-format
 msgid "Tasks"
 msgstr "할 일"
-
-#: src/Main.qml:187
-#, kde-format
-msgid "Nothing Found"
-msgstr "찾을 수 없음"
-
-#: src/Main.qml:187
-#, kde-format
-msgid "All tasks completed!"
-msgstr "모든 할 일을 완료했습니다!"
-
-#: src/Main.qml:189
-#, kde-format
-msgid "Your search did not match any results"
-msgstr "검색 결과 없음"
 
 #: src/ui/GlobalMenu.qml:15
 #, kde-format
@@ -167,6 +152,21 @@ msgstr "모두 지우기"
 msgctxt "@action:inmenu"
 msgid "Quit"
 msgstr "끝내기"
+
+#: src/ui/TasksPage.qml:166
+#, kde-format
+msgid "Nothing Found"
+msgstr "찾을 수 없음"
+
+#: src/ui/TasksPage.qml:166
+#, kde-format
+msgid "All tasks completed!"
+msgstr "모든 할 일을 완료했습니다!"
+
+#: src/ui/TasksPage.qml:168
+#, kde-format
+msgid "Your search did not match any results"
+msgstr "검색 결과 없음"
 
 #~ msgid ""
 #~ "Add some more by typing in the text field at the bottom of the window"

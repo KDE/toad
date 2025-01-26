@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: toad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-01-20 00:45+0000\n"
+"POT-Creation-Date: 2025-01-26 00:44+0000\n"
 "PO-Revision-Date: 2022-10-18 09:02+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
@@ -56,25 +56,10 @@ msgctxt "@info:credit"
 msgid "Author"
 msgstr "Autoria"
 
-#: src/Main.qml:18
+#: src/Main.qml:13
 #, kde-format
 msgid "Tasks"
 msgstr "Tarefas"
-
-#: src/Main.qml:187
-#, kde-format
-msgid "Nothing Found"
-msgstr "Nada Encontrado"
-
-#: src/Main.qml:187
-#, kde-format
-msgid "All tasks completed!"
-msgstr "Terminaram todas as tarefas!"
-
-#: src/Main.qml:189
-#, kde-format
-msgid "Your search did not match any results"
-msgstr "A sua pesquisa não devolveu nenhuns resultados"
 
 #: src/ui/GlobalMenu.qml:15
 #, kde-format
@@ -174,6 +159,21 @@ msgstr "Limpar Tudo"
 msgctxt "@action:inmenu"
 msgid "Quit"
 msgstr "Sair"
+
+#: src/ui/TasksPage.qml:166
+#, kde-format
+msgid "Nothing Found"
+msgstr "Nada Encontrado"
+
+#: src/ui/TasksPage.qml:166
+#, kde-format
+msgid "All tasks completed!"
+msgstr "Terminaram todas as tarefas!"
+
+#: src/ui/TasksPage.qml:168
+#, kde-format
+msgid "Your search did not match any results"
+msgstr "A sua pesquisa não devolveu nenhuns resultados"
 
 #~ msgid ""
 #~ "Add some more by typing in the text field at the bottom of the window"

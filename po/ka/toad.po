@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: toad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-01-20 00:45+0000\n"
+"POT-Creation-Date: 2025-01-26 00:44+0000\n"
 "PO-Revision-Date: 2024-12-15 06:10+0100\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
@@ -56,25 +56,10 @@ msgctxt "@info:credit"
 msgid "Author"
 msgstr "ავტორი"
 
-#: src/Main.qml:18
+#: src/Main.qml:13
 #, kde-format
 msgid "Tasks"
 msgstr "ამოცანები"
-
-#: src/Main.qml:187
-#, kde-format
-msgid "Nothing Found"
-msgstr "ვერაფერი მოიძებნა"
-
-#: src/Main.qml:187
-#, kde-format
-msgid "All tasks completed!"
-msgstr "ყველა დავალება დასრულდა!"
-
-#: src/Main.qml:189
-#, kde-format
-msgid "Your search did not match any results"
-msgstr "თქვენმა ძებნა უშედეგოა"
 
 #: src/ui/GlobalMenu.qml:15
 #, kde-format
@@ -171,6 +156,21 @@ msgstr "ყველას გასუფთავება"
 msgctxt "@action:inmenu"
 msgid "Quit"
 msgstr "გასვლა"
+
+#: src/ui/TasksPage.qml:166
+#, kde-format
+msgid "Nothing Found"
+msgstr "ვერაფერი მოიძებნა"
+
+#: src/ui/TasksPage.qml:166
+#, kde-format
+msgid "All tasks completed!"
+msgstr "ყველა დავალება დასრულდა!"
+
+#: src/ui/TasksPage.qml:168
+#, kde-format
+msgid "Your search did not match any results"
+msgstr "თქვენმა ძებნა უშედეგოა"
 
 #~ msgid ""
 #~ "Add some more by typing in the text field at the bottom of the window"

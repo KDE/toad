@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: toad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-01-20 00:45+0000\n"
+"POT-Creation-Date: 2025-01-26 00:44+0000\n"
 "PO-Revision-Date: 2024-12-25 19:37+0530\n"
 "Last-Translator: kali <shreekantkalwar@gmail.com>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
@@ -57,25 +57,10 @@ msgctxt "@info:credit"
 msgid "Author"
 msgstr "लेखकः"
 
-#: src/Main.qml:18
+#: src/Main.qml:13
 #, kde-format
 msgid "Tasks"
 msgstr "कार्याणि"
-
-#: src/Main.qml:187
-#, kde-format
-msgid "Nothing Found"
-msgstr "किमपि न लब्धम्"
-
-#: src/Main.qml:187
-#, kde-format
-msgid "All tasks completed!"
-msgstr "सर्वाणि कार्याणि सम्पन्नानि !"
-
-#: src/Main.qml:189
-#, kde-format
-msgid "Your search did not match any results"
-msgstr "भवतः अन्वेषणं किमपि परिणामं न सङ्गतम्"
 
 #: src/ui/GlobalMenu.qml:15
 #, kde-format
@@ -172,6 +157,21 @@ msgstr "सर्वं स्वच्छं कुर्वन्तु"
 msgctxt "@action:inmenu"
 msgid "Quit"
 msgstr "परिजहातु"
+
+#: src/ui/TasksPage.qml:166
+#, kde-format
+msgid "Nothing Found"
+msgstr "किमपि न लब्धम्"
+
+#: src/ui/TasksPage.qml:166
+#, kde-format
+msgid "All tasks completed!"
+msgstr "सर्वाणि कार्याणि सम्पन्नानि !"
+
+#: src/ui/TasksPage.qml:168
+#, kde-format
+msgid "Your search did not match any results"
+msgstr "भवतः अन्वेषणं किमपि परिणामं न सङ्गतम्"
 
 #~ msgid ""
 #~ "Add some more by typing in the text field at the bottom of the window"
