@@ -171,13 +171,3 @@ msgstr "Du er ferdig med alle gjeremåla!"
 #, kde-format
 msgid "Your search did not match any results"
 msgstr "Søket fann ingen gjeremål"
-
-#~ msgid ""
-#~ "Add some more by typing in the text field at the bottom of the window"
-#~ msgstr "Legg til fleire ved å skriva i feltet nedst i vindauget"
-
-#~ msgid "Type the new task's title here…"
-#~ msgstr "Skriv inn namn på gjeremålet her …"
-
-#~ msgid "Search"
-#~ msgstr "Søk"
