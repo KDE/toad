@@ -29,8 +29,7 @@ target_link_libraries(${CMAKE_PROJECT_NAME}
     KF6::I18n
     KF6::I18nQml
     KF6::CoreAddons
-    KF6::ConfigCore
-    KF6::ConfigGui
+    config
     logging
 )
 
@@ -55,6 +54,24 @@ ecm_qt_install_logging_categories(
         FILE ${CMAKE_PROJECT_NAME}.categories
         DESTINATION ${KDE_INSTALL_LOGGINGCATEGORIESDIR}
 )
+
+qt_add_qml_module(config URI org.kde.tasks.config)
+kconfig_target_kcfg_file(config
+    FILE config.kcfg
+    CLASS_NAME Config
+    MUTATORS
+    GENERATE_PROPERTIES
+    GENERATE_MOC
+    DEFAULT_VALUE_GETTERS
+    PARENT_IN_CONSTRUCTOR
+    QML_REGISTRATION
+    SINGLETON
+    VISIBILITY CONFIG_EXPORT
+    INCLUDE_FILES config_export.h
+)
+generate_export_header(config)
+target_link_libraries(config PUBLIC KF6::ConfigQml)
+install(TARGETS config ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})
 
 if (NOT ANDROID)
     target_link_libraries(${CMAKE_PROJECT_NAME}
@@ -81,8 +98,6 @@ else()
     )
     ecm_add_android_apk(${CMAKE_PROJECT_NAME} ANDROID_DIR ${CMAKE_SOURCE_DIR}/android)
 endif()
-
-kconfig_target_kcfg_file(${CMAKE_PROJECT_NAME} FILE config.kcfg CLASS_NAME Config MUTATORS GENERATE_PROPERTIES GENERATE_MOC DEFAULT_VALUE_GETTERS PARENT_IN_CONSTRUCTOR QML_REGISTRATION SINGLETON)
 
 install(TARGETS ${CMAKE_PROJECT_NAME} ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})
 
