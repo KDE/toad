@@ -137,11 +137,10 @@ msgid "Menu"
 msgstr "Nabídka"
 
 #: src/ui/PageHeader.qml:73
-#, fuzzy, kde-format
-#| msgid "Add Task"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "About Tasks"
-msgstr "Přidat úlohu"
+msgstr ""
 
 #: src/ui/PageHeader.qml:84
 #, kde-format
@@ -174,6 +173,3 @@ msgstr ""
 #, kde-format
 msgid "Your search did not match any results"
 msgstr ""
-
-#~ msgid "Search"
-#~ msgstr "Hledat"
