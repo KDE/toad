@@ -18,6 +18,53 @@ Kirigami.ScrollablePage {
 
     titleDelegate: PageHeader {}
 
+    actions: [
+        QQC2.Action {
+            text: i18n("Add Task")
+            icon.name: "list-add"
+            shortcut: StandardKey.New
+            onTriggered: {
+                TasksModel.add("");
+                list.forceLayout();
+                list.currentIndex = list.count - 1;
+                list.currentItem.edit();
+            }
+        },
+        Kirigami.Action {
+            text: i18n("Clear All")
+            icon.name: "edit-clear-all"
+            displayHint: Kirigami.DisplayHint.AlwaysHide // destructive action shouldn't be directly in the UI
+            onTriggered: TasksModel.clear()
+            enabled: list.count > 0
+        },
+        // global actions below; displayHint: AlwaysHide so they'll go in the overflow menu
+        Kirigami.Action {
+            separator: true
+            displayHint: Kirigami.DisplayHint.AlwaysHide
+        },
+        Kirigami.Action {
+            text: i18nc("@action:inmenu", "About Tasks")
+            icon.name: "help-about"
+            shortcut: StandardKey.HelpContents
+            displayHint: Kirigami.DisplayHint.AlwaysHide
+            onTriggered: pageStack.layers.push(aboutPage)
+            enabled: pageStack.layers.depth <= 1
+        },
+        Kirigami.Action {
+            text: i18nc("@action:inmenu", "Enable tray icon")
+            icon.name: "org.kde.tasks"
+            displayHint: Kirigami.DisplayHint.AlwaysHide
+            onTriggered: tray.visible ? tray.hide() : tray.show()
+        },
+        Kirigami.Action {
+            text: i18nc("@action:inmenu", "Quit")
+            icon.name: "application-exit"
+            shortcut: StandardKey.Quit
+            displayHint: Kirigami.DisplayHint.AlwaysHide
+            onTriggered: Qt.quit()
+        }
+    ]
+
     ListView {
         id: list
 

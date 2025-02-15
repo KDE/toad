@@ -45,7 +45,7 @@ Labs.MenuBar {
         Labs.MenuItem {
             text: i18nc("@menu-action", "About Tasks")
             icon.name: "help-about"
-            onTriggered: pageStack.layers.push("About.qml")
+            onTriggered: pageStack.layers.push(aboutPage)
             enabled: pageStack.layers.depth <= 1
         }
     }
