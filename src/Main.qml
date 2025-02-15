@@ -3,7 +3,9 @@
 
 import QtQuick
 import org.kde.kirigami as Kirigami
+import org.kde.kirigamiaddons.formcard as FormCard
 import org.kde.config as KConfig
+import org.kde.coreaddons
 
 import org.kde.tasks.ui
 
@@ -27,4 +29,13 @@ Kirigami.ApplicationWindow {
     }
 
     pageStack.initialPage: TasksPage {}
+
+    Component {
+        id: aboutPage
+        FormCard.AboutPage {
+            aboutData: AboutData
+        }
+    }
+
+    Tray { id: tray }
 }
