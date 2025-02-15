@@ -17,7 +17,7 @@ Kirigami.ScrollablePage {
     property bool searching: searchField.length
     property string currentSearchText: searchField.text
 
-    titleDelegate: PageHeader {}
+    title: page.searching ? i18np("1 result", "%1 results", list.count) : i18np("1 task", "%1 tasks", list.count)
 
     header: Kirigami.SearchField {
         id: searchField
