@@ -1,4 +1,5 @@
 // SPDX-FileCopyrightText: 2022 Felipe Kinoshita <kinofhek@gmail.com>
+// SPDX-FileCopyrightText: 2025 Mark Penner <mrp@markpenner.space>
 // SPDX-License-Identifier: GPL-3.0-or-later
 
 import QtQuick
@@ -13,10 +14,15 @@ import org.kde.tasks.models
 Kirigami.ScrollablePage {
     id: page
 
-    property bool searching
-    property string currentSearchText
+    property bool searching: searchField.length
+    property string currentSearchText: searchField.text
 
     titleDelegate: PageHeader {}
+
+    header: Kirigami.SearchField {
+        id: searchField
+        visible: searchAction.checked
+    }
 
     actions: [
         QQC2.Action {
@@ -29,6 +35,15 @@ Kirigami.ScrollablePage {
                 list.currentIndex = list.count - 1;
                 list.currentItem.edit();
             }
+        },
+        QQC2.Action {
+            id: searchAction
+            Accessible.name: i18n("Search")
+            text: Kirigami.Settings.isMobile ? i18n("Search") : ""
+            icon.name: "search"
+            shortcut: StandardKey.Find
+            checkable: true
+            onCheckedChanged: searchAction.checked ? searchField.forceActiveFocus() : searchField.clear()
         },
         Kirigami.Action {
             text: i18n("Clear All")
@@ -72,13 +87,7 @@ Kirigami.ScrollablePage {
             id: filteredModel
             sourceModel: TasksModel
             filterRoleName: "title"
-            filterRegularExpression: {
-                if (page.currentSearchText === "") {
-                    page.searching = false
-                    return new RegExp()
-                }
-                return new RegExp("%1".arg(page.currentSearchText), "i")
-            }
+            filterRegularExpression: RegExp("%1".arg(page.currentSearchText), "i")
         }
 
         delegate: Delegates.RoundedItemDelegate {
@@ -213,13 +222,6 @@ Kirigami.ScrollablePage {
             text: page.searching ? i18n("Nothing Found") : i18n("All tasks completed!")
             icon.name: page.searching ? "edit-none" : "checkmark"
             explanation: page.searching ? i18n("Your search did not match any results") : ""
-        }
-    }
-
-    footer: Kirigami.SearchField {
-        onAccepted: {
-            page.searching = true;
-            page.currentSearchText = text;
         }
     }
 }
