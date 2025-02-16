@@ -26,10 +26,10 @@ Labs.MenuBar {
         title: i18nc("@menu", "Edit")
 
         Labs.MenuItem {
-            text: i18nc("@menu-action", "Clear Tasks")
+            text: i18nc("@menu-action", "Clear Completed")
             icon.name: "edit-clear-all"
-            onTriggered: TasksModel.clear()
-            enabled: TasksModel.rowCount() > 0
+            onTriggered: TasksModel.clearCompleted()
+            enabled: TasksModel.completedTasks > 0
         }
     }
 

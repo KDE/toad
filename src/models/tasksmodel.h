@@ -30,7 +30,7 @@ public:
 
     Q_INVOKABLE void add(const QString &title);
     Q_INVOKABLE void remove(const QModelIndex &index);
-    Q_INVOKABLE void clear();
+    Q_INVOKABLE void clearCompleted();
 
     [[nodiscard]] int completedTasks() const
     {

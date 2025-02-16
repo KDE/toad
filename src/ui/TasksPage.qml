@@ -46,11 +46,11 @@ Kirigami.ScrollablePage {
             onCheckedChanged: searchAction.checked ? searchField.forceActiveFocus() : searchField.clear()
         },
         Kirigami.Action {
-            text: i18n("Clear All")
+            text: i18n("Clear Completed")
             icon.name: "edit-clear-all"
             displayHint: Kirigami.DisplayHint.AlwaysHide // destructive action shouldn't be directly in the UI
-            onTriggered: TasksModel.clear()
-            enabled: list.count > 0
+            onTriggered: TasksModel.clearCompleted()
+            enabled: TasksModel.completedTasks > 0
         },
         // global actions below; displayHint: AlwaysHide so they'll go in the overflow menu
         Kirigami.Action {
