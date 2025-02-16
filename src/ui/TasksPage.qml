@@ -70,6 +70,7 @@ Kirigami.ScrollablePage {
             icon.name: "org.kde.tasks"
             displayHint: Kirigami.DisplayHint.AlwaysHide
             onTriggered: tray.visible ? tray.hide() : tray.show()
+            visible: !Kirigami.Settings.isMobile
         },
         Kirigami.Action {
             text: i18nc("@action:inmenu", "Quit")
