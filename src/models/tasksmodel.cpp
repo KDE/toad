@@ -119,10 +119,12 @@ void TasksModel::remove(const QModelIndex &index)
     saveTasks();
 }
 
-void TasksModel::clear()
+void TasksModel::clearCompleted()
 {
     beginResetModel();
-    m_tasks.clear();
+    m_tasks.removeIf([](const Task &t) {
+        return t.checked();
+    });
     endResetModel();
 
     saveTasks();
