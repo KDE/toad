@@ -112,7 +112,7 @@
   <developer_name xml:lang="zh-CN">KDE Community, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="zh-TW">KDE 社群、Felipe Kinoshita</developer_name>
   <description>
-    <p>Tasks is a to-do application, you can edit tasks on the fly and it saves all your work automatically.</p>
+    <p>Tasks is a to-do application. You can add, edit, and delete tasks and Tasks will save your changes automatically. Tasks works on desktop and mobile.</p>
     <p xml:lang="ar">المهام هو تطبيق مهام، يمكنك تحرير المهام أثناء التنقل ويحفظ كل عملك تلقائيًا.</p>
     <p xml:lang="ca">«Tasks» és una aplicació de tasques pendents, podeu editar tasques al vol i desarà automàticament tot el vostre treball.</p>
     <p xml:lang="ca-valencia">«Tasks» és una aplicació de tasques pendents, podeu editar-les al vol i guardarà automàticament tot el vostre treball.</p>

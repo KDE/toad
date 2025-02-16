@@ -5,11 +5,19 @@
 
 # Tasks
 
-Organize your tasks
+Tasks is a to-do application. You can add, edit, and delete tasks and
+Tasks will save your changes automatically. Tasks works on desktop and
+mobile.
 
 ![tasks window](https://cdn.kde.org/screenshots/tasks/tasks.png)
 
-## Build Flatpak
+## How to get it
+You can get a nightly flatpak by adding the
+[nightly flatpak repository](https://cdn.kde.org/flatpak/toad-nightly/toad-nightly.flatpakrepo)
+to your app store. To install on Android you can use the
+[nightly KDE F-Droid repository](https://cdn.kde.org/android/nightly/fdroid/repo/).
+
+### Build Flatpak
 
 To build a flatpak bundle of Tasks use the following instructions:
 
