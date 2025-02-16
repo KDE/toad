@@ -34,7 +34,9 @@ public:
 
     [[nodiscard]] int completedTasks() const
     {
-        return m_completedTasks;
+        return std::count_if(m_tasks.constBegin(), m_tasks.constEnd(), [](const Task &t) {
+            return t.checked();
+        });
     }
     Q_SIGNAL void completedTasksChanged();
 
@@ -44,5 +46,4 @@ protected:
 
 private:
     QList<Task> m_tasks;
-    int m_completedTasks = 0;
 };
