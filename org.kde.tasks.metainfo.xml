@@ -113,36 +113,6 @@
   <developer_name xml:lang="zh-TW">KDE 社群、Felipe Kinoshita</developer_name>
   <description>
     <p>Tasks is a to-do application. You can add, edit, and delete tasks and Tasks will save your changes automatically. Tasks works on desktop and mobile.</p>
-    <p xml:lang="ar">المهام هو تطبيق مهام، يمكنك تحرير المهام أثناء التنقل ويحفظ كل عملك تلقائيًا.</p>
-    <p xml:lang="ca">«Tasks» és una aplicació de tasques pendents, podeu editar tasques al vol i desarà automàticament tot el vostre treball.</p>
-    <p xml:lang="ca-valencia">«Tasks» és una aplicació de tasques pendents, podeu editar-les al vol i guardarà automàticament tot el vostre treball.</p>
-    <p xml:lang="en-GB">Tasks is a to-do application, you can edit tasks on the fly and it saves all your work automatically.</p>
-    <p xml:lang="eo">Tasks estas farendaĵa apliko, vi povas redakti taskojn tuje kaj ĝi konservas vian tutan laboron aŭtomate.</p>
-    <p xml:lang="es">Tasks es una aplicación de tareas pendientes. Permite editar tareas sobre la marcha y guardar todo el trabajo automáticamente.</p>
-    <p xml:lang="eu">«Tasks» zereginetarako aplikazio bat da, atazak nahi ahala editatu ditzakezu eta zure lan guztia automatikoki gordetzen du.</p>
-    <p xml:lang="fi">Tasks on tehtäväsovellus: voit muokata tehtäviä lennossa, ja kaikki tallentuu automaattisesti.</p>
-    <p xml:lang="fr">L'application « Tasks » permet la gestion de tâches à réaliser. Vous pouvez modifier des tâches à la volée et l'application enregistre automatiquement tout votre travail.</p>
-    <p xml:lang="gl">Tarefas é unha aplicación de tarefas que permite editar tarefas sobre a marcha e garda o traballo automaticamente.</p>
-    <p xml:lang="he">משימות הוא יישום מטלות, אפשר לערוך משימות על הדרך וכל העבודה שלך תישמר אוטומטית.</p>
-    <p xml:lang="hi">टास्क एक टू-डू एप्लिकेशन है, आप कार्यों को तुरंत संपादित कर सकते हैं और यह आपके सभी कार्यों को स्वचालित रूप से सहेज लेता है।</p>
-    <p xml:lang="hu">A Tasks egy tennivaló alkalmazás, szerkesztheti feladait menet közben, és minden munkáját automatikusan elmenti.</p>
-    <p xml:lang="ia">Cargas es un application a facer, tu pote modificar cargas rapidemente e illo salveguarda tu labor automaticamente.</p>
-    <p xml:lang="it">Tasks è un'applicazione per le cose da fare, puoi modificare le attività al volo e salva il tuo lavoro automaticamente.</p>
-    <p xml:lang="ka">Tasks ამოცანების ჩამონათვალის მარტივ აპლიკაციას წარმოადგენს, სადაც ამოცანების ჩასწორება ძალიან მარტივად შეგიძლიათ.</p>
-    <p xml:lang="ko">할 일 목록 앱입니다. 즉석에서 할 일을 편집하고 모든 작업을 자동으로 저장할 수 있습니다.</p>
-    <p xml:lang="lv">„Tasks“ ir uzdevumu plānošanas programma, kurā varat rediģēt darāmos uzdevumus un kas automātiski saglabā jūsu darbu.</p>
-    <p xml:lang="nl">Taken is een toepassing voor een tedoen, u kunt taken on-the-fly bewerken en het slaat al uw werk automatisch op.</p>
-    <p xml:lang="nn">Tasks er eit program for å halda orden på gjeremål. Du kan redigera gjeremåla direkte, og alt vert lagra automatisk.</p>
-    <p xml:lang="pl">Zadania to aplikacja typu do zrobienia, możesz edytować zadania w locie i automatycznie zapisywać całą swoją pracę.</p>
-    <p xml:lang="pt">As Tarefas são uma aplicação simples de lista de tarefas; poderá editar as tarefas na hora e grava todo o seu trabalho de forma automática.</p>
-    <p xml:lang="sa">कार्याणि एकं कर्तव्यं अनुप्रयोगम् अस्ति, भवान् कार्याणि मक्षिकायां सम्पादयितुं शक्नोति तथा च एतत् भवतः सर्वं कार्यं स्वयमेव रक्षति ।</p>
-    <p xml:lang="sl">Tasks je preprosta aplikacija za upravljanje opravil, mimogrede lahko urejate opravila in vse vaše delo se samodejno shrani.</p>
-    <p xml:lang="sv">Uppgifter är ett enkelt uppgiftsprogram. Du kan redigera uppgifter i farten, och det sparar ditt arbete automatiskt.</p>
-    <p xml:lang="tr">Görevler, yalın bir görev listesi uygulamasıdır; görevleri anında düzenleyebilirsiniz, o işinizi kendiliğinden kaydeder.</p>
-    <p xml:lang="uk">«Завдання» є програмою для керування завданнями. Ви можете інтерактивно редагувати записи завдань і зберігати вашу роботу автоматично.</p>
-    <p xml:lang="x-test">xxTasks is a to-do application, you can edit tasks on the fly and it saves all your work automatically.xx</p>
-    <p xml:lang="zh-CN">Tasks 是一款简易待办事项应用程序，您可以使用它随时编辑任务，并自动保存您的所有工作。</p>
-    <p xml:lang="zh-TW">Tasks 是一個代辦事項應用程式，讓您隨時編輯工作項目，且會自動儲存您的工作。</p>
   </description>
   <screenshots>
     <screenshot type="default">
