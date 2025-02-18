@@ -113,6 +113,15 @@
   <developer_name xml:lang="zh-TW">KDE 社群、Felipe Kinoshita</developer_name>
   <description>
     <p>Tasks is a to-do application. You can add, edit, and delete tasks and Tasks will save your changes automatically. Tasks works on desktop and mobile.</p>
+    <p xml:lang="ca">«Tasks» és una aplicació de tasques pendents. Podeu afegir, editar i suprimir tasques al vol i desarà automàticament tots els canvis. «Tasks» funciona a l'escriptori i al mòbil.</p>
+    <p xml:lang="es">Tasks es una aplicación de tareas pendientes. Permite añadir, editar y borrar tareas y Tasks guardará los cambios automáticamente. Tasks funciona en el escritorio y en el móvil.</p>
+    <p xml:lang="ka">Tasks ამოცანების ჩამონათვალის მარტივ აპლიკაციას წარმოადგენს, სადაც ამოცანების ჩასწორება ძალიან მარტივად შეგიძლიათ. მუშაობს როგორც ჩვეულებრივ კომპიუტერზე, ისე მობილურზეც.</p>
+    <p xml:lang="nl">Taken is een toepassing voor een te-doen. U kunt taken toevoegen, bewerken en verwijderen en Taken zal uw wijzigingen automatisch opslaan. Taken werkt op het bureaublad en op mobiel.</p>
+    <p xml:lang="sl">Tasks je aplikacija za opravila. Opravila lahko dodajate, urejate in brišete, Tasks pa bo vaše spremembe samodejno shranila. Tasks deluje na namizju in mobilni napravi.</p>
+    <p xml:lang="sv">Uppgifter är ett enkelt uppgiftsprogram. Du kan lägga till, redigera och ta bort uppgifter, så sparar Uppgifter automatiskt ändringarna. Uppgifter fungerar på skrivbordet och på mobilen.</p>
+    <p xml:lang="tr">Görevler, bir yapılacaklar uygulamasıdır. Görevler ekleyebilir, düzenleyebilir ve silebilirsiniz ve Görevler, değişikliklerinizi kendiliğinden kaydeder. Görevler, masaüstü ve taşınabilir aygıtlarda çalışır.</p>
+    <p xml:lang="uk">«Завдання» є програмою для керування завданнями. Ви можете додавати, редагувати і вилучати записи завдань, і «Завдання» зберігатимуть внесені зміни автоматично. «Завдання» можуть працювати на робочих станціях і мобільних пристроях.</p>
+    <p xml:lang="x-test">xxTasks is a to-do application. You can add, edit, and delete tasks and Tasks will save your changes automatically. Tasks works on desktop and mobile.xx</p>
   </description>
   <screenshots>
     <screenshot type="default">
