@@ -10,13 +10,13 @@ ecm_add_qml_module(models
 )
 
 target_sources(models
-    PUBLIC
+    PRIVATE
     task.h task.cpp
     tasksmodel.h tasksmodel.cpp
 )
 
 target_link_libraries(models
-    PUBLIC
+    PRIVATE
     Qt6::Core
     logging
 )

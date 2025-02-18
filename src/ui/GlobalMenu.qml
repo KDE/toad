@@ -7,6 +7,7 @@ import org.kde.kirigami 2.19 as Kirigami
 import org.kde.coreaddons as KCoreAddons
 
 import org.kde.tasks
+import org.kde.tasks.models
 
 Labs.MenuBar {
     id: menuBar
