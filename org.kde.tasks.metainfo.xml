@@ -113,8 +113,12 @@
   <developer_name xml:lang="zh-TW">KDE 社群、Felipe Kinoshita</developer_name>
   <description>
     <p>Tasks is a to-do application. You can add, edit, and delete tasks and Tasks will save your changes automatically. Tasks works on desktop and mobile.</p>
+    <p xml:lang="ar">تطبيق المهام هو تطبيق مهام. يمكنك إضافة مهام وتحريرها وحذفها وسيحفظ تطبيق المهام التغييرات تلقائيًا. يعمل تطبيق المهام على سطح المكتب والهواتف المحمولة.</p>
     <p xml:lang="ca">«Tasks» és una aplicació de tasques pendents. Podeu afegir, editar i suprimir tasques al vol i desarà automàticament tots els canvis. «Tasks» funciona a l'escriptori i al mòbil.</p>
+    <p xml:lang="ca-valencia">«Tasks» és una aplicació de tasques pendents. Podeu afegir, editar i suprimir tasques al vol i guardarà automàticament tots els canvis. «Tasks» funciona en l'escriptori i en el mòbil.</p>
     <p xml:lang="es">Tasks es una aplicación de tareas pendientes. Permite añadir, editar y borrar tareas y Tasks guardará los cambios automáticamente. Tasks funciona en el escritorio y en el móvil.</p>
+    <p xml:lang="he">משימות הוא יישום מטלות, אפשר לערוך, להוסיף ולמחוק משימות על הדרך וכל השינויים שלך יישמרו אוטומטית. היישום משימות עובד במחשבים ובמכשירים ניידים.</p>
+    <p xml:lang="ia">Cargas (Tasks) es un application a facer, tu pote adder, modificar e deler cargas e Tasks salveguardara tu modificationes automaticamente. Tasks functiona sur scriptorio e mobile.</p>
     <p xml:lang="ka">Tasks ამოცანების ჩამონათვალის მარტივ აპლიკაციას წარმოადგენს, სადაც ამოცანების ჩასწორება ძალიან მარტივად შეგიძლიათ. მუშაობს როგორც ჩვეულებრივ კომპიუტერზე, ისე მობილურზეც.</p>
     <p xml:lang="nl">Taken is een toepassing voor een te-doen. U kunt taken toevoegen, bewerken en verwijderen en Taken zal uw wijzigingen automatisch opslaan. Taken werkt op het bureaublad en op mobiel.</p>
     <p xml:lang="sl">Tasks je aplikacija za opravila. Opravila lahko dodajate, urejate in brišete, Tasks pa bo vaše spremembe samodejno shranila. Tasks deluje na namizju in mobilni napravi.</p>
