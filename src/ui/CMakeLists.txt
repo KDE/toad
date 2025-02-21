@@ -7,6 +7,9 @@ ecm_add_qml_module(ui
     URI
     org.kde.tasks.ui
     GENERATE_PLUGIN_SOURCE
+    DEPENDENCIES
+    org.kde.kitemmodels
+    org.kde.tasks.models
 )
 
 ecm_target_qml_sources(ui
@@ -16,11 +19,6 @@ ecm_target_qml_sources(ui
     PageHeader.qml
     TasksPage.qml
     Tray.qml
-)
-
-target_link_libraries(ui PRIVATE
-    KF6::ItemModels
-    models
 )
 
 ecm_finalize_qml_module(ui)

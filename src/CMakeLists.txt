@@ -10,6 +10,8 @@ add_executable(${CMAKE_PROJECT_NAME}
 ecm_add_qml_module(${CMAKE_PROJECT_NAME}
     URI
     org.kde.tasks
+    DEPENDENCIES
+    org.kde.tasks.ui
 )
 
 ecm_target_qml_sources(${CMAKE_PROJECT_NAME}
@@ -31,7 +33,6 @@ target_link_libraries(${CMAKE_PROJECT_NAME}
     KF6::ConfigCore
     KF6::ConfigGui
     logging
-    ui
 )
 
 add_library(logging STATIC)
