@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: toad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-01-26 00:44+0000\n"
+"POT-Creation-Date: 2025-02-21 00:44+0000\n"
 "PO-Revision-Date: 2024-12-25 19:37+0530\n"
 "Last-Translator: kali <shreekantkalwar@gmail.com>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
@@ -62,97 +62,97 @@ msgstr "लेखकः"
 msgid "Tasks"
 msgstr "कार्याणि"
 
-#: src/ui/GlobalMenu.qml:15
+#: src/ui/GlobalMenu.qml:16
 #, kde-format
 msgctxt "@menu"
 msgid "File"
 msgstr "सञ्चिका"
 
-#: src/ui/GlobalMenu.qml:18
+#: src/ui/GlobalMenu.qml:19
 #, kde-format
 msgctxt "@menu-action"
 msgid "Quit"
 msgstr "परिजहातु"
 
-#: src/ui/GlobalMenu.qml:25
+#: src/ui/GlobalMenu.qml:26
 #, kde-format
 msgctxt "@menu"
 msgid "Edit"
 msgstr "सम्पादन"
 
-#: src/ui/GlobalMenu.qml:28
+#: src/ui/GlobalMenu.qml:29
 #, kde-format
 msgctxt "@menu-action"
 msgid "Clear Tasks"
 msgstr "स्पष्टं कार्यम्"
 
-#: src/ui/GlobalMenu.qml:36
+#: src/ui/GlobalMenu.qml:37
 #, kde-format
 msgctxt "@menu"
 msgid "Help"
 msgstr "साहाय्यम्‌"
 
-#: src/ui/GlobalMenu.qml:39
+#: src/ui/GlobalMenu.qml:40
 #, kde-format
 msgctxt "@menu-action"
 msgid "Report Bug…"
 msgstr "बगस्य सूचनां ददातु..."
 
-#: src/ui/GlobalMenu.qml:45
+#: src/ui/GlobalMenu.qml:46
 #, kde-format
 msgctxt "@menu-action"
 msgid "About Tasks"
 msgstr "कार्याणां विषये"
 
-#: src/ui/PageHeader.qml:26
+#: src/ui/PageHeader.qml:27
 #, kde-format
 msgid "1 result"
 msgid_plural "%1 results"
 msgstr[0] "१ परिणामः"
 msgstr[1] "%1 परिणामः"
 
-#: src/ui/PageHeader.qml:26
+#: src/ui/PageHeader.qml:27
 #, kde-format
 msgid "1 task"
 msgid_plural "%1 tasks"
 msgstr[0] "१ कार्यम्"
 msgstr[1] "%1 कार्याणि"
 
-#: src/ui/PageHeader.qml:35
+#: src/ui/PageHeader.qml:36
 #, kde-format
 msgid "1 task completed"
 msgid_plural "%1 tasks completed"
 msgstr[0] "१ कार्य सम्पन्न"
 msgstr[1] "%1 कार्याणि सम्पन्नानि"
 
-#: src/ui/PageHeader.qml:46
+#: src/ui/PageHeader.qml:47
 #, kde-format
 msgid "Add Task"
 msgstr "कार्यम् योजयतु"
 
-#: src/ui/PageHeader.qml:64
+#: src/ui/PageHeader.qml:65
 #, kde-format
 msgid "Menu"
 msgstr "मेनू"
 
-#: src/ui/PageHeader.qml:73
+#: src/ui/PageHeader.qml:74
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About Tasks"
 msgstr "कार्याणां विषये"
 
-#: src/ui/PageHeader.qml:84
+#: src/ui/PageHeader.qml:85
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Enable tray icon"
 msgstr "ट्रे चिह्नं सक्षमं कुर्वन्तु"
 
-#: src/ui/PageHeader.qml:90
+#: src/ui/PageHeader.qml:91
 #, kde-format
 msgid "Clear All"
 msgstr "सर्वं स्वच्छं कुर्वन्तु"
 
-#: src/ui/PageHeader.qml:99
+#: src/ui/PageHeader.qml:100
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Quit"

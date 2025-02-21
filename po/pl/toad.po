@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: toad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-01-26 00:44+0000\n"
+"POT-Creation-Date: 2025-02-21 00:44+0000\n"
 "PO-Revision-Date: 2025-01-18 12:08+0100\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
@@ -62,49 +62,49 @@ msgstr "Autor"
 msgid "Tasks"
 msgstr "Zadania"
 
-#: src/ui/GlobalMenu.qml:15
+#: src/ui/GlobalMenu.qml:16
 #, kde-format
 msgctxt "@menu"
 msgid "File"
 msgstr "Plik"
 
-#: src/ui/GlobalMenu.qml:18
+#: src/ui/GlobalMenu.qml:19
 #, kde-format
 msgctxt "@menu-action"
 msgid "Quit"
 msgstr "Wyjdź"
 
-#: src/ui/GlobalMenu.qml:25
+#: src/ui/GlobalMenu.qml:26
 #, kde-format
 msgctxt "@menu"
 msgid "Edit"
 msgstr "Edytuj"
 
-#: src/ui/GlobalMenu.qml:28
+#: src/ui/GlobalMenu.qml:29
 #, kde-format
 msgctxt "@menu-action"
 msgid "Clear Tasks"
 msgstr "Wyczyść zadania"
 
-#: src/ui/GlobalMenu.qml:36
+#: src/ui/GlobalMenu.qml:37
 #, kde-format
 msgctxt "@menu"
 msgid "Help"
 msgstr "Pomoc"
 
-#: src/ui/GlobalMenu.qml:39
+#: src/ui/GlobalMenu.qml:40
 #, kde-format
 msgctxt "@menu-action"
 msgid "Report Bug…"
 msgstr "Zgłoś błąd…"
 
-#: src/ui/GlobalMenu.qml:45
+#: src/ui/GlobalMenu.qml:46
 #, kde-format
 msgctxt "@menu-action"
 msgid "About Tasks"
 msgstr "O programie Zadania"
 
-#: src/ui/PageHeader.qml:26
+#: src/ui/PageHeader.qml:27
 #, kde-format
 msgid "1 result"
 msgid_plural "%1 results"
@@ -112,7 +112,7 @@ msgstr[0] "1 wynik"
 msgstr[1] "%1 wyniki"
 msgstr[2] "%1 wyników"
 
-#: src/ui/PageHeader.qml:26
+#: src/ui/PageHeader.qml:27
 #, kde-format
 msgid "1 task"
 msgid_plural "%1 tasks"
@@ -120,7 +120,7 @@ msgstr[0] "1 zadanie"
 msgstr[1] "%1 zadania"
 msgstr[2] "%1 zadań"
 
-#: src/ui/PageHeader.qml:35
+#: src/ui/PageHeader.qml:36
 #, kde-format
 msgid "1 task completed"
 msgid_plural "%1 tasks completed"
@@ -128,34 +128,34 @@ msgstr[0] "Ukończono 1 zadanie"
 msgstr[1] "Ukończono %1 zadania"
 msgstr[2] "Ukończono %1 zadań"
 
-#: src/ui/PageHeader.qml:46
+#: src/ui/PageHeader.qml:47
 #, kde-format
 msgid "Add Task"
 msgstr "Dodaj zadania"
 
-#: src/ui/PageHeader.qml:64
+#: src/ui/PageHeader.qml:65
 #, kde-format
 msgid "Menu"
 msgstr "Menu"
 
-#: src/ui/PageHeader.qml:73
+#: src/ui/PageHeader.qml:74
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About Tasks"
 msgstr "O programie Zadania"
 
-#: src/ui/PageHeader.qml:84
+#: src/ui/PageHeader.qml:85
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Enable tray icon"
 msgstr "Włącz ikonę na tacce systemowej"
 
-#: src/ui/PageHeader.qml:90
+#: src/ui/PageHeader.qml:91
 #, kde-format
 msgid "Clear All"
 msgstr "Wyczyść wszystko"
 
-#: src/ui/PageHeader.qml:99
+#: src/ui/PageHeader.qml:100
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Quit"

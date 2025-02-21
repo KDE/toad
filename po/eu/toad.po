@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: toad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-01-26 00:44+0000\n"
+"POT-Creation-Date: 2025-02-21 00:44+0000\n"
 "PO-Revision-Date: 2024-12-15 11:04+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -63,97 +63,97 @@ msgstr "Egilea"
 msgid "Tasks"
 msgstr "Atazak"
 
-#: src/ui/GlobalMenu.qml:15
+#: src/ui/GlobalMenu.qml:16
 #, kde-format
 msgctxt "@menu"
 msgid "File"
 msgstr "Fitxategia"
 
-#: src/ui/GlobalMenu.qml:18
+#: src/ui/GlobalMenu.qml:19
 #, kde-format
 msgctxt "@menu-action"
 msgid "Quit"
 msgstr "Irten"
 
-#: src/ui/GlobalMenu.qml:25
+#: src/ui/GlobalMenu.qml:26
 #, kde-format
 msgctxt "@menu"
 msgid "Edit"
 msgstr "Editatu"
 
-#: src/ui/GlobalMenu.qml:28
+#: src/ui/GlobalMenu.qml:29
 #, kde-format
 msgctxt "@menu-action"
 msgid "Clear Tasks"
 msgstr "Garbitu atazak"
 
-#: src/ui/GlobalMenu.qml:36
+#: src/ui/GlobalMenu.qml:37
 #, kde-format
 msgctxt "@menu"
 msgid "Help"
 msgstr "Laguntza"
 
-#: src/ui/GlobalMenu.qml:39
+#: src/ui/GlobalMenu.qml:40
 #, kde-format
 msgctxt "@menu-action"
 msgid "Report Bug…"
 msgstr "Akatsa jakinarazi..."
 
-#: src/ui/GlobalMenu.qml:45
+#: src/ui/GlobalMenu.qml:46
 #, kde-format
 msgctxt "@menu-action"
 msgid "About Tasks"
 msgstr "«Tasks»eri buruz"
 
-#: src/ui/PageHeader.qml:26
+#: src/ui/PageHeader.qml:27
 #, kde-format
 msgid "1 result"
 msgid_plural "%1 results"
 msgstr[0] "Emaitza 1"
 msgstr[1] "%1 emaitza"
 
-#: src/ui/PageHeader.qml:26
+#: src/ui/PageHeader.qml:27
 #, kde-format
 msgid "1 task"
 msgid_plural "%1 tasks"
 msgstr[0] "Ataza 1"
 msgstr[1] "%1 ataza"
 
-#: src/ui/PageHeader.qml:35
+#: src/ui/PageHeader.qml:36
 #, kde-format
 msgid "1 task completed"
 msgid_plural "%1 tasks completed"
 msgstr[0] "Ataza 1 osatuta"
 msgstr[1] "%1 ataza osatuta"
 
-#: src/ui/PageHeader.qml:46
+#: src/ui/PageHeader.qml:47
 #, kde-format
 msgid "Add Task"
 msgstr "Gehitu ataza"
 
-#: src/ui/PageHeader.qml:64
+#: src/ui/PageHeader.qml:65
 #, kde-format
 msgid "Menu"
 msgstr "Menua"
 
-#: src/ui/PageHeader.qml:73
+#: src/ui/PageHeader.qml:74
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About Tasks"
 msgstr "Atazei buruz"
 
-#: src/ui/PageHeader.qml:84
+#: src/ui/PageHeader.qml:85
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Enable tray icon"
 msgstr "Gaitu erretiluko ikonoa"
 
-#: src/ui/PageHeader.qml:90
+#: src/ui/PageHeader.qml:91
 #, kde-format
 msgid "Clear All"
 msgstr "Garbitu dena"
 
-#: src/ui/PageHeader.qml:99
+#: src/ui/PageHeader.qml:100
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Quit"
