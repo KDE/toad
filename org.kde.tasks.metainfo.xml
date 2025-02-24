@@ -30,7 +30,7 @@
   <name xml:lang="nl">Taken</name>
   <name xml:lang="nn">Tasks</name>
   <name xml:lang="pa">ਟਾਸਕ</name>
-  <name xml:lang="pl">Zadania</name>
+  <name xml:lang="pl">Tasks</name>
   <name xml:lang="pt">Tarefas</name>
   <name xml:lang="sa">कार्याणि</name>
   <name xml:lang="sk">Úlohy</name>
@@ -124,6 +124,7 @@
     <p xml:lang="ia">Cargas (Tasks) es un application a facer, tu pote adder, modificar e deler cargas e Tasks salveguardara tu modificationes automaticamente. Tasks functiona sur scriptorio e mobile.</p>
     <p xml:lang="ka">Tasks ამოცანების ჩამონათვალის მარტივ აპლიკაციას წარმოადგენს, სადაც ამოცანების ჩასწორება ძალიან მარტივად შეგიძლიათ. მუშაობს როგორც ჩვეულებრივ კომპიუტერზე, ისე მობილურზეც.</p>
     <p xml:lang="nl">Taken is een toepassing voor een te-doen. U kunt taken toevoegen, bewerken en verwijderen en Taken zal uw wijzigingen automatisch opslaan. Taken werkt op het bureaublad en op mobiel.</p>
+    <p xml:lang="pl">Tasks to aplikacja rejestrująca zadania do zrobienia. Możesz dodawać, edytować oraz usuwać zadania , a Tasks sam będzie je zapisywał w tle. Tasks działa na urządzeniach zarówno biurkowych jak i przenośnych.</p>
     <p xml:lang="sl">Tasks je aplikacija za opravila. Opravila lahko dodajate, urejate in brišete, Tasks pa bo vaše spremembe samodejno shranila. Tasks deluje na namizju in mobilni napravi.</p>
     <p xml:lang="sv">Uppgifter är ett enkelt uppgiftsprogram. Du kan lägga till, redigera och ta bort uppgifter, så sparar Uppgifter automatiskt ändringarna. Uppgifter fungerar på skrivbordet och på mobilen.</p>
     <p xml:lang="tr">Görevler, bir yapılacaklar uygulamasıdır. Görevler ekleyebilir, düzenleyebilir ve silebilirsiniz ve Görevler, değişikliklerinizi kendiliğinden kaydeder. Görevler, masaüstü ve taşınabilir aygıtlarda çalışır.</p>
