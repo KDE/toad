@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: toad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-02-21 00:44+0000\n"
+"POT-Creation-Date: 2025-02-26 00:45+0000\n"
 "PO-Revision-Date: 2022-06-11 20:11+0200\n"
 "Last-Translator: Roman Paholik <wizzardsk@gmail.com>\n"
 "Language-Team: Slovak <kde-sk@linux.sk>\n"
@@ -53,7 +53,7 @@ msgctxt "@info:credit"
 msgid "Author"
 msgstr "Autor"
 
-#: src/Main.qml:13
+#: src/Main.qml:15
 #, fuzzy, kde-format
 msgid "Tasks"
 msgstr "Úlohy"
@@ -77,10 +77,10 @@ msgid "Edit"
 msgstr "Upraviť"
 
 #: src/ui/GlobalMenu.qml:29
-#, kde-format
+#, fuzzy, kde-format
 msgctxt "@menu-action"
-msgid "Clear Tasks"
-msgstr ""
+msgid "Clear Completed"
+msgstr "Úloha dokončená"
 
 #: src/ui/GlobalMenu.qml:37
 #, fuzzy, kde-format
@@ -100,7 +100,7 @@ msgctxt "@menu-action"
 msgid "About Tasks"
 msgstr ""
 
-#: src/ui/PageHeader.qml:27
+#: src/ui/TasksPage.qml:20
 #, fuzzy, kde-format
 msgid "1 result"
 msgid_plural "%1 results"
@@ -108,74 +108,66 @@ msgstr[0] "Výsledok"
 msgstr[1] "Výsledky"
 msgstr[2] "Výsledky"
 
-#: src/ui/PageHeader.qml:27
+#: src/ui/TasksPage.qml:20
 #, fuzzy, kde-format
-msgid "1 task"
-msgid_plural "%1 tasks"
+msgid "%2/1 task"
+msgid_plural "%2/%1 tasks"
 msgstr[0] "1 úloha"
 msgstr[1] "%1 úlohy"
 msgstr[2] "%1 úloh"
 
-#: src/ui/PageHeader.qml:36
-#, fuzzy, kde-format
-msgid "1 task completed"
-msgid_plural "%1 tasks completed"
-msgstr[0] "Úloha dokončená"
-msgstr[1] ""
-msgstr[2] ""
-
-#: src/ui/PageHeader.qml:47
+#: src/ui/TasksPage.qml:29
 #, kde-format
 msgid "Add Task"
 msgstr "Pridať úlohu"
 
-#: src/ui/PageHeader.qml:65
-#, kde-format
-msgid "Menu"
-msgstr ""
+#: src/ui/TasksPage.qml:41 src/ui/TasksPage.qml:42
+#, fuzzy, kde-format
+msgid "Search"
+msgstr "Hľadať"
 
-#: src/ui/PageHeader.qml:74
+#: src/ui/TasksPage.qml:49
+#, fuzzy, kde-format
+msgid "Clear Completed"
+msgstr "Úloha dokončená"
+
+#: src/ui/TasksPage.qml:61
 #, fuzzy, kde-format
 #| msgid "Add Task"
 msgctxt "@action:inmenu"
 msgid "About Tasks"
 msgstr "Pridať úlohu"
 
-#: src/ui/PageHeader.qml:85
+#: src/ui/TasksPage.qml:69
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Enable tray icon"
 msgstr ""
 
-#: src/ui/PageHeader.qml:91
-#, fuzzy, kde-format
-msgid "Clear All"
-msgstr "Vyčistiť všetko"
-
-#: src/ui/PageHeader.qml:100
+#: src/ui/TasksPage.qml:76
 #, fuzzy, kde-format
 msgctxt "@action:inmenu"
 msgid "Quit"
 msgstr "Ukončiť"
 
-#: src/ui/TasksPage.qml:166
+#: src/ui/TasksPage.qml:223
 #, fuzzy, kde-format
 msgid "Nothing Found"
 msgstr "Nič sa nenašlo"
 
-#: src/ui/TasksPage.qml:166
+#: src/ui/TasksPage.qml:223
 #, kde-format
 msgid "All tasks completed!"
 msgstr ""
 
-#: src/ui/TasksPage.qml:168
+#: src/ui/TasksPage.qml:225
 #, kde-format
 msgid "Your search did not match any results"
 msgstr ""
 
 #, fuzzy
-#~ msgid "Search"
-#~ msgstr "Hľadať"
+#~ msgid "Clear All"
+#~ msgstr "Vyčistiť všetko"
 
 #~ msgid "Simple task list"
 #~ msgstr "Jednoduchý zoznam úloh"

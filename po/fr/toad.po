@@ -5,11 +5,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-02-21 00:44+0000\n"
+"POT-Creation-Date: 2025-02-26 00:45+0000\n"
 "PO-Revision-Date: 2024-12-15 10:43+0100\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: French <French <kde-francophone@kde.org>>\n"
-"Language: fr\n"
+"Language: fr_FR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -54,7 +54,7 @@ msgctxt "@info:credit"
 msgid "Author"
 msgstr "Auteur"
 
-#: src/Main.qml:13
+#: src/Main.qml:15
 #, kde-format
 msgid "Tasks"
 msgstr "Tâches"
@@ -78,10 +78,12 @@ msgid "Edit"
 msgstr "Éditer"
 
 #: src/ui/GlobalMenu.qml:29
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "1 task completed"
+#| msgid_plural "%1 tasks completed"
 msgctxt "@menu-action"
-msgid "Clear Tasks"
-msgstr "Effacer des tâches"
+msgid "Clear Completed"
+msgstr "1 tache terminée"
 
 #: src/ui/GlobalMenu.qml:37
 #, kde-format
@@ -101,74 +103,81 @@ msgctxt "@menu-action"
 msgid "About Tasks"
 msgstr "À propos des tâches"
 
-#: src/ui/PageHeader.qml:27
+#: src/ui/TasksPage.qml:20
 #, kde-format
 msgid "1 result"
 msgid_plural "%1 results"
 msgstr[0] "1 résultat"
 msgstr[1] "%1 résultats"
 
-#: src/ui/PageHeader.qml:27
-#, kde-format
-msgid "1 task"
-msgid_plural "%1 tasks"
+#: src/ui/TasksPage.qml:20
+#, fuzzy, kde-format
+#| msgid "1 task"
+#| msgid_plural "%1 tasks"
+msgid "%2/1 task"
+msgid_plural "%2/%1 tasks"
 msgstr[0] "1 tâche"
 msgstr[1] "%1 tâches"
 
-#: src/ui/PageHeader.qml:36
-#, kde-format
-msgid "1 task completed"
-msgid_plural "%1 tasks completed"
-msgstr[0] "1 tache terminée"
-msgstr[1] "%1 tâches terminées"
-
-#: src/ui/PageHeader.qml:47
+#: src/ui/TasksPage.qml:29
 #, kde-format
 msgid "Add Task"
 msgstr "Ajouter une tâche"
 
-#: src/ui/PageHeader.qml:65
+#: src/ui/TasksPage.qml:41 src/ui/TasksPage.qml:42
 #, kde-format
-msgid "Menu"
-msgstr "Menu"
+msgid "Search"
+msgstr "Rechercher"
 
-#: src/ui/PageHeader.qml:74
+#: src/ui/TasksPage.qml:49
+#, fuzzy, kde-format
+#| msgid "1 task completed"
+#| msgid_plural "%1 tasks completed"
+msgid "Clear Completed"
+msgstr "1 tache terminée"
+
+#: src/ui/TasksPage.qml:61
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About Tasks"
 msgstr "À propos des tâches"
 
-#: src/ui/PageHeader.qml:85
+#: src/ui/TasksPage.qml:69
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Enable tray icon"
 msgstr "Activer l'icône de la boîte à miniatures"
 
-#: src/ui/PageHeader.qml:91
-#, kde-format
-msgid "Clear All"
-msgstr "Tout effacer"
-
-#: src/ui/PageHeader.qml:100
+#: src/ui/TasksPage.qml:76
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Quit"
 msgstr "Quitter"
 
-#: src/ui/TasksPage.qml:166
+#: src/ui/TasksPage.qml:223
 #, kde-format
 msgid "Nothing Found"
 msgstr "Aucun résultat"
 
-#: src/ui/TasksPage.qml:166
+#: src/ui/TasksPage.qml:223
 #, kde-format
 msgid "All tasks completed!"
 msgstr "Toutes les tâches sont terminées !"
 
-#: src/ui/TasksPage.qml:168
+#: src/ui/TasksPage.qml:225
 #, kde-format
 msgid "Your search did not match any results"
 msgstr "Votre recherche ne correspond à aucun résultat"
+
+#~ msgctxt "@menu-action"
+#~ msgid "Clear Tasks"
+#~ msgstr "Effacer des tâches"
+
+#~ msgid "Menu"
+#~ msgstr "Menu"
+
+#~ msgid "Clear All"
+#~ msgstr "Tout effacer"
 
 #~ msgid ""
 #~ "Add some more by typing in the text field at the bottom of the window"
@@ -178,9 +187,6 @@ msgstr "Votre recherche ne correspond à aucun résultat"
 
 #~ msgid "Type the new task's title here…"
 #~ msgstr "Veuillez saisir ici le titre de la nouvelle tâche…"
-
-#~ msgid "Search"
-#~ msgstr "Rechercher"
 
 #~ msgid "Simple task list"
 #~ msgstr "Liste simple de tâches"

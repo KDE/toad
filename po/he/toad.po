@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: toad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-02-21 00:44+0000\n"
+"POT-Creation-Date: 2025-02-26 00:45+0000\n"
 "PO-Revision-Date: 2024-12-15 20:39+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
@@ -56,7 +56,7 @@ msgctxt "@info:credit"
 msgid "Author"
 msgstr "יוצר"
 
-#: src/Main.qml:13
+#: src/Main.qml:15
 #, kde-format
 msgid "Tasks"
 msgstr "משימות"
@@ -80,10 +80,12 @@ msgid "Edit"
 msgstr "עריכה"
 
 #: src/ui/GlobalMenu.qml:29
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "1 task completed"
+#| msgid_plural "%1 tasks completed"
 msgctxt "@menu-action"
-msgid "Clear Tasks"
-msgstr "פינוי משימות"
+msgid "Clear Completed"
+msgstr "משימה הושלמה"
 
 #: src/ui/GlobalMenu.qml:37
 #, kde-format
@@ -103,7 +105,7 @@ msgctxt "@menu-action"
 msgid "About Tasks"
 msgstr "על משימות"
 
-#: src/ui/PageHeader.qml:27
+#: src/ui/TasksPage.qml:20
 #, kde-format
 msgid "1 result"
 msgid_plural "%1 results"
@@ -112,71 +114,76 @@ msgstr[1] "שתי תוצאות"
 msgstr[2] "%1 תוצאות"
 msgstr[3] "%1 תוצאות"
 
-#: src/ui/PageHeader.qml:27
-#, kde-format
-msgid "1 task"
-msgid_plural "%1 tasks"
+#: src/ui/TasksPage.qml:20
+#, fuzzy, kde-format
+#| msgid "1 task"
+#| msgid_plural "%1 tasks"
+msgid "%2/1 task"
+msgid_plural "%2/%1 tasks"
 msgstr[0] "משימה"
 msgstr[1] "שתי משימות"
 msgstr[2] "%1 משימות"
 msgstr[3] "%1 משימות"
 
-#: src/ui/PageHeader.qml:36
-#, kde-format
-msgid "1 task completed"
-msgid_plural "%1 tasks completed"
-msgstr[0] "משימה הושלמה"
-msgstr[1] "שתי משימות הושלמו"
-msgstr[2] "%1 משימות הושלמו"
-msgstr[3] "%1 משימות הושלמו"
-
-#: src/ui/PageHeader.qml:47
+#: src/ui/TasksPage.qml:29
 #, kde-format
 msgid "Add Task"
 msgstr "הוספת משימה"
 
-#: src/ui/PageHeader.qml:65
+#: src/ui/TasksPage.qml:41 src/ui/TasksPage.qml:42
 #, kde-format
-msgid "Menu"
-msgstr "תפריט"
+msgid "Search"
+msgstr "חיפוש"
 
-#: src/ui/PageHeader.qml:74
+#: src/ui/TasksPage.qml:49
+#, fuzzy, kde-format
+#| msgid "1 task completed"
+#| msgid_plural "%1 tasks completed"
+msgid "Clear Completed"
+msgstr "משימה הושלמה"
+
+#: src/ui/TasksPage.qml:61
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About Tasks"
 msgstr "על משימות"
 
-#: src/ui/PageHeader.qml:85
+#: src/ui/TasksPage.qml:69
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Enable tray icon"
 msgstr "הפעלת סמל בשורת המערכת"
 
-#: src/ui/PageHeader.qml:91
-#, kde-format
-msgid "Clear All"
-msgstr "לפנות הכול"
-
-#: src/ui/PageHeader.qml:100
+#: src/ui/TasksPage.qml:76
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Quit"
 msgstr "יציאה"
 
-#: src/ui/TasksPage.qml:166
+#: src/ui/TasksPage.qml:223
 #, kde-format
 msgid "Nothing Found"
 msgstr "לא נמצא כלום"
 
-#: src/ui/TasksPage.qml:166
+#: src/ui/TasksPage.qml:223
 #, kde-format
 msgid "All tasks completed!"
 msgstr "כל המשימות הושלמו!"
 
-#: src/ui/TasksPage.qml:168
+#: src/ui/TasksPage.qml:225
 #, kde-format
 msgid "Your search did not match any results"
 msgstr "החיפוש שלך לא החזיר אף תוצאות"
+
+#~ msgctxt "@menu-action"
+#~ msgid "Clear Tasks"
+#~ msgstr "פינוי משימות"
+
+#~ msgid "Menu"
+#~ msgstr "תפריט"
+
+#~ msgid "Clear All"
+#~ msgstr "לפנות הכול"
 
 #~ msgid ""
 #~ "Add some more by typing in the text field at the bottom of the window"
@@ -184,6 +191,3 @@ msgstr "החיפוש שלך לא החזיר אף תוצאות"
 
 #~ msgid "Type the new task's title here…"
 #~ msgstr "נא להקליד כאן את כותרת המשימה החדשה…"
-
-#~ msgid "Search"
-#~ msgstr "חיפוש"

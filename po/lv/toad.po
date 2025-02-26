@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: toad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-02-21 00:44+0000\n"
+"POT-Creation-Date: 2025-02-26 00:45+0000\n"
 "PO-Revision-Date: 2024-12-19 15:48+0200\n"
 "Last-Translator: Toms Trasuns <toms.trasuns@posteo.net>\n"
 "Language-Team: Latvian <kde-i18n-doc@kde.org>\n"
@@ -56,7 +56,7 @@ msgctxt "@info:credit"
 msgid "Author"
 msgstr "Autors"
 
-#: src/Main.qml:13
+#: src/Main.qml:15
 #, kde-format
 msgid "Tasks"
 msgstr "Uzdevumi"
@@ -80,10 +80,12 @@ msgid "Edit"
 msgstr "Rediģēt"
 
 #: src/ui/GlobalMenu.qml:29
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "1 task completed"
+#| msgid_plural "%1 tasks completed"
 msgctxt "@menu-action"
-msgid "Clear Tasks"
-msgstr "Notīrīt uzdevumus"
+msgid "Clear Completed"
+msgstr "%1 uzdevums izpildīts"
 
 #: src/ui/GlobalMenu.qml:37
 #, kde-format
@@ -103,7 +105,7 @@ msgctxt "@menu-action"
 msgid "About Tasks"
 msgstr "Par „Tasks“"
 
-#: src/ui/PageHeader.qml:27
+#: src/ui/TasksPage.qml:20
 #, kde-format
 msgid "1 result"
 msgid_plural "%1 results"
@@ -111,69 +113,75 @@ msgstr[0] "%1 rezultāts"
 msgstr[1] "%1 rezultāti"
 msgstr[2] "%1 rezultātu"
 
-#: src/ui/PageHeader.qml:27
-#, kde-format
-msgid "1 task"
-msgid_plural "%1 tasks"
+#: src/ui/TasksPage.qml:20
+#, fuzzy, kde-format
+#| msgid "1 task"
+#| msgid_plural "%1 tasks"
+msgid "%2/1 task"
+msgid_plural "%2/%1 tasks"
 msgstr[0] "%1 uzdevums"
 msgstr[1] "%1 uzdevumi"
 msgstr[2] "%1 uzdevumu"
 
-#: src/ui/PageHeader.qml:36
-#, kde-format
-msgid "1 task completed"
-msgid_plural "%1 tasks completed"
-msgstr[0] "%1 uzdevums izpildīts"
-msgstr[1] "%1 uzdevumi izpildīti"
-msgstr[2] "%1 uzdevumu izpildīti"
-
-#: src/ui/PageHeader.qml:47
+#: src/ui/TasksPage.qml:29
 #, kde-format
 msgid "Add Task"
 msgstr "Pievienot uzdevumu"
 
-#: src/ui/PageHeader.qml:65
+#: src/ui/TasksPage.qml:41 src/ui/TasksPage.qml:42
 #, kde-format
-msgid "Menu"
-msgstr "Izvēlne"
+msgid "Search"
+msgstr "Meklēt"
 
-#: src/ui/PageHeader.qml:74
+#: src/ui/TasksPage.qml:49
+#, fuzzy, kde-format
+#| msgid "1 task completed"
+#| msgid_plural "%1 tasks completed"
+msgid "Clear Completed"
+msgstr "%1 uzdevums izpildīts"
+
+#: src/ui/TasksPage.qml:61
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About Tasks"
 msgstr "Par „Tasks“"
 
-#: src/ui/PageHeader.qml:85
+#: src/ui/TasksPage.qml:69
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Enable tray icon"
 msgstr "Ieslēgt sistēmas ikonu joslas ikonu"
 
-#: src/ui/PageHeader.qml:91
-#, kde-format
-msgid "Clear All"
-msgstr "Notīrīt visu"
-
-#: src/ui/PageHeader.qml:100
+#: src/ui/TasksPage.qml:76
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Quit"
 msgstr "Iziet"
 
-#: src/ui/TasksPage.qml:166
+#: src/ui/TasksPage.qml:223
 #, kde-format
 msgid "Nothing Found"
 msgstr "Nekas nav atrasts"
 
-#: src/ui/TasksPage.qml:166
+#: src/ui/TasksPage.qml:223
 #, kde-format
 msgid "All tasks completed!"
 msgstr "Visi uzdevumi ir izdarīti"
 
-#: src/ui/TasksPage.qml:168
+#: src/ui/TasksPage.qml:225
 #, kde-format
 msgid "Your search did not match any results"
 msgstr "Meklēšana nenesa rezultātus"
+
+#~ msgctxt "@menu-action"
+#~ msgid "Clear Tasks"
+#~ msgstr "Notīrīt uzdevumus"
+
+#~ msgid "Menu"
+#~ msgstr "Izvēlne"
+
+#~ msgid "Clear All"
+#~ msgstr "Notīrīt visu"
 
 #~ msgid ""
 #~ "Add some more by typing in the text field at the bottom of the window"
@@ -181,6 +189,3 @@ msgstr "Meklēšana nenesa rezultātus"
 
 #~ msgid "Type the new task's title here…"
 #~ msgstr "Ievadiet jauna uzdevuma nosaukumu..."
-
-#~ msgid "Search"
-#~ msgstr "Meklēt"

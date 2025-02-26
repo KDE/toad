@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: toad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-02-21 00:44+0000\n"
+"POT-Creation-Date: 2025-02-26 00:45+0000\n"
 "PO-Revision-Date: 2024-12-15 11:04+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -58,7 +58,7 @@ msgctxt "@info:credit"
 msgid "Author"
 msgstr "Egilea"
 
-#: src/Main.qml:13
+#: src/Main.qml:15
 #, kde-format
 msgid "Tasks"
 msgstr "Atazak"
@@ -82,10 +82,12 @@ msgid "Edit"
 msgstr "Editatu"
 
 #: src/ui/GlobalMenu.qml:29
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "1 task completed"
+#| msgid_plural "%1 tasks completed"
 msgctxt "@menu-action"
-msgid "Clear Tasks"
-msgstr "Garbitu atazak"
+msgid "Clear Completed"
+msgstr "Ataza 1 osatuta"
 
 #: src/ui/GlobalMenu.qml:37
 #, kde-format
@@ -105,74 +107,81 @@ msgctxt "@menu-action"
 msgid "About Tasks"
 msgstr "«Tasks»eri buruz"
 
-#: src/ui/PageHeader.qml:27
+#: src/ui/TasksPage.qml:20
 #, kde-format
 msgid "1 result"
 msgid_plural "%1 results"
 msgstr[0] "Emaitza 1"
 msgstr[1] "%1 emaitza"
 
-#: src/ui/PageHeader.qml:27
-#, kde-format
-msgid "1 task"
-msgid_plural "%1 tasks"
+#: src/ui/TasksPage.qml:20
+#, fuzzy, kde-format
+#| msgid "1 task"
+#| msgid_plural "%1 tasks"
+msgid "%2/1 task"
+msgid_plural "%2/%1 tasks"
 msgstr[0] "Ataza 1"
 msgstr[1] "%1 ataza"
 
-#: src/ui/PageHeader.qml:36
-#, kde-format
-msgid "1 task completed"
-msgid_plural "%1 tasks completed"
-msgstr[0] "Ataza 1 osatuta"
-msgstr[1] "%1 ataza osatuta"
-
-#: src/ui/PageHeader.qml:47
+#: src/ui/TasksPage.qml:29
 #, kde-format
 msgid "Add Task"
 msgstr "Gehitu ataza"
 
-#: src/ui/PageHeader.qml:65
+#: src/ui/TasksPage.qml:41 src/ui/TasksPage.qml:42
 #, kde-format
-msgid "Menu"
-msgstr "Menua"
+msgid "Search"
+msgstr "Bilatu"
 
-#: src/ui/PageHeader.qml:74
+#: src/ui/TasksPage.qml:49
+#, fuzzy, kde-format
+#| msgid "1 task completed"
+#| msgid_plural "%1 tasks completed"
+msgid "Clear Completed"
+msgstr "Ataza 1 osatuta"
+
+#: src/ui/TasksPage.qml:61
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About Tasks"
 msgstr "Atazei buruz"
 
-#: src/ui/PageHeader.qml:85
+#: src/ui/TasksPage.qml:69
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Enable tray icon"
 msgstr "Gaitu erretiluko ikonoa"
 
-#: src/ui/PageHeader.qml:91
-#, kde-format
-msgid "Clear All"
-msgstr "Garbitu dena"
-
-#: src/ui/PageHeader.qml:100
+#: src/ui/TasksPage.qml:76
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Quit"
 msgstr "Irten"
 
-#: src/ui/TasksPage.qml:166
+#: src/ui/TasksPage.qml:223
 #, kde-format
 msgid "Nothing Found"
 msgstr "Ez da ezer aurkitu"
 
-#: src/ui/TasksPage.qml:166
+#: src/ui/TasksPage.qml:223
 #, kde-format
 msgid "All tasks completed!"
 msgstr "Ataza guztiak osatuta!"
 
-#: src/ui/TasksPage.qml:168
+#: src/ui/TasksPage.qml:225
 #, kde-format
 msgid "Your search did not match any results"
 msgstr "Zure bilaketak ez du emaitzarik eman"
+
+#~ msgctxt "@menu-action"
+#~ msgid "Clear Tasks"
+#~ msgstr "Garbitu atazak"
+
+#~ msgid "Menu"
+#~ msgstr "Menua"
+
+#~ msgid "Clear All"
+#~ msgstr "Garbitu dena"
 
 #~ msgid ""
 #~ "Add some more by typing in the text field at the bottom of the window"
@@ -180,6 +189,3 @@ msgstr "Zure bilaketak ez du emaitzarik eman"
 
 #~ msgid "Type the new task's title here…"
 #~ msgstr "Tekleatu hemen ataza berriaren izenburua..."
-
-#~ msgid "Search"
-#~ msgstr "Bilatu"

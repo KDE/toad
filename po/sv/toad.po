@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: toad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-02-21 00:44+0000\n"
+"POT-Creation-Date: 2025-02-26 00:45+0000\n"
 "PO-Revision-Date: 2025-01-11 12:40+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@gmail.com>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
@@ -55,7 +55,7 @@ msgctxt "@info:credit"
 msgid "Author"
 msgstr "Upphovsman"
 
-#: src/Main.qml:13
+#: src/Main.qml:15
 #, kde-format
 msgid "Tasks"
 msgstr "Uppgifter"
@@ -79,10 +79,12 @@ msgid "Edit"
 msgstr "Redigera"
 
 #: src/ui/GlobalMenu.qml:29
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "1 task completed"
+#| msgid_plural "%1 tasks completed"
 msgctxt "@menu-action"
-msgid "Clear Tasks"
-msgstr "Rensa uppgifter"
+msgid "Clear Completed"
+msgstr "1 uppgift klar"
 
 #: src/ui/GlobalMenu.qml:37
 #, kde-format
@@ -102,74 +104,81 @@ msgctxt "@menu-action"
 msgid "About Tasks"
 msgstr "Om Uppgifter"
 
-#: src/ui/PageHeader.qml:27
+#: src/ui/TasksPage.qml:20
 #, kde-format
 msgid "1 result"
 msgid_plural "%1 results"
 msgstr[0] "1 resultat"
 msgstr[1] "%1 resultat"
 
-#: src/ui/PageHeader.qml:27
-#, kde-format
-msgid "1 task"
-msgid_plural "%1 tasks"
+#: src/ui/TasksPage.qml:20
+#, fuzzy, kde-format
+#| msgid "1 task"
+#| msgid_plural "%1 tasks"
+msgid "%2/1 task"
+msgid_plural "%2/%1 tasks"
 msgstr[0] "1 uppgift"
 msgstr[1] "%1 uppgifter"
 
-#: src/ui/PageHeader.qml:36
-#, kde-format
-msgid "1 task completed"
-msgid_plural "%1 tasks completed"
-msgstr[0] "1 uppgift klar"
-msgstr[1] "%1 uppgifter klara"
-
-#: src/ui/PageHeader.qml:47
+#: src/ui/TasksPage.qml:29
 #, kde-format
 msgid "Add Task"
 msgstr "Lägg till uppgift"
 
-#: src/ui/PageHeader.qml:65
+#: src/ui/TasksPage.qml:41 src/ui/TasksPage.qml:42
 #, kde-format
-msgid "Menu"
-msgstr "Meny"
+msgid "Search"
+msgstr "Sök"
 
-#: src/ui/PageHeader.qml:74
+#: src/ui/TasksPage.qml:49
+#, fuzzy, kde-format
+#| msgid "1 task completed"
+#| msgid_plural "%1 tasks completed"
+msgid "Clear Completed"
+msgstr "1 uppgift klar"
+
+#: src/ui/TasksPage.qml:61
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About Tasks"
 msgstr "Om Uppgifter"
 
-#: src/ui/PageHeader.qml:85
+#: src/ui/TasksPage.qml:69
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Enable tray icon"
 msgstr "Aktivera ikon i systembrickan"
 
-#: src/ui/PageHeader.qml:91
-#, kde-format
-msgid "Clear All"
-msgstr "Rensa alla"
-
-#: src/ui/PageHeader.qml:100
+#: src/ui/TasksPage.qml:76
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Quit"
 msgstr "Avsluta"
 
-#: src/ui/TasksPage.qml:166
+#: src/ui/TasksPage.qml:223
 #, kde-format
 msgid "Nothing Found"
 msgstr "Ingenting hittades"
 
-#: src/ui/TasksPage.qml:166
+#: src/ui/TasksPage.qml:223
 #, kde-format
 msgid "All tasks completed!"
 msgstr "Alla uppgifter färdiga."
 
-#: src/ui/TasksPage.qml:168
+#: src/ui/TasksPage.qml:225
 #, kde-format
 msgid "Your search did not match any results"
 msgstr "Sökningen matchade inte några resultat"
+
+#~ msgctxt "@menu-action"
+#~ msgid "Clear Tasks"
+#~ msgstr "Rensa uppgifter"
+
+#~ msgid "Menu"
+#~ msgstr "Meny"
+
+#~ msgid "Clear All"
+#~ msgstr "Rensa alla"
 
 #~ msgid ""
 #~ "Add some more by typing in the text field at the bottom of the window"
@@ -177,9 +186,6 @@ msgstr "Sökningen matchade inte några resultat"
 
 #~ msgid "Type the new task's title here…"
 #~ msgstr "Skriv in den nya uppgiftens rubrik här..."
-
-#~ msgid "Search"
-#~ msgstr "Sök"
 
 #~ msgid "Simple task list"
 #~ msgstr "Enkel uppgiftslista"

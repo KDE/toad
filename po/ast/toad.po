@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: toad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-02-21 00:44+0000\n"
+"POT-Creation-Date: 2025-02-26 00:45+0000\n"
 "PO-Revision-Date: 2023-11-05 01:42+0100\n"
 "Last-Translator: Enol P. <enolp@softastur.org>\n"
 "Language-Team: \n"
@@ -55,7 +55,7 @@ msgctxt "@info:credit"
 msgid "Author"
 msgstr ""
 
-#: src/Main.qml:13
+#: src/Main.qml:15
 #, kde-format
 msgid "Tasks"
 msgstr ""
@@ -81,7 +81,7 @@ msgstr ""
 #: src/ui/GlobalMenu.qml:29
 #, kde-format
 msgctxt "@menu-action"
-msgid "Clear Tasks"
+msgid "Clear Completed"
 msgstr ""
 
 #: src/ui/GlobalMenu.qml:37
@@ -102,38 +102,36 @@ msgctxt "@menu-action"
 msgid "About Tasks"
 msgstr ""
 
-#: src/ui/PageHeader.qml:27
+#: src/ui/TasksPage.qml:20
 #, kde-format
 msgid "1 result"
 msgid_plural "%1 results"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/ui/PageHeader.qml:27
+#: src/ui/TasksPage.qml:20
 #, kde-format
-msgid "1 task"
-msgid_plural "%1 tasks"
+msgid "%2/1 task"
+msgid_plural "%2/%1 tasks"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/ui/PageHeader.qml:36
-#, kde-format
-msgid "1 task completed"
-msgid_plural "%1 tasks completed"
-msgstr[0] ""
-msgstr[1] ""
-
-#: src/ui/PageHeader.qml:47
+#: src/ui/TasksPage.qml:29
 #, kde-format
 msgid "Add Task"
 msgstr ""
 
-#: src/ui/PageHeader.qml:65
+#: src/ui/TasksPage.qml:41 src/ui/TasksPage.qml:42
 #, kde-format
-msgid "Menu"
+msgid "Search"
 msgstr ""
 
-#: src/ui/PageHeader.qml:74
+#: src/ui/TasksPage.qml:49
+#, kde-format
+msgid "Clear Completed"
+msgstr ""
+
+#: src/ui/TasksPage.qml:61
 #, fuzzy, kde-format
 #| msgctxt "@title"
 #| msgid "Tasks"
@@ -141,34 +139,29 @@ msgctxt "@action:inmenu"
 msgid "About Tasks"
 msgstr "Xeres"
 
-#: src/ui/PageHeader.qml:85
+#: src/ui/TasksPage.qml:69
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Enable tray icon"
 msgstr ""
 
-#: src/ui/PageHeader.qml:91
-#, kde-format
-msgid "Clear All"
-msgstr ""
-
-#: src/ui/PageHeader.qml:100
+#: src/ui/TasksPage.qml:76
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Quit"
 msgstr ""
 
-#: src/ui/TasksPage.qml:166
+#: src/ui/TasksPage.qml:223
 #, kde-format
 msgid "Nothing Found"
 msgstr ""
 
-#: src/ui/TasksPage.qml:166
+#: src/ui/TasksPage.qml:223
 #, kde-format
 msgid "All tasks completed!"
 msgstr ""
 
-#: src/ui/TasksPage.qml:168
+#: src/ui/TasksPage.qml:225
 #, kde-format
 msgid "Your search did not match any results"
 msgstr ""

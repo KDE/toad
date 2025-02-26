@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: toad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-02-21 00:44+0000\n"
+"POT-Creation-Date: 2025-02-26 00:45+0000\n"
 "PO-Revision-Date: 2023-12-18 15:41+0100\n"
 "Last-Translator: Johannes Obermayr <johannesobermayr@gmx.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
@@ -58,7 +58,7 @@ msgctxt "@info:credit"
 msgid "Author"
 msgstr "Autor"
 
-#: src/Main.qml:13
+#: src/Main.qml:15
 #, kde-format
 msgid "Tasks"
 msgstr "Aufgaben"
@@ -82,10 +82,12 @@ msgid "Edit"
 msgstr "Bearbeiten"
 
 #: src/ui/GlobalMenu.qml:29
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "1 task completed"
+#| msgid_plural "%1 tasks completed"
 msgctxt "@menu-action"
-msgid "Clear Tasks"
-msgstr "Aufgaben löschen"
+msgid "Clear Completed"
+msgstr "Eine Aufgabe abgeschlossen"
 
 #: src/ui/GlobalMenu.qml:37
 #, kde-format
@@ -105,56 +107,53 @@ msgctxt "@menu-action"
 msgid "About Tasks"
 msgstr "Über Aufgaben"
 
-#: src/ui/PageHeader.qml:27
+#: src/ui/TasksPage.qml:20
 #, kde-format
 msgid "1 result"
 msgid_plural "%1 results"
 msgstr[0] "1 Ergebnis"
 msgstr[1] "%1 Ergebnisse"
 
-#: src/ui/PageHeader.qml:27
-#, kde-format
-msgid "1 task"
-msgid_plural "%1 tasks"
+#: src/ui/TasksPage.qml:20
+#, fuzzy, kde-format
+#| msgid "1 task"
+#| msgid_plural "%1 tasks"
+msgid "%2/1 task"
+msgid_plural "%2/%1 tasks"
 msgstr[0] "1 Aufgabe"
 msgstr[1] "%1 Aufgaben"
 
-#: src/ui/PageHeader.qml:36
-#, kde-format
-msgid "1 task completed"
-msgid_plural "%1 tasks completed"
-msgstr[0] "Eine Aufgabe abgeschlossen"
-msgstr[1] "%1 Aufgaben abgeschlossen"
-
-#: src/ui/PageHeader.qml:47
+#: src/ui/TasksPage.qml:29
 #, kde-format
 msgid "Add Task"
 msgstr "Aufgabe hinzufügen"
 
-#: src/ui/PageHeader.qml:65
+#: src/ui/TasksPage.qml:41 src/ui/TasksPage.qml:42
 #, kde-format
-msgid "Menu"
-msgstr ""
+msgid "Search"
+msgstr "Suchen"
 
-#: src/ui/PageHeader.qml:74
+#: src/ui/TasksPage.qml:49
+#, fuzzy, kde-format
+#| msgid "1 task completed"
+#| msgid_plural "%1 tasks completed"
+msgid "Clear Completed"
+msgstr "Eine Aufgabe abgeschlossen"
+
+#: src/ui/TasksPage.qml:61
 #, fuzzy, kde-format
 #| msgid "About Tasks"
 msgctxt "@action:inmenu"
 msgid "About Tasks"
 msgstr "Über Aufgaben"
 
-#: src/ui/PageHeader.qml:85
+#: src/ui/TasksPage.qml:69
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Enable tray icon"
 msgstr ""
 
-#: src/ui/PageHeader.qml:91
-#, kde-format
-msgid "Clear All"
-msgstr "Alles löschen"
-
-#: src/ui/PageHeader.qml:100
+#: src/ui/TasksPage.qml:76
 #, fuzzy, kde-format
 #| msgctxt "@menu-action"
 #| msgid "Quit"
@@ -162,20 +161,27 @@ msgctxt "@action:inmenu"
 msgid "Quit"
 msgstr "Beenden"
 
-#: src/ui/TasksPage.qml:166
+#: src/ui/TasksPage.qml:223
 #, kde-format
 msgid "Nothing Found"
 msgstr "Nichts gefunden"
 
-#: src/ui/TasksPage.qml:166
+#: src/ui/TasksPage.qml:223
 #, kde-format
 msgid "All tasks completed!"
 msgstr "Keine Aufgaben abgeschlossen."
 
-#: src/ui/TasksPage.qml:168
+#: src/ui/TasksPage.qml:225
 #, kde-format
 msgid "Your search did not match any results"
 msgstr "Ihre Suche ergab keine Treffer"
+
+#~ msgctxt "@menu-action"
+#~ msgid "Clear Tasks"
+#~ msgstr "Aufgaben löschen"
+
+#~ msgid "Clear All"
+#~ msgstr "Alles löschen"
 
 #~ msgid ""
 #~ "Add some more by typing in the text field at the bottom of the window"
@@ -184,6 +190,3 @@ msgstr "Ihre Suche ergab keine Treffer"
 
 #~ msgid "Type the new task's title here…"
 #~ msgstr "Bitte geben Sie den Titel der neuen Aufgabe hier ein …"
-
-#~ msgid "Search"
-#~ msgstr "Suchen"
