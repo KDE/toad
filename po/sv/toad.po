@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: toad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-02-26 00:45+0000\n"
-"PO-Revision-Date: 2025-01-11 12:40+0100\n"
+"PO-Revision-Date: 2025-02-26 18:15+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@gmail.com>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -79,12 +79,10 @@ msgid "Edit"
 msgstr "Redigera"
 
 #: src/ui/GlobalMenu.qml:29
-#, fuzzy, kde-format
-#| msgid "1 task completed"
-#| msgid_plural "%1 tasks completed"
+#, kde-format
 msgctxt "@menu-action"
 msgid "Clear Completed"
-msgstr "1 uppgift klar"
+msgstr "Rensa klara"
 
 #: src/ui/GlobalMenu.qml:37
 #, kde-format
@@ -112,13 +110,11 @@ msgstr[0] "1 resultat"
 msgstr[1] "%1 resultat"
 
 #: src/ui/TasksPage.qml:20
-#, fuzzy, kde-format
-#| msgid "1 task"
-#| msgid_plural "%1 tasks"
+#, kde-format
 msgid "%2/1 task"
 msgid_plural "%2/%1 tasks"
-msgstr[0] "1 uppgift"
-msgstr[1] "%1 uppgifter"
+msgstr[0] "%2/1 uppgift"
+msgstr[1] "%2/%1 uppgifter"
 
 #: src/ui/TasksPage.qml:29
 #, kde-format
@@ -131,11 +127,9 @@ msgid "Search"
 msgstr "Sök"
 
 #: src/ui/TasksPage.qml:49
-#, fuzzy, kde-format
-#| msgid "1 task completed"
-#| msgid_plural "%1 tasks completed"
+#, kde-format
 msgid "Clear Completed"
-msgstr "1 uppgift klar"
+msgstr "Rensa klara"
 
 #: src/ui/TasksPage.qml:61
 #, kde-format

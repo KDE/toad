@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: toad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-02-26 00:45+0000\n"
-"PO-Revision-Date: 2024-12-14 09:39+0100\n"
+"PO-Revision-Date: 2025-02-26 06:58+0100\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -80,12 +80,10 @@ msgid "Edit"
 msgstr "Uredi"
 
 #: src/ui/GlobalMenu.qml:29
-#, fuzzy, kde-format
-#| msgid "1 task completed"
-#| msgid_plural "%1 tasks completed"
+#, kde-format
 msgctxt "@menu-action"
 msgid "Clear Completed"
-msgstr "%1 naloga končana"
+msgstr "Čiščenje končano"
 
 #: src/ui/GlobalMenu.qml:37
 #, kde-format
@@ -115,15 +113,13 @@ msgstr[2] "%1 zadetke"
 msgstr[3] "%1 zadetkov"
 
 #: src/ui/TasksPage.qml:20
-#, fuzzy, kde-format
-#| msgid "1 task"
-#| msgid_plural "%1 tasks"
+#, kde-format
 msgid "%2/1 task"
 msgid_plural "%2/%1 tasks"
-msgstr[0] "%1 naloga"
-msgstr[1] "%1 nalogi"
-msgstr[2] "%1 naloge"
-msgstr[3] "%1 nalog"
+msgstr[0] "%2/%1 naloga"
+msgstr[1] "%2/%1 nalogi"
+msgstr[2] "%2/%1 naloge"
+msgstr[3] "%2/%1 nalog"
 
 #: src/ui/TasksPage.qml:29
 #, kde-format
@@ -136,11 +132,9 @@ msgid "Search"
 msgstr "Išči"
 
 #: src/ui/TasksPage.qml:49
-#, fuzzy, kde-format
-#| msgid "1 task completed"
-#| msgid_plural "%1 tasks completed"
+#, kde-format
 msgid "Clear Completed"
-msgstr "%1 naloga končana"
+msgstr "Čiščenje končano"
 
 #: src/ui/TasksPage.qml:61
 #, kde-format

@@ -125,7 +125,8 @@ msgid "Add Task"
 msgstr "Ajouter une tâche"
 
 #: src/ui/TasksPage.qml:41 src/ui/TasksPage.qml:42
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Search"
 msgid "Search"
 msgstr "Rechercher"
 

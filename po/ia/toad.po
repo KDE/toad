@@ -1,13 +1,13 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the toad package.
 #
-# SPDX-FileCopyrightText: 2023, 2024 giovanni <g.sora@tiscali.it>
+# SPDX-FileCopyrightText: 2023, 2024, 2025 giovanni <g.sora@tiscali.it>
 msgid ""
 msgstr ""
 "Project-Id-Version: toad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-02-26 00:45+0000\n"
-"PO-Revision-Date: 2024-12-19 10:46+0100\n"
+"PO-Revision-Date: 2025-02-26 10:26+0100\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
 "Language: ia\n"
@@ -79,12 +79,10 @@ msgid "Edit"
 msgstr "Modifica"
 
 #: src/ui/GlobalMenu.qml:29
-#, fuzzy, kde-format
-#| msgid "1 task completed"
-#| msgid_plural "%1 tasks completed"
+#, kde-format
 msgctxt "@menu-action"
 msgid "Clear Completed"
-msgstr "1 carga completate"
+msgstr "Nettar completate"
 
 #: src/ui/GlobalMenu.qml:37
 #, kde-format
@@ -112,13 +110,11 @@ msgstr[0] "1 resultato"
 msgstr[1] "%1 resultatos"
 
 #: src/ui/TasksPage.qml:20
-#, fuzzy, kde-format
-#| msgid "1 task"
-#| msgid_plural "%1 tasks"
+#, kde-format
 msgid "%2/1 task"
 msgid_plural "%2/%1 tasks"
-msgstr[0] "1 Carga"
-msgstr[1] "%1 Cargas"
+msgstr[0] "%2/1 Carga"
+msgstr[1] "%2/%1 Cargas"
 
 #: src/ui/TasksPage.qml:29
 #, kde-format
@@ -131,11 +127,9 @@ msgid "Search"
 msgstr "Cerca"
 
 #: src/ui/TasksPage.qml:49
-#, fuzzy, kde-format
-#| msgid "1 task completed"
-#| msgid_plural "%1 tasks completed"
+#, kde-format
 msgid "Clear Completed"
-msgstr "1 carga completate"
+msgstr "Nettar completate"
 
 #: src/ui/TasksPage.qml:61
 #, kde-format

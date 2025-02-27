@@ -1,13 +1,13 @@
 # Copyright (C) YEAR This file is copyright:
 # This file is distributed under the same license as the toad package.
 #
-# Yuri Chornoivan <yurchor@ukr.net>, 2022, 2024.
+# Yuri Chornoivan <yurchor@ukr.net>, 2022, 2024, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: toad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-02-26 00:45+0000\n"
-"PO-Revision-Date: 2024-12-14 09:19+0200\n"
+"PO-Revision-Date: 2025-02-26 14:42+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -80,12 +80,10 @@ msgid "Edit"
 msgstr "Змінити"
 
 #: src/ui/GlobalMenu.qml:29
-#, fuzzy, kde-format
-#| msgid "1 task completed"
-#| msgid_plural "%1 tasks completed"
+#, kde-format
 msgctxt "@menu-action"
 msgid "Clear Completed"
-msgstr "%1 завдання завершено"
+msgstr "Вилучити завершені"
 
 #: src/ui/GlobalMenu.qml:37
 #, kde-format
@@ -115,15 +113,13 @@ msgstr[2] "%1 результатів"
 msgstr[3] "%1 результат"
 
 #: src/ui/TasksPage.qml:20
-#, fuzzy, kde-format
-#| msgid "1 task"
-#| msgid_plural "%1 tasks"
+#, kde-format
 msgid "%2/1 task"
 msgid_plural "%2/%1 tasks"
-msgstr[0] "%1 завдання"
-msgstr[1] "%1 завдання"
-msgstr[2] "%1 завдань"
-msgstr[3] "%1 завдання"
+msgstr[0] "%2 з %1 завдання"
+msgstr[1] "%2 з %1 завдань"
+msgstr[2] "%2 з %1 завдань"
+msgstr[3] "%2 з %1 завдання"
 
 #: src/ui/TasksPage.qml:29
 #, kde-format
@@ -136,11 +132,9 @@ msgid "Search"
 msgstr "Шукати"
 
 #: src/ui/TasksPage.qml:49
-#, fuzzy, kde-format
-#| msgid "1 task completed"
-#| msgid_plural "%1 tasks completed"
+#, kde-format
 msgid "Clear Completed"
-msgstr "%1 завдання завершено"
+msgstr "Вилучити завершені"
 
 #: src/ui/TasksPage.qml:61
 #, kde-format
