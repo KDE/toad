@@ -1,15 +1,15 @@
 # Translation of toad.po to Catalan (Valencian)
-# Copyright (C) 2022-2024 This_file_is_part_of_KDE
+# Copyright (C) 2022-2025 This_file_is_part_of_KDE
 # This file is distributed under the license LGPL version 2.1 or
 # version 3 or later versions approved by the membership of KDE e.V.
 #
-# Josep M. Ferrer <txemaq@gmail.com>, 2022, 2024.
+# Josep M. Ferrer <txemaq@gmail.com>, 2022, 2024, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: toad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-02-26 00:45+0000\n"
-"PO-Revision-Date: 2024-12-14 08:16+0100\n"
+"PO-Revision-Date: 2025-02-26 11:42+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
@@ -81,12 +81,10 @@ msgid "Edit"
 msgstr "Edita"
 
 #: src/ui/GlobalMenu.qml:29
-#, fuzzy, kde-format
-#| msgid "1 task completed"
-#| msgid_plural "%1 tasks completed"
+#, kde-format
 msgctxt "@menu-action"
 msgid "Clear Completed"
-msgstr "S'ha completat 1 tasca"
+msgstr "Neteja les completades"
 
 #: src/ui/GlobalMenu.qml:37
 #, kde-format
@@ -114,13 +112,11 @@ msgstr[0] "1 resultat"
 msgstr[1] "%1 resultats"
 
 #: src/ui/TasksPage.qml:20
-#, fuzzy, kde-format
-#| msgid "1 task"
-#| msgid_plural "%1 tasks"
+#, kde-format
 msgid "%2/1 task"
 msgid_plural "%2/%1 tasks"
-msgstr[0] "1 tasca"
-msgstr[1] "%1 tasques"
+msgstr[0] "%2/1 tasca"
+msgstr[1] "%2/%1 tasques"
 
 #: src/ui/TasksPage.qml:29
 #, kde-format
@@ -133,11 +129,9 @@ msgid "Search"
 msgstr "Busca"
 
 #: src/ui/TasksPage.qml:49
-#, fuzzy, kde-format
-#| msgid "1 task completed"
-#| msgid_plural "%1 tasks completed"
+#, kde-format
 msgid "Clear Completed"
-msgstr "S'ha completat 1 tasca"
+msgstr "Neteja les completades"
 
 #: src/ui/TasksPage.qml:61
 #, kde-format
@@ -171,22 +165,3 @@ msgstr "S'han completat totes les tasques!"
 #, kde-format
 msgid "Your search did not match any results"
 msgstr "La busca no coincidix amb cap resultat"
-
-#~ msgctxt "@menu-action"
-#~ msgid "Clear Tasks"
-#~ msgstr "Neteja les tasques"
-
-#~ msgid "Menu"
-#~ msgstr "Menú"
-
-#~ msgid "Clear All"
-#~ msgstr "Neteja-ho tot"
-
-#~ msgid ""
-#~ "Add some more by typing in the text field at the bottom of the window"
-#~ msgstr ""
-#~ "Afegiu-ne més teclejant en el camp de text en la part inferior de la "
-#~ "finestra"
-
-#~ msgid "Type the new task's title here…"
-#~ msgstr "Teclegeu ací el títol de la tasca nova…"
