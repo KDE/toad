@@ -1,21 +1,21 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the toad package.
-# SPDX-FileCopyrightText: 2024 Adrián Chaves (Gallaecio)
+# SPDX-FileCopyrightText: 2024, 2025 Adrián Chaves (Gallaecio)
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: toad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-02-26 00:45+0000\n"
-"PO-Revision-Date: 2024-12-17 18:46+0100\n"
-"Last-Translator: Adrián Chaves (Gallaecio) <adrian@chaves.io>\n"
+"PO-Revision-Date: 2025-02-28 07:08+0100\n"
+"Last-Translator: Adrián Chaves (Gallaecio) <adrian@chaves.gal>\n"
 "Language-Team: Proxecto Trasno (proxecto@trasno.gal)\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 24.12.0\n"
+"X-Generator: Lokalize 24.12.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -79,12 +79,10 @@ msgid "Edit"
 msgstr "Editar"
 
 #: src/ui/GlobalMenu.qml:29
-#, fuzzy, kde-format
-#| msgid "1 task completed"
-#| msgid_plural "%1 tasks completed"
+#, kde-format
 msgctxt "@menu-action"
 msgid "Clear Completed"
-msgstr "1 tarefa completada"
+msgstr "Borrar as completadas"
 
 #: src/ui/GlobalMenu.qml:37
 #, kde-format
@@ -112,13 +110,11 @@ msgstr[0] "1 resultado"
 msgstr[1] "%1 resultados"
 
 #: src/ui/TasksPage.qml:20
-#, fuzzy, kde-format
-#| msgid "1 task"
-#| msgid_plural "%1 tasks"
+#, kde-format
 msgid "%2/1 task"
 msgid_plural "%2/%1 tasks"
-msgstr[0] "1 tarefa"
-msgstr[1] "%1 tarefas"
+msgstr[0] "%2/1 tarefa"
+msgstr[1] "%2/%1 tarefas"
 
 #: src/ui/TasksPage.qml:29
 #, kde-format
@@ -131,11 +127,9 @@ msgid "Search"
 msgstr "Buscar"
 
 #: src/ui/TasksPage.qml:49
-#, fuzzy, kde-format
-#| msgid "1 task completed"
-#| msgid_plural "%1 tasks completed"
+#, kde-format
 msgid "Clear Completed"
-msgstr "1 tarefa completada"
+msgstr "Borrar as completadas"
 
 #: src/ui/TasksPage.qml:61
 #, kde-format

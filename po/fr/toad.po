@@ -1,12 +1,12 @@
 # Header entry was created by Lokalize.
 #
-# SPDX-FileCopyrightText: 2022, 2024 Xavier Besnard <xavier.besnard@kde.org>
+# SPDX-FileCopyrightText: 2022, 2024, 2025 Xavier Besnard <xavier.besnard@kde.org>
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-02-26 00:45+0000\n"
-"PO-Revision-Date: 2024-12-15 10:43+0100\n"
+"PO-Revision-Date: 2025-02-27 09:13+0100\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: French <French <kde-francophone@kde.org>>\n"
 "Language: fr_FR\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 24.12.0\n"
+"X-Generator: Lokalize 24.12.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -78,12 +78,10 @@ msgid "Edit"
 msgstr "Éditer"
 
 #: src/ui/GlobalMenu.qml:29
-#, fuzzy, kde-format
-#| msgid "1 task completed"
-#| msgid_plural "%1 tasks completed"
+#, kde-format
 msgctxt "@menu-action"
 msgid "Clear Completed"
-msgstr "1 tache terminée"
+msgstr "Effacement terminé"
 
 #: src/ui/GlobalMenu.qml:37
 #, kde-format
@@ -111,13 +109,11 @@ msgstr[0] "1 résultat"
 msgstr[1] "%1 résultats"
 
 #: src/ui/TasksPage.qml:20
-#, fuzzy, kde-format
-#| msgid "1 task"
-#| msgid_plural "%1 tasks"
+#, kde-format
 msgid "%2/1 task"
 msgid_plural "%2/%1 tasks"
-msgstr[0] "1 tâche"
-msgstr[1] "%1 tâches"
+msgstr[0] "%2 /1 tâche"
+msgstr[1] "%2 / %1 tâches"
 
 #: src/ui/TasksPage.qml:29
 #, kde-format
@@ -130,11 +126,9 @@ msgid "Search"
 msgstr "Rechercher"
 
 #: src/ui/TasksPage.qml:49
-#, fuzzy, kde-format
-#| msgid "1 task completed"
-#| msgid_plural "%1 tasks completed"
+#, kde-format
 msgid "Clear Completed"
-msgstr "1 tache terminée"
+msgstr "Effacement terminé"
 
 #: src/ui/TasksPage.qml:61
 #, kde-format
