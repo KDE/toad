@@ -1,13 +1,13 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the toad package.
-# SPDX-FileCopyrightText: 2023, 2024 Zayed Al-Saidi <zayed.alsaidi@gmail.com>
+# SPDX-FileCopyrightText: 2023, 2024, 2025 Zayed Al-Saidi <zayed.alsaidi@gmail.com>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: toad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-02-26 00:45+0000\n"
-"PO-Revision-Date: 2024-12-19 08:20+0400\n"
+"PO-Revision-Date: 2025-03-02 10:55+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
 "Language: ar\n"
@@ -80,12 +80,10 @@ msgid "Edit"
 msgstr "حرّر"
 
 #: src/ui/GlobalMenu.qml:29
-#, fuzzy, kde-format
-#| msgid "1 task completed"
-#| msgid_plural "%1 tasks completed"
+#, kde-format
 msgctxt "@menu-action"
 msgid "Clear Completed"
-msgstr "اكتملت مهمة"
+msgstr "امحُ المكتمل"
 
 #: src/ui/GlobalMenu.qml:37
 #, kde-format
@@ -117,17 +115,15 @@ msgstr[4] "%1 نتيجة"
 msgstr[5] "%1 نتيجة"
 
 #: src/ui/TasksPage.qml:20
-#, fuzzy, kde-format
-#| msgid "1 task"
-#| msgid_plural "%1 tasks"
+#, kde-format
 msgid "%2/1 task"
 msgid_plural "%2/%1 tasks"
-msgstr[0] "صفر مهمّة"
-msgstr[1] "مهمة واحدة"
-msgstr[2] "مهمتان"
-msgstr[3] "%1 مهام"
-msgstr[4] "%1 مهمة"
-msgstr[5] "%1 مهمة"
+msgstr[0] "%2 من 1 مهمّة"
+msgstr[1] "%2 من 1 مهمّة واحدة"
+msgstr[2] "%2 من مهمتان"
+msgstr[3] "%2 من %1 مهام"
+msgstr[4] "%2 من %1 مهمة"
+msgstr[5] "%2 من %1 مهمة"
 
 #: src/ui/TasksPage.qml:29
 #, kde-format
@@ -140,11 +136,9 @@ msgid "Search"
 msgstr "ابحث"
 
 #: src/ui/TasksPage.qml:49
-#, fuzzy, kde-format
-#| msgid "1 task completed"
-#| msgid_plural "%1 tasks completed"
+#, kde-format
 msgid "Clear Completed"
-msgstr "اكتملت مهمة"
+msgstr "امحُ المكتمل"
 
 #: src/ui/TasksPage.qml:61
 #, kde-format

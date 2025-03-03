@@ -129,7 +129,7 @@ msgstr "Nytt gjeremål"
 #: src/ui/TasksPage.qml:41 src/ui/TasksPage.qml:42
 #, kde-format
 msgid "Search"
-msgstr ""
+msgstr "Søk"
 
 #: src/ui/TasksPage.qml:49
 #, fuzzy, kde-format
@@ -170,10 +170,3 @@ msgstr "Du er ferdig med alle gjeremåla!"
 #, kde-format
 msgid "Your search did not match any results"
 msgstr "Søket fann ingen gjeremål"
-
-#~ msgctxt "@menu-action"
-#~ msgid "Clear Tasks"
-#~ msgstr "Tøm gjeremål"
-
-#~ msgid "Clear All"
-#~ msgstr "Fjern alle"
