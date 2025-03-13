@@ -37,6 +37,7 @@ public:
     Q_INVOKABLE void clearCompleted();
 
     Q_INVOKABLE void updatePath();
+    Q_INVOKABLE bool saveAs(const QUrl &url);
 
     [[nodiscard]] int completedTasks() const
     {

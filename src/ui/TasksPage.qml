@@ -4,11 +4,13 @@
 
 import QtQuick
 import QtQuick.Controls as QQC2
+import QtQuick.Dialogs
 import QtQuick.Layouts
 import org.kde.kirigami as Kirigami
 import org.kde.kirigamiaddons.delegates as Delegates
 import org.kde.kitemmodels
 
+import org.kde.tasks.config
 import org.kde.tasks.models
 
 Kirigami.ScrollablePage {
@@ -51,6 +53,19 @@ Kirigami.ScrollablePage {
             displayHint: Kirigami.DisplayHint.AlwaysHide // destructive action shouldn't be directly in the UI
             onTriggered: TasksModel.clearCompleted()
             enabled: TasksModel.completedTasks > 0
+        },
+        // file actions, only visible if default file location setting is off
+        Kirigami.Action {
+            separator: true
+            visible: !Config.defaultLocation
+            displayHint: Kirigami.DisplayHint.AlwaysHide
+        },
+        Kirigami.Action {
+            text: i18nc("@action:inmenu", "Save As...")
+            icon.name: "document-save-as"
+            visible: !Config.defaultLocation
+            displayHint: Kirigami.DisplayHint.AlwaysHide
+            onTriggered: saveDialog.open()
         },
         // global actions below; displayHint: AlwaysHide so they'll go in the overflow menu
         Kirigami.Action {
@@ -229,6 +244,30 @@ Kirigami.ScrollablePage {
             text: page.searching ? i18n("Nothing Found") : i18n("All tasks completed!")
             icon.name: page.searching ? "edit-none" : "checkmark"
             explanation: page.searching ? i18n("Your search did not match any results") : ""
+        }
+    }
+
+    footer: Kirigami.InlineMessage {
+        id: inlineMessage
+        Layout.fillWidth: true
+        position: Kirigami.InlineMessage.Position.Footer
+        showCloseButton: true
+    }
+
+    FileDialog {
+        id: saveDialog
+        defaultSuffix: "json"
+        fileMode: FileDialog.SaveFile
+        currentFolder: Config.url
+        nameFilters: [i18n("JSON files (*.json)")]
+        onAccepted: {
+            if (!TasksModel.saveAs(selectedFile)) {
+                inlineMessage.type = Kirigami.MessageType.Warning;
+                inlineMessage.text = i18nc("warning, could not save a file", "Could not save %1", selectedFile);
+                inlineMessage.visible = true;
+            } else {
+                inlineMessage.visible = false;
+            }
         }
     }
 }

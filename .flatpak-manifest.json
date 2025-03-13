@@ -12,6 +12,7 @@
         "--socket=fallback-x11",
         "--socket=wayland",
         "--device=dri",
+        "--system-talk-name=org.freedesktop.UDisks2",
         "--talk-name=org.kde.StatusNotifierWatcher"
     ],
     "separate-locales": false,
