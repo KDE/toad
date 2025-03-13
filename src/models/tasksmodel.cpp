@@ -131,6 +131,18 @@ void TasksModel::updatePath()
     loadTasks();
 }
 
+bool TasksModel::saveAs(const QUrl &url)
+{
+    QUrl old_url = m_url;
+    m_url = url;
+    if (!saveTasks()) {
+        m_url = old_url;
+        return false;
+    }
+    m_config->setUrl(m_url);
+    return true;
+}
+
 bool TasksModel::saveTasks() const
 {
     QFile outputFile(getPath(m_url));
@@ -144,13 +156,14 @@ bool TasksModel::saveTasks() const
         return task.toJson();
     });
 
-    qCDebug(TASKS_LOG) << "Wrote to file" << outputFile.fileName() << "(" << tasksArray.count() << "tasks" << ")";
-
     const QJsonDocument document(QJsonObject{
         {QLatin1String("tasks"), tasksArray},
     });
 
+    // truncate, since it seems that opening with Truncate on Android doesn't actually truncate the file?
+    outputFile.resize(0);
     outputFile.write(document.toJson());
+    qCDebug(TASKS_LOG) << "Wrote to file" << outputFile.fileName() << "(" << tasksArray.count() << "tasks" << ")";
 
     return true;
 }
