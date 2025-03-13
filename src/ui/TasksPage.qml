@@ -4,11 +4,13 @@
 
 import QtQuick
 import QtQuick.Controls as QQC2
+import QtQuick.Dialogs
 import QtQuick.Layouts
 import org.kde.kirigami as Kirigami
 import org.kde.kirigamiaddons.delegates as Delegates
 import org.kde.kitemmodels
 
+import org.kde.tasks.config
 import org.kde.tasks.models
 
 Kirigami.ScrollablePage {
@@ -56,6 +58,18 @@ Kirigami.ScrollablePage {
         Kirigami.Action {
             separator: true
             displayHint: Kirigami.DisplayHint.AlwaysHide
+        },
+        Kirigami.Action {
+            text: i18nc("menu", "File")
+            visible: !Config.defaultLocation
+            displayHint: Kirigami.DisplayHint.AlwaysHide
+            Kirigami.Action {
+                text: i18nc("@action:inmenu", "Save As...")
+                icon.name: "document-save-as"
+                shortcut: StandardKey.SaveAs
+                enabled: !Config.defaultLocation
+                onTriggered: saveDialog.open()
+            }
         },
         Kirigami.Action {
             text: i18nc("@action:inmenu", "Settings")
@@ -229,6 +243,30 @@ Kirigami.ScrollablePage {
             text: page.searching ? i18n("Nothing Found") : i18n("All tasks completed!")
             icon.name: page.searching ? "edit-none" : "checkmark"
             explanation: page.searching ? i18n("Your search did not match any results") : ""
+        }
+    }
+
+    footer: Kirigami.InlineMessage {
+        id: inlineMessage
+        Layout.fillWidth: true
+        position: Kirigami.InlineMessage.Position.Footer
+        showCloseButton: true
+    }
+
+    FileDialog {
+        id: saveDialog
+        defaultSuffix: "json"
+        fileMode: FileDialog.SaveFile
+        currentFolder: Config.url
+        nameFilters: [i18n("JSON files (*.json)")]
+        onAccepted: {
+            if (!TasksModel.saveAs(selectedFile)) {
+                inlineMessage.type = Kirigami.MessageType.Warning;
+                inlineMessage.text = i18nc("warning, could not save a file", "Could not save %1", selectedFile);
+                inlineMessage.visible = true;
+            } else {
+                inlineMessage.visible = false;
+            }
         }
     }
 }
