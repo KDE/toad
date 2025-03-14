@@ -37,6 +37,12 @@ FormCard.FormCardPage {
             contentItem: RowLayout {
                 QQC2.Button {
                     Layout.fillWidth: true
+                    text: i18n("New...")
+                    icon.name: "document-new"
+                    onClicked: newFileDialog.open()
+                }
+                QQC2.Button {
+                    Layout.fillWidth: true
                     text: i18n("Open...")
                     icon.name: "document-open"
                     onClicked: openDialog.open()
@@ -56,6 +62,23 @@ FormCard.FormCardPage {
         Layout.fillWidth: true
         position: Kirigami.InlineMessage.Position.Footer
         showCloseButton: true
+    }
+
+    FileDialog {
+        id: newFileDialog
+        defaultSuffix: "json"
+        fileMode: FileDialog.SaveFile
+        currentFolder: Config.url
+        nameFilters: [i18n("JSON files (*.json)")]
+        onAccepted: {
+            if (!TasksModel.newFile(selectedFile)) {
+                inlineMessage.type = Kirigami.MessageType.Warning;
+                inlineMessage.text = i18nc("warning, could not create a file", "Could not create %1", selectedFile);
+                inlineMessage.visible = true;
+            } else {
+                inlineMessage.visible = false;
+            }
+        }
     }
 
     FileDialog {

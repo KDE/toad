@@ -82,6 +82,7 @@ if (NOT ANDROID)
     )
 else()
     kirigami_package_breeze_icons(ICONS
+        document-new
         document-open
         document-save-as
         entry-edit
