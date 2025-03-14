@@ -131,6 +131,22 @@ void TasksModel::updatePath()
     loadTasks();
 }
 
+bool TasksModel::newFile(const QUrl &url)
+{
+    QFile f(url.isLocalFile() ? url.toLocalFile() : url.toString());
+    if (!f.open(QIODeviceBase::WriteOnly)) {
+        return false;
+    }
+    QUrl old_url = m_url;
+    m_url = url;
+    if (!loadTasks()) {
+        m_url = old_url;
+        return false;
+    }
+    m_config->setUrl(m_url);
+    return true;
+}
+
 bool TasksModel::open(const QUrl &url)
 {
     QUrl old_url = m_url;
