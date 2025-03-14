@@ -131,6 +131,18 @@ void TasksModel::updatePath()
     loadTasks();
 }
 
+bool TasksModel::open(const QUrl &url)
+{
+    QUrl old_url = m_url;
+    m_url = url;
+    if (!loadTasks()) {
+        m_url = old_url;
+        return false;
+    }
+    m_config->setUrl(m_url);
+    return true;
+}
+
 bool TasksModel::saveAs(const QUrl &url)
 {
     QUrl old_url = m_url;
@@ -195,5 +207,6 @@ bool TasksModel::loadTasks()
 
     endResetModel();
 
+    Q_EMIT completedTasksChanged();
     return true;
 }
