@@ -70,6 +70,13 @@ Kirigami.ScrollablePage {
                 enabled: !Config.defaultLocation
                 onTriggered: saveDialog.open()
             }
+            Kirigami.Action {
+                text: i18nc("@action:inmenu", "Open...")
+                icon.name: "document-open"
+                shortcut: StandardKey.Open
+                enabled: !Config.defaultLocation
+                onTriggered: openDialog.open()
+            }
         },
         Kirigami.Action {
             text: i18nc("@action:inmenu", "Settings")
@@ -251,6 +258,21 @@ Kirigami.ScrollablePage {
         Layout.fillWidth: true
         position: Kirigami.InlineMessage.Position.Footer
         showCloseButton: true
+    }
+
+    FileDialog {
+        id: openDialog
+        currentFolder: Config.url
+        nameFilters: [i18n("JSON files (*.json)")]
+        onAccepted: {
+            if (!TasksModel.open(selectedFile)) {
+                inlineMessage.type = Kirigami.MessageType.Warning;
+                inlineMessage.text = i18nc("warning, could not open a file", "Could not open %1", selectedFile);
+                inlineMessage.visible = true;
+            } else {
+                inlineMessage.visible = false;
+            }
+        }
     }
 
     FileDialog {
