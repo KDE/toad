@@ -37,6 +37,12 @@ FormCard.FormCardPage {
             contentItem: RowLayout {
                 QQC2.Button {
                     Layout.fillWidth: true
+                    text: i18n("Open...")
+                    icon.name: "document-open"
+                    onClicked: openDialog.open()
+                }
+                QQC2.Button {
+                    Layout.fillWidth: true
                     text: i18n("Save as...")
                     icon.name: "document-save-as"
                     onClicked: saveDialog.open()
@@ -50,6 +56,21 @@ FormCard.FormCardPage {
         Layout.fillWidth: true
         position: Kirigami.InlineMessage.Position.Footer
         showCloseButton: true
+    }
+
+    FileDialog {
+        id: openDialog
+        currentFolder: Config.url
+        nameFilters: [i18n("JSON files (*.json)")]
+        onAccepted: {
+            if (!TasksModel.open(selectedFile)) {
+                inlineMessage.type = Kirigami.MessageType.Warning;
+                inlineMessage.text = i18nc("warning, could not open a file", "Could not open %1", selectedFile);
+                inlineMessage.visible = true;
+            } else {
+                inlineMessage.visible = false;
+            }
+        }
     }
 
     FileDialog {
