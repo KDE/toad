@@ -61,6 +61,13 @@ Kirigami.ScrollablePage {
             displayHint: Kirigami.DisplayHint.AlwaysHide
         },
         Kirigami.Action {
+            text: i18n("New file...")
+            icon.name: "document-new"
+            visible: !Config.defaultLocation
+            displayHint: Kirigami.DisplayHint.AlwaysHide
+            onTriggered: newFileDialog.open()
+        },
+        Kirigami.Action {
             text: i18nc("@action:inmenu", "Open...")
             icon.name: "document-open"
             visible: !Config.defaultLocation
@@ -259,6 +266,23 @@ Kirigami.ScrollablePage {
         Layout.fillWidth: true
         position: Kirigami.InlineMessage.Position.Footer
         showCloseButton: true
+    }
+
+    FileDialog {
+        id: newFileDialog
+        defaultSuffix: "json"
+        fileMode: FileDialog.SaveFile
+        currentFolder: Config.url
+        nameFilters: [i18n("JSON files (*.json)")]
+        onAccepted: {
+            if (!TasksModel.newFile(selectedFile)) {
+                inlineMessage.type = Kirigami.MessageType.Warning;
+                inlineMessage.text = i18nc("warning, could not create a file", "Could not create %1", selectedFile);
+                inlineMessage.visible = true;
+            } else {
+                inlineMessage.visible = false;
+            }
+        }
     }
 
     FileDialog {
