@@ -130,14 +130,12 @@ msgstr "Přidat úlohu"
 #: src/ui/TasksPage.qml:41 src/ui/TasksPage.qml:42
 #, kde-format
 msgid "Search"
-msgstr ""
+msgstr "Hledat"
 
 #: src/ui/TasksPage.qml:49
-#, fuzzy, kde-format
-#| msgid "1 task completed"
-#| msgid_plural "%1 tasks completed"
+#, kde-format
 msgid "Clear Completed"
-msgstr "1 úloha dokončena"
+msgstr "Vyčistit dokončené"
 
 #: src/ui/TasksPage.qml:61
 #, kde-format
