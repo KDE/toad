@@ -132,6 +132,7 @@
     <p xml:lang="tr">Görevler, bir yapılacaklar uygulamasıdır. Görevler ekleyebilir, düzenleyebilir ve silebilirsiniz ve Görevler, değişikliklerinizi kendiliğinden kaydeder. Görevler, masaüstü ve taşınabilir aygıtlarda çalışır.</p>
     <p xml:lang="uk">«Завдання» є програмою для керування завданнями. Ви можете додавати, редагувати і вилучати записи завдань, і «Завдання» зберігатимуть внесені зміни автоматично. «Завдання» можуть працювати на робочих станціях і мобільних пристроях.</p>
     <p xml:lang="x-test">xxTasks is a to-do application. You can add, edit, and delete tasks and Tasks will save your changes automatically. Tasks works on desktop and mobile.xx</p>
+    <p xml:lang="zh-TW">Tasks 是一個待辦事項應用程式。它讓您新增、編輯或刪除工作項目，並且會自動儲存您的變更。Tasks 支援桌面和手機。</p>
   </description>
   <screenshots>
     <screenshot type="default">
