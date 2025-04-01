@@ -1,12 +1,16 @@
 // SPDX-FileCopyrightText: 2022 Felipe Kinoshita <kinofhek@gmail.com>
+// SPDX-FileCopyrightText: 2025 Mark Penner <mrp@markpenner.space>
 // SPDX-License-Identifier: LGPL-2.1-or-later
 
 #pragma once
 
+#include "config.h"
+#include "task.h"
+
 #include <QAbstractListModel>
 #include <QQmlEngine>
 
-#include "task.h"
+#include <memory>
 
 class TasksModel : public QAbstractListModel
 {
@@ -32,6 +36,10 @@ public:
     Q_INVOKABLE void remove(const QModelIndex &index);
     Q_INVOKABLE void clearCompleted();
 
+    // set location from a string: converts the string to a url and calls the setLocation that takes a url
+    Q_INVOKABLE bool setLocation(const QString &stringurl);
+    Q_INVOKABLE bool setLocation(const QUrl &url = QUrl());
+
     [[nodiscard]] int completedTasks() const
     {
         return std::count_if(m_tasks.constBegin(), m_tasks.constEnd(), [](const Task &t) {
@@ -46,4 +54,12 @@ protected:
 
 private:
     QList<Task> m_tasks;
+    QUrl m_url = QUrl();
+    std::unique_ptr<Config> m_config;
+
+    // helper function to convert URL to string
+    QString getPath(const QUrl &url) const
+    {
+        return url.isLocalFile() ? url.toLocalFile() : url.toString();
+    }
 };

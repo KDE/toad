@@ -58,6 +58,12 @@ Kirigami.ScrollablePage {
             displayHint: Kirigami.DisplayHint.AlwaysHide
         },
         Kirigami.Action {
+            text: i18nc("@action:inmenu", "Settings")
+            icon.name: "settings-configure"
+            displayHint: Kirigami.DisplayHint.AlwaysHide
+            onTriggered: pageStack.layers.push(Qt.resolvedUrl("SettingsPage.qml"))
+        },
+        Kirigami.Action {
             text: i18nc("@action:inmenu", "About Tasks")
             icon.name: "help-about"
             shortcut: StandardKey.HelpContents

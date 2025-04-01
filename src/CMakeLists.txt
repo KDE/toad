@@ -82,6 +82,7 @@ if (NOT ANDROID)
     )
 else()
     kirigami_package_breeze_icons(ICONS
+        document-open
         entry-edit
         entry-delete
         edit-none
@@ -95,6 +96,7 @@ else()
         license
         arrow-right
         list-add
+        settings-configure
     )
     ecm_add_android_apk(${CMAKE_PROJECT_NAME} ANDROID_DIR ${CMAKE_SOURCE_DIR}/android)
 endif()

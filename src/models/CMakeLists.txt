@@ -18,6 +18,7 @@ target_sources(models
 target_link_libraries(models
     PRIVATE
     Qt6::Core
+    config
     logging
 )
 
