@@ -1,12 +1,14 @@
 // SPDX-FileCopyrightText: 2022 Felipe Kinoshita <kinofhek@gmail.com>
 // SPDX-License-Identifier: LGPL-2.1-or-later
 
+#include "config.h"
+#include "version-tasks.h"
+
 #include <QIcon>
 #include <QQuickStyle>
 #include <QQuickWindow>
 #include <QtQml>
 
-#include "version-tasks.h"
 #include <KAboutData>
 #include <KLocalizedQmlContext>
 #include <KLocalizedString>
@@ -84,6 +86,12 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
         }
     });
 #endif
+
+    QObject::connect(&app, &QCoreApplication::aboutToQuit, Config::self(), &Config::save);
+    QObject::connect(&app, &QGuiApplication::applicationStateChanged, Config::self(), [](Qt::ApplicationState state) {
+        if (state == Qt::ApplicationSuspended)
+            Config::self()->save();
+    });
 
     return app.exec();
 }
