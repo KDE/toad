@@ -1,7 +1,10 @@
 // SPDX-FileCopyrightText: 2022 Felipe Kinoshita <kinofhek@gmail.com>
+// SPDX-FileCopyrightText: 2025 Mark Penner <mrp@markpenner.space>
 // SPDX-License-Identifier: LGPL-2.1-or-later
 
 #include "tasksmodel.h"
+
+#include "config.h"
 #include "tasks_debug.h"
 
 #include <QDir>
@@ -14,8 +17,9 @@
 
 TasksModel::TasksModel(QObject *parent)
     : QAbstractListModel(parent)
+    , m_config(Config::self())
 {
-    loadTasks();
+    updatePath();
 }
 
 QHash<int, QByteArray> TasksModel::roleNames() const
@@ -113,17 +117,26 @@ void TasksModel::clearCompleted()
     saveTasks();
 }
 
+void TasksModel::updatePath()
+{
+    if (m_config->defaultLocation() || m_config->url().isEmpty()) {
+        // use default location
+        QString outputDir = QStandardPaths::writableLocation(QStandardPaths::AppDataLocation);
+        QDir(outputDir).mkpath(QStringLiteral("."));
+        m_url = QUrl::fromLocalFile(outputDir + QStringLiteral("/tasks.json"));
+        m_config->setUrl(m_url);
+    } else {
+        m_url = m_config->url();
+    }
+    loadTasks();
+}
+
 bool TasksModel::saveTasks() const
 {
-    const QString outputDir = QStandardPaths::writableLocation(QStandardPaths::AppDataLocation);
-
-    QFile outputFile(outputDir + QStringLiteral("/tasks.json"));
-    if (!QDir(outputDir).mkpath(QStringLiteral("."))) {
-        qCWarning(TASKS_LOG) << "Destdir doesn't exist and I can't create it: " << outputDir;
-        return false;
-    }
+    QFile outputFile(getPath(m_url));
     if (!outputFile.open(QIODevice::WriteOnly)) {
-        qCWarning(TASKS_LOG) << "Failed to write tabs to disk";
+        qCWarning(TASKS_LOG) << "Failed to write to" << outputFile.fileName();
+        return false;
     }
 
     QJsonArray tasksArray;
@@ -146,15 +159,14 @@ bool TasksModel::loadTasks()
 {
     beginResetModel();
 
-    const QString input = QStandardPaths::writableLocation(QStandardPaths::AppDataLocation) + QStringLiteral("/tasks.json");
-
-    QFile inputFile(input);
+    QFile inputFile(getPath(m_url));
     if (!inputFile.exists()) {
         return false;
     }
 
     if (!inputFile.open(QIODevice::ReadOnly)) {
-        qCWarning(TASKS_LOG) << "Failed to load tabs from disk";
+        qCWarning(TASKS_LOG) << "Failed to read from" << inputFile.fileName();
+        return false;
     }
 
     const auto tasksStorage = QJsonDocument::fromJson(inputFile.readAll()).object();
@@ -166,7 +178,7 @@ bool TasksModel::loadTasks()
         return Task::fromJson(task.toObject());
     });
 
-    qCDebug(TASKS_LOG) << "loaded from file:" << m_tasks.count() << input;
+    qCDebug(TASKS_LOG) << "loaded from file:" << m_tasks.count() << getPath(m_url);
 
     endResetModel();
 

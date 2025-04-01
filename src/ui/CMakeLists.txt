@@ -15,6 +15,7 @@ ecm_add_qml_module(ui
 ecm_target_qml_sources(ui
     SOURCES
     GlobalMenu.qml
+    SettingsPage.qml
     TasksPage.qml
     Tray.qml
 )
