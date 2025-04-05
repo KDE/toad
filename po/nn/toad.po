@@ -81,8 +81,6 @@ msgstr "Rediger"
 
 #: src/ui/GlobalMenu.qml:29
 #, fuzzy, kde-format
-#| msgid "1 task completed"
-#| msgid_plural "%1 tasks completed"
 msgctxt "@menu-action"
 msgid "Clear Completed"
 msgstr "1 ferdig gjeremål"
@@ -114,8 +112,6 @@ msgstr[1] "%1 resultat"
 
 #: src/ui/TasksPage.qml:20
 #, fuzzy, kde-format
-#| msgid "1 task"
-#| msgid_plural "%1 tasks"
 msgid "%2/1 task"
 msgid_plural "%2/%1 tasks"
 msgstr[0] "1 oppgåve"
@@ -133,8 +129,6 @@ msgstr "Søk"
 
 #: src/ui/TasksPage.qml:49
 #, fuzzy, kde-format
-#| msgid "1 task completed"
-#| msgid_plural "%1 tasks completed"
 msgid "Clear Completed"
 msgstr "1 ferdig gjeremål"
 
