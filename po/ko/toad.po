@@ -1,13 +1,13 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the toad package.
-# SPDX-FileCopyrightText: 2022, 2023, 2024 Shinjo Park <kde@peremen.name>
+# SPDX-FileCopyrightText: 2022, 2023, 2024, 2025 Shinjo Park <kde@peremen.name>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: toad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-02-26 00:45+0000\n"
-"PO-Revision-Date: 2024-12-24 19:15+0100\n"
+"PO-Revision-Date: 2025-04-07 00:36+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
 "Language: ko\n"
@@ -79,12 +79,10 @@ msgid "Edit"
 msgstr "편집"
 
 #: src/ui/GlobalMenu.qml:29
-#, fuzzy, kde-format
-#| msgid "1 task completed"
-#| msgid_plural "%1 tasks completed"
+#, kde-format
 msgctxt "@menu-action"
 msgid "Clear Completed"
-msgstr "할 일 %1개 완료함"
+msgstr "완료된 항목 지우기"
 
 #: src/ui/GlobalMenu.qml:37
 #, kde-format
@@ -111,12 +109,10 @@ msgid_plural "%1 results"
 msgstr[0] "결과 %1개"
 
 #: src/ui/TasksPage.qml:20
-#, fuzzy, kde-format
-#| msgid "1 task"
-#| msgid_plural "%1 tasks"
+#, kde-format
 msgid "%2/1 task"
 msgid_plural "%2/%1 tasks"
-msgstr[0] "할 일 %1개"
+msgstr[0] "할 일 %2/%1개"
 
 #: src/ui/TasksPage.qml:29
 #, kde-format
@@ -129,11 +125,9 @@ msgid "Search"
 msgstr "검색"
 
 #: src/ui/TasksPage.qml:49
-#, fuzzy, kde-format
-#| msgid "1 task completed"
-#| msgid_plural "%1 tasks completed"
+#, kde-format
 msgid "Clear Completed"
-msgstr "할 일 %1개 완료함"
+msgstr "완료된 항목 지우기"
 
 #: src/ui/TasksPage.qml:61
 #, kde-format
