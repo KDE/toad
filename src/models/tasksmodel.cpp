@@ -19,6 +19,11 @@ TasksModel::TasksModel(QObject *parent)
     : QAbstractListModel(parent)
     , m_config(Config::self())
 {
+#ifndef Q_OS_ANDROID
+    m_watcher = std::make_unique<KDirWatch>(this);
+    connect(m_watcher.get(), &KDirWatch::dirty, this, &TasksModel::loadTasks);
+    connect(m_watcher.get(), &KDirWatch::created, this, &TasksModel::loadTasks);
+#endif
     updatePath();
 }
 
@@ -119,6 +124,11 @@ void TasksModel::clearCompleted()
 
 void TasksModel::updatePath()
 {
+#ifndef Q_OS_ANDROID
+    if (!m_url.isEmpty()) {
+        m_watcher->removeFile(getPath(m_url));
+    }
+#endif
     if (m_config->defaultLocation() || m_config->url().isEmpty()) {
         // use default location
         QString outputDir = QStandardPaths::writableLocation(QStandardPaths::AppDataLocation);
@@ -128,6 +138,9 @@ void TasksModel::updatePath()
     } else {
         m_url = m_config->url();
     }
+#ifndef Q_OS_ANDROID
+    m_watcher->addFile(getPath(m_url));
+#endif
     loadTasks();
 }
 
@@ -143,6 +156,10 @@ bool TasksModel::newFile(const QUrl &url)
         m_url = old_url;
         return false;
     }
+#ifndef Q_OS_ANDROID
+    m_watcher->removeFile(getPath(old_url));
+    m_watcher->addFile(getPath(m_url));
+#endif
     m_config->setUrl(m_url);
     return true;
 }
@@ -155,6 +172,10 @@ bool TasksModel::open(const QUrl &url)
         m_url = old_url;
         return false;
     }
+#ifndef Q_OS_ANDROID
+    m_watcher->removeFile(getPath(old_url));
+    m_watcher->addFile(getPath(m_url));
+#endif
     m_config->setUrl(m_url);
     return true;
 }
@@ -167,6 +188,10 @@ bool TasksModel::saveAs(const QUrl &url)
         m_url = old_url;
         return false;
     }
+#ifndef Q_OS_ANDROID
+    m_watcher->removeFile(getPath(old_url));
+    m_watcher->addFile(getPath(m_url));
+#endif
     m_config->setUrl(m_url);
     return true;
 }

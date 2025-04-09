@@ -21,6 +21,9 @@ target_link_libraries(models
     config
     logging
 )
+if (NOT ANDROID)
+    target_link_libraries(models PRIVATE KF6::CoreAddons)
+endif()
 
 ecm_finalize_qml_module(models)
 
