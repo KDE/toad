@@ -20,6 +20,11 @@ TasksModel::TasksModel(QObject *parent)
     : QAbstractListModel(parent)
     , m_config(Config::self())
 {
+#ifndef Q_OS_ANDROID
+    m_watcher = std::make_unique<KDirWatch>(this);
+    connect(m_watcher.get(), &KDirWatch::dirty, this, &TasksModel::loadTasks);
+    connect(m_watcher.get(), &KDirWatch::created, this, &TasksModel::loadTasks);
+#endif
     setLocation();
 }
 
@@ -173,6 +178,10 @@ bool TasksModel::setLocation(const QUrl &url)
     if (m_url != oldurl) {
         loadTasks();
         m_config->setLocation(m_url.adjusted(QUrl::RemoveFilename | QUrl::StripTrailingSlash));
+#ifndef Q_OS_ANDROID
+        m_watcher->removeFile(getPath(oldurl));
+        m_watcher->addFile(getPath(m_url));
+#endif
     }
     return true;
 }

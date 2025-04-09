@@ -7,6 +7,10 @@
 #include "config.h"
 #include "task.h"
 
+#ifndef Q_OS_ANDROID
+#include <KDirWatch>
+#endif
+
 #include <QAbstractListModel>
 #include <QQmlEngine>
 
@@ -56,6 +60,9 @@ private:
     QList<Task> m_tasks;
     QUrl m_url = QUrl();
     std::unique_ptr<Config> m_config;
+#ifndef Q_OS_ANDROID
+    std::unique_ptr<KDirWatch> m_watcher;
+#endif
 
     // helper function to convert URL to string
     QString getPath(const QUrl &url) const
