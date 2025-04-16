@@ -9,7 +9,7 @@ string(TOUPPER ${CMAKE_PROJECT_NAME} CMAKE_PROJECT_NAME_UPPERCASE)
 include(FeatureSummary)
 
 set(QT_MIN_VERSION 6.6)
-set(KF_MIN_VERSION 6.8)
+set(KF_MIN_VERSION 6.12)
 
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -45,8 +45,6 @@ if (NOT ANDROID)
     find_package(Qt6 ${QT_MIN_VERSION} REQUIRED COMPONENTS Widgets)
     find_package(KF6 ${KF_MIN_VERSION} REQUIRED COMPONENTS DBusAddons WindowSystem QQC2DesktopStyle)
     set_package_properties(KF6QQC2DesktopStyle PROPERTIES TYPE RUNTIME)
-else()
-    configure_file(${CMAKE_CURRENT_SOURCE_DIR}/android/version.gradle.in ${CMAKE_BINARY_DIR}/version.gradle)
 endif()
 
 ecm_set_disabled_deprecation_versions(QT ${QT_MIN_VERSION} KF ${KF_MIN_VERSION})
