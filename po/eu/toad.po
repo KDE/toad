@@ -1,16 +1,16 @@
 # Translation for toad.po to Euskara/Basque (eu).
-# Copyright (C) 2023-2024 This file is copyright:
+# Copyright (C) 2023-2025 This file is copyright:
 # This file is distributed under the same license as the toad package.
-# SPDX-FileCopyrightText: 2024 KDE euskaratzeko proiektuko arduraduna <xalba@ni.eus>
+# SPDX-FileCopyrightText: 2023, 2024, 2025 KDE euskaratzeko proiektuko arduraduna <xalba@ni.eus>
 #
 # Translators:
-# SPDX-FileCopyrightText: 2023 Iñigo Salvador Azurmendi <xalba@ni.eus>
+# Iñigo Salvador Azurmendi <xalba@ni.eus>, 2023, 2024, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: toad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-02-26 00:45+0000\n"
-"PO-Revision-Date: 2024-12-15 11:04+0100\n"
+"PO-Revision-Date: 2025-04-23 00:00+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 24.12.0\n"
+"X-Generator: Lokalize 25.04.0\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -82,12 +82,10 @@ msgid "Edit"
 msgstr "Editatu"
 
 #: src/ui/GlobalMenu.qml:29
-#, fuzzy, kde-format
-#| msgid "1 task completed"
-#| msgid_plural "%1 tasks completed"
+#, kde-format
 msgctxt "@menu-action"
 msgid "Clear Completed"
-msgstr "Ataza 1 osatuta"
+msgstr "Garbitu burututakoak"
 
 #: src/ui/GlobalMenu.qml:37
 #, kde-format
@@ -115,13 +113,11 @@ msgstr[0] "Emaitza 1"
 msgstr[1] "%1 emaitza"
 
 #: src/ui/TasksPage.qml:20
-#, fuzzy, kde-format
-#| msgid "1 task"
-#| msgid_plural "%1 tasks"
+#, kde-format
 msgid "%2/1 task"
 msgid_plural "%2/%1 tasks"
-msgstr[0] "Ataza 1"
-msgstr[1] "%1 ataza"
+msgstr[0] "%2/1 ataza"
+msgstr[1] "%2/%1 ataza"
 
 #: src/ui/TasksPage.qml:29
 #, kde-format
@@ -134,11 +130,9 @@ msgid "Search"
 msgstr "Bilatu"
 
 #: src/ui/TasksPage.qml:49
-#, fuzzy, kde-format
-#| msgid "1 task completed"
-#| msgid_plural "%1 tasks completed"
+#, kde-format
 msgid "Clear Completed"
-msgstr "Ataza 1 osatuta"
+msgstr "Garbitu burututakoak"
 
 #: src/ui/TasksPage.qml:61
 #, kde-format
@@ -166,7 +160,7 @@ msgstr "Ez da ezer aurkitu"
 #: src/ui/TasksPage.qml:223
 #, kde-format
 msgid "All tasks completed!"
-msgstr "Ataza guztiak osatuta!"
+msgstr "Ataza guztiak burutu dira!"
 
 #: src/ui/TasksPage.qml:225
 #, kde-format
