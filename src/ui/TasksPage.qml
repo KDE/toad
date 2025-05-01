@@ -19,7 +19,14 @@ Kirigami.ScrollablePage {
     property bool searching: searchField.length
     property string currentSearchText: searchField.text
 
-    title: page.searching ? i18np("1 result", "%1 results", list.count) : i18np("%2/1 task", "%2/%1 tasks", list.count, TasksModel.completedTasks)
+    title: {
+        if (page.searching) {
+            return i18np("1 result", "%1 results", list.count);
+        } else {
+            return i18nc("ratio of completed items to total", "%1/%2 completed", TasksModel.completedTasks, list.count) + " — " + TasksModel.name;
+        }
+    }
+
 
     header: Kirigami.SearchField {
         id: searchField
