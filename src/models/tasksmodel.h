@@ -12,6 +12,7 @@
 #endif
 
 #include <QAbstractListModel>
+#include <QFileInfo>
 #include <QQmlEngine>
 
 #include <memory>
@@ -22,6 +23,7 @@ class TasksModel : public QAbstractListModel
     QML_ELEMENT
     QML_SINGLETON
     Q_PROPERTY(int completedTasks READ completedTasks NOTIFY completedTasksChanged)
+    Q_PROPERTY(QString name READ getName NOTIFY nameChanged)
 
 public:
     enum Roles {
@@ -52,6 +54,11 @@ public:
         });
     }
     Q_SIGNAL void completedTasksChanged();
+    QString getName() const
+    {
+        return QFileInfo(getPath(m_url)).baseName();
+    }
+    Q_SIGNAL void nameChanged();
 
 protected:
     bool saveTasks() const;
