@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: toad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-02-26 00:45+0000\n"
-"PO-Revision-Date: 2025-02-04 21:38+0100\n"
+"PO-Revision-Date: 2025-05-04 22:17+0200\n"
 "Last-Translator: Kristof Kiszel <ulysses@fsf.hu>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
 "Language: hu\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 24.12.1\n"
+"X-Generator: Lokalize 25.04.0\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -79,12 +79,10 @@ msgid "Edit"
 msgstr "Szerkesztés"
 
 #: src/ui/GlobalMenu.qml:29
-#, fuzzy, kde-format
-#| msgid "1 task completed"
-#| msgid_plural "%1 tasks completed"
+#, kde-format
 msgctxt "@menu-action"
 msgid "Clear Completed"
-msgstr "1 feladat befejezve"
+msgstr "Törlés befejezve"
 
 #: src/ui/GlobalMenu.qml:37
 #, kde-format
@@ -112,13 +110,11 @@ msgstr[0] "1 találat"
 msgstr[1] "%1 találat"
 
 #: src/ui/TasksPage.qml:20
-#, fuzzy, kde-format
-#| msgid "1 task"
-#| msgid_plural "%1 tasks"
+#, kde-format
 msgid "%2/1 task"
 msgid_plural "%2/%1 tasks"
-msgstr[0] "1 feladat"
-msgstr[1] "%1 feladat"
+msgstr[0] "%2/1 feladat"
+msgstr[1] "%2/%1 feladat"
 
 #: src/ui/TasksPage.qml:29
 #, kde-format
@@ -131,11 +127,9 @@ msgid "Search"
 msgstr "Keresés"
 
 #: src/ui/TasksPage.qml:49
-#, fuzzy, kde-format
-#| msgid "1 task completed"
-#| msgid_plural "%1 tasks completed"
+#, kde-format
 msgid "Clear Completed"
-msgstr "1 feladat befejezve"
+msgstr "Törlés befejezve"
 
 #: src/ui/TasksPage.qml:61
 #, kde-format
