@@ -79,12 +79,10 @@ msgid "Edit"
 msgstr "Upravit"
 
 #: src/ui/GlobalMenu.qml:29
-#, fuzzy, kde-format
-#| msgid "1 task completed"
-#| msgid_plural "%1 tasks completed"
+#, kde-format
 msgctxt "@menu-action"
 msgid "Clear Completed"
-msgstr "1 úloha dokončena"
+msgstr ""
 
 #: src/ui/GlobalMenu.qml:37
 #, kde-format
@@ -113,14 +111,12 @@ msgstr[1] "%1 výsledky"
 msgstr[2] "%1 výsledků"
 
 #: src/ui/TasksPage.qml:20
-#, fuzzy, kde-format
-#| msgid "1 task"
-#| msgid_plural "%1 tasks"
+#, kde-format
 msgid "%2/1 task"
 msgid_plural "%2/%1 tasks"
-msgstr[0] "1 úloha"
-msgstr[1] "%1 úlohy"
-msgstr[2] "%1 úloh"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
 
 #: src/ui/TasksPage.qml:29
 #, kde-format
@@ -169,9 +165,3 @@ msgstr ""
 #, kde-format
 msgid "Your search did not match any results"
 msgstr ""
-
-#~ msgid "Menu"
-#~ msgstr "Nabídka"
-
-#~ msgid "Clear All"
-#~ msgstr "Vyprázdnit vše"
