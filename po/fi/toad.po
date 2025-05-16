@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: toad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-02-26 00:45+0000\n"
-"PO-Revision-Date: 2025-02-04 19:21+0200\n"
+"PO-Revision-Date: 2025-04-08 21:06+0300\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
 "Language: fi\n"
@@ -79,12 +79,10 @@ msgid "Edit"
 msgstr "Muokkaa"
 
 #: src/ui/GlobalMenu.qml:29
-#, fuzzy, kde-format
-#| msgid "1 task completed"
-#| msgid_plural "%1 tasks completed"
+#, kde-format
 msgctxt "@menu-action"
 msgid "Clear Completed"
-msgstr "1 tehtävä valmis"
+msgstr "Tyhjennä valmistuneet"
 
 #: src/ui/GlobalMenu.qml:37
 #, kde-format
@@ -112,13 +110,11 @@ msgstr[0] "1 tulos"
 msgstr[1] "%1 tulosta"
 
 #: src/ui/TasksPage.qml:20
-#, fuzzy, kde-format
-#| msgid "1 task"
-#| msgid_plural "%1 tasks"
+#, kde-format
 msgid "%2/1 task"
 msgid_plural "%2/%1 tasks"
-msgstr[0] "1 tehtävä"
-msgstr[1] "%1 tehtävää"
+msgstr[0] "%2/1 tehtävä"
+msgstr[1] "%2/%1 tehtävää"
 
 #: src/ui/TasksPage.qml:29
 #, kde-format
@@ -131,11 +127,9 @@ msgid "Search"
 msgstr "Etsi"
 
 #: src/ui/TasksPage.qml:49
-#, fuzzy, kde-format
-#| msgid "1 task completed"
-#| msgid_plural "%1 tasks completed"
+#, kde-format
 msgid "Clear Completed"
-msgstr "1 tehtävä valmis"
+msgstr "Tyhjennä valmistuneet"
 
 #: src/ui/TasksPage.qml:61
 #, kde-format
