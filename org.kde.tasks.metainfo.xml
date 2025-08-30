@@ -32,6 +32,7 @@
   <name xml:lang="pa">ਟਾਸਕ</name>
   <name xml:lang="pl">Tasks</name>
   <name xml:lang="pt">Tarefas</name>
+  <name xml:lang="pt-BR">Tarefas</name>
   <name xml:lang="sa">कार्याणि</name>
   <name xml:lang="sk">Úlohy</name>
   <name xml:lang="sl">Tasks</name>
@@ -67,6 +68,7 @@
   <summary xml:lang="pa">ਆਪਣੇ ਕੰਮਾਂ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰੋ</summary>
   <summary xml:lang="pl">Uporządkuj swoje zadania</summary>
   <summary xml:lang="pt">Organizar as suas tarefas</summary>
+  <summary xml:lang="pt-BR">Organize suas tarefas</summary>
   <summary xml:lang="sa">कार्याणि व्यवस्थितं कुर्वन्तु</summary>
   <summary xml:lang="sl">Organizira vaša opravila</summary>
   <summary xml:lang="sv">Organisera dina uppgifter</summary>
@@ -102,6 +104,7 @@
   <developer_name xml:lang="pa">ਕੇਡੀਈ ਕਮਿਊਨਟੀ, ਫਿਲੀਪੇ ਕਿਨੋਸ਼ੀਟਾ</developer_name>
   <developer_name xml:lang="pl">Społeczność KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="pt">Comunidade do KDE, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="pt-BR">Comunidade KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="sa">केडीई समुदाय, फेलिप किनोशिता</developer_name>
   <developer_name xml:lang="sk">KDE komunita, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="sl">Skupnost KDE, Felipe Kinoshita</developer_name>
@@ -131,6 +134,7 @@
     <p xml:lang="lv">„Tasks“ ir uzdevumu plānošanas programma. Tā ļauj pievienot, rediģēt un dzēst uzdevumus. Visas izmaiņas automātiski saglabājas. „Tasks“ darbojas gan datoros, gan mobilajās ierīcēs.</p>
     <p xml:lang="nl">Taken is een toepassing voor een te-doen. U kunt taken toevoegen, bewerken en verwijderen en Taken zal uw wijzigingen automatisch opslaan. Taken werkt op het bureaublad en op mobiel.</p>
     <p xml:lang="pl">Tasks to aplikacja rejestrująca zadania do zrobienia. Możesz dodawać, edytować oraz usuwać zadania , a Tasks sam będzie je zapisywał w tle. Tasks działa na urządzeniach zarówno biurkowych jak i przenośnych.</p>
+    <p xml:lang="pt-BR">O Tasks é um aplicativo de tarefas. Você pode adicionar, editar e excluir tarefas, e o Tasks salvará suas alterações automaticamente. O Tasks funciona em computadores e dispositivos móveis.</p>
     <p xml:lang="sl">Tasks je aplikacija za opravila. Opravila lahko dodajate, urejate in brišete, Tasks pa bo vaše spremembe samodejno shranila. Tasks deluje na namizju in mobilni napravi.</p>
     <p xml:lang="sv">Uppgifter är ett enkelt uppgiftsprogram. Du kan lägga till, redigera och ta bort uppgifter, så sparar Uppgifter automatiskt ändringarna. Uppgifter fungerar på skrivbordet och på mobilen.</p>
     <p xml:lang="tr">Görevler, bir yapılacaklar uygulamasıdır. Görevler ekleyebilir, düzenleyebilir ve silebilirsiniz ve Görevler, değişikliklerinizi kendiliğinden kaydeder. Görevler, masaüstü ve taşınabilir aygıtlarda çalışır.</p>
@@ -167,6 +171,7 @@
       <caption xml:lang="pa">ਟਾਸਕ ਸੂਚੀ</caption>
       <caption xml:lang="pl">Lista zadań</caption>
       <caption xml:lang="pt">Lista de tarefas</caption>
+      <caption xml:lang="pt-BR">Lista de tarefas</caption>
       <caption xml:lang="ru">Список задач</caption>
       <caption xml:lang="sa">कार्यसूची</caption>
       <caption xml:lang="sl">Seznam opravil</caption>
@@ -205,6 +210,7 @@
       <caption xml:lang="pa">ਖਾਲੀ ਸੂਚੀ</caption>
       <caption xml:lang="pl">Pusta lista</caption>
       <caption xml:lang="pt">Lista vazia</caption>
+      <caption xml:lang="pt-BR">Lista vazia</caption>
       <caption xml:lang="sa">रिक्तसूची</caption>
       <caption xml:lang="sl">Prazen seznam</caption>
       <caption xml:lang="sv">Tom lista</caption>
