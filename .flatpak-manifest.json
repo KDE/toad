@@ -17,7 +17,6 @@
         "--talk-name=org.kde.StatusNotifierWatcher"
     ],
     "separate-locales": false,
-
     "modules": [
         {
             "name": "kirigami-addons",
