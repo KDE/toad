@@ -9,11 +9,11 @@
     ],
     "desktop-file-name-suffix": " (Nightly)",
     "finish-args": [
+        "--device=dri",
         "--share=ipc",
         "--share=network",
         "--socket=fallback-x11",
         "--socket=wayland",
-        "--device=dri",
         "--talk-name=org.kde.StatusNotifierWatcher"
     ],
     "separate-locales": false,
