@@ -140,7 +140,7 @@ msgstr "À propos des tâches"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Enable tray icon"
-msgstr "Activer l'icône de la boîte à miniatures"
+msgstr "Activer l'icône de la boite à miniatures"
 
 #: src/ui/TasksPage.qml:76
 #, kde-format
