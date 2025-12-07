@@ -8,15 +8,16 @@ msgstr ""
 "Project-Id-Version: toad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 11:55+0000\n"
-"PO-Revision-Date: 2025-01-18 12:08+0100\n"
+"PO-Revision-Date: 2025-12-06 15:53+0100\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
-"Language-Team: Polish <kde-i18n-doc@kde.org>\n"
+"Language-Team: pl\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 25.08.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -80,12 +81,10 @@ msgid "Edit"
 msgstr "Edytuj"
 
 #: src/ui/GlobalMenu.qml:29
-#, fuzzy, kde-format
-#| msgid "1 task completed"
-#| msgid_plural "%1 tasks completed"
+#, kde-format
 msgctxt "@menu-action"
 msgid "Clear Completed"
-msgstr "Ukończono 1 zadanie"
+msgstr "Ukończono czyszczenie"
 
 #: src/ui/GlobalMenu.qml:37
 #, kde-format
@@ -114,14 +113,12 @@ msgstr[1] "%1 wyniki"
 msgstr[2] "%1 wyników"
 
 #: src/ui/TasksPage.qml:20
-#, fuzzy, kde-format
-#| msgid "1 task"
-#| msgid_plural "%1 tasks"
+#, kde-format
 msgid "%2/1 task"
 msgid_plural "%2/%1 tasks"
-msgstr[0] "1 zadanie"
-msgstr[1] "%1 zadania"
-msgstr[2] "%1 zadań"
+msgstr[0] "%2/1 zadania"
+msgstr[1] "%2/%1 zadań"
+msgstr[2] "%2/%1 zadań"
 
 #: src/ui/TasksPage.qml:29
 #, kde-format
@@ -134,11 +131,9 @@ msgid "Search"
 msgstr "Szukaj"
 
 #: src/ui/TasksPage.qml:49
-#, fuzzy, kde-format
-#| msgid "1 task completed"
-#| msgid_plural "%1 tasks completed"
+#, kde-format
 msgid "Clear Completed"
-msgstr "Ukończono 1 zadanie"
+msgstr "Wyczyść ukończone"
 
 #: src/ui/TasksPage.qml:61
 #, kde-format
