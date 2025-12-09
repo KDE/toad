@@ -1,15 +1,15 @@
 # Spanish translations for toad.po package.
 # Copyright (C) 2022-2025 This file is copyright:
 # This file is distributed under the same license as the toad package.
-#
 # Automatically generated, 2022.
+#
 # SPDX-FileCopyrightText: 2022, 2024, 2025 Eloy Cuadra <ecuadra@eloihr.net>
 msgid ""
 msgstr ""
 "Project-Id-Version: toad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 11:55+0000\n"
-"PO-Revision-Date: 2025-02-27 00:27+0100\n"
+"PO-Revision-Date: 2025-12-08 11:57+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -165,25 +165,3 @@ msgstr "Se han completado todas las tareas."
 #, kde-format
 msgid "Your search did not match any results"
 msgstr "La búsqueda no ha generado ningún resultado"
-
-#~ msgctxt "@menu-action"
-#~ msgid "Clear Tasks"
-#~ msgstr "Borrar las tareas"
-
-#~ msgid "Menu"
-#~ msgstr "Menú"
-
-#~ msgid "Clear All"
-#~ msgstr "Borrar todo"
-
-#~ msgid ""
-#~ "Add some more by typing in the text field at the bottom of the window"
-#~ msgstr ""
-#~ "Añada algo más escribiendo en el campo de texto de la parte inferior de "
-#~ "la ventana"
-
-#~ msgid "Type the new task's title here…"
-#~ msgstr "Escriba aquí el título de la nueva tarea..."
-
-#~ msgid "Simple task list"
-#~ msgstr "Lista de tareas sencilla"
