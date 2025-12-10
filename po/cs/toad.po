@@ -1,13 +1,13 @@
-# Copyright (C) YEAR This file is copyright:
+# Copyright (C) 2025 This file is copyright:
 # This file is distributed under the same license as the toad package.
-# Vit Pelcak <vit@pelcak.org>, 2022.
+# SPDX-FileCopyrightText: 2022, 2025 Vit Pelcak <vit@pelcak.org>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: toad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 11:55+0000\n"
-"PO-Revision-Date: 2022-10-26 11:19+0200\n"
+"PO-Revision-Date: 2025-12-01 14:25+0100\n"
 "Last-Translator: Vit Pelcak <vit@pelcak.org>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Lokalize 22.08.2\n"
+"X-Generator: Lokalize 25.08.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -82,7 +82,7 @@ msgstr "Upravit"
 #, kde-format
 msgctxt "@menu-action"
 msgid "Clear Completed"
-msgstr ""
+msgstr "Vyčistit dokončené"
 
 #: src/ui/GlobalMenu.qml:37
 #, kde-format
@@ -114,9 +114,9 @@ msgstr[2] "%1 výsledků"
 #, kde-format
 msgid "%2/1 task"
 msgid_plural "%2/%1 tasks"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%2/1 úloha"
+msgstr[1] "%2/%1 úlohy"
+msgstr[2] "%2/%1 úloh"
 
 #: src/ui/TasksPage.qml:29
 #, kde-format
@@ -137,13 +137,13 @@ msgstr "Vyčistit dokončené"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About Tasks"
-msgstr ""
+msgstr "O úlohách"
 
 #: src/ui/TasksPage.qml:69
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Enable tray icon"
-msgstr ""
+msgstr "Povolit ikonu v systémové části panelu"
 
 #: src/ui/TasksPage.qml:76
 #, kde-format
