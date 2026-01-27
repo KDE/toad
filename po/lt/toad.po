@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: toad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 11:55+0000\n"
-"PO-Revision-Date: 2022-11-11 00:50+0000\n"
+"PO-Revision-Date: 2026-01-26 14:07+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: lt\n"
@@ -17,153 +17,155 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n%10>=2 && (n%100<10 || n"
 "%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3);\n"
+"X-Generator: Poedit 3.8\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr ""
+msgstr "Moo"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr ""
+msgstr "<>"
 
 #: src/main.cpp:44
 #, kde-format
 msgctxt "@title"
 msgid "Tasks"
-msgstr ""
+msgstr "Užduotys"
 
 #: src/main.cpp:48
 #, kde-format
 msgid "Organize your tasks"
-msgstr ""
+msgstr "Tvarkyti užduotis"
 
 #: src/main.cpp:52
 #, kde-format
 msgid "© 2022 Felipe Kinoshita"
-msgstr ""
+msgstr "© 2022 Felipe Kinoshita"
 
 #: src/main.cpp:53
 #, kde-format
 msgctxt "@info:credit"
 msgid "Felipe Kinoshita"
-msgstr ""
+msgstr "Felipe Kinoshita"
 
 #: src/main.cpp:54
 #, kde-format
 msgctxt "@info:credit"
 msgid "Author"
-msgstr ""
+msgstr "Autorius"
 
 #: src/Main.qml:15
 #, kde-format
 msgid "Tasks"
-msgstr ""
+msgstr "Užduotys"
 
 #: src/ui/GlobalMenu.qml:16
 #, kde-format
 msgctxt "@menu"
 msgid "File"
-msgstr ""
+msgstr "Failas"
 
 #: src/ui/GlobalMenu.qml:19
 #, kde-format
 msgctxt "@menu-action"
 msgid "Quit"
-msgstr ""
+msgstr "Išjungti"
 
 #: src/ui/GlobalMenu.qml:26
 #, kde-format
 msgctxt "@menu"
 msgid "Edit"
-msgstr ""
+msgstr "Taisa"
 
 #: src/ui/GlobalMenu.qml:29
 #, kde-format
 msgctxt "@menu-action"
 msgid "Clear Completed"
-msgstr ""
+msgstr "Išvalyti atliktas"
 
 #: src/ui/GlobalMenu.qml:37
 #, kde-format
 msgctxt "@menu"
 msgid "Help"
-msgstr ""
+msgstr "Pagalba"
 
 #: src/ui/GlobalMenu.qml:40
 #, kde-format
 msgctxt "@menu-action"
 msgid "Report Bug…"
-msgstr ""
+msgstr "Pranešti apie programos klaidą…"
 
 #: src/ui/GlobalMenu.qml:46
 #, kde-format
 msgctxt "@menu-action"
 msgid "About Tasks"
-msgstr ""
+msgstr "Apie užduočių programą"
 
 #: src/ui/TasksPage.qml:20
 #, kde-format
 msgid "1 result"
 msgid_plural "%1 results"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "1 rezultatas"
+msgstr[1] "%1 rezultatai"
+msgstr[2] "%1 rezultatų"
+msgstr[3] "%1 rezultatas"
 
 #: src/ui/TasksPage.qml:20
 #, kde-format
 msgid "%2/1 task"
 msgid_plural "%2/%1 tasks"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "%2/1 užduoties"
+msgstr[1] "%2/%1 užduočių"
+msgstr[2] "%2/%1 užduočių"
+msgstr[3] "%2/%1 užduoties"
 
 #: src/ui/TasksPage.qml:29
 #, kde-format
 msgid "Add Task"
-msgstr ""
+msgstr "Pridėti užduotį"
 
 #: src/ui/TasksPage.qml:41 src/ui/TasksPage.qml:42
 #, kde-format
 msgid "Search"
-msgstr ""
+msgstr "Ieškoti"
 
 #: src/ui/TasksPage.qml:49
 #, kde-format
 msgid "Clear Completed"
-msgstr ""
+msgstr "Išvalyti atliktas"
 
 #: src/ui/TasksPage.qml:61
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About Tasks"
-msgstr ""
+msgstr "Apie užduočių programą"
 
 #: src/ui/TasksPage.qml:69
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Enable tray icon"
-msgstr ""
+msgstr "Įjungti dėklo piktogramą"
 
 #: src/ui/TasksPage.qml:76
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Quit"
-msgstr ""
+msgstr "Išjungti"
 
 #: src/ui/TasksPage.qml:223
 #, kde-format
 msgid "Nothing Found"
-msgstr ""
+msgstr "Nieko nerasta"
 
 #: src/ui/TasksPage.qml:223
 #, kde-format
 msgid "All tasks completed!"
-msgstr ""
+msgstr "Visos užduotys atliktos!"
 
 #: src/ui/TasksPage.qml:225
 #, kde-format
 msgid "Your search did not match any results"
-msgstr ""
+msgstr "Jūsų paieška nepateikė jokių rezultatų"
