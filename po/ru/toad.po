@@ -1,14 +1,14 @@
 # Copyright (C) 2023 This file is copyright:
 # This file is distributed under the same license as the toad package.
 #
-# SPDX-FileCopyrightText: 2023, 2024 Alexander Yavorsky <kekcuha@gmail.com>
+# SPDX-FileCopyrightText: 2023, 2024, 2026 Alexander Yavorsky <kekcuha@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: toad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 11:55+0000\n"
-"PO-Revision-Date: 2024-02-09 23:02+0300\n"
-"Last-Translator: Alexander Yavorsky <kekcuha@gmail.com>\n"
+"PO-Revision-Date: 2026-02-17 20:41+0200\n"
+"Last-Translator: Alexander Yavorskiy <kekcuha@gmail.com>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Lokalize 24.01.95\n"
+"X-Generator: Lokalize 25.12.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -80,11 +80,10 @@ msgid "Edit"
 msgstr "Правка"
 
 #: src/ui/GlobalMenu.qml:29
-#, fuzzy, kde-format
-#| msgid "All tasks completed!"
+#, kde-format
 msgctxt "@menu-action"
 msgid "Clear Completed"
-msgstr "Все задачи завершены."
+msgstr "Очистить завершённые"
 
 #: src/ui/GlobalMenu.qml:37
 #, kde-format
@@ -108,19 +107,19 @@ msgstr "О программе"
 #, kde-format
 msgid "1 result"
 msgid_plural "%1 results"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "%1 результат"
+msgstr[1] "%1 результата"
+msgstr[2] "%1 результатов"
+msgstr[3] "1 результат"
 
 #: src/ui/TasksPage.qml:20
 #, kde-format
 msgid "%2/1 task"
 msgid_plural "%2/%1 tasks"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "%2/%1 задача"
+msgstr[1] "%2/%1 задачи"
+msgstr[2] "%2/%1 задач"
+msgstr[3] "%2/1 задача"
 
 #: src/ui/TasksPage.qml:29
 #, kde-format
@@ -133,15 +132,12 @@ msgid "Search"
 msgstr "Поиск"
 
 #: src/ui/TasksPage.qml:49
-#, fuzzy, kde-format
-#| msgid "All tasks completed!"
+#, kde-format
 msgid "Clear Completed"
-msgstr "Все задачи завершены."
+msgstr "Очистить завершённые"
 
 #: src/ui/TasksPage.qml:61
-#, fuzzy, kde-format
-#| msgctxt "@menu-action"
-#| msgid "About Tasks"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "About Tasks"
 msgstr "О программе"
@@ -150,12 +146,10 @@ msgstr "О программе"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Enable tray icon"
-msgstr ""
+msgstr "Показывать значок в системном лотке"
 
 #: src/ui/TasksPage.qml:76
-#, fuzzy, kde-format
-#| msgctxt "@menu-action"
-#| msgid "Quit"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Quit"
 msgstr "Выход"
@@ -173,7 +167,7 @@ msgstr "Все задачи завершены."
 #: src/ui/TasksPage.qml:225
 #, kde-format
 msgid "Your search did not match any results"
-msgstr ""
+msgstr "Поиск не дал результатов"
 
 #~ msgctxt "@menu-action"
 #~ msgid "Clear Tasks"
