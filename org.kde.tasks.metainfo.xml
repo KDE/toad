@@ -11,7 +11,7 @@
   <name xml:lang="ca">Tasks</name>
   <name xml:lang="ca-valencia">Tasks</name>
   <name xml:lang="cs">Úlohy</name>
-  <name xml:lang="de">Aufgaben</name>
+  <name xml:lang="de">Tasks</name>
   <name xml:lang="en-GB">Tasks</name>
   <name xml:lang="eo">Tasks</name>
   <name xml:lang="es">Tasks</name>
@@ -122,6 +122,7 @@
     <p xml:lang="ar">تطبيق المهام هو تطبيق مهام. يمكنك إضافة مهام وتحريرها وحذفها وسيحفظ تطبيق المهام التغييرات آليًّا. يعمل تطبيق المهام على سطح المكتب والهواتف المحمولة.</p>
     <p xml:lang="ca">«Tasks» és una aplicació de tasques pendents. Podeu afegir, editar i suprimir tasques al vol i desarà automàticament tots els canvis. «Tasks» funciona a l'escriptori i al mòbil.</p>
     <p xml:lang="ca-valencia">«Tasks» és una aplicació de tasques pendents. Podeu afegir, editar i suprimir tasques al vol i guardarà automàticament tots els canvis. «Tasks» funciona en l'escriptori i en el mòbil.</p>
+    <p xml:lang="de">Tasks ist eine Anwendung zur Verwaltung von Aufgaben. Sie können Aufgaben anlegen, bearbeiten und löschen, was automatisch gespeichert wird. Es funktioniert auf Mobilgeräten und Computern.</p>
     <p xml:lang="eo">Tasks estas farendaĵa apliko. Vi povas aldoni, redakti kaj forigi taskojn kaj Tasks konservos viajn ŝanĝojn aŭtomate. Tasks funkcias sur labortabloj kaj porteblaĵoj.</p>
     <p xml:lang="es">Tasks es una aplicación de tareas pendientes. Permite añadir, editar y borrar tareas y Tasks guardará los cambios automáticamente. Tasks funciona en el escritorio y en el móvil.</p>
     <p xml:lang="eu">Tasks zeregin aplikazio bat da. Atazak gehitu, editatu, eta ezabatu ditzakezu eta «Tasks»ek zure aldaketak automatikoki gordeko ditu. Tasks mahaigainetan eta mugikorretan dabil.</p>
