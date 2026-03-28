@@ -1,23 +1,24 @@
 # German translations for toad package.
 # Copyright (C) 2022 This file is copyright:
 # This file is distributed under the same license as the toad package.
-# SPDX-FileCopyrightText: 2022, 2023 Frederik Schwarzer <schwarzer@kde.org>
+# SPDX-FileCopyrightText: 2022-2023 Frederik Schwarzer <schwarzer@kde.org>
 # SPDX-FileCopyrightText: 2023 Johannes Obermayr <johannesobermayr@gmx.de>
 # SPDX-FileCopyrightText: 2025 Flori G <Renner03@protonmail.com>
+# SPDX-FileCopyrightText: 2026 Philipp Kiemle <l10n.daphipz@fastmail.de>
 msgid ""
 msgstr ""
 "Project-Id-Version: toad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 11:55+0000\n"
-"PO-Revision-Date: 2025-02-22 03:03+0100\n"
-"Last-Translator: Flori G <Renner03@protonmail.com>\n"
+"PO-Revision-Date: 2026-02-23 23:13+0100\n"
+"Last-Translator: Philipp Kiemle <l10n.daphipz@fastmail.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 24.12.2\n"
+"X-Generator: Lokalize 25.12.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -43,7 +44,7 @@ msgstr "Verwalten Sie Ihre Aufgaben"
 #: src/main.cpp:52
 #, kde-format
 msgid "© 2022 Felipe Kinoshita"
-msgstr "Copyright © 2022 Felipe Kinoshita"
+msgstr "© 2022 Felipe Kinoshita"
 
 #: src/main.cpp:53
 #, kde-format
@@ -81,12 +82,10 @@ msgid "Edit"
 msgstr "Bearbeiten"
 
 #: src/ui/GlobalMenu.qml:29
-#, fuzzy, kde-format
-#| msgid "1 task completed"
-#| msgid_plural "%1 tasks completed"
+#, kde-format
 msgctxt "@menu-action"
 msgid "Clear Completed"
-msgstr "Eine Aufgabe abgeschlossen"
+msgstr "Abgeschlossene entfernen"
 
 #: src/ui/GlobalMenu.qml:37
 #, kde-format
@@ -98,13 +97,13 @@ msgstr "Hilfe"
 #, kde-format
 msgctxt "@menu-action"
 msgid "Report Bug…"
-msgstr "Problem melden …"
+msgstr "Problem melden …"
 
 #: src/ui/GlobalMenu.qml:46
 #, kde-format
 msgctxt "@menu-action"
 msgid "About Tasks"
-msgstr "Über Aufgaben"
+msgstr "Über Tasks"
 
 #: src/ui/TasksPage.qml:20
 #, kde-format
@@ -114,13 +113,11 @@ msgstr[0] "1 Ergebnis"
 msgstr[1] "%1 Ergebnisse"
 
 #: src/ui/TasksPage.qml:20
-#, fuzzy, kde-format
-#| msgid "1 task"
-#| msgid_plural "%1 tasks"
+#, kde-format
 msgid "%2/1 task"
 msgid_plural "%2/%1 tasks"
-msgstr[0] "1 Aufgabe"
-msgstr[1] "%1 Aufgaben"
+msgstr[0] "%2/1 Aufgabe"
+msgstr[1] "%2/%1 Aufgaben"
 
 #: src/ui/TasksPage.qml:29
 #, kde-format
@@ -133,29 +130,24 @@ msgid "Search"
 msgstr "Suchen"
 
 #: src/ui/TasksPage.qml:49
-#, fuzzy, kde-format
-#| msgid "1 task completed"
-#| msgid_plural "%1 tasks completed"
+#, kde-format
 msgid "Clear Completed"
-msgstr "Eine Aufgabe abgeschlossen"
+msgstr "Abgeschlossene entfernen"
 
 #: src/ui/TasksPage.qml:61
-#, fuzzy, kde-format
-#| msgid "About Tasks"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "About Tasks"
-msgstr "Über Aufgaben"
+msgstr "Über Tasks"
 
 #: src/ui/TasksPage.qml:69
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Enable tray icon"
-msgstr ""
+msgstr "Kontrollleistensymbol aktivieren"
 
 #: src/ui/TasksPage.qml:76
-#, fuzzy, kde-format
-#| msgctxt "@menu-action"
-#| msgid "Quit"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Quit"
 msgstr "Beenden"
@@ -168,7 +160,7 @@ msgstr "Nichts gefunden"
 #: src/ui/TasksPage.qml:223
 #, kde-format
 msgid "All tasks completed!"
-msgstr "Keine Aufgaben abgeschlossen."
+msgstr "Alle Aufgaben abgeschlossen!"
 
 #: src/ui/TasksPage.qml:225
 #, kde-format
