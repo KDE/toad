@@ -34,7 +34,7 @@ msgstr "Úlohy"
 #: src/main.cpp:48
 #, kde-format
 msgid "Organize your tasks"
-msgstr ""
+msgstr "Organizujte vaše úlohy"
 
 #: src/main.cpp:52
 #, kde-format
@@ -104,17 +104,17 @@ msgstr "Pridať úlohu"
 #, kde-format
 msgid "1 result"
 msgid_plural "%1 results"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "1 výsledok"
+msgstr[1] "%1 výsledky"
+msgstr[2] "%1 výsledkov"
 
 #: src/ui/TasksPage.qml:20
 #, kde-format
 msgid "%2/1 task"
 msgid_plural "%2/%1 tasks"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%2/1 úloha"
+msgstr[1] "%2/%1 úlohy"
+msgstr[2] "%2/%1 úloh"
 
 #: src/ui/TasksPage.qml:29
 #, kde-format
@@ -141,7 +141,7 @@ msgstr "Pridať úlohu"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Enable tray icon"
-msgstr ""
+msgstr "Povoliť ikonu v systémovej lište"
 
 #: src/ui/TasksPage.qml:76
 #, kde-format
@@ -162,7 +162,7 @@ msgstr "Všetky úlohy dokončené!"
 #: src/ui/TasksPage.qml:225
 #, kde-format
 msgid "Your search did not match any results"
-msgstr ""
+msgstr "Vaše hľadanie neprinieslo žiadne výsledky"
 
 #, fuzzy
 #~ msgid "Clear All"
