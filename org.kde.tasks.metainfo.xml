@@ -141,6 +141,7 @@
     <p xml:lang="pl">Tasks to aplikacja rejestrująca zadania do zrobienia. Możesz dodawać, edytować oraz usuwać zadania , a Tasks sam będzie je zapisywał w tle. Tasks działa na urządzeniach zarówno biurkowych jak i przenośnych.</p>
     <p xml:lang="pt-BR">O Tasks é um aplicativo de tarefas. Você pode adicionar, editar e excluir tarefas, e o Tasks salvará suas alterações automaticamente. O Tasks funciona em computadores e dispositivos móveis.</p>
     <p xml:lang="ru">Tasks — это приложение для ведения списка дел. Можно добавлять, изменять и удалять задачи, а приложение автоматически сохранит все изменения. Работает на настольных компьютерах и мобильных устройствах.</p>
+    <p xml:lang="sk">Tasks je jednoduchá aplikácia na zoznam úloh, môžete editovať úlohy za behu a uložia sa do vašej práce automaticky.</p>
     <p xml:lang="sl">Tasks je aplikacija za opravila. Opravila lahko dodajate, urejate in brišete, Tasks pa bo vaše spremembe samodejno shranila. Tasks deluje na namizju in mobilni napravi.</p>
     <p xml:lang="sv">Uppgifter är ett enkelt uppgiftsprogram. Du kan lägga till, redigera och ta bort uppgifter, så sparar Uppgifter automatiskt ändringarna. Uppgifter fungerar på skrivbordet och på mobilen.</p>
     <p xml:lang="tr">Görevler, bir yapılacaklar uygulamasıdır. Görevler ekleyebilir, düzenleyebilir ve silebilirsiniz ve Görevler, değişikliklerinizi kendiliğinden kaydeder. Görevler, masaüstü ve taşınabilir aygıtlarda çalışır.</p>
@@ -180,6 +181,7 @@
       <caption xml:lang="pt-BR">Lista de tarefas</caption>
       <caption xml:lang="ru">Список задач</caption>
       <caption xml:lang="sa">कार्यसूची</caption>
+      <caption xml:lang="sk">Úlohy</caption>
       <caption xml:lang="sl">Seznam opravil</caption>
       <caption xml:lang="sv">Uppgiftslista</caption>
       <caption xml:lang="tr">Görevler listesi</caption>
@@ -219,6 +221,7 @@
       <caption xml:lang="pt-BR">Lista vazia</caption>
       <caption xml:lang="ru">Список пуст</caption>
       <caption xml:lang="sa">रिक्तसूची</caption>
+      <caption xml:lang="sk">Jednoduchý zoznam úloh</caption>
       <caption xml:lang="sl">Prazen seznam</caption>
       <caption xml:lang="sv">Tom lista</caption>
       <caption xml:lang="tr">Boş liste</caption>
