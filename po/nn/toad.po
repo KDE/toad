@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: toad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 11:55+0000\n"
-"PO-Revision-Date: 2024-07-28 00:33+0200\n"
+"PO-Revision-Date: 2026-04-18 15:58+0200\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@lister.huftis.org>\n"
 "Language: nn\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 24.05.2\n"
+"X-Generator: Lokalize 25.12.3\n"
 "X-Environment: kde\n"
 "X-Accelerator-Marker: &\n"
 "X-Text-Markup: kde4\n"
@@ -80,10 +80,10 @@ msgid "Edit"
 msgstr "Rediger"
 
 #: src/ui/GlobalMenu.qml:29
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@menu-action"
 msgid "Clear Completed"
-msgstr "1 ferdig gjeremål"
+msgstr "Tømming fullført"
 
 #: src/ui/GlobalMenu.qml:37
 #, kde-format
@@ -111,11 +111,11 @@ msgstr[0] "1 resultat"
 msgstr[1] "%1 resultat"
 
 #: src/ui/TasksPage.qml:20
-#, fuzzy, kde-format
+#, kde-format
 msgid "%2/1 task"
 msgid_plural "%2/%1 tasks"
-msgstr[0] "1 oppgåve"
-msgstr[1] "%1 oppgåver"
+msgstr[0] "%2/1 oppgåve"
+msgstr[1] "%2/%1 oppgåver"
 
 #: src/ui/TasksPage.qml:29
 #, kde-format
@@ -128,12 +128,12 @@ msgid "Search"
 msgstr "Søk"
 
 #: src/ui/TasksPage.qml:49
-#, fuzzy, kde-format
+#, kde-format
 msgid "Clear Completed"
-msgstr "1 ferdig gjeremål"
+msgstr "Tømming fullført"
 
 #: src/ui/TasksPage.qml:61
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "About Tasks"
 msgstr "Om Tasks"
@@ -142,10 +142,10 @@ msgstr "Om Tasks"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Enable tray icon"
-msgstr ""
+msgstr "Vis ikon i systemtrauet"
 
 #: src/ui/TasksPage.qml:76
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Quit"
 msgstr "Avslutt"
