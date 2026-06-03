@@ -40,6 +40,7 @@
   <name xml:lang="sl">Tasks</name>
   <name xml:lang="sv">Uppgifter</name>
   <name xml:lang="tr">Görevler</name>
+  <name xml:lang="ug">ۋەزىپە</name>
   <name xml:lang="uk">Завдання</name>
   <name xml:lang="zh-CN">Tasks 任务列表</name>
   <name xml:lang="zh-TW">Tasks</name>
@@ -115,6 +116,7 @@
   <developer_name xml:lang="sl">Skupnost KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="sv">KDE-gemenskapen, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="tr">KDE Topluluğu, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="ug">KDE جامائىتى، Felipe Kinoshita</developer_name>
   <developer_name xml:lang="uk">Спільнота KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="zh-CN">KDE Community, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="zh-TW">KDE 社群、Felipe Kinoshita</developer_name>
@@ -187,6 +189,7 @@
       <caption xml:lang="sl">Seznam opravil</caption>
       <caption xml:lang="sv">Uppgiftslista</caption>
       <caption xml:lang="tr">Görevler listesi</caption>
+      <caption xml:lang="ug">ۋەزىپە تىزىمى</caption>
       <caption xml:lang="uk">Список завдань</caption>
       <caption xml:lang="zh-CN">任务列表</caption>
       <caption xml:lang="zh-TW">工作項目列表</caption>
@@ -227,6 +230,7 @@
       <caption xml:lang="sl">Prazen seznam</caption>
       <caption xml:lang="sv">Tom lista</caption>
       <caption xml:lang="tr">Boş liste</caption>
+      <caption xml:lang="ug">بوش تىزىم</caption>
       <caption xml:lang="uk">Порожній список</caption>
       <caption xml:lang="zh-CN">空列表</caption>
       <caption xml:lang="zh-TW">空白列表</caption>
