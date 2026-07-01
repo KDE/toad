@@ -87,6 +87,7 @@
   <developer_name xml:lang="ar">فيليبي كينوشيتا، مجتمع كيدي</developer_name>
   <developer_name xml:lang="ca">La comunitat KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="ca-valencia">La comunitat KDE, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="cs">Komunita KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="de">KDE-Gemeinschaft, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="en-GB">KDE Community, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="eo">KDE-Komunumo, Felipe Kinoshita</developer_name>
@@ -125,6 +126,7 @@
     <p xml:lang="ar">تطبيق المهام هو تطبيق مهام. يمكنك إضافة مهام وتحريرها وحذفها وسيحفظ تطبيق المهام التغييرات آليًّا. يعمل تطبيق المهام على سطح المكتب والهواتف المحمولة.</p>
     <p xml:lang="ca">«Tasks» és una aplicació de tasques pendents. Podeu afegir, editar i suprimir tasques al vol i desarà automàticament tots els canvis. «Tasks» funciona a l'escriptori i al mòbil.</p>
     <p xml:lang="ca-valencia">«Tasks» és una aplicació de tasques pendents. Podeu afegir, editar i suprimir tasques al vol i guardarà automàticament tots els canvis. «Tasks» funciona en l'escriptori i en el mòbil.</p>
+    <p xml:lang="cs">Úkoly je aplikace pro správu úkolů. Můžete přidávat, upravovat a mazat úkoly a aplikace vaše změny automaticky uloží. Aplikace Úkoly funguje na počítači i v mobilu.</p>
     <p xml:lang="de">Tasks ist eine Anwendung zur Aufgabenverwaltung. Sie können Aufgaben hinzufügen, bearbeiten und löschen. Tasks speichert Änderungen automatisch. Die Anwendung funktioniert auf Mobilgeräten und Computern.</p>
     <p xml:lang="eo">Tasks estas farendaĵa apliko. Vi povas aldoni, redakti kaj forigi taskojn kaj Tasks konservos viajn ŝanĝojn aŭtomate. Tasks funkcias sur labortabloj kaj porteblaĵoj.</p>
     <p xml:lang="es">Tasks es una aplicación de tareas pendientes. Permite añadir, editar y borrar tareas y Tasks guardará los cambios automáticamente. Tasks funciona en el escritorio y en el móvil.</p>
